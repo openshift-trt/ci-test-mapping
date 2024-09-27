@@ -32,6 +32,9 @@ var ManagementConsoleComponent = Component{
 			"[Management Console][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-console-operator":    "[bz-Management Console][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-console-operator",
 			"[Management Console][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-console":          "[bz-Management Console][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-console",
 			"[Management Console][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-console-operator": "[bz-Management Console][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-console-operator",
+
+			"[sig-scheduling][Early] The openshift-console console pods [apigroup:console.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]":   "[sig-scheduling][Early] The openshift-console console pods [apigroup:console.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
+			"[sig-scheduling][Early] The openshift-console downloads pods [apigroup:console.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-console downloads pods [apigroup:console.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }

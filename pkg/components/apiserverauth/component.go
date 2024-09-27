@@ -37,6 +37,9 @@ var ApiserverAuthComponent = Component{
 			"[apiserver-auth][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-authentication-operator":    "[bz-apiserver-auth][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-authentication-operator",
 			"[apiserver-auth][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-authentication":          "[bz-apiserver-auth][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-authentication",
 			"[apiserver-auth][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-authentication-operator": "[bz-apiserver-auth][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-authentication-operator",
+
+			"[sig-scheduling][Early] The openshift-authentication pods [apigroup:oauth.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]":                              "[sig-scheduling][Early] The openshift-authentication pods [apigroup:oauth.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
+			"[sig-scheduling][Early] The openshift-oauth-apiserver pods [apigroup:oauth.openshift.io][apigroup:user.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-oauth-apiserver pods [apigroup:oauth.openshift.io][apigroup:user.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }

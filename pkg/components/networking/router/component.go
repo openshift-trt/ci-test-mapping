@@ -86,6 +86,8 @@ var RouterComponent = Component{
 			"[sig-network] there should be nearly zero single second disruptions for ns/openshift-authentication route/oauth-openshift disruption/ingress-to-oauth-server connection/reused":    "[sig-network] there should be nearly zero single second disruptions for ingress-to-oauth-server-reused-connections",
 			"[sig-network] there should be reasonably few single second disruptions for ns/openshift-authentication route/oauth-openshift disruption/ingress-to-oauth-server connection/new":    "[sig-network] there should be reasonably few single second disruptions for ingress-to-oauth-server-new-connections",
 			"[sig-network] there should be reasonably few single second disruptions for ns/openshift-authentication route/oauth-openshift disruption/ingress-to-oauth-server connection/reused": "[sig-network] there should be reasonably few single second disruptions for ingress-to-oauth-server-reused-connections",
+
+			"[sig-scheduling][Early] The HAProxy router pods [apigroup:route.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The HAProxy router pods [apigroup:route.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }
