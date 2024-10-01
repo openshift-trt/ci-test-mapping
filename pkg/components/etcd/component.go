@@ -47,6 +47,8 @@ var EtcdComponent = Component{
 			"[Etcd][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-etcd-operator":    "[bz-Etcd][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-etcd-operator",
 			"[Etcd][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-etcd":          "[bz-Etcd][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-etcd",
 			"[Etcd][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-etcd-operator": "[bz-Etcd][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-etcd-operator",
+
+			"[sig-scheduling][Early] The openshift-etcd pods [apigroup:operator.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-etcd pods [apigroup:operator.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }

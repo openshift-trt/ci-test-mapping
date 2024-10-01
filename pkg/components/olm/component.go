@@ -50,6 +50,8 @@ var OLMComponent = Component{
 			"[OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-marketplace":                "[bz-OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-marketplace",
 			"[OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-operator-lifecycle-manager": "[bz-OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-operator-lifecycle-manager",
 			"[OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-operators":                  "[bz-OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-operators",
+
+			"[sig-scheduling][Early] The openshift-operator-lifecycle-manager pods [apigroup:packages.operators.coreos.com] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-operator-lifecycle-manager pods [apigroup:packages.operators.coreos.com] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }

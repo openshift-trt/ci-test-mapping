@@ -22,6 +22,8 @@ var ImageRegistryComponent = Component{
 			"[Image Registry][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-image-registry": "[bz-Image Registry][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-image-registry",
 			"[sig-imageregistry] disruption/image-registry connection/new should be available throughout the test":               "[sig-imageregistry] Image registry remains available using new connections",
 			"[sig-imageregistry] disruption/image-registry connection/reused should be available throughout the test":            "[sig-imageregistry] Image registry remains available using reused connections",
+
+			"[sig-scheduling][Early] The openshift-image-registry pods [apigroup:imageregistry.operator.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-image-registry pods [apigroup:imageregistry.operator.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 		Matchers: []config.ComponentMatcher{
 			{

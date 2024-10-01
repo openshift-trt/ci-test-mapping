@@ -53,6 +53,8 @@ var OpenshiftApiserverComponent = Component{
 			"[sig-network] there should be reasonably few single second disruptions for disruption/cache-openshift-api connection/reused target=api-int":         "[sig-network] there should be reasonably few single second disruptions for cache-openshift-api-reused-connections",
 			"[sig-network] there should be reasonably few single second disruptions for disruption/cache-openshift-api connection/reused target=service-network": "[sig-network] there should be reasonably few single second disruptions for cache-openshift-api-reused-connections",
 			"[sig-network] there should be reasonably few single second disruptions for disruption/service-network/cache-openshift-api connection/reused":        "[sig-network] there should be reasonably few single second disruptions for cache-openshift-api-reused-connections",
+
+			"[sig-scheduling][Early] The openshift-apiserver pods [apigroup:apps.openshift.io][apigroup:authorization.openshift.io][apigroup:build.openshift.io][apigroup:image.openshift.io][apigroup:project.openshift.io][apigroup:quota.openshift.io][apigroup:route.openshift.io][apigroup:security.openshift.io][apigroup:template.openshift.io] should be scheduled on different nodes [Skipped:SingleReplicaTopology] [Suite:openshift/conformance/parallel]": "[sig-scheduling][Early] The openshift-apiserver pods [apigroup:apps.openshift.io][apigroup:authorization.openshift.io][apigroup:build.openshift.io][apigroup:image.openshift.io][apigroup:project.openshift.io][apigroup:quota.openshift.io][apigroup:route.openshift.io][apigroup:security.openshift.io][apigroup:template.openshift.io] should be scheduled on different nodes [Suite:openshift/conformance/parallel]",
 		},
 	},
 }
