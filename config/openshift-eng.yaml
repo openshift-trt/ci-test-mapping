@@ -7,7 +7,9 @@ includeSuites:
   - cluster install
   - Operator results
   - Symptom Detection
-  - payload-cluster-density-v2 nightly compare
+  - perfscale-cdv2
+  - perfscale-nd
+  - perfscale-crd
 excludeSuites: []
 excludeTests:
   - "Build image%"
