@@ -10,6 +10,7 @@ includeSuites:
   - perfscale-cdv2
   - perfscale-nd
   - perfscale-crd
+  - chaos-krkn
 excludeSuites: []
 excludeTests:
   - "Build image%"
