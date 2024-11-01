@@ -30,6 +30,8 @@ var KubeApiserverComponent = Component{
 					"cache-kube-api-",
 					"[sig-api-machinery][Feature:APIServer]",
 					"should have a status in the CRD schema", // only observed failures are kube-apiserver availability.
+					"API LBs follow /readyz of kube-apiserver",
+					"clients should not use APIs that are removed in upcoming releases",
 				},
 			},
 			{
