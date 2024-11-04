@@ -15,8 +15,13 @@ var MachineHealthCheckComponent = Component{
 		Operators:            []string{},
 		DefaultJiraComponent: "Cloud Compute / MachineHealthCheck",
 		Matchers: []config.ComponentMatcher{
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure MHC MAPI",
+				},
+				Priority: 2,
+			},
 			{Suite: "MachineHealthCheck Test Scenarios"},
-			{Suite: "Cluster_Infrastructure MHC MAPI"},
 		},
 	},
 }

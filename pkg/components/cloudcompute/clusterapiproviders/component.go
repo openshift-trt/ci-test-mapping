@@ -14,7 +14,14 @@ var ClusterAPIProvidersComponent = Component{
 		Name:                 "Cloud Compute / Cluster API Providers",
 		Operators:            []string{},
 		DefaultJiraComponent: "Cloud Compute / Cluster API Providers",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure CAPI",
+				},
+				Priority: 2,
+			},
+		},
 	},
 }
 

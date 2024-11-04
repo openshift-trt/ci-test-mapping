@@ -14,7 +14,14 @@ var MachineCSRApproverComponent = Component{
 		Name:                 "Cloud Compute / Machine CSR Approver",
 		Operators:            []string{},
 		DefaultJiraComponent: "Cloud Compute / Machine CSR Approver",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure CMA",
+				},
+				Priority: 2,
+			},
+		},
 	},
 }
 

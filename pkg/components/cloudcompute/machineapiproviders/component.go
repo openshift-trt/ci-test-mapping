@@ -14,7 +14,21 @@ var MachineAPIProvidersComponent = Component{
 		Name:                 "Cloud Compute / Machine API Providers",
 		Operators:            []string{},
 		DefaultJiraComponent: "Cloud Compute / Machine API Providers",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure MAPI",
+					"[sig-cluster-lifecycle] Cluster_Infrastructure Upgrade",
+				},
+				Priority: 1,
+			},
+			{Suite: "Alerting for machine-api"},
+			{Suite: "Machine-api components upgrade tests"},
+			{Suite: "UPI GCP Tests"},
+			{Suite: "Machine misc features testing"},
+			{Suite: "Machine features testing"},
+			{Suite: "AWS machine specific features testing"},
+		},
 	},
 }
 
