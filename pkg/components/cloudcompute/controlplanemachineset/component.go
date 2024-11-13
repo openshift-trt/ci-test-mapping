@@ -14,7 +14,14 @@ var ControlPlaneMachineSetComponent = Component{
 		Name:                 "Cloud Compute / ControlPlaneMachineSet",
 		Operators:            []string{},
 		DefaultJiraComponent: "Cloud Compute / ControlPlaneMachineSet",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure CPMS MAPI",
+				},
+				Priority: 2,
+			},
+		},
 	},
 }
 

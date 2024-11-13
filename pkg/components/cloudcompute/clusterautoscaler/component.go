@@ -25,8 +25,13 @@ var ClusterAutoscalerComponent = Component{
 					"[sig-cluster-lifecycle][Feature:Machines][Serial] Managed cluster should grow and decrease when scaling different machineSets simultaneously [Timeout:30m] [Suite:openshift/conformance/serial]",
 				},
 			},
+			{
+				IncludeAny: []string{
+					"[sig-cluster-lifecycle] Cluster_Infrastructure CAS",
+				},
+				Priority: 2,
+			},
 			{Suite: "Cluster Autoscaler Tests"},
-			{Suite: "Cluster_Infrastructure CAS"},
 		},
 	},
 }
