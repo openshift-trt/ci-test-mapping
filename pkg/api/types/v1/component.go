@@ -13,12 +13,17 @@ type Component interface {
 	// only return an error on a fatal error such as inability to read from a file.
 	IdentifyTest(*TestInfo) (*TestOwnership, error)
 
+	// IdentifyVariants returns a list of variants that can be mapped to this component
+	IdentifyVariants() ([]string, error)
+
 	// StableID returns the stable ID for a test, given a particular TestInfo. This
 	// is generally the suite name + . + test name.  If a test gets renamed, this should return
 	// the suite `name + . + the oldest test name` to ensure a stable mapping.
 	StableID(*TestInfo) string
 
 	JiraComponents() []string
+
+	JiraProject() string
 
 	// Namespaces returns the list of namespaces owned by this component.
 	ListNamespaces() []string
@@ -31,8 +36,10 @@ type TestInfo struct {
 	Suite string
 }
 
-const APIVersion = "v1"
-const Kind = "TestOwnership"
+const TestOwnershipAPIVersion = "v1"
+const TestOwnershipKind = "TestOwnership"
+const VariantMappingAPIVersion = "v1"
+const VariantMappingKind = "VariantOwnership"
 
 // TestOwnership is the information a component owner needs to return about their ownership of a test.
 type TestOwnership struct {
@@ -98,7 +105,7 @@ type TestOwnership struct {
 	CreatedAt civil.DateTime `bigquery:"created_at" json:"-"`
 }
 
-var MappingTableSchema = bigquery.Schema{
+var TestMappingTableSchema = bigquery.Schema{
 	{
 		Name: "kind",
 		Type: bigquery.StringFieldType,
@@ -147,6 +154,69 @@ var MappingTableSchema = bigquery.Schema{
 	{
 		Name: "priority",
 		Type: bigquery.IntegerFieldType,
+	},
+	{
+		Name: "created_at",
+		Type: bigquery.DateTimeFieldType,
+	},
+}
+
+type VariantMapping struct {
+	// APIVersion specifies the schema version, in case we ever need to make
+	// changes to the bigquery table that are not simple column additions.
+	APIVersion string `bigquery:"apiVersion"`
+
+	// Kind is a string value representing the resource this object represents.
+	Kind string `bigquery:"kind"`
+
+	// Product is the layer product name, to support the possibility of multiple
+	// component readiness dashboards. Generally leave this blank.
+	Product string `bigquery:"product"`
+
+	// JiraProject specifies the JIRA project that this variant belongs to.
+	JiraProject string `bigquery:"jira_project"`
+
+	// JiraComponent specifies the JIRA component that this variant belongs to.
+	JiraComponent string `bigquery:"jira_component"`
+
+	// VariantCategory defines the name of the variant
+	VariantCategory string `bigquery:"variant_category"`
+
+	// VariantValue defines the value of the variant
+	VariantValue string `bigquery:"variant_value"`
+
+	// CreatedAt is the time this particular record was created.
+	CreatedAt civil.DateTime `bigquery:"created_at" json:"-"`
+}
+
+var VariantMappingTableSchema = bigquery.Schema{
+	{
+		Name: "kind",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "apiVersion",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "product",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "variant_category",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "variant_value",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "jira_project",
+		Type: bigquery.StringFieldType,
+	},
+	{
+		Name: "jira_component",
+		Type: bigquery.StringFieldType,
 	},
 	{
 		Name: "created_at",

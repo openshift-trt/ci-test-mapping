@@ -18,48 +18,111 @@ type MappingTableManager struct {
 	ctx              context.Context
 	mappingTableName string
 	client           *Client
+	schema           bigquery.Schema
 }
 
-func NewMappingTableManager(ctx context.Context, client *Client, mappingTable string) *MappingTableManager {
-	return &MappingTableManager{
-		ctx:              ctx,
-		mappingTableName: mappingTable,
-		client:           client,
+type TestMappingTableManager struct {
+	MappingTableManager
+}
+
+func NewTestMappingTableManager(ctx context.Context, client *Client, mappingTable string, schema bigquery.Schema) *TestMappingTableManager {
+	return &TestMappingTableManager{
+		MappingTableManager{
+			ctx:              ctx,
+			mappingTableName: mappingTable,
+			client:           client,
+			schema:           schema,
+		},
 	}
 }
 
-func (tm *MappingTableManager) Migrate() error {
-	dataset := tm.client.bigquery.Dataset(tm.client.datasetName)
-	table := dataset.Table(tm.mappingTableName)
+type VariantMappingTableManager struct {
+	MappingTableManager
+}
 
-	md, err := table.Metadata(tm.ctx)
+func NewVariantMappingTableManager(ctx context.Context, client *Client, mappingTable string, schema bigquery.Schema) *VariantMappingTableManager {
+	return &VariantMappingTableManager{
+		MappingTableManager{
+			ctx:              ctx,
+			mappingTableName: mappingTable,
+			client:           client,
+			schema:           schema,
+		},
+	}
+}
+
+func (m *MappingTableManager) Migrate() error {
+	dataset := m.client.bigquery.Dataset(m.client.datasetName)
+	table := dataset.Table(m.mappingTableName)
+
+	md, err := table.Metadata(m.ctx)
 	// Create table if it doesn't exist
 	if gbErr, ok := err.(*googleapi.Error); err != nil && ok && gbErr.Code == 404 {
-		log.Infof("table doesn't existing, creating table %q", tm.mappingTableName)
-		if err := table.Create(tm.ctx, &bigquery.TableMetadata{
-			Schema: v1.MappingTableSchema,
+		log.Infof("table doesn't existing, creating table %q", m.mappingTableName)
+		if err := table.Create(m.ctx, &bigquery.TableMetadata{
+			Schema: v1.TestMappingTableSchema,
 		}); err != nil {
 			return err
 		}
-		log.Infof("table created %q", tm.mappingTableName)
+		log.Infof("table created %q", m.mappingTableName)
 	} else if err != nil {
 		return err
 	} else {
-		if !schemasEqual(md.Schema, v1.MappingTableSchema) {
-			if _, err := table.Update(tm.ctx, bigquery.TableMetadataToUpdate{Schema: v1.MappingTableSchema}, md.ETag); err != nil {
-				log.WithError(err).Errorf("failed to update table schema for %q", tm.mappingTableName)
+		if !schemasEqual(md.Schema, m.schema) {
+			if _, err := table.Update(m.ctx, bigquery.TableMetadataToUpdate{Schema: v1.TestMappingTableSchema}, md.ETag); err != nil {
+				log.WithError(err).Errorf("failed to update table schema for %q", m.mappingTableName)
 				return err
 			}
-			log.Infof("table schema updated %q", tm.mappingTableName)
+			log.Infof("table schema updated %q", m.mappingTableName)
 		} else {
-			log.Infof("table schema is up-to-date %q", tm.mappingTableName)
+			log.Infof("table schema is up-to-date %q", m.mappingTableName)
 		}
 	}
 
 	return nil
 }
 
-func (tm *MappingTableManager) ListMappings() ([]v1.TestOwnership, error) {
+func (m *MappingTableManager) PruneMappings() error {
+	now := time.Now()
+	log.Infof("pruning mappings from bigquery")
+	table := m.client.bigquery.Dataset(m.client.datasetName).Table(m.mappingTableName)
+
+	tableLocator := fmt.Sprintf("%s.%s.%s", table.ProjectID, m.client.datasetName, table.TableID)
+
+	sql := fmt.Sprintf(`DELETE FROM %s WHERE created_at < (SELECT MAX(created_at) FROM %s)`, tableLocator, tableLocator)
+	log.Infof("query is %q", sql)
+
+	q := m.client.bigquery.Query(sql)
+	_, err := q.Read(m.ctx)
+	log.Infof("pruned mapping table in %+v", time.Since(now))
+	if err != nil && strings.Contains(err.Error(), "streaming") {
+		log.Warningf("got error while trying to prune the table; please wait 90 minutes and try again. You cannot prune after modifying the table.")
+	}
+	return err
+}
+
+func (m *MappingTableManager) Table() *bigquery.Table {
+	dataset := m.client.bigquery.Dataset(m.client.datasetName)
+	return dataset.Table(m.mappingTableName)
+}
+
+func schemasEqual(a, b bigquery.Schema) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i := range a {
+		if a[i].Name != b[i].Name ||
+			a[i].Type != b[i].Type ||
+			a[i].Repeated != b[i].Repeated ||
+			a[i].Required != b[i].Required {
+			return false
+		}
+	}
+
+	return true
+}
+
+func (tm *TestMappingTableManager) ListTestMappings() ([]v1.TestOwnership, error) {
 	now := time.Now()
 	log.Infof("fetching mappings from bigquery")
 	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName + "_latest") // use the view
@@ -95,7 +158,7 @@ func (tm *MappingTableManager) ListMappings() ([]v1.TestOwnership, error) {
 	return results, nil
 }
 
-func (tm *MappingTableManager) PushMappings(mappings []v1.TestOwnership) error {
+func (tm *TestMappingTableManager) PushTestMappings(mappings []v1.TestOwnership) error {
 	var batchSize = 500
 
 	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName)
@@ -115,42 +178,58 @@ func (tm *MappingTableManager) PushMappings(mappings []v1.TestOwnership) error {
 	return nil
 }
 
-func (tm *MappingTableManager) PruneMappings() error {
+func (vm *VariantMappingTableManager) ListVariantMappings() ([]v1.VariantMapping, error) {
 	now := time.Now()
-	log.Infof("pruning mappings from bigquery")
-	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName)
+	log.Infof("fetching variant mappings from bigquery")
+	table := vm.client.bigquery.Dataset(vm.client.datasetName).Table(vm.mappingTableName + "_latest") // use the view
 
-	tableLocator := fmt.Sprintf("%s.%s.%s", table.ProjectID, tm.client.datasetName, table.TableID)
+	sql := fmt.Sprintf(`
+		SELECT
+		    *
+		FROM
+			%s.%s.%s`,
+		table.ProjectID, vm.client.datasetName, table.TableID)
+	log.Debugf("query is %q", sql)
 
-	sql := fmt.Sprintf(`DELETE FROM %s WHERE created_at < (SELECT MAX(created_at) FROM %s)`, tableLocator, tableLocator)
-	log.Infof("query is %q", sql)
-
-	q := tm.client.bigquery.Query(sql)
-	_, err := q.Read(tm.ctx)
-	log.Infof("pruned mapping table in %+v", time.Since(now))
-	if err != nil && strings.Contains(err.Error(), "streaming") {
-		log.Warningf("got error while trying to prune the table; please wait 90 minutes and try again. You cannot prune after modifying the table.")
+	q := vm.client.bigquery.Query(sql)
+	it, err := q.Read(vm.ctx)
+	if err != nil {
+		return nil, err
 	}
-	return err
-}
 
-func (tm *MappingTableManager) Table() *bigquery.Table {
-	dataset := tm.client.bigquery.Dataset(tm.client.datasetName)
-	return dataset.Table(tm.mappingTableName)
-}
-
-func schemasEqual(a, b bigquery.Schema) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for i := range a {
-		if a[i].Name != b[i].Name ||
-			a[i].Type != b[i].Type ||
-			a[i].Repeated != b[i].Repeated ||
-			a[i].Required != b[i].Required {
-			return false
+	var results []v1.VariantMapping
+	for {
+		var mapping v1.VariantMapping
+		err := it.Next(&mapping)
+		if err == iterator.Done {
+			break
 		}
+		if err != nil {
+			return nil, err
+		}
+		results = append(results, mapping)
+	}
+	log.Infof("fetched %d variant mapping from bigquery in %v", len(results), time.Since(now))
+
+	return results, nil
+}
+
+func (vm *VariantMappingTableManager) PushVariantMappings(mappings []v1.VariantMapping) error {
+	var batchSize = 500
+
+	table := vm.client.bigquery.Dataset(vm.client.datasetName).Table(vm.mappingTableName)
+	inserter := table.Inserter()
+	for i := 0; i < len(mappings); i += batchSize {
+		end := i + batchSize
+		if end > len(mappings) {
+			end = len(mappings)
+		}
+
+		if err := inserter.Put(vm.ctx, mappings[i:end]); err != nil {
+			return err
+		}
+		log.Infof("added %d rows to mapping bigquery table", end-i)
 	}
 
-	return true
+	return nil
 }

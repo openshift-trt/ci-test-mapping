@@ -8,6 +8,7 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/openshift-eng/ci-test-mapping/cmd/ci-test-mapping/flags"
+	v1 "github.com/openshift-eng/ci-test-mapping/pkg/api/types/v1"
 	"github.com/openshift-eng/ci-test-mapping/pkg/bigquery"
 )
 
@@ -25,7 +26,7 @@ var pruneCommand = &cobra.Command{
 		}
 
 		// Create or update schema for mapping table
-		tableManager := bigquery.NewMappingTableManager(context.Background(), bigqueryClient, pruneFlags.mappingTable)
+		tableManager := bigquery.NewTestMappingTableManager(context.Background(), bigqueryClient, pruneFlags.mappingTable, v1.TestMappingTableSchema)
 		if err := tableManager.PruneMappings(); err != nil {
 			log.WithError(err).Fatal("could not prune mapping table")
 		}

@@ -50,7 +50,7 @@ func TestIdentifyTest(t *testing.T) {
 			},
 		},
 	}
-	ti := New(componentRegistry, nil)
+	ti := NewTestIdentifier(componentRegistry, nil)
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if tt.before != nil {
