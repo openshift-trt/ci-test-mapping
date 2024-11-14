@@ -2,10 +2,12 @@ package components
 
 import (
 	"fmt"
+	"math/big"
 	"sort"
 	"strings"
+	"time"
 
-	"cloud.google.com/go/bigquery"
+	"cloud.google.com/go/civil"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/sets"
 
@@ -93,10 +95,8 @@ func (t *TestIdentifier) setDefaults(testInfo *v1.TestInfo, testOwnership *v1.Te
 	}
 
 	if id, ok := t.componentIDs[testOwnership.JIRAComponent]; ok {
-		testOwnership.JIRAComponentID = bigquery.NullInt64{
-			Int64: id,
-			Valid: true,
-		}
+		bID := big.Rat{}
+		testOwnership.JIRAComponentID = bID.SetInt64(id)
 	}
 
 	if len(testOwnership.Capabilities) == 0 {
@@ -138,9 +138,11 @@ type VariantIdentifier struct {
 	componentIDs map[string]int64
 }
 
-func (vi *VariantIdentifier) Identify() ([]*v1.VariantMapping, error) {
+func (vi *VariantIdentifier) Identify() ([]v1.VariantMapping, error) {
 	log.Debugf("attempting to map variants to jira using %d components", len(vi.reg.Components))
-	variantToMapping := map[string]*v1.VariantMapping{}
+	now := time.Now()
+	createdAt := civil.DateTimeOf(now)
+	variantToMapping := map[string]v1.VariantMapping{}
 	for name, component := range vi.reg.Components {
 		log.Tracef("checking component %q", name)
 		variants, err := component.IdentifyVariants()
@@ -152,37 +154,37 @@ func (vi *VariantIdentifier) Identify() ([]*v1.VariantMapping, error) {
 			if vm, ok := variantToMapping[v]; ok {
 				log.Errorf("component %s is trying to claim variant %s, which is already mapped to project %s component %s", name, v, vm.JiraProject, vm.JiraComponent)
 				return nil, fmt.Errorf("duplicate variant mapping")
-			} else {
-				parts := strings.Split(v, ":")
-				if len(parts) != 2 {
-					log.Errorf("Incorrect format for variant %s", v)
-					continue
+			}
+			parts := strings.Split(v, ":")
+			if len(parts) != 2 {
+				log.Errorf("Incorrect format for variant %s", v)
+				continue
+			}
+			jiraComponents := component.JiraComponents()
+			if len(jiraComponents) > 0 {
+				mapping := v1.VariantMapping{
+					VariantName:   parts[0],
+					VariantValue:  parts[1],
+					JiraProject:   component.JiraProject(),
+					JiraComponent: jiraComponents[0],
+					CreatedAt:     createdAt,
 				}
-				jiraComponents := component.JiraComponents()
-				if len(jiraComponents) > 0 {
-					mapping := &v1.VariantMapping{
-						VariantCategory: parts[0],
-						VariantValue:    parts[1],
-						JiraProject:     component.JiraProject(),
-						JiraComponent:   jiraComponents[0],
-					}
-					variantToMapping[v] = mapping
-				}
+				variantToMapping[v] = mapping
 			}
 		}
 	}
-	mappings := []*v1.VariantMapping{}
+	mappings := []v1.VariantMapping{}
 	for _, mapping := range variantToMapping {
 		mappings = append(mappings, vi.setDefaults(mapping))
 	}
 	// sort by variants
 	sort.Slice(mappings, func(i, j int) bool {
-		return mappings[i].VariantCategory < mappings[j].VariantCategory && mappings[i].VariantValue < mappings[j].VariantValue
+		return mappings[i].VariantName < mappings[j].VariantName && mappings[i].VariantValue < mappings[j].VariantValue
 	})
 	return mappings, nil
 }
 
-func (vi *VariantIdentifier) setDefaults(variantMapping *v1.VariantMapping) *v1.VariantMapping {
+func (vi *VariantIdentifier) setDefaults(variantMapping v1.VariantMapping) v1.VariantMapping {
 	variantMapping.Kind = v1.VariantMappingKind
 	variantMapping.APIVersion = v1.VariantMappingAPIVersion
 

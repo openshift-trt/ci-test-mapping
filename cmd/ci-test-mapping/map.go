@@ -38,8 +38,8 @@ var mapCmd = &cobra.Command{
 		}
 
 		var tests []v1.TestInfo
-		var testTableManager *bigquery.TestMappingTableManager
-		var variantTableManager *bigquery.VariantMappingTableManager
+		var testTableManager *bigquery.MappingTableManager[v1.TestOwnership]
+		var variantTableManager *bigquery.MappingTableManager[v1.VariantMapping]
 
 		testsFile := path.Join("data", f.bigqueryFlags.Project, f.bigqueryFlags.Dataset, fmt.Sprintf("%s.json", f.junitTable))
 		testMappingFile := path.Join("data", f.bigqueryFlags.Project, f.bigqueryFlags.Dataset, fmt.Sprintf("%s.json", f.testMappingTable))
@@ -60,13 +60,12 @@ var mapCmd = &cobra.Command{
 			}
 
 			// Create or update schema for test mapping table
-			testTableManager = bigquery.NewTestMappingTableManager(context.Background(), bigqueryClient, f.testMappingTable, v1.TestMappingTableSchema)
+			testTableManager = bigquery.NewMappingTableManager[v1.TestOwnership](context.Background(), bigqueryClient, f.testMappingTable, v1.TestMappingTableSchema)
 			if err := testTableManager.Migrate(); err != nil {
 				return errors.WithMessage(err, "could not migrate test mapping table")
 			}
-
 			// Create or update schema for variant mapping table
-			variantTableManager = bigquery.NewVariantMappingTableManager(context.Background(), bigqueryClient, f.variantMappingTable, v1.VariantMappingTableSchema)
+			variantTableManager = bigquery.NewMappingTableManager[v1.VariantMapping](context.Background(), bigqueryClient, f.variantMappingTable, v1.VariantMappingTableSchema)
 			if err := variantTableManager.Migrate(); err != nil {
 				return errors.WithMessage(err, "could not migrate variant mapping table")
 			}
@@ -141,34 +140,14 @@ var mapCmd = &cobra.Command{
 			"unmatched": unmatched,
 		}).Infof("mapping tests to ownership complete in %v", time.Since(now))
 
-		newVariantMappings := []v1.VariantMapping{}
+		variantMappings := []v1.VariantMapping{}
 		if f.mapVariants {
 			now = time.Now()
 			log.Infof("mapping variants to ownership")
 			variantIdentifier := components.NewVariantIdentifier(componentRegistry, jiraComponentIDs)
-			variantMappings, err := variantIdentifier.Identify()
+			variantMappings, err = variantIdentifier.Identify()
 			if err != nil {
-				log.WithError(err).Warningf("encountered error in component identification")
-			}
-			if variantTableManager != nil {
-				// Filter out existing ones
-				existingMappings, err := variantTableManager.ListVariantMappings()
-				if err != nil {
-					return errors.WithMessage(err, "could not list variant mappings from bigquery")
-				}
-				existingVariantToMapping := map[string]v1.VariantMapping{}
-				for _, mapping := range existingMappings {
-					existingVariantToMapping[getVariantString(&mapping)] = mapping
-				}
-				for _, mapping := range variantMappings {
-					if _, ok := existingVariantToMapping[getVariantString(mapping)]; !ok {
-						newVariantMappings = append(newVariantMappings, *mapping)
-					}
-				}
-			} else {
-				for _, mapping := range variantMappings {
-					newVariantMappings = append(newVariantMappings, *mapping)
-				}
+				log.WithError(err).Warningf("encountered error in variant ownership identification")
 			}
 			log.Infof("mapping variants to ownership complete in %v", time.Since(now))
 		}
@@ -176,12 +155,12 @@ var mapCmd = &cobra.Command{
 		if f.mode == ModeBigQuery && f.pushToBQ {
 			now = time.Now()
 			log.Infof("pushing test mappings to bigquery...")
-			if err := testTableManager.PushTestMappings(newTestMappings); err != nil {
+			if err := testTableManager.PushMappings(newTestMappings); err != nil {
 				return errors.WithMessage(err, "could not push test mappings to bigquery")
 			}
 			log.Infof("done pushing test mappings to bigquery...")
 			log.Infof("pushing variant mappings to bigquery...")
-			if err := variantTableManager.PushVariantMappings(newVariantMappings); err != nil {
+			if err := variantTableManager.PushMappings(variantMappings); err != nil {
 				return errors.WithMessage(err, "could not push variant mappings to bigquery")
 			}
 			log.Infof("done pushing variant mappings to bigquery...")
@@ -191,15 +170,14 @@ var mapCmd = &cobra.Command{
 		if err := writeRecords(newTestMappings, testMappingFile); err != nil {
 			return errors.WithMessage(err, "could not write records to test mapping file")
 		}
-		if err := writeRecords(newVariantMappings, variantMappingFile); err != nil {
-			return errors.WithMessage(err, "could not write records to variant mapping file")
+		if f.mapVariants {
+			if err := writeRecords(variantMappings, variantMappingFile); err != nil {
+				return errors.WithMessage(err, "could not write records to variant mapping file")
+			}
 		}
+
 		return nil
 	},
-}
-
-func getVariantString(mapping *v1.VariantMapping) string {
-	return mapping.VariantCategory + ":" + mapping.VariantValue
 }
 
 type MapFlags struct {

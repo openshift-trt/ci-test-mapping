@@ -1,6 +1,8 @@
 package v1
 
 import (
+	"math/big"
+
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/civil"
 )
@@ -97,7 +99,7 @@ type TestOwnership struct {
 	JIRAComponent string `bigquery:"jira_component"`
 
 	// JIRAComponentID specifies the ID of the JIRA component above.
-	JIRAComponentID bigquery.NullInt64 `bigquery:"jira_component_id"`
+	JIRAComponentID *big.Rat `bigquery:"jira_component_id"`
 
 	// CreatedAt is the time this particular record was created.
 	//
@@ -179,8 +181,8 @@ type VariantMapping struct {
 	// JiraComponent specifies the JIRA component that this variant belongs to.
 	JiraComponent string `bigquery:"jira_component"`
 
-	// VariantCategory defines the name of the variant
-	VariantCategory string `bigquery:"variant_category"`
+	// VariantName defines the name of the variant
+	VariantName string `bigquery:"variant_name"`
 
 	// VariantValue defines the value of the variant
 	VariantValue string `bigquery:"variant_value"`
@@ -203,7 +205,7 @@ var VariantMappingTableSchema = bigquery.Schema{
 		Type: bigquery.StringFieldType,
 	},
 	{
-		Name: "variant_category",
+		Name: "variant_name",
 		Type: bigquery.StringFieldType,
 	},
 	{
