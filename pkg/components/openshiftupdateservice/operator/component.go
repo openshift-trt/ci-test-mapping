@@ -14,7 +14,14 @@ var OperatorComponent = Component{
 		Name:                 "OpenShift Update Service / operator",
 		Operators:            []string{},
 		DefaultJiraComponent: "OpenShift Update Service / operator",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				// all osus QE cases from ginkgo include "OTA osus" in junit xml
+				IncludeAny: []string{
+					"OTA osus",
+				},
+			},
+		},
 	},
 }
 

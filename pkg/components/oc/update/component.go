@@ -14,7 +14,14 @@ var UpdateComponent = Component{
 		Name:                 "oc / update",
 		Operators:            []string{},
 		DefaultJiraComponent: "oc / update",
-		Matchers:             []config.ComponentMatcher{},
+		Matchers: []config.ComponentMatcher{
+			{
+				// all OTA team oc QE cases from ginkgo include "OTA oc" in junit xml
+				IncludeAny: []string{
+					"OTA oc",
+				},
+			},
+		},
 	},
 }
 
