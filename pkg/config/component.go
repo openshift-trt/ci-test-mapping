@@ -17,10 +17,14 @@ import (
 // Components do not need to use this framework, it's an optional add-on.
 type Component struct {
 	Name                 string
+	DefaultJiraProject   string
 	DefaultJiraComponent string
 	Matchers             []ComponentMatcher
 	Operators            []string
 	Namespaces           []string
+	// Variants defines the list of variants a component is responsible for. The format of
+	// each item is variantCategory:variantValue
+	Variants []string
 
 	// When a test is renamed, you can still look at results across releases by mapping new names
 	// to the oldest version of the test.
@@ -176,6 +180,14 @@ func (c *Component) IsOperatorTest(test *v1.TestInfo) (bool, []string) {
 	}
 
 	return false, nil
+}
+
+func (c *Component) IdentifyVariants() ([]string, error) {
+	return c.Variants, nil
+}
+
+func (c *Component) JiraProject() string {
+	return c.DefaultJiraProject
 }
 
 var namespaceShort = regexp.MustCompile(`ns/(?P<Namespace>[-\w]+)`)

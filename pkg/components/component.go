@@ -2,9 +2,12 @@ package components
 
 import (
 	"fmt"
+	"math/big"
 	"sort"
+	"strings"
+	"time"
 
-	"cloud.google.com/go/bigquery"
+	"cloud.google.com/go/civil"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/sets"
 
@@ -14,6 +17,7 @@ import (
 )
 
 const (
+	DefaultProject    = "OCPBUGS"
 	DefaultComponent  = "Unknown"
 	DefaultCapability = "Other"
 	DefaultProduct    = "OpenShift"
@@ -24,7 +28,7 @@ type TestIdentifier struct {
 	componentIDs map[string]int64
 }
 
-func New(reg *registry.Registry, componentIDs map[string]int64) *TestIdentifier {
+func NewTestIdentifier(reg *registry.Registry, componentIDs map[string]int64) *TestIdentifier {
 	if componentIDs == nil {
 		componentIDs = make(map[string]int64)
 	}
@@ -75,8 +79,8 @@ func (t *TestIdentifier) setDefaults(testInfo *v1.TestInfo, testOwnership *v1.Te
 		testOwnership.ID = util.StableID(testInfo, c.StableID(testInfo))
 	}
 
-	testOwnership.Kind = v1.Kind
-	testOwnership.APIVersion = v1.APIVersion
+	testOwnership.Kind = v1.TestOwnershipKind
+	testOwnership.APIVersion = v1.TestOwnershipAPIVersion
 
 	if testOwnership.Product == "" {
 		testOwnership.Product = DefaultProduct
@@ -91,10 +95,8 @@ func (t *TestIdentifier) setDefaults(testInfo *v1.TestInfo, testOwnership *v1.Te
 	}
 
 	if id, ok := t.componentIDs[testOwnership.JIRAComponent]; ok {
-		testOwnership.JIRAComponentID = bigquery.NullInt64{
-			Int64: id,
-			Valid: true,
-		}
+		bID := big.Rat{}
+		testOwnership.JIRAComponentID = bID.SetInt64(id)
 	}
 
 	if len(testOwnership.Capabilities) == 0 {
@@ -129,4 +131,85 @@ func getHighestPriority(ownerships []*v1.TestOwnership) (*v1.TestOwnership, erro
 	}
 
 	return highest, nil
+}
+
+type VariantIdentifier struct {
+	reg          *registry.Registry
+	componentIDs map[string]int64
+}
+
+func (vi *VariantIdentifier) Identify() ([]v1.VariantMapping, error) {
+	log.Debugf("attempting to map variants to jira using %d components", len(vi.reg.Components))
+	now := time.Now()
+	createdAt := civil.DateTimeOf(now)
+	variantToMapping := map[string]v1.VariantMapping{}
+	for name, component := range vi.reg.Components {
+		log.Tracef("checking component %q", name)
+		variants, err := component.IdentifyVariants()
+		if err != nil {
+			log.WithError(err).Errorf("component %q returned an error", name)
+			return nil, err
+		}
+		for _, v := range variants {
+			if vm, ok := variantToMapping[v]; ok {
+				log.Errorf("component %s is trying to claim variant %s, which is already mapped to project %s component %s", name, v, vm.JiraProject, vm.JiraComponent)
+				return nil, fmt.Errorf("duplicate variant mapping")
+			}
+			parts := strings.Split(v, ":")
+			if len(parts) != 2 {
+				log.Errorf("Incorrect format for variant %s", v)
+				continue
+			}
+			jiraComponents := component.JiraComponents()
+			if len(jiraComponents) > 0 {
+				mapping := v1.VariantMapping{
+					VariantName:   parts[0],
+					VariantValue:  parts[1],
+					JiraProject:   component.JiraProject(),
+					JiraComponent: jiraComponents[0],
+					CreatedAt:     createdAt,
+				}
+				variantToMapping[v] = mapping
+			}
+		}
+	}
+	mappings := []v1.VariantMapping{}
+	for _, mapping := range variantToMapping {
+		mappings = append(mappings, vi.setDefaults(mapping))
+	}
+	// sort by variants
+	sort.Slice(mappings, func(i, j int) bool {
+		return mappings[i].VariantName < mappings[j].VariantName && mappings[i].VariantValue < mappings[j].VariantValue
+	})
+	return mappings, nil
+}
+
+func (vi *VariantIdentifier) setDefaults(variantMapping v1.VariantMapping) v1.VariantMapping {
+	variantMapping.Kind = v1.VariantMappingKind
+	variantMapping.APIVersion = v1.VariantMappingAPIVersion
+
+	if variantMapping.Product == "" {
+		variantMapping.Product = DefaultProduct
+	}
+
+	if variantMapping.JiraComponent == "" {
+		variantMapping.JiraComponent = DefaultComponent
+	}
+
+	if variantMapping.JiraProject == "" {
+		variantMapping.JiraProject = DefaultProject
+	}
+
+	return variantMapping
+}
+
+func NewVariantIdentifier(reg *registry.Registry, componentIDs map[string]int64) *VariantIdentifier {
+	if componentIDs == nil {
+		componentIDs = make(map[string]int64)
+	}
+
+	return &VariantIdentifier{
+		reg:          reg,
+		componentIDs: componentIDs,
+	}
 }

@@ -14,6 +14,7 @@ var BareMetalHardwareProvisioningComponent = Component{
 		Name:                 "Bare Metal Hardware Provisioning",
 		Operators:            []string{},
 		DefaultJiraComponent: "Bare Metal Hardware Provisioning",
+		Variants:             []string{"Platform:metal"},
 		Matchers: []config.ComponentMatcher{
 			{
 				IncludeAll: []string{"bz-baremetal"},
@@ -41,6 +42,14 @@ func (c *Component) IdentifyTest(test *v1.TestInfo) (*v1.TestOwnership, error) {
 	}
 
 	return nil, nil
+}
+
+func (c *Component) IdentifyVariants() ([]string, error) {
+	return c.Component.IdentifyVariants()
+}
+
+func (c *Component) JiraProject() string {
+	return c.Component.JiraProject()
 }
 
 func (c *Component) StableID(test *v1.TestInfo) string {

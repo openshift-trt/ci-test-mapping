@@ -10,77 +10,77 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/api/googleapi"
 	"google.golang.org/api/iterator"
-
-	v1 "github.com/openshift-eng/ci-test-mapping/pkg/api/types/v1"
 )
 
-type MappingTableManager struct {
+type MappingTableManager[T interface{}] struct {
 	ctx              context.Context
 	mappingTableName string
 	client           *Client
+	schema           bigquery.Schema
 }
 
-func NewMappingTableManager(ctx context.Context, client *Client, mappingTable string) *MappingTableManager {
-	return &MappingTableManager{
+func NewMappingTableManager[T interface{}](ctx context.Context, client *Client, mappingTable string, schema bigquery.Schema) *MappingTableManager[T] {
+	return &MappingTableManager[T]{
 		ctx:              ctx,
 		mappingTableName: mappingTable,
 		client:           client,
+		schema:           schema,
 	}
 }
 
-func (tm *MappingTableManager) Migrate() error {
-	dataset := tm.client.bigquery.Dataset(tm.client.datasetName)
-	table := dataset.Table(tm.mappingTableName)
+func (m *MappingTableManager[T]) Migrate() error {
+	dataset := m.client.bigquery.Dataset(m.client.datasetName)
+	table := dataset.Table(m.mappingTableName)
 
-	md, err := table.Metadata(tm.ctx)
+	md, err := table.Metadata(m.ctx)
 	// Create table if it doesn't exist
 	if gbErr, ok := err.(*googleapi.Error); err != nil && ok && gbErr.Code == 404 {
-		log.Infof("table doesn't existing, creating table %q", tm.mappingTableName)
-		if err := table.Create(tm.ctx, &bigquery.TableMetadata{
-			Schema: v1.MappingTableSchema,
+		log.Infof("table doesn't exist, creating table %q", m.mappingTableName)
+		if err := table.Create(m.ctx, &bigquery.TableMetadata{
+			Schema: m.schema,
 		}); err != nil {
 			return err
 		}
-		log.Infof("table created %q", tm.mappingTableName)
+		log.Infof("table created %q", m.mappingTableName)
 	} else if err != nil {
 		return err
 	} else {
-		if !schemasEqual(md.Schema, v1.MappingTableSchema) {
-			if _, err := table.Update(tm.ctx, bigquery.TableMetadataToUpdate{Schema: v1.MappingTableSchema}, md.ETag); err != nil {
-				log.WithError(err).Errorf("failed to update table schema for %q", tm.mappingTableName)
+		if !schemasEqual(md.Schema, m.schema) {
+			if _, err := table.Update(m.ctx, bigquery.TableMetadataToUpdate{Schema: m.schema}, md.ETag); err != nil {
+				log.WithError(err).Errorf("failed to update table schema for %q", m.mappingTableName)
 				return err
 			}
-			log.Infof("table schema updated %q", tm.mappingTableName)
+			log.Infof("table schema updated %q", m.mappingTableName)
 		} else {
-			log.Infof("table schema is up-to-date %q", tm.mappingTableName)
+			log.Infof("table schema is up-to-date %q", m.mappingTableName)
 		}
 	}
 
 	return nil
 }
 
-func (tm *MappingTableManager) ListMappings() ([]v1.TestOwnership, error) {
+func (m *MappingTableManager[T]) ListMappings() ([]T, error) {
 	now := time.Now()
 	log.Infof("fetching mappings from bigquery")
-	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName + "_latest") // use the view
+	table := m.client.bigquery.Dataset(m.client.datasetName).Table(m.mappingTableName + "_latest") // use the view
 
 	sql := fmt.Sprintf(`
-		SELECT 
+		SELECT
 		    *
 		FROM
 			%s.%s.%s`,
-		table.ProjectID, tm.client.datasetName, table.TableID)
+		table.ProjectID, m.client.datasetName, table.TableID)
 	log.Debugf("query is %q", sql)
 
-	q := tm.client.bigquery.Query(sql)
-	it, err := q.Read(tm.ctx)
+	q := m.client.bigquery.Query(sql)
+	it, err := q.Read(m.ctx)
 	if err != nil {
 		return nil, err
 	}
 
-	var results []v1.TestOwnership
+	var results []T
 	for {
-		var testOwnership v1.TestOwnership
+		var testOwnership T
 		err := it.Next(&testOwnership)
 		if err == iterator.Done {
 			break
@@ -95,10 +95,10 @@ func (tm *MappingTableManager) ListMappings() ([]v1.TestOwnership, error) {
 	return results, nil
 }
 
-func (tm *MappingTableManager) PushMappings(mappings []v1.TestOwnership) error {
+func (m *MappingTableManager[T]) PushMappings(mappings []T) error {
 	var batchSize = 500
 
-	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName)
+	table := m.client.bigquery.Dataset(m.client.datasetName).Table(m.mappingTableName)
 	inserter := table.Inserter()
 	for i := 0; i < len(mappings); i += batchSize {
 		end := i + batchSize
@@ -106,7 +106,7 @@ func (tm *MappingTableManager) PushMappings(mappings []v1.TestOwnership) error {
 			end = len(mappings)
 		}
 
-		if err := inserter.Put(tm.ctx, mappings[i:end]); err != nil {
+		if err := inserter.Put(m.ctx, mappings[i:end]); err != nil {
 			return err
 		}
 		log.Infof("added %d rows to mapping bigquery table", end-i)
@@ -115,18 +115,18 @@ func (tm *MappingTableManager) PushMappings(mappings []v1.TestOwnership) error {
 	return nil
 }
 
-func (tm *MappingTableManager) PruneMappings() error {
+func (m *MappingTableManager[T]) PruneMappings() error {
 	now := time.Now()
-	log.Infof("pruning mappings from bigquery")
-	table := tm.client.bigquery.Dataset(tm.client.datasetName).Table(tm.mappingTableName)
+	log.Infof("pruning mappings from bigquery table %s", m.mappingTableName)
+	table := m.client.bigquery.Dataset(m.client.datasetName).Table(m.mappingTableName)
 
-	tableLocator := fmt.Sprintf("%s.%s.%s", table.ProjectID, tm.client.datasetName, table.TableID)
+	tableLocator := fmt.Sprintf("%s.%s.%s", table.ProjectID, m.client.datasetName, table.TableID)
 
 	sql := fmt.Sprintf(`DELETE FROM %s WHERE created_at < (SELECT MAX(created_at) FROM %s)`, tableLocator, tableLocator)
 	log.Infof("query is %q", sql)
 
-	q := tm.client.bigquery.Query(sql)
-	_, err := q.Read(tm.ctx)
+	q := m.client.bigquery.Query(sql)
+	_, err := q.Read(m.ctx)
 	log.Infof("pruned mapping table in %+v", time.Since(now))
 	if err != nil && strings.Contains(err.Error(), "streaming") {
 		log.Warningf("got error while trying to prune the table; please wait 90 minutes and try again. You cannot prune after modifying the table.")
@@ -134,9 +134,9 @@ func (tm *MappingTableManager) PruneMappings() error {
 	return err
 }
 
-func (tm *MappingTableManager) Table() *bigquery.Table {
-	dataset := tm.client.bigquery.Dataset(tm.client.datasetName)
-	return dataset.Table(tm.mappingTableName)
+func (m *MappingTableManager[T]) Table() *bigquery.Table {
+	dataset := m.client.bigquery.Dataset(m.client.datasetName)
+	return dataset.Table(m.mappingTableName)
 }
 
 func schemasEqual(a, b bigquery.Schema) bool {
