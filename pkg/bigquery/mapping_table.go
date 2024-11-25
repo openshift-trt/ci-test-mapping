@@ -3,13 +3,13 @@ package bigquery
 import (
 	"context"
 	"fmt"
-	"google.golang.org/api/iterator"
 	"strings"
 	"time"
 
 	"cloud.google.com/go/bigquery"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/api/googleapi"
+	"google.golang.org/api/iterator"
 )
 
 type MappingTableManager[T interface{}] struct {
