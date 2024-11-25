@@ -119,14 +119,19 @@ func testInfoLogFields(testInfo *v1.TestInfo) log.Fields {
 
 func getHighestPriority(ownerships []*v1.TestOwnership) (*v1.TestOwnership, error) {
 	var highest *v1.TestOwnership
+	// First find the highest priority
 	for _, ownership := range ownerships {
-		if highest != nil && ownership.Priority == highest.Priority {
-			return nil, fmt.Errorf("suite=%q test=%q is claimed by %s, %s - unable to resolve conflict "+
-				"-- please use priority field", highest.Suite, highest.Name, highest.Component, ownership.Component)
-		}
-
 		if highest == nil || ownership.Priority > highest.Priority {
 			highest = ownership
+		}
+	}
+	// Now find duplicates with the same highest priority
+	if highest != nil {
+		for _, ownership := range ownerships {
+			if ownership.Priority == highest.Priority && ownership != highest {
+				return nil, fmt.Errorf("suite=%q test=%q is claimed by %s, %s - unable to resolve conflict "+
+					"-- please use priority field", highest.Suite, highest.Name, highest.Component, ownership.Component)
+			}
 		}
 	}
 
