@@ -32,6 +32,7 @@ var KubeApiserverComponent = Component{
 					"should have a status in the CRD schema", // only observed failures are kube-apiserver availability.
 					"API LBs follow /readyz of kube-apiserver",
 					"clients should not use APIs that are removed in upcoming releases",
+					"operators should not create watch channels very often",
 				},
 			},
 			{
