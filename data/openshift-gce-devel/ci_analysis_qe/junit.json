@@ -3252,6 +3252,10 @@
     "Suite": "Logging related features"
   },
   {
+    "Name": "Logging related features \"after all\" hook for \"(OCP-22558,gkarager,Logging) Deploy cluster-logging operator via web console\"",
+    "Suite": "Logging related features"
+  },
+  {
     "Name": "Logging related features \"after all\" hook for \"(OCP-53071,qitang) Vector - OpenShift Logging Collection Vector metrics dashboard\"",
     "Suite": "Logging related features"
   },
@@ -14536,6 +14540,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-30589:liqcui:PSAP:[sig-tuning-node] PSAP should NTO Use MachineConfigs to lay down files needed for tuned [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-30762:kuiwang:OLM:[sig-operators] OLM for an end user handle within a namespace installs bundles with v1 CRDs",
     "Suite": "OLM"
   },
@@ -17972,6 +17980,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-36881:liqcui:PSAP:[sig-tuning-node] PSAP should Node Tuning Operator will provide machine config for the master machine config pool [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-36891:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router should ingress operator supports mutating load balancer scope",
     "Suite": "Network_Edge"
   },
@@ -18169,6 +18181,10 @@
   },
   {
     "Name": "OCP-37125:liqcui:PSAP:[sig-node] PSAP should Turning on debugging for tuned containers.[Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-37125:liqcui:PSAP:[sig-tuning-node] PSAP should Turning on debugging for tuned containers.[Disruptive] [Serial]",
     "Suite": "PSAP"
   },
   {
@@ -19317,6 +19333,10 @@
   },
   {
     "Name": "OCP-39123:liqcui:PSAP:[sig-node] PSAP should NTO Operator will update tuned after changing included profile [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-39123:liqcui:PSAP:[sig-tuning-node] PSAP should NTO Operator will update tuned after changing included profile [Disruptive] [Serial] [Slow]",
     "Suite": "PSAP"
   },
   {
@@ -28320,6 +28340,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-45686:liqcui:PSAP:[sig-tuning-node] PSAP should NTO Creating tuned profile with references to not yet existing Performance Profile configuration.[Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-45687:weliang:Metrics for egress router",
     "Suite": "SDN"
   },
@@ -35248,6 +35272,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-49265:liqcui:PSAP:[sig-tuning-node] PSAP should NTO support automatically rotate ssl certificate. [Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-49352:jiazha:OLM:SNO Leader election conventions for cluster topology",
     "Suite": "OLM"
   },
@@ -35376,6 +35404,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-49370:liqcui:PSAP:[sig-tuning-node] PSAP should NTO add huge pages to boot time via bootloader [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-49371:liqcui:NTO will restart tuned daemon when profile application take too long [Disruptive] [Serial] [Slow]",
     "Suite": "PSAP"
   },
@@ -35401,6 +35433,10 @@
   },
   {
     "Name": "OCP-49371:liqcui:PSAP:[sig-node] PSAP should NTO will restart tuned daemon when profile application take too long [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-49371:liqcui:PSAP:[sig-tuning-node] PSAP should NTO will not restart tuned daemon when profile application take too long [Disruptive] [Serial] [Slow]",
     "Suite": "PSAP"
   },
   {
@@ -35553,6 +35589,10 @@
   },
   {
     "Name": "OCP-49439:liqcui:PSAP:[sig-node] PSAP should NTO can start and stop stalld when relying on Tuned [service] plugin.[Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-49439:liqcui:PSAP:[sig-tuning-node] PSAP should NTO can start and stop stalld when relying on Tuned [service] plugin.[Disruptive] [Serial]",
     "Suite": "PSAP"
   },
   {
@@ -39516,6 +39556,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-51417:liqcui:PSAP:[sig-tuning-node] PSAP should Verify that static pods are not using CPUs reserved for workload with guaranteed CPUs [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-51417:liqcui:Verify that static pods are not using CPUs reserved for workload with guaranteed CPUs [Disruptive] [Serial] [Slow]",
     "Suite": "PSAP"
   },
@@ -39685,6 +39729,10 @@
   },
   {
     "Name": "OCP-51495:liqcui:PSAP:[sig-node] PSAP should NTO PAO Shipped into NTO with basic function verification.[Disruptive] [Serial][Slow].",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-51495:liqcui:PSAP:[sig-tuning-node] PSAP should NTO PAO Shipped into NTO with basic function verification.[Disruptive] [Serial][Slow].",
     "Suite": "PSAP"
   },
   {
@@ -47500,6 +47548,10 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-59884:liqcui:PSAP:[sig-tuning-node] PSAP should NTO Cgroup Blacklist multiple regular expression. [Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-59900:sregidor:Create a password for a user different from core user[Disruptive] [Serial]",
     "Suite": "MCO"
   },
@@ -48881,6 +48933,10 @@
   },
   {
     "Name": "OCP-60743:liqcui:PSAP:[sig-node] PSAP should NTO No race to update MC when nodes with different number of CPUs are in the same MCP. [Disruptive] [Serial] [Slow]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-60743:liqcui:PSAP:[sig-tuning-node] PSAP should NTO No race to update MC when nodes with different number of CPUs are in the same MCP. [Disruptive] [Serial] [Slow]",
     "Suite": "PSAP"
   },
   {
@@ -57892,6 +57948,10 @@
     "Suite": "Cluster_Infrastructure"
   },
   {
+    "Name": "OCP-72506:unknown:SDN:NOAUTHOR please correct case Traffic with dst ip from service CIDR that doesnt match existing svc ip+port should be dropped",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-72560:tagao:Cluster_Observability:Replace oauth-proxy container with kube-rbac-proxy in Alertmanager pods",
     "Suite": "Cluster_Observability"
   },
@@ -59392,6 +59452,10 @@
     "Suite": "Cluster_Observability"
   },
   {
+    "Name": "OCP-74320:zzhao:SDN:[sig-networking] SDN CNO Pre-migration validation in CNO to block cluster migration if CIDR is overlap [Disruptive] [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-74397:qitang:LOGGING:[sig-openshift-logging] LOGGING Logging Forward logs to lokistack.[Slow][Serial]",
     "Suite": "LOGGING"
   },
@@ -59928,7 +59992,15 @@
     "Suite": "PSAP"
   },
   {
+    "Name": "OCP-75434:sahshah:PSAP:[sig-tuning-node] PSAP should NTO deferred feature with annotation deferred -always[Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
     "Name": "OCP-75435:liqcui:PSAP:[sig-node] PSAP should NTO deferred feature with annotation deferred update[Disruptive] [Serial]",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-75435:liqcui:PSAP:[sig-tuning-node] PSAP should NTO deferred feature with annotation deferred update[Disruptive] [Serial]",
     "Suite": "PSAP"
   },
   {
@@ -60021,6 +60093,10 @@
   },
   {
     "Name": "OCP-75555:liqcui:PSAP:[sig-node] PSAP should NTO Tuned pod should starts before workload pods on reboot[Disruptive] [Serial][Slow].",
+    "Suite": "PSAP"
+  },
+  {
+    "Name": "OCP-75555:liqcui:PSAP:[sig-tuning-node] PSAP should NTO Tuned pod should starts before workload pods on reboot[Disruptive] [Serial][Slow].",
     "Suite": "PSAP"
   },
   {
@@ -60496,6 +60572,10 @@
     "Suite": "MCO"
   },
   {
+    "Name": "OCP-77051:sregidor:MCO:[sig-mco] MCO scale [P2] Scaleup using 4.3 cloud image[Disruptive] [Serial]",
+    "Suite": "MCO"
+  },
+  {
     "Name": "OCP-77060:knarra:Workloads:[sig-cli] Workloads ocmirror v2 works well support to mirror helm for oc-mirror v2 [Serial]",
     "Suite": "Workloads"
   },
@@ -60588,6 +60668,10 @@
     "Suite": "SDN"
   },
   {
+    "Name": "OCP-77656:weliang:SDN:[sig-networking] SDN udn pods Verify ingress-ipblock policy for UDN pods secondary interface (Layer2). [Disruptive] [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-77693:knarra:Workloads:[sig-cli] Workloads ocmirror v2 works well support the delete helm for v2 with --force-cache-delete=true [Serial]",
     "Suite": "Workloads"
   },
@@ -60604,7 +60688,23 @@
     "Suite": "CFE"
   },
   {
+    "Name": "OCP-77840:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple non-overlapping UDNs and default network(layer3 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-77841:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple overlapping UDNs and default network(layer3 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-77842:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP Failover with non-overlapping and overlapping UDNs (layer3 and IPv6 only) [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-77862:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Check whether required ENV varibales are configured after enabling Dynamic Configuration Manager",
+    "Suite": "Network_Edge"
+  },
+  {
+    "Name": "OCP-77892:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Dynamic Configuration Manager for plain HTTP route [Serial]",
     "Suite": "Network_Edge"
   },
   {
@@ -60628,8 +60728,28 @@
     "Suite": "OLM"
   },
   {
+    "Name": "OCP-77977:ptalgulk:MCO:[sig-mco] MCO ocb Install extension after OCB is enabled [Disruptive] [Serial]",
+    "Suite": "MCO"
+  },
+  {
+    "Name": "OCP-78001:sregidor:MCO:[sig-mco] MCO ocb [P2] The etc-pki-etitlement secret is created automatically for OCB Use custom Containerfile with rhel enablement [Disruptive] [Serial]",
+    "Suite": "MCO"
+  },
+  {
+    "Name": "OCP-78024:mihuang:Cluster_Operator:[sig-hive] Cluster_Operator hive should [HiveSDRosa] [HiveSpec] Support install cluster with ovn ipv4 subnet configured. [Serial]",
+    "Suite": "Cluster_Operator"
+  },
+  {
     "Name": "OCP-78162:asood:SDN:[sig-networking] SDN egressfirewall Egress traffic works with ANP and egress fireall.",
     "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-78238:meinli:SDN:[sig-networking] SDN udn services Validate host/pod to nodeport with externalTrafficPolicy is local/cluster on same/diff workers (UDN layer3 and default network)",
+    "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-78239:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router should traffic test for dynamic servers",
+    "Suite": "Network_Edge"
   },
   {
     "Name": "OCP-7XX17:yinzhou:Workloads:Should get warning when there is an identical short name for two or more resources",
@@ -61990,6 +62110,10 @@
   {
     "Name": "Sync ldap groups to openshift groups from ldap server (outline example : | OCP-11532:Authentication | groups/ad/sync-config.yaml | tc509126group1 | tc509126group2 | tc509126group3 | sync-config.yaml | group/tc509126group1\\sgroup/tc509126group2\\sgroup/tc509126group3 | tc509126group1\\s.*\\stc509126group2\\s.*\\stc509126group3\\s |)",
     "Suite": "Group sync related scenarios"
+  },
+  {
+    "Name": "Telemetry cases (OCP-72611,yapei,UserInterface)Disable segment analytics when cluster telemetry is disabled",
+    "Suite": "Telemetry cases"
   },
   {
     "Name": "The Openshift Events be parsed (outline example : | OCP-29738:Logging | infra |)",
@@ -68585,6 +68709,10 @@
   },
   {
     "Name": "masthead related \"after all\" hook for \"(OCP-60809,yanpzhan) Add customer feedback to console\"",
+    "Suite": "masthead related"
+  },
+  {
+    "Name": "masthead related \"after all\" hook for \"(OCP-60809,yanpzhan,UserInterface) Add customer feedback to console\"",
     "Suite": "masthead related"
   },
   {
