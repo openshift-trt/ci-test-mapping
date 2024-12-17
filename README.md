@@ -1,9 +1,9 @@
 # Component Readiness Test Mapping
 
 Component Readiness needs to know how to map each test to a particular
-component and it's capabilities. This tool:
+component and its capabilities. This tool:
 
-1. Takes a set of metadata about all tests such as it's name and suite
+1. Takes a set of metadata about all tests such as its name and suite
 2. Maps the test to exactly one component that provides details about the capabilities that test is testing
 3. Writes the result to a json file comitted to this repo in `data/`
 4. Pushes the result to BigQuery
@@ -54,7 +54,7 @@ These are the general steps for updating a test's ownership:
    changes you see are expected.
 4. Commit the result and open a pull request on GitHub.
 
-If you'd like to annotate a test has having additional capabilities,
+If you'd like to annotate a test as having additional capabilities,
 update `capabilities.go`. A test may have multiple capabilities, but it
 can only belong to a single component.
 
@@ -69,10 +69,10 @@ way to compare the test results across renames. To do that, each test
 has a stable ID which is the current test name stored in the DB as an
 md5sum.
 
-The first stable ID a test has is the one that remains. Component owners are
+The test's first stable ID is the one that remains. Component owners are
 responsible for ensuring the `StableID` function in their component
 returns the same ID for all names of a given test. This can be done with
-a simple look-up map, see the monitoring component for an example.
+a simple look-up map; see the monitoring component for an example.
 
 ## Removing tests
 
@@ -84,8 +84,8 @@ engineers can approve a test's removal.
 
 # Test Sources
 
-Currently the tests we use for mapping comes from the corpus of tests
-we've previously seen in job results. This list is filtered down to
+Currently the tests used for mapping come from the corpus of tests
+previously seen in job results. This list is filtered down to a
 smaller quantity by selecting only those in certain suites, jobs, or
 matching certain names.  This is configurable by specifying a
 configuration file. An example is present in
@@ -94,11 +94,11 @@ configuration file. An example is present in
 At a mimimum though, for compatibility with component readiness (and all
 other OpenShift tooling), a test must:
 
-* always have a result when it runs, indicating it's success, flake or failure (historically some tests only report failure)
+* always have a result when it runs, indicating success, flake, or failure (historically some tests only report failure)
 
 * belong to a test suite
 
-* must have stable names: do not use dynamic names such as full pod names in tests
+* have a stable name: do not use dynamic names such as full pod names in tests
 
 * have a reasonable way to map to component/capabilities, such as `[sig-XYZ]` present in the test name, and using `[Feature:XYZ]` or `[Capability:XYZ]` to make mapping to capabilities easier
 
@@ -148,9 +148,9 @@ ci-test-mapping map \
 
 ### Using the BigQuery table for lookups
 
-The BigQuery mapping table may have older entries trimmed, but it should
-be assumed to be used in append only mode, so mappings should limit
-their results to the most recent entry.
+The BigQuery mapping table should be updated only in append mode (aside from
+older entries being trimmed), so mappings should limit their results to the
+most recent entry.
 
 ## Updating Jira Components
 
@@ -160,7 +160,7 @@ that are available.
 
 To create any missing components, run `./ci-test-mapping jira-create`.
 You'll need to set the env var `JIRA_TOKEN` to your personal API token
-that you can create from your Jira profile page. Then:
+(which you can create from your Jira profile page). Then:
 
 1. Move any configuration for renamed components
 2. Delete the obsolete `pkg/components/<component>` directory
