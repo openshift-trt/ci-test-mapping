@@ -7,7 +7,7 @@ RUN dnf install -y \
         go \
         make \
      && go install github.com/Link-/gh-token@latest \
-                   k8s.io/test-infra/robots/pr-creator@latest
+     && go install k8s.io/test-infra/robots/pr-creator@latest
 COPY . .
 RUN make build
 
