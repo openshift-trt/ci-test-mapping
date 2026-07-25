@@ -26020,6 +26020,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-xgrqwifb\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-xmubxdjp\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -28748,6 +28752,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-liejizon\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-mdhssugu\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -29521,6 +29529,10 @@
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-hluyljlv\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-hnlsmclv\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -31414,6 +31426,10 @@
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-qovivjgc\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-qteuafoy\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-qtkurqvb\"",
@@ -33621,6 +33637,10 @@
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-zutnwxct\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-zwsgwixv\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
@@ -40852,6 +40872,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-crgfxups\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-cztuswgt\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
@@ -41789,6 +41813,10 @@
   },
   {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-gvdlbmzh\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-gyhrixqw\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
@@ -42840,6 +42868,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-zukquqbr\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Teardown",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -42933,6 +42965,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-cabxjzte\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-cdzpwazn\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -44024,6 +44060,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-tekywcnu\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-tnvoqgun\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -44230,6 +44270,10 @@
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-eojxnnja\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-eszcajct\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-evsxkgqp\"",
@@ -50204,6 +50248,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-mfknytjx_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-mrhxqfiw_to_be_deleted",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -50630,6 +50678,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-mdicickg",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-mfknytjx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-mrhxqfiw",
@@ -51082,6 +51134,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-mdicickg",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-mfknytjx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-mrhxqfiw",
@@ -52008,6 +52064,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-jsgjwbfn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-jthcyzer",
     "Suite": "Serverless-lp-interop"
   },
@@ -52124,7 +52184,15 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ljzzcjvm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lkkjkdkl",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-llaaubyr",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -52349,6 +52417,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-orctbnja",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-oroczcqh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -53536,6 +53608,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ehkowlne",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-elesplmz",
     "Suite": "Serverless-lp-interop"
   },
@@ -53810,6 +53886,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gsckjoom",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gsdqmblk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gshbujkg",
@@ -54264,6 +54344,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lvnnnwra",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lvvzewku",
     "Suite": "Serverless-lp-interop"
   },
@@ -54278,6 +54362,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lzommscd",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-magarzzh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-mburnbxp",
@@ -55032,6 +55120,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vjqulocu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vjuzrcmv",
     "Suite": "Serverless-lp-interop"
   },
@@ -55161,6 +55253,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-wqdolzkp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-wtvepylb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -55560,6 +55656,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-bnbndypw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-bngsxurz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -55586,6 +55686,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-ckotzttn",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-claawkjq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-cowlnasc",
@@ -56744,6 +56848,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-nmitcqnr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-nmlkxnht",
     "Suite": "Serverless-lp-interop"
   },
@@ -57105,6 +57213,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-zclhrfjs",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-zdjovpgj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -57536,6 +57648,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-kfduafvz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-kijkgvcj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -57896,6 +58012,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-xgrsvqtm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-xokmezcc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58220,6 +58340,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-hpnwgqjk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-hrzlverf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58317,6 +58441,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-lbeuxlyr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-lcspavaq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -58960,6 +59088,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-dmhpmfaa",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-dmrrihhc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -59161,6 +59293,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-klajzazt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-kopepcpo",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -60296,6 +60432,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jqybkyac",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jspkxghw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60398,6 +60538,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lebvndqd",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lexgnbkj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lfbaohbd",
@@ -60765,6 +60909,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-qwtfhczb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-qzlvxtiy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -61176,6 +61324,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ypmneuwq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ypwympct",
     "Suite": "Serverless-lp-interop"
   },
@@ -61437,6 +61589,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-anbnpzju",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-aneauvkj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -61949,6 +62105,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ejurfqer",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ejxnjkrc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62681,6 +62841,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kmsgjyut",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-knklszzb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63812,6 +63976,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ukwdjdif",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-umcxfnvj",
     "Suite": "Serverless-lp-interop"
   },
@@ -63968,6 +64136,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vwuxuhee",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vwvtbwfi",
     "Suite": "Serverless-lp-interop"
   },
@@ -64052,6 +64224,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wloxqedz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wogahivb",
     "Suite": "Serverless-lp-interop"
   },
@@ -64101,6 +64277,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wxpvuuvr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wzyloscu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64377,6 +64557,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zboekdwz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zcstnwpl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65084,6 +65268,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-rwzvdwjz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-rxqsqcdc",
     "Suite": "Serverless-lp-interop"
   },
@@ -65297,6 +65485,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-zlsskwuv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-zshgewgk",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65796,12 +65988,20 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-mizdsbyv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-mxemfwyg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-mxyqvpqh",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-nbnxkthr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-ncxecqcg",
@@ -81188,6 +81388,10 @@
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-043_validate_log_level_format verifies that the deprecated spec.logformat field is honoured for applicationSet and notifications",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
     "Name": "[It] GitOps Operator Parallel E2E Tests 1-044_validate_resource_limit_changes validates that updating resource/limit field of ArgoCD updates the corresponding resource/limit of Deployment/StatefulSet",
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
@@ -81284,7 +81488,15 @@
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-066_validate_redis_secure_comm_no_autotls_no_ha verify redis credential distribution",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
     "Name": "[It] GitOps Operator Parallel E2E Tests 1-067_validate_redis_secure_comm_no_autotls_ha ensures that redis HA can be enabled with tls with generated certificate",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-067_validate_redis_secure_comm_no_autotls_ha verify redis HA credential distribution",
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
@@ -81364,7 +81576,19 @@
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-095_validate_dex_clientsecret verifies that the Dex client secret is sourced from a short-lived TokenRequest token and is correctly set in argocd-secret",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-095_validate_dex_clientsecret verifies the operator deletes legacy non-expiring Dex kubernetes.io/service-account-token Secrets and drops them from the Dex SA",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
     "Name": "[It] GitOps Operator Parallel E2E Tests 1-096-validate_home_env_argocd_controller verifies openshift-gitops app controller StatefulSet container has expected HOME and REDIS_PASSWORD values",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-096-validate_home_env_argocd_controller verifies openshift-gitops app controller StatefulSet container has expected HOME env var and redis-initial-pass volume mount",
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
@@ -81465,6 +81689,82 @@
   },
   {
     "Name": "[It] GitOps Operator Parallel E2E Tests 1-124_validate_networkpolicies reconciles drifted NetworkPolicy and respects disabling networkPolicy.enabled",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-125_validate_applicationset_cleanup_when_spec_field_omitted removes ApplicationSet workload and namespaced RBAC when spec.applicationSet is removed from the ArgoCD CR",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-125_validate_server_serving_cert_annotation_restore does not add serving-cert annotation when argocd-server-tls already exists as a user-managed secret (not Service CA)",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-125_validate_server_serving_cert_annotation_restore restores service.beta.openshift.io/serving-cert-secret-name when Route TLS returns from passthrough to default reencrypt",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets clears both Azure DevOps webhook keys from argocd-secret when only one ref can be resolved",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets does not remove webhook.github.secret when spec.webhookSecrets is never set on the Argo CD CR",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets preserves webhook.github.secret after declarative sync when entire spec.webhookSecrets is cleared",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets rejects spec.webhookSecrets.azureDevOps when only usernameSecretRef is set (CRD validation: both refs required together)",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets removes Azure DevOps webhook keys from argocd-secret when azureDevOps is dropped from spec.webhookSecrets",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets removes webhook.github.secret from argocd-secret when GitHub is not declared in spec.webhookSecrets",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets removes webhook.gitlab.secret when GitLab is dropped from spec while GitHub remains",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets verifies Bitbucket Cloud, Bitbucket Server, and Gogs webhook secret references are synced into argocd-secret",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets verifies GitHub and GitLab webhook secret references can be configured together on one ArgoCD instance",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets verifies spec.webhookSecrets.azureDevOps username and password secretRefs are synced into argocd-secret",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets verifies spec.webhookSecrets.github.webhookSecretRef is synced into argocd-secret as webhook.github.secret",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_declarative_webhook_secrets verifies spec.webhookSecrets.gitlab.webhookSecretRef is synced into argocd-secret as webhook.gitlab.secret",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_servicemonitor_metrics_config verifies agent metrics config is applied to ServiceMonitor",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_servicemonitor_metrics_config verifies per-component metrics config is applied to ServiceMonitors",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-126_validate_servicemonitor_metrics_config verifies principal metrics config is applied to ServiceMonitor",
+    "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
+  },
+  {
+    "Name": "[It] GitOps Operator Parallel E2E Tests 1-131_validate_rolebinding_no_tracking_annotation_propagation does not propagate Argo CD tracking annotations from the ArgoCD CR to RoleBindings created in managed namespaces",
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
@@ -131428,7 +131728,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-75pcz must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-8s7gr must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-cdf8b must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -131449,6 +131757,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-fgqfr must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-fqmpp must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -131493,6 +131805,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-s5wqx must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-spnz7 must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -131541,6 +131857,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-468mf must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-46c2v must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -131688,6 +132008,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-rwtvz must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-s5bz7 must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -131729,6 +132053,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-xlz7f must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-zvfww must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -132640,6 +132968,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-46c2v must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-4hnq4 must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -132784,6 +133116,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-rwtvz must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-s5bz7 must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -132825,6 +133161,10 @@
   },
   {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-xlz7f must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-zvfww must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -145437,10 +145777,6 @@
   },
   {
     "Name": "[sig-apps] Job should create pods for an Indexed job with completion indexes and specified hostname [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-apps] Job should create pods for an Indexed job with completion indexes and specified hostname [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -172104,6 +172440,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-network] NetworkPolicy should use numeric ports in all platform NetworkPolicies [apigroup:networking.k8s.io] [Suite:openshift/conformance/parallel]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-network] NetworkPolicyLegacy [LinuxOnly] NetworkPolicy between server and client should allow egress access on one named port [Feature:NetworkPolicy] [Skipped:Network/OVNKubernetes] [Skipped:Network/OpenShiftSDN/Multitenant] [Skipped:Network/OpenShiftSDN] [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
@@ -172613,10 +172953,6 @@
   },
   {
     "Name": "[sig-network] Proxy version v1 A set of valid responses are returned for both pod and service Proxy [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-network] Proxy version v1 A set of valid responses are returned for both pod and service Proxy [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -177736,10 +178072,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message as empty when pod succeeds and TerminationMessagePolicy FallbackToLogsOnError is set [Excluded:WindowsDocker] [NodeConformance] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message as empty when pod succeeds and TerminationMessagePolicy FallbackToLogsOnError is set [NodeConformance] [Conformance]",
     "Suite": "openshift-tests"
   },
@@ -177749,10 +178081,6 @@
   },
   {
     "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message as empty when pod succeeds and TerminationMessagePolicy FallbackToLogsOnError is set [NodeConformance] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message from file when pod succeeds and TerminationMessagePolicy FallbackToLogsOnError is set [Excluded:WindowsDocker] [NodeConformance] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -177768,10 +178096,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message from log output if TerminationMessagePolicy FallbackToLogsOnError is set [Excluded:WindowsDocker] [NodeConformance] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message from log output if TerminationMessagePolicy FallbackToLogsOnError is set [NodeConformance] [Conformance]",
     "Suite": "openshift-tests"
   },
@@ -177781,10 +178105,6 @@
   },
   {
     "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message from log output if TerminationMessagePolicy FallbackToLogsOnError is set [NodeConformance] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-node] Container Runtime blackbox test on terminated container should report termination message if TerminationMessagePath is set [Excluded:WindowsDocker] [NodeConformance] [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -185337,6 +185657,10 @@
   },
   {
     "Name": "[sig-olmv1][Jira:OLM] clusterextension PolarionID:87224-[Skipped:Disconnected]Upgrade version support [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-olmv1][Jira:OLM] clusterextension progress deadline PolarionID:88332-[OTP][OCPFeatureGate:NewOLMBoxCutterRuntime]A ClusterExtension is being upgraded and a persistent error prevents it from being fully rolled out",
     "Suite": "openshift-tests"
   },
   {
@@ -246980,10 +247304,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod [Excluded:WindowsDocker] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod [LinuxOnly] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
@@ -247001,10 +247321,6 @@
   },
   {
     "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod with mountPath of existing file [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod with mountPath of existing file [Excluded:WindowsDocker] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -247028,10 +247344,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with downward pod [Excluded:WindowsDocker] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with downward pod [LinuxOnly] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
@@ -247052,10 +247364,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with projected pod [Excluded:WindowsDocker] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with projected pod [LinuxOnly] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
@@ -247073,10 +247381,6 @@
   },
   {
     "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with secret pod [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-storage] Subpath Atomic writer volumes should support subpaths with secret pod [Excluded:WindowsDocker] [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {

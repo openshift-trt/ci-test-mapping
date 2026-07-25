@@ -85303,6 +85303,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "ClusterInfrastructure_cucushift:28e31d7e33c6e1eb65274b0dcb7f945c",
+    "Name": "OCP-47658:ClusterInfrastructure Operator cloud-controller-manager should not show empty version",
+    "Suite": "ClusterInfrastructure_cucushift",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "SDN:9a66d52bfc01afc4e9085ca987cb2f33",
     "Name": "OCP-47660:zzhao:SDN:[sig-networking] SDN sriov [E810-XXV] DPDK works well in pod with vfio-pci for E810-XXVDA4 adapter [Disruptive] [Serial]",
     "Suite": "SDN",
@@ -85779,6 +85795,22 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "ClusterInfrastructure_cucushift:05bccc3a5c8d0e4c0feb8c3d12266384",
+    "Name": "OCP-47989:ClusterInfrastructure Baremetal clusteroperator should be enabled in vsphere and osp",
+    "Suite": "ClusterInfrastructure_cucushift",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
