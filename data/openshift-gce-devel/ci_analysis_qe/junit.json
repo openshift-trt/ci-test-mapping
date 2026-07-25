@@ -21324,6 +21324,10 @@
     "Suite": "Cluster_Infrastructure"
   },
   {
+    "Name": "OCP-47658:ClusterInfrastructure Operator cloud-controller-manager should not show empty version",
+    "Suite": "ClusterInfrastructure_cucushift"
+  },
+  {
     "Name": "OCP-47660:zzhao:SDN:[sig-networking] SDN sriov [E810-XXV] DPDK works well in pod with vfio-pci for E810-XXVDA4 adapter [Disruptive] [Serial]",
     "Suite": "SDN"
   },
@@ -21442,6 +21446,10 @@
   {
     "Name": "OCP-47941:dmukherj:Authentication:[sig-auth] Authentication WRS-User should not be allowed to create privileged ephemeral container without required privileges",
     "Suite": "Authentication"
+  },
+  {
+    "Name": "OCP-47989:ClusterInfrastructure Baremetal clusteroperator should be enabled in vsphere and osp",
+    "Suite": "ClusterInfrastructure_cucushift"
   },
   {
     "Name": "OCP-47999:ropatil:STORAGE:[Alibaba-CSI-Driver] [Dynamic PV] [Filesystem default] support mountOptions, mkfsOptions",
