@@ -49064,14 +49064,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "ipi-conf-debug-kdump-configure-logs",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "ipi-conf-debug-kdump-gather-logs",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "ipi-conf-etcd-on-ramfs",
     "Suite": "Overall CI (test step)"
   },
@@ -49280,10 +49272,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "ipi-conf-powervs",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "ipi-conf-proxy",
     "Suite": "Overall CI (test step)"
   },
@@ -49392,19 +49380,11 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "ipi-debug-missing-static-pod-controller-degraded",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "ipi-deprovision-deprovision",
     "Suite": "Overall CI (test step)"
   },
   {
     "Name": "ipi-deprovision-deprovision-in-bastion",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "ipi-deprovision-deprovision-powervs-deprovision",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -49473,10 +49453,6 @@
   },
   {
     "Name": "ipi-install-post-monitoringpvc",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "ipi-install-powervs-install",
     "Suite": "Overall CI (test step)"
   },
   {
