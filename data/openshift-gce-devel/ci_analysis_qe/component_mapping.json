@@ -196280,38 +196280,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):1f650b7fdc9338f9cd794707f2defc1d",
-    "Name": "ipi-conf-debug-kdump-configure-logs",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):2a1be4671148f7ccdfda74246f244290",
-    "Name": "ipi-conf-debug-kdump-gather-logs",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):b8fd4e3f3d36666db6704cc632410dfa",
     "Name": "ipi-conf-etcd-on-ramfs",
     "Suite": "Overall CI (test step)",
@@ -197144,22 +197112,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):d70699f661bfe36ab51658aee17db073",
-    "Name": "ipi-conf-powervs",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):ff2541eee94ba1367b33826695d694d2",
     "Name": "ipi-conf-proxy",
     "Suite": "Overall CI (test step)",
@@ -197592,22 +197544,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):cad11d67195575ee5eeef6ace7b2714c",
-    "Name": "ipi-debug-missing-static-pod-controller-degraded",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):d494b8ec5905ede74df06ff3a6c3aef1",
     "Name": "ipi-deprovision-deprovision",
     "Suite": "Overall CI (test step)",
@@ -197626,22 +197562,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):ac259b96e9383a8f24905ed03c14499d",
     "Name": "ipi-deprovision-deprovision-in-bastion",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):4511cca3859dadc940ec98db26620160",
-    "Name": "ipi-deprovision-deprovision-powervs-deprovision",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -197914,22 +197834,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):6fdf98ed63ac5eec2994894eb4f0fee5",
     "Name": "ipi-install-post-monitoringpvc",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):9b6cacbdcb3abfa777c991e1a82d3d53",
-    "Name": "ipi-install-powervs-install",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
