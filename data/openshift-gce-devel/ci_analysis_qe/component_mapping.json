@@ -36875,7 +36875,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "Other"
+      "LEVEL0"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
