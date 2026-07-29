@@ -10298,7 +10298,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -12970,7 +12970,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -12986,7 +12986,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -13946,7 +13946,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -13962,7 +13962,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -18458,7 +18458,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Image Registry",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Image Registry",
     "JIRAComponentID": "14735"
@@ -18650,7 +18650,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -18666,7 +18666,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -21082,7 +21082,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -21098,7 +21098,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -21130,7 +21130,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -21146,7 +21146,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -21882,7 +21882,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -21898,7 +21898,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -21978,7 +21978,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -21994,7 +21994,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22010,7 +22010,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22026,7 +22026,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22074,7 +22074,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22090,7 +22090,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22106,7 +22106,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22122,7 +22122,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22138,7 +22138,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22154,7 +22154,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22298,7 +22298,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22314,7 +22314,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22330,7 +22330,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22346,7 +22346,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22362,7 +22362,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22378,7 +22378,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22522,7 +22522,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22538,7 +22538,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22554,7 +22554,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22570,7 +22570,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22906,7 +22906,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22922,7 +22922,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -22970,7 +22970,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -22986,7 +22986,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -23002,7 +23002,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -23018,7 +23018,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -26170,7 +26170,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -26250,7 +26250,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -26266,7 +26266,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -27018,7 +27018,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -27034,7 +27034,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -27434,7 +27434,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -27450,7 +27450,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -28634,7 +28634,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -28666,7 +28666,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -30378,7 +30378,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -31050,7 +31050,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -32139,7 +32139,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -32155,7 +32155,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -35099,7 +35099,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Image Registry",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Image Registry",
     "JIRAComponentID": "14735"
@@ -35195,7 +35195,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Etcd",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Etcd",
     "JIRAComponentID": "14713"
@@ -36107,7 +36107,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -36123,7 +36123,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -36443,7 +36443,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -36491,7 +36491,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -36539,7 +36539,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -36891,7 +36891,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -38139,7 +38139,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Machine API Providers",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Cloud Compute / Machine API Providers",
     "JIRAComponentID": "14845"
@@ -38811,7 +38811,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -38827,7 +38827,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -41275,7 +41275,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -41291,7 +41291,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -42507,7 +42507,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -42811,7 +42811,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -42827,7 +42827,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -42939,7 +42939,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -44171,7 +44171,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -48155,7 +48155,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -48171,7 +48171,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -48459,7 +48459,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -48475,7 +48475,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -50091,7 +50091,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -50107,7 +50107,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
@@ -50283,7 +50283,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -50299,7 +50299,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -54123,7 +54123,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -54267,7 +54267,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Operator SDK",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Operator SDK",
     "JIRAComponentID": "14928"
@@ -55755,7 +55755,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -55787,7 +55787,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -62043,7 +62043,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -62299,7 +62299,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -62315,7 +62315,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -62843,7 +62843,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -62859,7 +62859,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -67787,7 +67787,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -68235,7 +68235,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -68267,7 +68267,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -68571,7 +68571,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -68587,7 +68587,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -68603,7 +68603,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -69179,7 +69179,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -69195,7 +69195,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -69211,7 +69211,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -70733,7 +70733,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -70749,7 +70749,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -71405,7 +71405,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -72877,7 +72877,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74797,7 +74797,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74813,7 +74813,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74861,7 +74861,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74877,7 +74877,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74925,7 +74925,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74973,7 +74973,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -74989,7 +74989,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -75037,7 +75037,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -75053,7 +75053,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -75197,7 +75197,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -75213,7 +75213,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -78398,7 +78398,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -78414,7 +78414,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -79134,7 +79134,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -79406,7 +79406,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -79454,7 +79454,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -79470,7 +79470,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -79934,7 +79934,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -79966,7 +79966,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -80798,7 +80798,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -80830,7 +80830,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -81086,7 +81086,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -81102,7 +81102,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -82446,7 +82446,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -82574,7 +82574,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -83310,7 +83310,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -84303,7 +84303,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -84319,7 +84319,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -85615,7 +85615,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -85631,7 +85631,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -85679,7 +85679,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -85695,7 +85695,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -85775,7 +85775,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -86095,7 +86095,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / DNS",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / DNS",
     "JIRAComponentID": "14866"
@@ -86111,7 +86111,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / DNS",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / DNS",
     "JIRAComponentID": "14866"
@@ -87231,7 +87231,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -87247,7 +87247,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -87567,7 +87567,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -87599,7 +87599,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -87631,7 +87631,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -87663,7 +87663,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -87935,7 +87935,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Image Registry",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Image Registry",
     "JIRAComponentID": "14735"
@@ -88479,7 +88479,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -89535,7 +89535,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -89551,7 +89551,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -90399,7 +90399,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -91839,7 +91839,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -91855,7 +91855,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -92783,7 +92783,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -92799,7 +92799,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -93183,7 +93183,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -93199,7 +93199,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -93935,7 +93935,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -93983,7 +93983,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -94671,7 +94671,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -95103,7 +95103,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -95135,7 +95135,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc-mirror",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc-mirror",
     "JIRAComponentID": "14970"
@@ -95231,7 +95231,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -95247,7 +95247,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -95583,7 +95583,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -95599,7 +95599,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -95791,7 +95791,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -95807,7 +95807,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -96303,7 +96303,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -96319,7 +96319,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -96687,7 +96687,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -97871,7 +97871,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -97887,7 +97887,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -98975,7 +98975,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Node / Kubelet",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
@@ -99247,7 +99247,7 @@
     "StaffApprovedObsolete": false,
     "Component": "apiserver-auth",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
@@ -99823,7 +99823,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -99839,7 +99839,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -101647,7 +101647,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -101663,7 +101663,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -101951,7 +101951,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -101967,7 +101967,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -101999,7 +101999,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Logging",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Logging",
     "JIRAComponentID": "14829"
@@ -103295,7 +103295,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -103311,7 +103311,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -103967,7 +103967,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -103983,7 +103983,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -106575,7 +106575,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -106607,7 +106607,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -107071,7 +107071,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -107103,7 +107103,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
@@ -107567,7 +107567,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-apiserver",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-apiserver",
     "JIRAComponentID": "14814"
@@ -107855,7 +107855,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -108143,7 +108143,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -108655,7 +108655,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -108831,7 +108831,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -108847,7 +108847,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -110015,7 +110015,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Security Profiles Operator",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Security Profiles Operator",
     "JIRAComponentID": "14854"
@@ -111007,7 +111007,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -111567,7 +111567,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -111871,7 +111871,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -112575,7 +112575,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -114063,7 +114063,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -114095,7 +114095,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -114159,7 +114159,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -114191,7 +114191,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -114687,7 +114687,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -115487,7 +115487,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -115551,7 +115551,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -117455,7 +117455,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -117743,7 +117743,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -118063,7 +118063,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -118335,7 +118335,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -118383,7 +118383,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -118431,7 +118431,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -120927,7 +120927,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -120975,7 +120975,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -122943,7 +122943,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -122991,7 +122991,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -123631,7 +123631,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -123951,7 +123951,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -124079,7 +124079,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -125359,7 +125359,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -125407,7 +125407,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -126975,7 +126975,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -126991,7 +126991,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -127951,7 +127951,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -127999,7 +127999,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -128495,7 +128495,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -128527,7 +128527,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -128543,7 +128543,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -129823,7 +129823,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -130559,7 +130559,7 @@
     "StaffApprovedObsolete": false,
     "Component": "oc",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "oc",
     "JIRAComponentID": "14806"
@@ -131359,7 +131359,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -131375,7 +131375,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -131631,7 +131631,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -131663,7 +131663,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -132095,7 +132095,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -132223,7 +132223,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
@@ -134223,7 +134223,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -134735,7 +134735,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -135119,7 +135119,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -135263,7 +135263,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -135343,7 +135343,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -135967,7 +135967,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -138095,7 +138095,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Cloud Controller Manager",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Cloud Compute / Cloud Controller Manager",
     "JIRAComponentID": "14765"
@@ -138719,7 +138719,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -138735,7 +138735,7 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / apps",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
@@ -140689,7 +140689,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -141841,7 +141841,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -141857,7 +141857,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -141873,7 +141873,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -143089,7 +143089,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -143105,7 +143105,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -143121,7 +143121,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / NetObserv",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / NetObserv",
     "JIRAComponentID": "14957"
@@ -143873,7 +143873,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -144305,7 +144305,7 @@
     "StaffApprovedObsolete": false,
     "Component": "cert-manager",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "cert-manager",
     "JIRAComponentID": "14833"
@@ -144337,7 +144337,7 @@
     "StaffApprovedObsolete": false,
     "Component": "cert-manager",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "cert-manager",
     "JIRAComponentID": "14833"
@@ -144353,7 +144353,7 @@
     "StaffApprovedObsolete": false,
     "Component": "cert-manager",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "cert-manager",
     "JIRAComponentID": "14833"
@@ -149121,7 +149121,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -149345,7 +149345,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -149441,7 +149441,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -149953,7 +149953,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -150913,7 +150913,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -150929,7 +150929,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -151089,7 +151089,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -154001,7 +154001,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -154530,7 +154530,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -154770,7 +154770,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-apiserver",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-apiserver",
     "JIRAComponentID": "14814"
@@ -155042,7 +155042,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -155874,7 +155874,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -156626,7 +156626,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -156722,7 +156722,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
@@ -156978,7 +156978,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / openshift-sdn",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
@@ -157394,7 +157394,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -158403,7 +158403,7 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
@@ -158547,7 +158547,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-apiserver",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-apiserver",
     "JIRAComponentID": "14814"
@@ -166261,7 +166261,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -166277,7 +166277,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -167029,7 +167029,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -167717,7 +167717,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -167733,7 +167733,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Node / Kubelet",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
@@ -187032,7 +187032,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -187128,7 +187128,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -187336,7 +187336,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -187400,7 +187400,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -187528,7 +187528,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -189656,7 +189656,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190312,7 +190312,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190584,7 +190584,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190616,7 +190616,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190632,7 +190632,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190648,7 +190648,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190744,7 +190744,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190760,7 +190760,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190776,7 +190776,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -190808,7 +190808,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191000,7 +191000,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191128,7 +191128,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191144,7 +191144,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191592,7 +191592,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191624,8 +191624,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191641,8 +191640,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191658,7 +191656,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -191738,8 +191736,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191787,8 +191784,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191868,8 +191864,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191917,8 +191912,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191950,8 +191944,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -191999,8 +191992,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Version Operator",
     "Capabilities": [
-      "ClusterUpgrade",
-      "LEVEL0"
+      "ClusterUpgrade"
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
@@ -192384,7 +192376,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -192448,7 +192440,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193008,7 +193000,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193024,7 +193016,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193072,7 +193064,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193088,7 +193080,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193104,7 +193096,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193120,7 +193112,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193136,7 +193128,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193152,7 +193144,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193216,7 +193208,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193232,7 +193224,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -193472,7 +193464,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -194528,7 +194520,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -194752,7 +194744,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Test Infrastructure",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Test Infrastructure",
     "JIRAComponentID": "14952"
@@ -195456,7 +195448,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -195520,7 +195512,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -195568,7 +195560,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -195760,7 +195752,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -195776,7 +195768,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -195808,7 +195800,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196304,7 +196296,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196352,7 +196344,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196480,7 +196472,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196496,7 +196488,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196528,7 +196520,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -196576,7 +196568,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197168,7 +197160,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197552,7 +197544,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197712,7 +197704,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197728,7 +197720,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197776,7 +197768,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197856,7 +197848,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -197872,7 +197864,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -199184,7 +199176,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -199744,7 +199736,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -200240,7 +200232,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -200320,7 +200312,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -200384,7 +200376,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -200416,7 +200408,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -200464,7 +200456,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -202992,7 +202984,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -203008,7 +203000,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -203024,7 +203016,7 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "kube-scheduler",
     "JIRAComponentID": "14786"
@@ -203040,7 +203032,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -206946,7 +206938,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -207058,7 +207050,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -207298,7 +207290,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
@@ -207314,7 +207306,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Node / Kubelet",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
@@ -207330,7 +207322,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Machine Config Operator",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Machine Config Operator",
     "JIRAComponentID": "14737"
@@ -207346,7 +207338,6 @@
     "StaffApprovedObsolete": false,
     "Component": "oauth-apiserver",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "oauth-apiserver",
@@ -207363,7 +207354,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Bare Metal Hardware Provisioning / cluster-baremetal-operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Bare Metal Hardware Provisioning / cluster-baremetal-operator",
@@ -207380,7 +207370,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Cloud Controller Manager",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Compute / Cloud Controller Manager",
@@ -207397,7 +207386,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Credential Operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Credential Operator",
@@ -207414,7 +207402,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Unknown",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Compute / Unknown",
@@ -207431,7 +207418,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cluster Autoscaler",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cluster Autoscaler",
@@ -207448,7 +207434,6 @@
     "StaffApprovedObsolete": false,
     "Component": "config-operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "config-operator",
@@ -207465,7 +207450,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Management Console",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Management Console",
@@ -207482,7 +207466,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Unknown",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Compute / Unknown",
@@ -207499,7 +207482,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Storage",
@@ -207516,7 +207498,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / DNS",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Networking / DNS",
@@ -207533,7 +207514,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Etcd",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Etcd",
@@ -207550,7 +207530,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Image Registry",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Image Registry",
@@ -207567,7 +207546,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / router",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Networking / router",
@@ -207584,7 +207562,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Insights Operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Insights Operator",
@@ -207601,7 +207578,6 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-apiserver",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "kube-apiserver",
@@ -207618,7 +207594,6 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-controller-manager",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "kube-controller-manager",
@@ -207635,7 +207610,6 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-scheduler",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "kube-scheduler",
@@ -207652,7 +207626,6 @@
     "StaffApprovedObsolete": false,
     "Component": "kube-storage-version-migrator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "kube-storage-version-migrator",
@@ -207669,7 +207642,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Unknown",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Compute / Unknown",
@@ -207686,7 +207658,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Cloud Compute / Unknown",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Cloud Compute / Unknown",
@@ -207703,7 +207674,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Machine Config Operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Machine Config Operator",
@@ -207720,7 +207690,6 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "OLM",
@@ -207737,7 +207706,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Monitoring",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Monitoring",
@@ -207754,7 +207722,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Networking / cluster-network-operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Networking / cluster-network-operator",
@@ -207771,7 +207738,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Node Tuning Operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Node Tuning Operator",
@@ -207788,7 +207754,6 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "OLM",
@@ -207805,7 +207770,6 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-apiserver",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "openshift-apiserver",
@@ -207822,7 +207786,6 @@
     "StaffApprovedObsolete": false,
     "Component": "openshift-controller-manager / controller-manager",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "openshift-controller-manager / controller-manager",
@@ -207839,7 +207802,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Samples Operator",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Samples Operator",
@@ -207856,7 +207818,6 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "OLM",
@@ -207873,7 +207834,6 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "OLM",
@@ -207890,7 +207850,6 @@
     "StaffApprovedObsolete": false,
     "Component": "OLM",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "OLM",
@@ -207907,7 +207866,6 @@
     "StaffApprovedObsolete": false,
     "Component": "service-ca",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "service-ca",
@@ -207924,7 +207882,6 @@
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
-      "LEVEL0",
       "operator-conditions"
     ],
     "JIRAComponent": "Storage",
@@ -207957,7 +207914,7 @@
     "StaffApprovedObsolete": false,
     "Component": "Unknown",
     "Capabilities": [
-      "LEVEL0"
+      "Other"
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
