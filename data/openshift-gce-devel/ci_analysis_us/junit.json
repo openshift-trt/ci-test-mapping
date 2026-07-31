@@ -11300,11 +11300,31 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshotclass [Feature:volumegroupsnapshot] VolumeGroupSnapshotClass should report error when VolumeGroupSnapshot is created without className and multiple default classes exist [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshotclass [Feature:volumegroupsnapshot] VolumeGroupSnapshotClass should report error when VolumeGroupSnapshot is created without className and no default class exists [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshotclass [Feature:volumegroupsnapshot] VolumeGroupSnapshotClass should use default VolumeGroupSnapshotClass when no className is specified [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshottable [Feature:volumegroupsnapshot] VolumeGroupSnapshottable should create snapshots for StatefulSet volumes and verify data consistency after restore",
     "Suite": "openshift-tests"
   },
   {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshottable [Feature:volumegroupsnapshot] VolumeGroupSnapshottable should create snapshots for multiple volumes in a pod",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (delete policy)] volumegroupsnapshottable-stress [Feature:volumegroupsnapshot] should support volume group snapshotting of StatefulSet volumes repeatedly [Slow] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern:  (retain policy)] volumegroupsnapshottable [Feature:volumegroupsnapshot] VolumeGroupSnapshottable should create snapshots for StatefulSet volumes and verify data consistency after restore",
     "Suite": "openshift-tests"
   },
   {
@@ -11468,6 +11488,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (block volmode)] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should recover from invalid target VAC by updating PVC to new valid VAC",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (block volmode)] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should recover from invalid target VAC by updating PVC to new valid VAC [Flaky]",
     "Suite": "openshift-tests"
   },
@@ -11612,6 +11636,22 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] seLinuxMount [Feature:SELinux] [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] Pod with RWO and recursive policy should mount volumes without SELinux mount option",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] seLinuxMount [Feature:SELinux] [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] Pod with RWO volume and mount policy should mount volumes with SELinux mount option [FeatureGate:SELinuxMount] [Beta] [Feature:OffByDefault]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] seLinuxMount [Feature:SELinux] [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] Pod with RWOP volume and recursive policy should mount volumes without SELinux mount option",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] seLinuxMount [Feature:SELinux] [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] Pod with RWOP volume and the default policy should mount volumes with SELinux mount option",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] subPath should be able to unmount after the subpath directory is deleted [LinuxOnly]",
     "Suite": "openshift-tests"
   },
@@ -11725,6 +11765,10 @@
   },
   {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should modify volume with no VAC",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (default fs)] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should recover from invalid target VAC by updating PVC to new valid VAC",
     "Suite": "openshift-tests"
   },
   {
@@ -12084,6 +12128,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (ntfs)] [Feature:Windows] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should recover from invalid target VAC by updating PVC to new valid VAC",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (ntfs)] [Feature:Windows] volume-modify [FeatureGate:VolumeAttributesClass] [Feature:VolumeAttributesClass] should recover from invalid target VAC by updating PVC to new valid VAC [Flaky]",
     "Suite": "openshift-tests"
   },
@@ -12141,6 +12189,18 @@
   },
   {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (xfs)] [Slow] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (xfs)] [Slow] volume-expand Verify if offline PVC expansion works",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (xfs)] [Slow] volume-expand should resize volume when PVC is edited and the pod is re-created on the same node after controller resize is finished",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Dynamic PV (xfs)] [Slow] volume-expand should resize volume when PVC is edited while pod is using it",
     "Suite": "openshift-tests"
   },
   {
@@ -12585,6 +12645,22 @@
   },
   {
     "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Pre-provisioned VolumeGroupSnapshot (delete policy)] volumegroupsnapshottable [Feature:volumegroupsnapshot] VolumeGroupSnapshottable should create snapshots for StatefulSet volumes and verify data consistency after restore",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: Pre-provisioned VolumeGroupSnapshot (retain policy)] volumegroupsnapshottable [Feature:volumegroupsnapshot] VolumeGroupSnapshottable should create snapshots for StatefulSet volumes and verify data consistency after restore",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: SnapshotMetadata] snapshotmetadata [Feature:snapshotmetadata] should verify GetAllocatedMetadata",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: file.csi.azure.com] [Testpattern: SnapshotMetadata] snapshotmetadata [Feature:snapshotmetadata] should verify GetMetadataDelta",
     "Suite": "openshift-tests"
   },
   {
@@ -26504,6 +26580,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-sliqwhtx\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-stiolenh\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -29588,6 +29668,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-zglftesz\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Teardown",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -30269,6 +30353,10 @@
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-pkrdhzza\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-pnhfuqfg\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -31918,6 +32006,10 @@
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-mbtzmgif\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-mhjbcouv\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-mjyenxvy\"",
@@ -34038,6 +34130,10 @@
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-fqmoyxmc\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-gejzdpll\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-gibsvgue\"",
@@ -41856,6 +41952,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-srrtehka\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-swmomuqc\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -42844,6 +42944,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-xkqpvmnd\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-xqqfiwlu\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43456,6 +43560,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-ljqqloii\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-lmjjzokg\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43757,6 +43865,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-atbylxik\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-atjlkbqq\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -44904,6 +45016,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-roxtoyjl\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-rqxmapfz\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -45193,6 +45309,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-gnagyewh\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-gshitkvo\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -51016,6 +51136,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-ajpidmco_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-akpwojbv_to_be_deleted",
     "Suite": "Serverless-lp-interop"
   },
@@ -51482,6 +51606,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-abpranri",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-ajpidmco",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-akpwojbv",
@@ -51974,6 +52102,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-abpranri",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-ajpidmco",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-akpwojbv",
@@ -52896,6 +53028,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-fpvoxbzk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-fxbvpeuq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -53070,6 +53206,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-imbggnkw",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ioczybgn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-iozmzujt",
@@ -54032,6 +54172,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-wqibknry",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-wquzpvtv",
     "Suite": "Serverless-lp-interop"
   },
@@ -54265,6 +54409,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-zrmoapnd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-zstoxdmj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -55124,6 +55272,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gwhwndev",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gwsulbau",
     "Suite": "Serverless-lp-interop"
   },
@@ -55426,6 +55578,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-jypapxmd",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-jyvauoqf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-jzbwaphh",
@@ -56180,6 +56336,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-scceeemd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-scuxbosj",
     "Suite": "Serverless-lp-interop"
   },
@@ -56460,6 +56620,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-veipdeac",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vftlcrkb",
     "Suite": "Serverless-lp-interop"
   },
@@ -56577,6 +56741,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-wguiezrs",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-wixttbuf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -56925,6 +57093,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zypgikmo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zznrasxl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -57436,6 +57608,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-mpxzxxtb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-mqduqmzw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -57760,6 +57936,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-wqmwdeqm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-wqvjtaqk",
     "Suite": "Serverless-lp-interop"
   },
@@ -57922,6 +58102,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-aadeears",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-afmwmaix",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-agdebchf",
@@ -58430,6 +58614,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-pwrxlmer",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-pyvqzche",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-qdxjeame",
@@ -59296,6 +59484,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-mvvfscxu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-nazjfgod",
     "Suite": "Serverless-lp-interop"
   },
@@ -59538,6 +59730,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-vpolexrt",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-vshxaqny",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-vsrmsyvc",
@@ -60392,6 +60588,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uqvgwzov",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uscsbqsx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60405,6 +60605,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uvsausdm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uzxdirgz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -60936,6 +61140,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-ispsklpk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-itbreifb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -61073,6 +61281,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-mddtdkre",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-mixpayzw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -61864,6 +62076,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ealxhugg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ebqjkumz",
     "Suite": "Serverless-lp-interop"
   },
@@ -61917,6 +62133,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-elinzyyq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-emdmmtmd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62154,6 +62374,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ipsffjah",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-irmisvki",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-isfqtsox",
@@ -63296,6 +63520,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-zvjatvib",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-zwbkuxmh",
     "Suite": "Serverless-lp-interop"
   },
@@ -64100,6 +64328,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-eskqqgao",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-etfymwij",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -64189,6 +64421,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-flevriqq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-fmifbczz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65476,6 +65712,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-oyjelxhc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-pabbxvvh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -65822,6 +66062,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-roeqwchc",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-rqwuuoif",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-rrofkhgx",
@@ -66248,6 +66492,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vupviphn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vwnkklsq",
     "Suite": "Serverless-lp-interop"
   },
@@ -66322,6 +66570,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-whfxsupx",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wiiktwso",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-windxorv",
@@ -66445,6 +66697,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xcwyqxke",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdaqjyxq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -66729,6 +66985,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zboekdwz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zbvgahwp",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -67096,6 +67356,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-gbfqzvnw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-gdwpjsoj",
     "Suite": "Serverless-lp-interop"
   },
@@ -67449,6 +67713,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-qfifjarj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-qhgrhgso",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -67844,7 +68112,15 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-awrsegnp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-axfgsehl",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-bahcfpev",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -134080,6 +134356,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-bjr6g must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-blwgp must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -134157,6 +134437,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-kwt95 must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-l4r9t must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -134256,6 +134540,14 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-zdct6 must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-zr26d must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-24tg9 must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -134341,6 +134633,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-dp9jb must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-dzt44 must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -134436,6 +134732,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-rj4bg must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-rvdb6 must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -134501,6 +134801,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-xlz7f must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-xp4xm must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -135488,6 +135792,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-dzt44 must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-flg2n must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -135580,6 +135888,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-rj4bg must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-rvdb6 must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -135645,6 +135957,10 @@
   },
   {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-xlz7f must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-xp4xm must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -146985,6 +147301,10 @@
   },
   {
     "Name": "[sig-api-machinery] kube-apiserver operator TestKMSEncryptionRotation [OCPFeatureGate:KMSEncryption][Suite:encryption-kms-rotation]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] kube-apiserver operator TestKMSPreflightDeploy [OCPFeatureGate:KMSEncryption][Serial][Timeout:120m][Suite:encryption-kms-2]",
     "Suite": "openshift-tests"
   },
   {
@@ -163008,6 +163328,30 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-cli] kubectl kuberc commands set should create aliases with appendArgs and execute them",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] kubectl kuberc commands set should create aliases with prependArgs and execute them",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] kubectl kuberc commands set should create defaults and apply them to kubectl commands",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] kubectl kuberc commands set should require --overwrite to replace existing entries",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] kubectl kuberc commands set should validate inputs",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] kubectl kuberc commands view should display kuberc file",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-cli] kubectl kuberc given preferences should be applied",
     "Suite": "openshift-tests"
   },
@@ -164557,6 +164901,30 @@
   },
   {
     "Name": "[sig-cluster-lifecycle][OCPFeatureGate:CRDCompatibilityRequirementOperator] CRD Compatibility Checker Object validation admission should reject CRs that do not conform to the compatibility schema",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS AWS infrastructure CRDs should have core AWS Cluster API CRDs installed and established awsclustercontrolleridentities CRD",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS AWS infrastructure CRDs should have core AWS Cluster API CRDs installed and established awsclusters CRD",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS AWS infrastructure CRDs should have core AWS Cluster API CRDs installed and established awsmachines CRD",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS AWS infrastructure CRDs should have core AWS Cluster API CRDs installed and established awsmachinetemplates CRD",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS AWS provider deployment should have the capa-controller-manager deployment available",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:ClusterAPIMachineManagementAWS] Cluster API Machine Management AWS Management cluster AWS resources should have the AWSCluster object ready",
     "Suite": "openshift-tests"
   },
   {
@@ -168817,6 +169185,70 @@
   },
   {
     "Name": "[sig-etcd] cluster should not be without a leader for too long",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [OTP][Operator][Serial][Disruptive] OCP-66829 Tuning etcd heartbeat and election timeout [Timeout:60m]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [OTP][Operator][Serial][Disruptive] OCP-71790 Etcd manual defragmentation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [OTP][Operator][Serial][Disruptive] OCP-75224 Manual rotation of etcd signer certs [Timeout:60m]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [OTP][Operator][Serial][Disruptive] OCP-75259 Auto rotation of etcd signer certs [Timeout:60m]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operand][NetworkPolicy]should restore etcd operand NetworkPolicies after delete or mutation[Timeout:30m][Serial][Disruptive]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][NetworkPolicy]should restore etcd operator NetworkPolicies after delete or mutation[Timeout:30m][Serial][Disruptive]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestBackupFailureOnMissingPVC",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestBackupHappyPath [Timeout:30m]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestBackupScript",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestEtcdQuorumGuard",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestEtcdctlCommands",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestMultipleBackupsAreSkipped",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestPeriodicBackupHappyPath [Timeout:30m]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestRetentionBySize",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive] TestWrongScheduleDegradesOperator",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd] cluster-etcd-operator [Operator][Serial][Disruptive][OCPFeatureGate:EtcdBackendQuota] TestEtcdDBScaling",
     "Suite": "openshift-tests"
   },
   {
