@@ -38648,6 +38648,10 @@
     "Suite": "Network_Edge"
   },
   {
+    "Name": "OCP-77862:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router Check whether required ENV varibales are configured after enabling Dynamic Configuration Manager [Serial]",
+    "Suite": "Network_Edge"
+  },
+  {
     "Name": "OCP-77862:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Check whether required ENV varibales are configured after enabling Dynamic Configuration Manager",
     "Suite": "Network_Edge"
   },
@@ -38681,6 +38685,10 @@
   },
   {
     "Name": "OCP-77906:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Enable ALPN for reencrypt routes when DCM is enabled",
+    "Suite": "Network_Edge"
+  },
+  {
+    "Name": "OCP-77906:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Enable ALPN for reencrypt routes when DCM is enabled [Serial]",
     "Suite": "Network_Edge"
   },
   {
@@ -38801,6 +38809,10 @@
   },
   {
     "Name": "OCP-78239:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router traffic test for dynamic servers",
+    "Suite": "Network_Edge"
+  },
+  {
+    "Name": "OCP-78239:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router traffic test for dynamic servers [Serial]",
     "Suite": "Network_Edge"
   },
   {
@@ -40833,6 +40845,10 @@
   },
   {
     "Name": "OCP-88370:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Map entries added in the end when DCM is enabled",
+    "Suite": "Network_Edge"
+  },
+  {
+    "Name": "OCP-88370:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Map entries added in the end when DCM is enabled [Serial]",
     "Suite": "Network_Edge"
   },
   {

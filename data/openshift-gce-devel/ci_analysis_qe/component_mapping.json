@@ -154602,6 +154602,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "Network_Edge:889b7b60f9a972628779cea630e2f1b1",
+    "Name": "OCP-77862:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router Check whether required ENV varibales are configured after enabling Dynamic Configuration Manager [Serial]",
+    "Suite": "Network_Edge",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / router",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / router",
+    "JIRAComponentID": "14827"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Network_Edge:536ec7bc7328fc93e8636473db13acf2",
     "Name": "OCP-77862:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Check whether required ENV varibales are configured after enabling Dynamic Configuration Manager",
     "Suite": "Network_Edge",
@@ -154732,6 +154748,22 @@
     "Kind": "TestOwnership",
     "ID": "Network_Edge:516012a511da233c2d930caf31deb281",
     "Name": "OCP-77906:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Enable ALPN for reencrypt routes when DCM is enabled",
+    "Suite": "Network_Edge",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / router",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / router",
+    "JIRAComponentID": "14827"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "Network_Edge:2f14a7a1fd0c606843f0bca496e8d832",
+    "Name": "OCP-77906:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Enable ALPN for reencrypt routes when DCM is enabled [Serial]",
     "Suite": "Network_Edge",
     "Product": "OpenShift",
     "Priority": 0,
@@ -155212,6 +155244,22 @@
     "Kind": "TestOwnership",
     "ID": "Network_Edge:879d6972675f84a03a910368770d1682",
     "Name": "OCP-78239:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router traffic test for dynamic servers",
+    "Suite": "Network_Edge",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / router",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / router",
+    "JIRAComponentID": "14827"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "Network_Edge:0512b5457a3fe767449e4beae95ac670",
+    "Name": "OCP-78239:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router traffic test for dynamic servers [Serial]",
     "Suite": "Network_Edge",
     "Product": "OpenShift",
     "Priority": 0,
@@ -163343,6 +163391,22 @@
     "Kind": "TestOwnership",
     "ID": "Network_Edge:d8f66006e4311a12730161c23c820ce9",
     "Name": "OCP-88370:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Map entries added in the end when DCM is enabled",
+    "Suite": "Network_Edge",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / router",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / router",
+    "JIRAComponentID": "14827"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "Network_Edge:3b1d2d4a46da5707c7111ddbc52fd36b",
+    "Name": "OCP-88370:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router Map entries added in the end when DCM is enabled [Serial]",
     "Suite": "Network_Edge",
     "Product": "OpenShift",
     "Priority": 0,

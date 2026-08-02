@@ -26636,6 +26636,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-jwayxtyj\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-jzwwtvwc\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -29584,6 +29588,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-feycjnoo\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-fjwzcgzg\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -30730,6 +30738,10 @@
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-xkjqjlbj\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-xxgueaxh\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-yajjnriy\"",
@@ -32054,6 +32066,10 @@
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-cycxdxkh\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-dausstku\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-ddovpezn\"",
@@ -34650,6 +34666,10 @@
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-wntiociu\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-wpbqmfsd\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-wvmvywtt\"",
@@ -41884,6 +41904,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-amnkgbzf\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-avqishzb\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43020,6 +43044,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-nltnyszp\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-nsmqrncx\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43984,6 +44012,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-vvchluqr\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-vwtaoovw\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -44106,6 +44138,10 @@
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-acktjajn\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-acmxardm\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-afxsjvhd\"",
@@ -45336,6 +45372,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-viqfkggi\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-vkdkeqoo\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -45770,6 +45810,10 @@
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-qxbhxuzl\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-qzoenazg\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-ruhghocf\"",
@@ -51712,6 +51756,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-ubqqqlsd_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-uhonthhg_to_be_deleted",
     "Suite": "Serverless-lp-interop"
   },
@@ -52185,6 +52233,10 @@
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-tupxazmo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-ubqqqlsd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -52685,6 +52737,10 @@
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-tupxazmo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-ubqqqlsd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -53488,6 +53544,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ikoyrvos",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ileobear",
     "Suite": "Serverless-lp-interop"
   },
@@ -53709,6 +53769,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ljzzcjvm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lkfmhlpp",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -54022,6 +54086,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-pktwddja",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-pobejouq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ppzabcuf",
@@ -54430,6 +54498,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-vuaabcuo",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-vueoootg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-vuqnlzuh",
@@ -55784,6 +55856,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-iobootxr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-iozkjhfw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56002,6 +56078,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lbxtanjk",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ldeypzjz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lebavwur",
@@ -56352,6 +56432,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ovkchxiz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-owautqsh",
     "Suite": "Serverless-lp-interop"
   },
@@ -56417,6 +56501,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-pqzyptlj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-psytrhad",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -56577,6 +56665,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-rcheidjl",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-rclthdlt",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -57350,6 +57442,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zjmikfxp",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zjqmcmso",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zkyknnlg",
@@ -58216,6 +58312,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-vhoeungu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-vjusogpn",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58282,6 +58382,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-xbkutxui",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-xfvjxjtm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-xguabelk",
@@ -59208,6 +59312,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-xgbamfue",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-xkinwlnc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -59290,6 +59398,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-znohjktw",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-zyyeqeuh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-zzmxpcfg",
@@ -59868,6 +59980,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-ohpphula",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-onwesxvg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60125,6 +60241,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-wtpttyxy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-wuiyiqsw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -60538,6 +60658,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-ipvlkybz",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-irsrgmyj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-iuaqdtjk",
@@ -61004,6 +61128,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-vkjrbnxz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-vmyquxlj",
     "Suite": "Serverless-lp-interop"
   },
@@ -61317,6 +61445,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-cuqjtssg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-ddstmwzw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62016,6 +62148,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-xikswoms",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-xkntihfe",
     "Suite": "Serverless-lp-interop"
   },
@@ -62252,6 +62388,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-bdetvenk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-bdycczma",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -62282,6 +62422,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-bosgovsa",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-bprzvjrb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-bpwmqnmt",
@@ -62756,6 +62900,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ipyhqaus",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-irmisvki",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -62821,6 +62969,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jhynyicd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jietpnvk",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64073,6 +64225,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ahbeijho",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-alhrrctx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65408,6 +65564,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jwoiwxaq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jwxpwsyf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -66236,6 +66396,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-pymdtuwr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-pzszoxzj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -66700,6 +66864,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-txdevtda",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tyxhkjya",
     "Suite": "Serverless-lp-interop"
   },
@@ -67012,6 +67180,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wmttfame",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wogahivb",
     "Suite": "Serverless-lp-interop"
   },
@@ -67054,6 +67226,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wvczjtav",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wvftgrfv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wwuwgduw",
@@ -67114,6 +67290,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdhmvpvp",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdmhqbny",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdmhywoa",
@@ -67298,6 +67478,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-youcfiej",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ypzatvih",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yqtgjjxm",
@@ -67784,6 +67968,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-girwpukn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-gktlnvno",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -67922,6 +68110,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-kptamuuu",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-kpvohthu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-kqkwfeyr",
@@ -68772,6 +68964,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-glwmrjqh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-gpigeoec",
     "Suite": "Serverless-lp-interop"
   },
@@ -69322,6 +69518,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-yhefjgeo",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-ytywhcxt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-yzdlbith",
@@ -134776,6 +134976,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-5zph4 must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-75pcz must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -134852,6 +135056,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-h8vfm must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-hwk4d must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -134881,6 +135089,14 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-l4r9t must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-l7bpm must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-copy-to-node-lxlvc must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -135024,6 +135240,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-4x7s2 must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-529pq must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -135032,7 +135252,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-5r24q must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-6b7gr must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-6zbhp must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -135105,6 +135333,10 @@
   },
   {
     "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-fw5h5 must set the 'openshift.io/required-scc' annotation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:required-scc-annotation-checker][sig-auth] all workloads in ns/openshift-debug-fxs5w must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -136192,6 +136424,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-4x7s2 must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-529pq must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -136200,7 +136436,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-5r24q must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-6b7gr must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-6zbhp must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -136273,6 +136517,10 @@
   },
   {
     "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-fw5h5 must have terminationMessagePolicy=FallbackToLogsOnError",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:termination-message-policy][sig-arch] all containers in ns/openshift-debug-fxs5w must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -141597,218 +141845,6 @@
   },
   {
     "Name": "[kube-storage-version-migrator][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-kube-storage-version-migrator-operator",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking] Node Shutdown and Startup should maintain cluster health after node shutdown and startup [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller pod connected to ClusterUserDefinedNetwork CR \u0026 managed NADs cannot be deleted when being used [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller should create NAD according to spec in each target namespace and report active namespaces [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller should create NAD in new created namespaces that apply to namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when CR is deleted, should delete all managed NAD in each target namespace [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when namespace-selector is mutated should create NAD in namespaces that apply to mutated namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when namespace-selector is mutated should delete managed NAD in namespaces that no longer apply to namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L2 [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L2 with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L3 [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network pod connected to UserDefinedNetwork cannot be deleted when being used [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should create NetworkAttachmentDefinition according to spec [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should delete NetworkAttachmentDefinition when UserDefinedNetwork is deleted [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should be able to create pod and it will attach to the cluster default network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should not be able to update the namespace and add the UDN label [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should not be able to update the namespace and remove the UDN label [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network doesn't cause network name conflict [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation when primary network exist, ClusterUserDefinedNetwork status should report not-ready [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation when primary network exist, UserDefinedNetwork status should report not-ready [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Default network multus annotation ValidatingAdmissionPolicy protection should prevent adding, modifying and removing the default-network annotation on existing pods [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Default network multus annotation when added with static IP and MAC to a pod belonging to primary UDN should create the pod with the specified static IP and MAC address with persistent IPAM [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Default network multus annotation when added with static IP and MAC to a pod belonging to primary UDN should create the pod with the specified static IP and MAC address without persistent IPAM enabled [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L3 dualstack primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN duplicate IP validation with primary UDN layer 2 pods should fail when creating second pod with duplicate static IP IPv4 duplicate [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN duplicate IP validation with primary UDN layer 2 pods should fail when creating second pod with duplicate static IP IPv6 duplicate [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 basic configuration [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 with custom subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 with inverted gateway/management IPs [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN unmasked reserved / infrastructure subnets are not allowed Layer2 with unmasked IPv4 infrastructure subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN unmasked reserved / infrastructure subnets are not allowed Layer2 with unmasked IPv4 reserved subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN unmasked reserved / infrastructure subnets are not allowed Layer2 with unmasked IPv6 infrastructure subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN unmasked reserved / infrastructure subnets are not allowed Layer2 with unmasked IPv6 reserved subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[networking][OCPFeature:NetworkSegmentation] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
     "Suite": "openshift-tests"
   },
   {
@@ -190954,210 +190990,6 @@
   {
     "Name": "[sig-operator]virt-handler canary upgrade should successfully upgrade virt-handler",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller pod connected to ClusterUserDefinedNetwork CR \u0026 managed NADs cannot be deleted when being used [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller should create NAD according to spec in each target namespace and report active namespaces [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller should create NAD in new created namespaces that apply to namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when CR is deleted, should delete all managed NAD in each target namespace [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when namespace-selector is mutated should create NAD in namespaces that apply to mutated namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation ClusterUserDefinedNetwork CRD Controller when namespace-selector is mutated should delete managed NAD in namespaces that no longer apply to namespace-selector [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L2 [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L2 with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation Sync perform east/west traffic between nodes following OVN Kube node pod restart L3 [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network pod connected to UserDefinedNetwork cannot be deleted when being used [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should create NetworkAttachmentDefinition according to spec [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should delete NetworkAttachmentDefinition when UserDefinedNetwork is deleted [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should be able to create pod and it will attach to the cluster default network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should not be able to update the namespace and add the UDN label [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation UserDefinedNetwork CRD Controller for primary UDN without required namespace label should not be able to update the namespace and remove the UDN label [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using ClusterUserDefinedNetwork isolates overlapping CIDRs with L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using NetworkAttachmentDefinitions isolates overlapping CIDRs with L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork can perform east/west traffic between nodes two pods connected over a L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L2 primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork creates a networkStatus Annotation with UDN interface L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork isolates overlapping CIDRs with L2 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network created using UserDefinedNetwork isolates overlapping CIDRs with L3 primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation a user defined primary network doesn't cause network name conflict [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation when primary network exist, ClusterUserDefinedNetwork status should report not-ready [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation when primary network exist, UserDefinedNetwork status should report not-ready [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Default network multus annotation ValidatingAdmissionPolicy protection should prevent adding, modifying and removing the default-network annotation on existing pods [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Default network multus annotation when added with static IP and MAC to a pod belonging to primary UDN should create the pod with the specified static IP and MAC address [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN with custom network [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L3 dualstack primary UDN [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN duplicate IP validation with primary UDN layer 2 pods should fail when creating second pod with duplicate static IP IPv4 duplicate [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN duplicate IP validation with primary UDN layer 2 pods should fail when creating second pod with duplicate static IP IPv6 duplicate [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 basic configuration [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 with custom subnets [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: Preconfigured Layer2 UDN should respect network configuration Layer2 with inverted gateway/management IPs [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-ovn-kubernetes][OCPFeature:NetworkSegmentation] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
-    "Suite": "openshift-tests"
   },
   {
     "Name": "[sig-performance] CPU latency tests for measuring realtime VMs performance running cyclictest and collecting results directly from VM",
