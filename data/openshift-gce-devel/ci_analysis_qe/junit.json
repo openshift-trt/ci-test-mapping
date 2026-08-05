@@ -2728,10 +2728,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-107XX:Authentication Process with default or manually defined supplemental groups in the range can be ran when using MustRunAs as the RunAsGroupStrategy",
-    "Suite": "creating 'apps' with CLI"
-  },
-  {
     "Name": "OCP-10800:Authentication User can generate new token for specific serviceaccount via client",
     "Suite": "ServiceAccount and Policy Managerment"
   },
@@ -13340,10 +13336,6 @@
     "Suite": "Security_and_Compliance"
   },
   {
-    "Name": "OCP-33XX6:xiyuan:Security_and_Compliance:enable configuring tolerations in FileIntegrities [Disruptive] [Serial]",
-    "Suite": "Security_and_Compliance"
-  },
-  {
     "Name": "OCP-34014:knarra:Workloads:Validate TopologySpreadConstraints with NodeAffinity",
     "Suite": "Workloads"
   },
@@ -15038,14 +15030,6 @@
   {
     "Name": "OCP-39897:kuiwang:OLM:operator objects should not be recreated after all other associated resources have been deleted [Serial]",
     "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-3XX16:ClusterObservability Allow setting the log level for Prometheus, Prometheus Operator and Thanos Ruler",
-    "Suite": "Install and configuration related scenarios"
-  },
-  {
-    "Name": "OCP-3XX24:tagao:Cluster_Observability:Separate user workload configuration [Serial]",
-    "Suite": "Cluster_Observability"
   },
   {
     "Name": "OCP-3XX24:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring user workload monitoring Separate user workload configuration [Serial]",
@@ -19936,10 +19920,6 @@
     "Suite": "OTA"
   },
   {
-    "Name": "OCP-464XX:jianl:OTA:cvo drops invalid conditional edges [Serial]",
-    "Suite": "OTA"
-  },
-  {
     "Name": "OCP-46506:yinzhou:Workloads:[sig-cli] Workloads Mirror a single image works well [Serial]",
     "Suite": "Workloads"
   },
@@ -22612,10 +22592,6 @@
     "Suite": "Security_and_Compliance"
   },
   {
-    "Name": "OCP-496XX:asood:SDN:Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-496XX:asood:SDN:[sig-networking] SDN metallb Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
     "Suite": "SDN"
   },
@@ -23670,10 +23646,6 @@
   {
     "Name": "OCP-50958:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance Security_Profiles_Operator The Security_Profiles_Operator Check selinxprofiles working as expected before/after upgrade [Serial][Slow]",
     "Suite": "Security_and_Compliance"
-  },
-  {
-    "Name": "OCP-50XX3:jmekkatt:API_Server:Checks on different bad admission webhook errors, status of kube-apiserver [Serial]",
-    "Suite": "API_Server"
   },
   {
     "Name": "OCP-50XX3:jmekkatt:API_Server:[sig-api-machinery] API_Server Checks on different bad admission webhook errors, status of kube-apiserver [Serial]",
@@ -30836,10 +30808,6 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-63XX3:liqcui:PSAP:NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift. [Disruptive] [Serial]",
-    "Suite": "PSAP"
-  },
-  {
     "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift.",
     "Suite": "PSAP"
   },
@@ -36752,10 +36720,6 @@
     "Suite": "Workloads"
   },
   {
-    "Name": "OCP-737XX:huirwang:SDN:Update domain name in EgressFirewall,EgressFirewall works after restart ovnkube-node pods. [Disruptive] [Serial]",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-737XX:huirwang:SDN:[sig-networking] SDN egressfirewall-techpreview Update domain name in EgressFirewall,EgressFirewall works after restart ovnkube-node pods. [Disruptive] [Serial]",
     "Suite": "SDN"
   },
@@ -41072,10 +41036,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-XX019:wduan:STORAGE:[Storageclass] The cluster-storage-operator should manage pre-defined storage class [Disruptive] [Serial]",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-XX019:wduan:STORAGE:[sig-storage] STORAGE [Storageclass] The cluster-storage-operator should manage pre-defined storage class [Disruptive] [Serial]",
     "Suite": "STORAGE"
   },
@@ -41092,14 +41052,6 @@
     "Suite": "OLM"
   },
   {
-    "Name": "OCP-XX070:jiazha:OLM:support grpc sourcetype [Serial]",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XX140:liqcui:PerfScale:Create multiple projects and time various oc commands durations[Slow][Serial]",
-    "Suite": "PerfScale"
-  },
-  {
     "Name": "OCP-XX140:liqcui:PerfScale:[sig-perfscale] PerfScale oc cli perf Create multiple projects and time various oc commands durations[Slow][Serial]",
     "Suite": "PerfScale"
   },
@@ -41109,10 +41061,6 @@
   },
   {
     "Name": "OCP-XX259:kuiwang:OLM:[sig-operators] OLM for an end user handle common object marketplace operator CR status on a running cluster [Exclusive] [Serial]",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XX259:kuiwang:OLM:marketplace operator CR status on a running cluster [Exclusive] [Serial]",
     "Suite": "OLM"
   },
   {
@@ -41142,10 +41090,6 @@
   {
     "Name": "OCP-XX485:Authentication 4.x User can know which serviceaccount and SA groups can create the podspec against the current sccs",
     "Suite": "SCC policy related scenarios"
-  },
-  {
-    "Name": "OCP-XX528:ClusterObservability Modify the retention time for Prometheus metrics data",
-    "Suite": "Install and configuration related scenarios"
   },
   {
     "Name": "OCP-XX565:zxiao:API_Server:[origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
@@ -41268,23 +41212,11 @@
     "Suite": "Operator related networking scenarios"
   },
   {
-    "Name": "OCP-XX862:xiuwang:Image_Registry:CloudFront storage configuration with invalid values [Disruptive] [Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
     "Name": "OCP-XX862:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry CloudFront storage configuration with invalid values [Disruptive] [Serial]",
     "Suite": "Image_Registry"
   },
   {
-    "Name": "OCP-XX893:wewang:Image_Registry:PodAntiAffinity should work for image registry pod[Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
     "Name": "OCP-XX893:wewang:Image_Registry:[sig-imageregistry] Image_Registry PodAntiAffinity should work for image registry pod[Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
-    "Name": "OCP-XX945:wewang:Image_Registry:Autoconfigure registry storage [Disruptive] [Serial]",
     "Suite": "Image_Registry"
   },
   {
@@ -42070,10 +42002,6 @@
   {
     "Name": "The process can be ran with the specified user when using MustRunAs or RunAsAny as the RunAsUserStrategy (outline example : | OCP-12284:Authentication | scc-user-mustrunas |)",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "The process can be ran with the specified user when using MustRunAs or RunAsAny as the RunAsUserStrategy (outline example : | OCP-1XX84:Authentication | scc-user-mustrunas |)",
-    "Suite": "SCC policy related scenarios"
   },
   {
     "Name": "There should be no pending or firing alerts for machine-api operators",

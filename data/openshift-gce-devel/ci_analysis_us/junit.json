@@ -26684,6 +26684,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-ljfdznyp\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-lnnibuax\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -26917,6 +26921,10 @@
   },
   {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-vwghdtva\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-wbfnhmik\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -29592,6 +29600,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-eatrvwvt\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-eehymdxc\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -29705,6 +29717,10 @@
   },
   {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-liejizon\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-lqnjhtwe\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -30460,6 +30476,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-dtwfafaj\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-ebfxlpcw\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -30613,6 +30633,10 @@
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-mluxnoyb\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-mnwncudp\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -32332,6 +32356,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-minclvcl\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
+  },
+  {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-mjyenxvy\"",
     "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
@@ -32654,6 +32682,10 @@
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-xlimykso\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-xsqwrrhs\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-xvjyigfo\"",
@@ -34616,6 +34648,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-oqinchua\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-orxckkgd\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -34645,6 +34681,10 @@
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-qfuwvspn\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-qfypniqa\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
@@ -42144,6 +42184,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-hlrjqpip\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-hnxbikxz\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -42330,6 +42374,10 @@
   {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-rrnhgfen\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-sbfemjww\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-srrtehka\"",
@@ -43276,6 +43324,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-supnqxvt\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-svvcgalt\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43370,6 +43422,10 @@
   {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-zcnupeix\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-zdpwfcxs\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-zgjtrdfu\"",
@@ -43812,6 +43868,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-ctymhddz\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-cuuagpsi\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -43829,6 +43889,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-cyirnzfb\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-czayneci\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -44444,6 +44508,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-kpvtyaao\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-lbywnuen\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -44522,6 +44590,10 @@
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-orptoqsj\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-ovkapadx\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-pcpgxahr\"",
@@ -45512,6 +45584,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-tmlwjkuj\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-tnvoqgun\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -45594,6 +45670,10 @@
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-ycxgqloz\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-yhlgyfad\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-yjzechne\"",
@@ -45701,6 +45781,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-awbtizoi\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-baddhhmx\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -46025,6 +46109,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-teitbtca\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-tepctyjm\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -51832,6 +51920,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-nddygyqp_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-ngcczfdo_to_be_deleted",
     "Suite": "Serverless-lp-interop"
   },
@@ -52074,6 +52166,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-yhmjjpdb_to_be_deleted",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-yhrrnebc_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-yqrofupf_to_be_deleted",
@@ -52328,6 +52424,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-nddygyqp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-ngcczfdo",
     "Suite": "Serverless-lp-interop"
   },
@@ -52570,6 +52670,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-yhmjjpdb",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-yhrrnebc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-yqrofupf",
@@ -52848,6 +52952,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-nddygyqp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-ngcczfdo",
     "Suite": "Serverless-lp-interop"
   },
@@ -53090,6 +53198,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-yhmjjpdb",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-yhrrnebc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-yqrofupf",
@@ -53368,6 +53480,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-burdybkk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-bxtlhphc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -53532,6 +53648,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ekzfbray",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-emspcgjb",
     "Suite": "Serverless-lp-interop"
   },
@@ -53584,6 +53704,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ffmnyesk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ffnyuqda",
     "Suite": "Serverless-lp-interop"
   },
@@ -53613,6 +53737,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-fpvoxbzk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ftqrgirs",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -53661,6 +53789,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-goeawfbk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-goyseyhp",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -54098,6 +54230,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lykqqjac",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lyqiqtqe",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-maosncxl",
@@ -54776,6 +54912,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-vmvospwm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-vpevrdeu",
     "Suite": "Serverless-lp-interop"
   },
@@ -54826,6 +54966,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-wehuezqc",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-wfbkkjml",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-whiudubg",
@@ -55285,6 +55429,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-azizrpwd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-aztppnhm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -55792,6 +55940,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-fhlzeslh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-fktqcpfh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -55984,6 +56136,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gujxrwrz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gvmyoqne",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56080,6 +56236,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-hnevfcgm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-hpanuzuh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56170,6 +56330,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ihdwcjbi",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ijvxxzpi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ikxryhjv",
@@ -56592,6 +56756,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-mvbhsela",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-mvfpuzob",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56724,11 +56892,19 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-obweumms",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-obykcieu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-oeopmpmf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-oezahjrd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -56758,6 +56934,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-olxxsznw",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-omuzeifk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-onawtahf",
@@ -57064,6 +57244,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-rjmjtphh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-rkmnhril",
     "Suite": "Serverless-lp-interop"
   },
@@ -57234,6 +57418,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-tdwiqzti",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-teqngosh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-tgupujcm",
@@ -57422,6 +57610,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vftlcrkb",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vhntiwbt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vjqulocu",
@@ -58396,6 +58588,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-kussifla",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-kybxzyoe",
     "Suite": "Serverless-lp-interop"
   },
@@ -58433,6 +58629,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-lwlvnvhm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-mgczrabg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -58513,6 +58713,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-oueqxvcm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-owltptaq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -58793,6 +58997,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-wvbxtgbt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-wvmlwcnj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -59104,6 +59312,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ecluqipy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-einlebcu",
     "Suite": "Serverless-lp-interop"
   },
@@ -59204,7 +59416,15 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-gxncyjqi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-hbwzsetl",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-hhquhhfm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -59549,6 +59769,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-raveqihn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-rdghfdnx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -59944,6 +60168,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-acgktoxo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-acvkbioj",
     "Suite": "Serverless-lp-interop"
   },
@@ -60232,6 +60460,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-iryktzqa",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-iuctzzeq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60394,6 +60626,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-maeycetx",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-mhtwlbbr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-mnkmqupf",
@@ -60641,6 +60877,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-utsegopt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-uvkigzlf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -60989,6 +61229,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-dddwxlit",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-dgqgyfzt",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -61364,6 +61608,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-noiphhtx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-nsfigtiu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -61378,6 +61626,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-nwoaopbh",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-nxosepwn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-oaameabu",
@@ -61605,6 +61857,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uvsausdm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-uvxynpql",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62028,6 +62284,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-egojzbmq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-egzwyqmd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -62364,6 +62624,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-nkhkmrry",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-nkppjevy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -62576,7 +62840,15 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-tzieikki",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-uclprill",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-uemiynbi",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62929,6 +63201,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-arxyncha",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-asjsfuzf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63388,6 +63664,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-gwmjvmxv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-hagbvcbs",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -63417,6 +63697,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-howxubhh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-hsvsaaut",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63489,6 +63773,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-isfqtsox",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-isgewibu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63617,6 +63905,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-kcdujchi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-kcllfxwq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63928,6 +64220,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-oosovntp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-oslcdvxl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -64017,6 +64313,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-puvmipwm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-pzpxaejo",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64273,6 +64573,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-uhsdmdqy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-uhynohbp",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64976,6 +65280,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bmxcgnoh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bmxquaty",
     "Suite": "Serverless-lp-interop"
   },
@@ -65424,6 +65732,14 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ebysbmuy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ecstlfio",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-edcdsqdc",
     "Suite": "Serverless-lp-interop"
   },
@@ -65632,6 +65948,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-fqgvwkep",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-fqpukflm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -65718,6 +66038,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-gdegtoai",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-gdgjbndw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-geaonyur",
@@ -65948,6 +66272,14 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-hwytyhex",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-hxclchzk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-hyezrjsc",
     "Suite": "Serverless-lp-interop"
   },
@@ -66156,6 +66488,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jlmholpr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jlxxnicq",
     "Suite": "Serverless-lp-interop"
   },
@@ -66173,6 +66509,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jovuefvm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-joybjdom",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -66213,6 +66553,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jwoiwxaq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jwuolrfx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -66446,6 +66790,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-lnpgadde",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-lpujuktj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-lqcndizo",
@@ -67416,6 +67764,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-skhmgevs",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-slihjizc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -67545,6 +67897,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tovadffh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tpmymcly",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -68096,6 +68452,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xvwjemko",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xwfjumue",
     "Suite": "Serverless-lp-interop"
   },
@@ -68204,6 +68564,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yoexpfnb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yooifwlr",
     "Suite": "Serverless-lp-interop"
   },
@@ -68233,6 +68597,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yrkoowuj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yrwbztpx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -68652,6 +69020,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-emcfsnxd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-euibkwqx",
     "Suite": "Serverless-lp-interop"
   },
@@ -68797,6 +69169,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-isispxpw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-isxndecf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -69001,6 +69377,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-nyyerdzg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-oascyobb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -69356,6 +69736,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-xembwvlb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-xgeurzwn",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -69708,6 +70092,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-fdvusuzi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-feikylgv",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -69721,6 +70109,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-fteenxrs",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-fwehwaad",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -70020,6 +70412,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-osirrhdt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-ovangaxd",
     "Suite": "Serverless-lp-interop"
   },
@@ -70273,6 +70669,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-wwjaodxv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-xbakhwls",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -81812,6 +82212,350 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] Ambient API Validation Single Instance Name Enforcement when attempting to create IstioCNI with non-default name rejects IstioCNI CR with name != 'default' [ambient, ambient-validation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient API Validation Single Instance Name Enforcement when attempting to create ZTunnel with non-default name rejects ZTunnel CR with name != 'default' [ambient, ambient-validation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient API Validation Single Instance Name Enforcement when creating IstioCNI and ZTunnel with metadata.name='default' successfully creates IstioCNI with name 'default' [ambient, ambient-validation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient API Validation Single Instance Name Enforcement when creating IstioCNI and ZTunnel with metadata.name='default' successfully creates ZTunnel with name 'default' [ambient, ambient-validation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when IstioCNI becomes unhealthy should make IstioRevision show IstioCNINotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when IstioCNI is created should transition from IstioCNINotFound to ZTunnelNotFound [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when IstioRevision with ambient profile is created before IstioCNI exists should show IstioCNINotFound reason in DependenciesHealthy condition [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when ZTunnel becomes unhealthy should make IstioRevision show ZTunnelNotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when ZTunnel is created should make DependenciesHealthy condition True [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when ZTunnel is created should make IstioRevision Ready [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.27.9 when dependencies are restored should make IstioRevision healthy again [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when IstioCNI becomes unhealthy should make IstioRevision show IstioCNINotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when IstioCNI is created should transition from IstioCNINotFound to ZTunnelNotFound [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when IstioRevision with ambient profile is created before IstioCNI exists should show IstioCNINotFound reason in DependenciesHealthy condition [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when ZTunnel becomes unhealthy should make IstioRevision show ZTunnelNotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when ZTunnel is created should make DependenciesHealthy condition True [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when ZTunnel is created should make IstioRevision Ready [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.28.10 when dependencies are restored should make IstioRevision healthy again [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when IstioCNI becomes unhealthy should make IstioRevision show IstioCNINotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when IstioCNI is created should transition from IstioCNINotFound to ZTunnelNotFound [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when IstioRevision with ambient profile is created before IstioCNI exists should show IstioCNINotFound reason in DependenciesHealthy condition [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when ZTunnel becomes unhealthy should make IstioRevision show ZTunnelNotHealthy [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when ZTunnel is created should make DependenciesHealthy condition True [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when ZTunnel is created should make IstioRevision Ready [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Dependency Management Dependency Detection and Health Propagation Istio version 1.30.3 when dependencies are restored should make IstioRevision healthy again [ambient, ambient-dependency]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource creates ZTunnel with targetRef to non-existent Istio [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource creates the missing Istio resource [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource verifies Status.IstioRevision is populated [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource verifies ZTunnel Reconciled condition is False [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource verifies ZTunnel auto-recovers and becomes Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource verifies error message indicates resource not found [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource verifies value propagation works after recovery [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Invalid TargetRef Handling when ZTunnel targetRef points to non-existent Istio resource waits for Istio to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio CR is created with custom meshConfig creates Istio with custom trustDomain in meshConfig [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio CR is created with custom meshConfig waits for Istio to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio meshConfig is updated updates Istio meshConfig trustDomain [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio meshConfig is updated verifies ZTunnel DaemonSet remains healthy [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio meshConfig is updated verifies ZTunnel picks up updated meshConfig [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when Istio meshConfig is updated waits for Istio to reconcile [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when ZTunnel is created with targetRef to Istio with meshConfig creates ZTunnel with targetRef (no custom meshConfig) [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when ZTunnel is created with targetRef to Istio with meshConfig verifies ZTunnel DaemonSet is deployed successfully [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when ZTunnel is created with targetRef to Istio with meshConfig verifies ZTunnel Status.IstioRevision is set [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior MeshConfig Propagation from TargetRef when ZTunnel is created with targetRef to Istio with meshConfig waits for ZTunnel to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when Istio is created with a network value creates second Istio CR for override testing [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when Istio is created with a network value waits for second Istio to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when ZTunnel is created with targetRef AND custom values creates ZTunnel with both targetRef and value overrides [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when ZTunnel is created with targetRef AND custom values verifies DaemonSet uses override network value (not inherited) [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when ZTunnel is created with targetRef AND custom values verifies custom environment variables are present [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when ZTunnel is created with targetRef AND custom values waits for ZTunnel to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when override value is removed from ZTunnel spec patches ZTunnel to remove network override (keep custom env) [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when override value is removed from ZTunnel spec verifies ZTunnel now uses inherited network value [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior User Value Override Precedence when override value is removed from ZTunnel spec waits for ZTunnel to reconcile [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when Istio CR is created with custom global.network value creates Istio with custom network configuration [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when Istio CR is created with custom global.network value waits for Istio to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when Istio values are updated updates Istio with new network value [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when Istio values are updated verifies ZTunnel picks up new inherited value [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when Istio values are updated waits for Istio to reconcile [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when ZTunnel is created with targetRef pointing to Istio creates ZTunnel with targetRef (no custom values) [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when ZTunnel is created with targetRef pointing to Istio verifies ZTunnel DaemonSet inherits NETWORK environment variable [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when ZTunnel is created with targetRef pointing to Istio verifies ZTunnel Status.IstioRevision matches Istio active revision [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient TargetRef Behavior Value Propagation from TargetRef when ZTunnel is created with targetRef pointing to Istio waits for ZTunnel to be Ready [ambient, ambient-targetref]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when Istio version is updated should reconcile and remain Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when Istio version is updated should update the istiod deployment [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when IstioCNI version is updated should reconcile and remain Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when IstioCNI version is updated should update the DaemonSet [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when IstioCNI version is updated workloads maintain connectivity after IstioCNI update [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when ZTunnel version is updated should reconcile and remain Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when ZTunnel version is updated should update the DaemonSet [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when ZTunnel version is updated workloads have connectivity and use new ZTunnel version [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when all components are created with base version should have Istio Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when all components are created with base version should have IstioCNI Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when all components are created with base version should have ZTunnel Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when all components are created with base version should have istiod deployment running [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle In-Place Updates Updating from 1.28.10 to 1.30.3 when workloads are deployed in ambient mode should have connectivity with base version components [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Lifecycle Transitions Spec changes and finalizers when CR is deleted should cleanup resources when deleted [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Lifecycle Transitions Spec changes and finalizers when CR is deleted should have finalizer that prevents immediate deletion [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Lifecycle Transitions Spec changes and finalizers when spec.values is updated on ZTunnel should update DaemonSet when values change [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when Istio CR is created with base version (default revision) should become Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when Istio CR is created with base version (default revision) should make ZTunnel Ready now that istiod is running [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when canary IstioRevision is created with new version connectivity works with both revisions present [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when canary IstioRevision is created with new version should become Ready [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when canary IstioRevision is created with new version should coexist with default revision [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when shared dependencies are verified should have IstioCNI and ZTunnel at base version [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when shared dependencies are verified should have only one IstioCNI DaemonSet [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when shared dependencies are verified should have only one ZTunnel DaemonSet [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient Update \u0026 Lifecycle Revision-Based Updates Canary update from 1.28.10 to 1.30.3 when workloads are deployed in ambient mode should have connectivity [ambient, update, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.24.6 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [smoke, ambient]",
     "Suite": "ServiceMesh-lp-interop"
   },
@@ -82232,11 +82976,23 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [smoke, ambient]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when sample apps are deployed in the cluster has the ztunnel proxy sockets configured in the pod network namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when sample apps are deployed in the cluster has the ztunnel proxy sockets configured in the pod network namespace [smoke, ambient]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when sample apps are deployed in the cluster updates the status of pods to Running [ambient, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -82264,6 +83020,10 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the Istio CR is deleted removes everything from the namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the Istio CR is deleted removes everything from the namespace [smoke, ambient]",
     "Suite": "ServiceMesh-lp-interop"
   },
@@ -82273,6 +83033,10 @@
   },
   {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the IstioCNI CR is created with ambient profile uses the configured values in the istio-cni-config config map [smoke, ambient]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the IstioCNI CR is deleted removes everything from the CNI namespace [ambient, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -82288,7 +83052,131 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ZTunnel CR is deleted removes everything from the ztunnel namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ZTunnel CR is deleted removes everything from the ztunnel namespace [smoke, ambient]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed deploys istiod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed deploys the CNI DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed deploys the ZTunnel DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed has istiod with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed has ztunnel running with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed updates the Istio CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed updates the Istio CR status to Reconciled [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed updates the IstioCNI CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed updates the IstioRevision status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed updates the ZTunnel CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed uses the configured values in the istio-cni-config config map [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.27.9 when the ambient components are deployed uses the correct image [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when sample apps are deployed in the cluster has the ztunnel proxy sockets configured in the pod network namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when sample apps are deployed in the cluster updates the status of pods to Running [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the Istio CR is deleted removes everything from the namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the IstioCNI CR is deleted removes everything from the CNI namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ZTunnel CR is deleted removes everything from the ztunnel namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed deploys istiod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed deploys the CNI DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed deploys the ZTunnel DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed has istiod with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed has ztunnel running with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed updates the Istio CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed updates the Istio CR status to Reconciled [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed updates the IstioCNI CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed updates the IstioRevision status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed updates the ZTunnel CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed uses the configured values in the istio-cni-config config map [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.28.10 when the ambient components are deployed uses the correct image [ambient, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -82589,6 +83477,78 @@
   },
   {
     "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.1 when the ZTunnel CR is deleted removes everything from the ztunnel namespace [smoke, ambient]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when sample apps are deployed in the cluster has the ztunnel proxy sockets configured in the pod network namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when sample apps are deployed in the cluster updates the status of pods to Running [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the Istio CR is deleted removes everything from the namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the IstioCNI CR is deleted removes everything from the CNI namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ZTunnel CR is deleted removes everything from the ztunnel namespace [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed deploys istiod [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed deploys the CNI DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed deploys the ZTunnel DaemonSet [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed has istiod with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed has ztunnel running with appropriate env variables set [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed updates the Istio CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed updates the Istio CR status to Reconciled [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed updates the IstioCNI CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed updates the IstioRevision status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed updates the ZTunnel CR status to Ready [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed uses the configured values in the istio-cni-config config map [ambient, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Ambient configuration  for supported versions Istio version 1.30.3 when the ambient components are deployed uses the correct image [ambient, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -83100,7 +84060,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] CRD Ownership when OLM-managed CRDs exist before the library starts does not overwrite the OLM-managed CRD [library, crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] CRD Ownership when OLM-managed CRDs exist before the library starts manages other CRDs normally [crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] CRD Ownership when OLM-managed CRDs exist before the library starts manages other CRDs normally [library, crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -83108,7 +84076,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] CRD Ownership when OLM-managed CRDs exist before the library starts reports OLM CRD as not managed by library [library, crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] CRD Ownership when OverwriteOLMManagedCRD func allows overwriting overwrites the OLM-managed CRD [crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] CRD Ownership when OverwriteOLMManagedCRD func allows overwriting overwrites the OLM-managed CRD [library, crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -83116,11 +84092,23 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] CRD Ownership when OverwriteOLMManagedCRD func allows overwriting reports OLM CRD as managed by library [library, crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] CRD Ownership when library creates CRDs first and then OLM adopts one initially manages the CRD [crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] CRD Ownership when library creates CRDs first and then OLM adopts one initially manages the CRD [library, crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] CRD Ownership when library creates CRDs first and then OLM adopts one stops managing the CRD after OLM adopts it [crd-ownership]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] CRD Ownership when library creates CRDs first and then OLM adopts one stops managing the CRD after OLM adopts it [library, crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -83684,6 +84672,114 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when custom resource for the IstioCSR is created has IstioCSR pods running [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when root CA issuer for the IstioCSR agent is created creates certificate Issuer [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when sample apps are deployed in the cluster can access the httpbin service from the sleep pod [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when sample apps are deployed in the cluster has the ztunnel proxy sockets configured in the pod network namespace [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when sample apps are deployed in the cluster updates the status of pods to Running [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when sample apps are deployed in the cluster waits for sample pods to be ready [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Cert Manager Operator is deployed should have subscription created successfully [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Cert Manager Operator is deployed verifies all cert-manager pods are Ready [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Cert Manager Operator is deployed waits for the operator deployment to be created by OLM [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created deploys istiod [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created doesn't continuously reconcile the Istio CR [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created updates the Istio CR status to Ready [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created with ambient profile deploys istiod [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created with ambient profile has istiod with appropriate env variables set [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created with ambient profile updates the Istio CR status to Ready [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is created with ambient profile updates the Istio CR status to Reconciled [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the Istio CR is deleted removes everything from the namespace [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCNI CR is created doesn't continuously reconcile the IstioCNI CR [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCNI CR is created updates the status to Ready [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCNI CR is created with ambient profile deploys the CNI DaemonSet [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCNI CR is created with ambient profile uses the configured values in the istio-cni-config config map [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCNI CR is deleted removes everything from the CNI namespace [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the IstioCSR is deleted removes cert-manager-istio-csr resources from the cluster [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the ZTunnel CR is created deploys the ZTunnel DaemonSet [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the ZTunnel CR is created has ztunnel running with appropriate env variables set [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the cert-manager-operator resources are deleted removes operatorgroup from the cert-manager-operator namespace [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Cert-manager Installation Istio version: v1.30.3 when the cert-manager-operator resources are deleted removes subscription from the cert-manager-operator namespace [smoke, cert-manager, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Cluster API AWS MachineSet should be able to run a machine using KMS keys [capi, disruptive, qe-only]",
     "Suite": "Machine Suite"
   },
@@ -83852,7 +84948,15 @@
     "Suite": "Machine Suite"
   },
   {
+    "Name": "[It] Control Plane Installation defaulting Istio empty spec [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation defaulting Istio empty spec [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation defaulting Istio empty updateStrategy [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -83860,11 +84964,23 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation defaulting Istio no spec [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation defaulting Istio no spec [smoke, control-plane, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation defaulting IstioCNI empty spec [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation defaulting IstioCNI empty spec [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation defaulting IstioCNI no spec [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84264,7 +85380,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when sample pod is deployed has sidecars with the correct istio version [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when sample pod is deployed has sidecars with the correct istio version [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when sample pod is deployed updates the pods status to Running [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84272,7 +85396,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created deploys istiod [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created deploys istiod [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created doesn't continuously reconcile the Istio CR [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84280,7 +85412,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created updates the Istio CR status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created updates the Istio CR status to Ready [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created updates the Istio CR status to Reconciled [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84288,7 +85428,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is created uses the correct image [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the Istio CR is deleted removes everything from the namespace [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84296,7 +85444,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created deploys the CNI DaemonSet [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created deploys the CNI DaemonSet [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created doesn't continuously reconcile the IstioCNI CR [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84304,7 +85460,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created updates the status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created updates the status to Ready [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created updates the status to Reconciled [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84312,11 +85476,75 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is created uses the correct image [smoke, control-plane, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is deleted removes everything from the CNI namespace [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Control Plane Installation given Istio version v1.27.9 when the IstioCNI CR is deleted removes everything from the CNI namespace [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when sample pod is deployed has sidecars with the correct istio version [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when sample pod is deployed updates the pods status to Running [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is created deploys istiod [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is created doesn't continuously reconcile the Istio CR [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is created updates the Istio CR status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is created updates the Istio CR status to Reconciled [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the Istio CR is deleted removes everything from the namespace [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is created deploys the CNI DaemonSet [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is created doesn't continuously reconcile the IstioCNI CR [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is created updates the status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is created updates the status to Reconciled [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.28.10 when the IstioCNI CR is deleted removes everything from the CNI namespace [control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -84597,6 +85825,174 @@
   },
   {
     "Name": "[It] Control Plane Installation given Istio version v1.30.1 when the IstioCNI CR is deleted removes everything from the CNI namespace [smoke, control-plane, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when sample pod is deployed has sidecars with the correct istio version [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when sample pod is deployed updates the pods status to Running [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is created deploys istiod [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is created doesn't continuously reconcile the Istio CR [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is created updates the Istio CR status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is created updates the Istio CR status to Reconciled [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the Istio CR is deleted removes everything from the namespace [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is created deploys the CNI DaemonSet [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is created doesn't continuously reconcile the IstioCNI CR [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is created updates the status to Ready [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is created updates the status to Reconciled [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is created uses the correct image [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane Installation given Istio version v1.30.3 when the IstioCNI CR is deleted removes everything from the CNI namespace [control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when Istio CR is created with InPlace updateStrategy for version  should deploy istiod and become Ready [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when Istio CR version is updated should reconcile and remain Ready [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when Istio CR version is updated should remain a single IstioRevision [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when Istio CR version is updated should update the IstioRevision spec.version in-place [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when Istio CR version is updated should update the istiod deployment [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when workloads are deployed in sidecar mode should have connectivity with old version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when workloads are deployed in sidecar mode should have correct proxy version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when workloads are restarted should have connectivity with new version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when workloads are restarted should have updated proxy version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates In-Place Updates Updating from  to  when workloads are restarted should still have only one IstioRevision [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates Lifecycle Transitions Spec changes and finalizers when CR is deleted should cleanup resources when deleted [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates Lifecycle Transitions Spec changes and finalizers when CR is deleted should have finalizer on IstioRevision that prevents immediate deletion [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates Lifecycle Transitions Spec changes and finalizers when spec.values is updated on Istio CR should update istiod deployment when values change [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when sample pod are restarted IstioRevisionTag revision name is equal to the IstionRevision name of the new Istio version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when sample pod are restarted IstionRevision resource and old istiod pod is deleted [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when sample pod are restarted updates the proxy version to the new Istio version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when sample pod is deployed IstioRevisionTag state change to inUse true [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is created with RevisionBased updateStrategy for base version  deploys istiod and pod is Ready [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is updated to the new Istio version Istio resource has revisions in use equal to two [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is updated to the new Istio version both IstionRevision are in use [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is updated to the new Istio version proxy version on sample pods still is base version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is updated to the new Istio version there is one IstionRevision for each version [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the Istio CR is updated to the new Istio version two istiod pods are running [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the IstioRevisionTag resource is created IstioRevisionTag revision name is equal to the IstioRevision base name [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the IstioRevisionTag resource is created creates the resource with condition InUse false [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the IstioRevisionTag resource is created istiod-default-validator VWC accepts valid Istio resources [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the IstioRevisionTag resource is created istiod-default-validator VWC has failurePolicy Fail [control-plane, update, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Control Plane updates using IstioRevisionTag updating from  to  when the IstioRevisionTag resource is created istiod-default-validator VWC rejects invalid Istio resources [control-plane, update, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85236,7 +86632,15 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when a custom GatewayClass and Gateway are created curl client pod is ready [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when a custom GatewayClass and Gateway are created curl client pod is ready [gateway-controller]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Gateway Controller with Install Library when a custom GatewayClass and Gateway are created gateway deployment becomes available [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85244,7 +86648,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when a mesh workload routes traffic through the gateway traffic flows through the gateway to the mesh backend [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when a mesh workload routes traffic through the gateway traffic flows through the gateway to the mesh backend [gateway-controller]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Gateway Controller with Install Library when a mesh workload routes traffic through the gateway workload pods are ready with sidecars [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85252,7 +86664,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when a workload outside the mesh routes traffic through the gateway traffic flows through the gateway to the non-mesh backend [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when a workload outside the mesh routes traffic through the gateway traffic flows through the gateway to the non-mesh backend [gateway-controller]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Gateway Controller with Install Library when a workload outside the mesh routes traffic through the gateway workload pods are ready [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85260,7 +86680,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when the install library deploys istiod as a gateway controller deploys istiod in the library namespace [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when the install library deploys istiod as a gateway controller deploys istiod in the library namespace [gateway-controller]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Gateway Controller with Install Library when the install library deploys istiod as a gateway controller reaches a healthy status [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85268,11 +86696,23 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when the operator installs istiod and CNI alongside deploys the CNI DaemonSet [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when the operator installs istiod and CNI alongside deploys the CNI DaemonSet [gateway-controller]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Gateway Controller with Install Library when the operator installs istiod and CNI alongside deploys the operator-managed istiod [gateway-controller, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when the operator installs istiod and CNI alongside deploys the operator-managed istiod [gateway-controller]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Gateway Controller with Install Library when the operator installs istiod and CNI alongside library istiod is still running [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85876,7 +87316,15 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] Library Reconciliation when TLS options are passed via Options propagates TLS defaults to the mesh config [library, reconciliation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Library Reconciliation when TLS options are passed via Options propagates TLS defaults to the mesh config [reconciliation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Library Reconciliation when TLS options are passed via Options propagates cipher suites and min version to istiod container args [library, reconciliation]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -85884,11 +87332,23 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Library Reconciliation when drift detection reconciles owned istiod resources labels istiod resources with managed-by=sail-library [library, reconciliation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Library Reconciliation when drift detection reconciles owned istiod resources labels istiod resources with managed-by=sail-library [reconciliation]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Library Reconciliation when drift detection reconciles owned istiod resources re-reconciles when a watched resource is modified [library, reconciliation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Library Reconciliation when drift detection reconciles owned istiod resources re-reconciles when a watched resource is modified [reconciliation]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Library Reconciliation when the library reconcile loop stabilizes after install does not enter an infinite reconcile loop [library, reconciliation]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86122,6 +87582,198 @@
   {
     "Name": "[It] MetadataServiceOptions should not allow to create machineset with incorrect metadataServiceOptions.authentication [disruptive, mapi]",
     "Suite": "Machine Suite"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when L7 policies are deployed for sidecar mode deploys AuthorizationPolicy for httpbin [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when L7 policies are deployed for sidecar mode deploys VirtualService for httpbin [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when L7 policies are deployed for sidecar mode verifies L7 AuthorizationPolicy is enforced in sidecar mode [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when L7 policies are deployed for sidecar mode verifies L7 traffic routing works in sidecar mode [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode creates ZTunnel CR [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode updates Istio to ambient profile [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode updates IstioCNI to ambient profile [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode verifies ZTunnel DaemonSet is running [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode waits for Istio to reconcile with ambient profile [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode waits for IstioCNI to reconcile with ambient profile [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when configures Istio and IstioCNI in ambient mode waits for ZTunnel to be Ready [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode removes sidecar injection label and adds ambient label [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode restarts httpbin pods to remove sidecars [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode restarts sleep deployment to remove sidecars [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode verifies L4 connectivity in ambient mode [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode verifies workloads are registered with ztunnel [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when namespace is switched to ambient mode waits for pods to be ready in ambient mode without sidecar [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is activated for L7 processing labels namespace to activate waypoint [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is activated for L7 processing verifies L7 AuthorizationPolicy is enforced via waypoint [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is activated for L7 processing verifies VirtualService routing works via waypoint [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is deployed for L7 processing deploys waypoint Gateway [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is deployed for L7 processing updates AuthorizationPolicy to target waypoint [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is deployed for L7 processing verifies waypoint is not yet processing traffic (dormant) [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when waypoint is deployed for L7 processing waits for waypoint deployment to be ready [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are deployed with sidecar injection has sidecars injected [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are deployed with sidecar injection updates the pods status to Running [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are deployed with sidecar injection verifies L4 connectivity in sidecar mode [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars restarts deployments to get HBONE-aware sidecars [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars verifies HBONE capability is enabled in sidecars [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars verifies L4 connectivity works with HBONE-aware sidecars [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars verifies sidecars are present after switching to ambient profile [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars waits for pods to be ready after restart [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Procedure Validation Migration from sidecar to ambient with Istio 1.30.3 version Sidecar to Ambient Migration when workloads are restarted to get HBONE-aware sidecars waits for sidecar injector webhook to be recreated [migration, migration-procedure, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic deploys ZTunnel while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic migrates Istio to ambient profile while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic migrates IstioCNI to ambient profile while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic removes revision label and adds ambient label while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic restarts httpbin server to apply pure ambient mode while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic restarts httpbin to get HBONE-aware sidecars while traffic is running [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic starts continuous traffic from stable client [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic updates server namespace to revision-based injection for HBONE-aware sidecars [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic verifies cross-mode communication works [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic verifies traffic recovers after brief disruption during migration [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when namespace is switched to ambient mode during traffic waits for httpbin server to be ready in ambient mode [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when server workloads are deployed in sidecar mode creates and labels namespace for sidecar injection [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when server workloads are deployed in sidecar mode deploys httpbin server in sidecar mode [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when server workloads are deployed in sidecar mode verifies initial traffic works from stable client [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Migration Sidecar-Ambient Coexistence Validation Migration testing with Istio 1.30.3 Sidecar-Ambient Coexistence with Continuous Traffic when server workloads are deployed in sidecar mode waits for httpbin pod to be ready with sidecar [migration, migration-coexistence, slow]",
+    "Suite": "ServiceMesh-lp-interop"
   },
   {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.24.6 Installation Deploys applications App 1 [smoke, multicontrol-plane]",
@@ -86516,7 +88168,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Deploys applications App 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Deploys applications App 1 [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Deploys applications App 2a [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86524,7 +88184,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Deploys applications App 2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Deploys applications App 2b [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Installs IstioCNI [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86532,7 +88200,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Installs Istios Mesh 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Installs Istios Mesh 1 [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Installs Istios Mesh 2 [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86540,7 +88216,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Sets up namespaces [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Sets up namespaces [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for Istios Mesh 1 [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86548,7 +88232,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for Istios Mesh 2 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for Istios Mesh 2 [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for apps to be ready App 1 [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86556,7 +88248,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for apps to be ready App 2a [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for apps to be ready App 2a [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Installation Waits for apps to be ready App 2b [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86564,11 +88264,75 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Verification Verifies app2a can connect to app2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Verification Verifies app2a can connect to app2b [smoke, multicontrol-plane]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Verification Verifies app2a cannot connect to app1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.27.9 Verification Verifies app2a cannot connect to app1 [smoke, multicontrol-plane]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Deploys applications App 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Deploys applications App 2a [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Deploys applications App 2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Installs IstioCNI [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Installs Istios Mesh 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Installs Istios Mesh 2 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Sets up namespaces [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Waits for Istios Mesh 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Waits for Istios Mesh 2 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Waits for apps to be ready App 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Waits for apps to be ready App 2a [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Installation Waits for apps to be ready App 2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Verification Verifies app2a can connect to app2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.28.10 Verification Verifies app2a cannot connect to app1 [multi-control-plane, slow, sidecar]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -86852,6 +88616,62 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Deploys applications App 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Deploys applications App 2a [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Deploys applications App 2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Installs IstioCNI [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Installs Istios Mesh 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Installs Istios Mesh 2 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Sets up namespaces [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Waits for Istios Mesh 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Waits for Istios Mesh 2 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Waits for apps to be ready App 1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Waits for apps to be ready App 2a [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Installation Waits for apps to be ready App 2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Verification Verifies app2a can connect to app2b [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Multi control plane deployment model for supported versions Istio version 1.30.3 Verification Verifies app2a cannot connect to app1 [multi-control-plane, slow, sidecar]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Native CSI Data Mover: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-401] [kubevirt] [Tier1] Started VM should over ceph filesytem mode",
     "Suite": "OADP-lp-interop"
   },
@@ -86900,7 +88720,15 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
+    "Name": "[It] Operator TLS profile change does not sync TLS settings when TLSAdherence is NoOpinion [smoke, operator, tls-profile]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
     "Name": "[It] Operator TLS profile change syncs TLS settings when TLSAdherence is set to StrictAllComponents [smoke, operator, openshift]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] Operator TLS profile change syncs TLS settings when TLSAdherence is set to StrictAllComponents [smoke, operator, tls-profile]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -87109,6 +88937,70 @@
   },
   {
     "Name": "[It] ZTWIM Installation Istio version: v1.30.1 when the ZTWIM Operator is deployed verifies all ZTWIM pods are Ready [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when SPIFFE sample app namespace is deleted removes the SPIFFE sample app namespace [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when SPIFFE-enabled curl and httpbin are deployed and mTLS is enforced allows HTTP access after STRICT mTLS is enabled [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when SPIFFE-enabled curl and httpbin are deployed and mTLS is enforced allows HTTP access before mTLS is enforced [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when Spiffe CSI Driver Deployed waits for spire-spiffe-csi-driver daemonset and rollout completes [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when Spire Agent Deployed waits for Spire Agent daemonset and rollout completes [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when Spire OIDC Discovery Provider Deployed waits for spire-spiffe-oidc-discovery-provider deployment to be available [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when ZTWIM Operands Deployed restarts spire-server and waits for rollout to complete [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when ZTWIM namespace is deleted removes the ZTWIM namespace [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when ZTWIM operands are deleted It checkes ZTWIM operator deployment to be fully removed [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when ZTWIM operator is deleted removes subscription from the ZTWIM namespace [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the Istio CR is deleted removes everything from the namespace [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the IstioCNI CR is created updates the status to Ready [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the IstioCNI CR is deleted removes everything from the CNI namespace [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the ZTWIM Operator is deployed should have subscription created successfully [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the ZTWIM Operator is deployed verifies all ZTWIM pods are Ready [smoke, ztwim, slow]",
+    "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the ZTWIM Operator is deployed waits for the operator deployment to be created by OLM [smoke, ztwim, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
   {
@@ -176440,15 +178332,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-network] NetworkPolicy [LinuxOnly] NetworkPolicy between server and client should allow egress access on one named port [Feature:NetworkPolicy] [Skipped:Network/OVNKubernetes] [Skipped:Network/OpenShiftSDN/Multitenant] [Skipped:Network/OpenShiftSDN] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-network] NetworkPolicy [LinuxOnly] NetworkPolicy between server and client should allow egress access to server in CIDR block [Feature:NetworkPolicy] [Skipped:Network/OpenShiftSDN/Multitenant] [Skipped:Network/OpenShiftSDN] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-network] NetworkPolicy [LinuxOnly] NetworkPolicy between server and client should allow ingress access from namespace on one named port [Feature:NetworkPolicy] [Skipped:Network/OVNKubernetes] [Skipped:Network/OpenShiftSDN/Multitenant] [Skipped:Network/OpenShiftSDN] [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
@@ -176457,10 +178341,6 @@
   },
   {
     "Name": "[sig-network] NetworkPolicy [LinuxOnly] NetworkPolicy between server and client should allow ingress access from updated pod [Feature:NetworkPolicy] [Skipped:Network/OpenShiftSDN/Multitenant] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-network] NetworkPolicy [LinuxOnly] NetworkPolicy between server and client should allow ingress access on one named port [Feature:NetworkPolicy] [Skipped:Network/OVNKubernetes] [Skipped:Network/OpenShiftSDN/Multitenant] [Skipped:Network/OpenShiftSDN] [Suite:openshift/conformance/parallel] [Suite:k8s]",
     "Suite": "openshift-tests"
   },
   {
