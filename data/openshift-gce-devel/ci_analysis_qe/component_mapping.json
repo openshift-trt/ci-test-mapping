@@ -154410,6 +154410,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "SDN:afb39af72a7bfa45bbef0cdc61c56849",
+    "Name": "OCP-77840:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple non-overlapping UDNs and default network(layer3/2 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / openshift-sdn",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / openshift-sdn",
+    "JIRAComponentID": "14763"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "SDN:1c5beb5a36d4ff3b1dc7b2c8a5f16861",
     "Name": "OCP-77841:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple overlapping UDNs and default network(layer3 and IPv6/dualstack) [Serial]",
     "Suite": "SDN",
@@ -154426,8 +154442,40 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "SDN:c242423f10167e25fefb7ae4d8a97813",
+    "Name": "OCP-77841:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple overlapping UDNs and default network(layer3/2 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / openshift-sdn",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / openshift-sdn",
+    "JIRAComponentID": "14763"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "SDN:fa65da49fcb9689ffe8f191a1162f516",
     "Name": "OCP-77842:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP Failover with non-overlapping and overlapping UDNs (layer3 and IPv6 only) [Serial]",
+    "Suite": "SDN",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / openshift-sdn",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / openshift-sdn",
+    "JIRAComponentID": "14763"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "SDN:3ad39569928ace0367558727415fc07d",
+    "Name": "OCP-77842:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP Failover with non-overlapping and overlapping UDNs (layer3/2 and IPv6 only) [Serial]",
     "Suite": "SDN",
     "Product": "OpenShift",
     "Priority": 0,
@@ -155146,6 +155194,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "SDN:2c426d5446aafe979f2942cb3a76f390",
+    "Name": "OCP-78247:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after a UDN network gets deleted then recreated (layer3/2 + v6 or dualstack) [Serial]",
+    "Suite": "SDN",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / openshift-sdn",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / openshift-sdn",
+    "JIRAComponentID": "14763"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "SDN:ec07f8deefc24cd3a12832aa559658b7",
     "Name": "OCP-78259:weliang:SDN:[sig-networking] SDN udn pods Verify egress-ipblock policy for UDN pods secondary interface (Layer3). [Disruptive] [Serial]",
     "Suite": "SDN",
@@ -155180,6 +155244,22 @@
     "Kind": "TestOwnership",
     "ID": "SDN:373f3d4d504f444502530cf882f00241",
     "Name": "OCP-78274:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after OVNK restarted on local and remote client host (layer3 + v6 or dualstack) [Serial]",
+    "Suite": "SDN",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / openshift-sdn",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Networking / openshift-sdn",
+    "JIRAComponentID": "14763"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "SDN:5e3152dcba64d0614ccfa277e34e147b",
+    "Name": "OCP-78274:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after OVNK restarted on local and remote client host (layer3/2 + v6 or dualstack) [Serial]",
     "Suite": "SDN",
     "Product": "OpenShift",
     "Priority": 0,

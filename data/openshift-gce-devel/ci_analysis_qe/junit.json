@@ -38600,11 +38600,23 @@
     "Suite": "SDN"
   },
   {
+    "Name": "OCP-77840:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple non-overlapping UDNs and default network(layer3/2 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-77841:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple overlapping UDNs and default network(layer3 and IPv6/dualstack) [Serial]",
     "Suite": "SDN"
   },
   {
+    "Name": "OCP-77841:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP with mixed of multiple overlapping UDNs and default network(layer3/2 and IPv6/dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-77842:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP Failover with non-overlapping and overlapping UDNs (layer3 and IPv6 only) [Serial]",
+    "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-77842:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 Validate egressIP Failover with non-overlapping and overlapping UDNs (layer3/2 and IPv6 only) [Serial]",
     "Suite": "SDN"
   },
   {
@@ -38784,6 +38796,10 @@
     "Suite": "SDN"
   },
   {
+    "Name": "OCP-78247:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after a UDN network gets deleted then recreated (layer3/2 + v6 or dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
     "Name": "OCP-78259:weliang:SDN:[sig-networking] SDN udn pods Verify egress-ipblock policy for UDN pods secondary interface (Layer3). [Disruptive] [Serial]",
     "Suite": "SDN"
   },
@@ -38793,6 +38809,10 @@
   },
   {
     "Name": "OCP-78274:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after OVNK restarted on local and remote client host (layer3 + v6 or dualstack) [Serial]",
+    "Suite": "SDN"
+  },
+  {
+    "Name": "OCP-78274:jechen:SDN:[sig-networking] SDN udn EgressIP IPv6 egressIP still works correctly after OVNK restarted on local and remote client host (layer3/2 + v6 or dualstack) [Serial]",
     "Suite": "SDN"
   },
   {
