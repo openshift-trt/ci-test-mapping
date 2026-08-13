@@ -54,6 +54,15 @@ These are the general steps for updating a test's ownership:
    changes you see are expected.
 4. Commit the result and open a pull request on GitHub.
 
+Note: QE mappings (`make mapping-qe`) require BigQuery access to pull
+job variant data. Set the `GOOGLE_APPLICATION_CREDENTIALS` environment
+variable to your service account credential file before running:
+
+```
+export GOOGLE_APPLICATION_CREDENTIALS=~/bq.json
+make mapping-qe
+```
+
 If you'd like to annotate a test as having additional capabilities,
 update `capabilities.go`. A test may have multiple capabilities, but it
 can only belong to a single component.
@@ -128,7 +137,6 @@ For production, use `--mode bigquery` and provide credentials:
 ci-test-mapping map --mode bigquery \
   --google-service-account-credential-file ~/bq.json \
   --log-level debug \
-  --mapping-file mapping.json \
   --push-to-bigquery
 ```
 
