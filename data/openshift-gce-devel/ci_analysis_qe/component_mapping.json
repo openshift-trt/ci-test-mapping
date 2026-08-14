@@ -201608,6 +201608,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "Operator results:a875033327b4cef6123ee73daa8dc5cc",
+    "Name": "operator conditions vertical-pod-autoscaler",
+    "Suite": "Operator results",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "tests/operator-metrics/max-loops:9e3e07396bae48b6948bb27c87664f00",
     "Name": "operator-metrics",
     "Suite": "tests/operator-metrics/max-loops",
