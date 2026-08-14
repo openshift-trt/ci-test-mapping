@@ -50396,6 +50396,10 @@
     "Suite": "Operator results"
   },
   {
+    "Name": "operator conditions vertical-pod-autoscaler",
+    "Suite": "Operator results"
+  },
+  {
     "Name": "operator-metrics",
     "Suite": "tests/operator-metrics/max-loops"
   },
