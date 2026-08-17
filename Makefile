@@ -11,9 +11,11 @@ test:
 mapping: build
 	# OCP Engineering
 	./ci-test-mapping map --mode=local
-	# QE
-	./ci-test-mapping map --bigquery-dataset ci_analysis_us --bigquery-project openshift-gce-devel --bigquery-dataset ci_analysis_qe --table-junit junit --table-mapping component_mapping --mode=local --config ""
 	# Verify mappings don't move anything into Unknown
+	./ci-test-mapping map-verify
+
+mapping-qe: build
+	./ci-test-mapping map --mode=bigquery --bigquery-project openshift-gce-devel --bigquery-dataset ci_analysis_qe --table-junit junit --table-mapping component_mapping --config ""
 	./ci-test-mapping map-verify
 
 unmapped:
