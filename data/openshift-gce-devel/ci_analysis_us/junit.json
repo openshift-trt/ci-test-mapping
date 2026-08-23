@@ -32264,6 +32264,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestCAPIStorageVersionMigration",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "TestCBService",
     "Suite": "ServiceMesh-lp-interop"
   },
