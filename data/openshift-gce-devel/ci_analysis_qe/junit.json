@@ -46904,6 +46904,10 @@
     "Suite": "Azure disk and Azure file specific scenarios"
   },
   {
+    "Name": "azuremonitorlogs",
+    "Suite": "tests/e2e-otel/azuremonitorlogs"
+  },
+  {
     "Name": "baremetal-lab-agent-gather",
     "Suite": "Overall CI (test step)"
   },
@@ -47118,6 +47122,10 @@
   {
     "Name": "clusterapi-workers-day2",
     "Suite": "Overall CI (test step)"
+  },
+  {
+    "Name": "collector-internal-metrics",
+    "Suite": "tests/e2e/collector-internal-metrics"
   },
   {
     "Name": "command line tools page \"after all\" hook for \"(OCP-64621, klzhao)cutomized \"downloads\" route should be updated and honored in CLI download links\"",
@@ -48218,6 +48226,10 @@
   {
     "Name": "forwardconnector",
     "Suite": "tests/e2e-otel/forwardconnector"
+  },
+  {
+    "Name": "fsgroup-anyuid-pvc",
+    "Suite": "tests/e2e-openshift/fsgroup-anyuid-pvc"
   },
   {
     "Name": "gateway",
@@ -49444,6 +49456,10 @@
     "Suite": "tests/e2e-otel/k8seventsreceiver"
   },
   {
+    "Name": "k8sleaderelectorext",
+    "Suite": "tests/e2e-otel/k8sleaderelectorext"
+  },
+  {
     "Name": "k8sobjectsreceiver",
     "Suite": "tests/e2e-otel/k8sobjectsreceiver"
   },
@@ -49834,6 +49850,10 @@
   {
     "Name": "network-mtu-migration-increase-start-conf",
     "Suite": "Overall CI (test step)"
+  },
+  {
+    "Name": "networkpolicy",
+    "Suite": "tests/e2e-openshift/networkpolicy"
   },
   {
     "Name": "node logs related features \"after all\" hook for \"(OCP-43996,yapei,UserInterface) View Master and Worker Node Logs\"",
@@ -51084,6 +51104,26 @@
     "Suite": "Overall CI (test step)"
   },
   {
+    "Name": "smoke-collector-daemonset",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-daemonset"
+  },
+  {
+    "Name": "smoke-collector-deployment",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-deployment"
+  },
+  {
+    "Name": "smoke-collector-obi",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-obi"
+  },
+  {
+    "Name": "smoke-collector-obi-unprivileged",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-obi-unprivileged"
+  },
+  {
+    "Name": "smoke-collector-statefulset",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-statefulset"
+  },
+  {
     "Name": "smoke-daemonset",
     "Suite": "tests/e2e/smoke-daemonset"
   },
@@ -51118,6 +51158,10 @@
   {
     "Name": "smoke-pod-labels",
     "Suite": "tests/e2e/smoke-pod-labels"
+  },
+  {
+    "Name": "smoke-pod-labels",
+    "Suite": "tests/e2e-metadata-filters/labels"
   },
   {
     "Name": "smoke-ports",
@@ -51172,12 +51216,20 @@
     "Suite": "tests/e2e/smoke-targetallocator"
   },
   {
+    "Name": "smoke-targetallocator",
+    "Suite": "tests/e2e/smoke-collector/smoke-targetallocator"
+  },
+  {
     "Name": "ssh-bastion",
     "Suite": "Overall CI (test step)"
   },
   {
     "Name": "statefulset-features",
     "Suite": "tests/e2e/statefulset-features"
+  },
+  {
+    "Name": "status-observed-generation",
+    "Suite": "tests/e2e/status-observed-generation"
   },
   {
     "Name": "storage-conf-storageclass-set-default-storageclass",
@@ -51228,12 +51280,20 @@
     "Suite": "tests/e2e-pdb/target-allocator"
   },
   {
+    "Name": "targetallocator-annotations",
+    "Suite": "tests/e2e-targetallocator/targetallocator-annotations"
+  },
+  {
     "Name": "targetallocator-cr",
     "Suite": "tests/e2e-targetallocator-cr"
   },
   {
     "Name": "targetallocator-features",
     "Suite": "tests/e2e-targetallocator/targetallocator-features"
+  },
+  {
+    "Name": "targetallocator-insecure-auth-secrets",
+    "Suite": "tests/e2e-targetallocator/targetallocator-insecure-auth-secrets"
   },
   {
     "Name": "targetallocator-kubernetessd",
@@ -51738,6 +51798,10 @@
   {
     "Name": "upi-install-vsphere",
     "Suite": "Overall CI (test step)"
+  },
+  {
+    "Name": "use-labels-for-resource-attributes",
+    "Suite": "tests/e2e/use-labels-for-resource-attributes"
   },
   {
     "Name": "user analytics from console OCP-73409 - Configure and load default Segment Api Key and proxy",

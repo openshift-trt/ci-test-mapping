@@ -187632,6 +187632,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "tests/e2e-otel/azuremonitorlogs:9da22f3ac4076085e9373b4a616350ae",
+    "Name": "azuremonitorlogs",
+    "Suite": "tests/e2e-otel/azuremonitorlogs",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):c267ca7e0157e611a20076a2f186bf6f",
     "Name": "baremetal-lab-agent-gather",
     "Suite": "Overall CI (test step)",
@@ -188483,6 +188499,22 @@
     "ID": "Overall CI (test step):5cd6659c1ebb63676844f782f3856758",
     "Name": "clusterapi-workers-day2",
     "Suite": "Overall CI (test step)",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/collector-internal-metrics:4d727c14a60a06b372f82666b5cb67ef",
+    "Name": "collector-internal-metrics",
+    "Suite": "tests/e2e/collector-internal-metrics",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -192891,6 +192923,22 @@
     "ID": "tests/e2e-otel/forwardconnector:770da1638777e6aaa695835767f2560f",
     "Name": "forwardconnector",
     "Suite": "tests/e2e-otel/forwardconnector",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e-openshift/fsgroup-anyuid-pvc:3f16d30f8d986e964fc1d3855503af2d",
+    "Name": "fsgroup-anyuid-pvc",
+    "Suite": "tests/e2e-openshift/fsgroup-anyuid-pvc",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -197800,6 +197848,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "tests/e2e-otel/k8sleaderelectorext:80805f9387b1879e5f9e445fa4e988d2",
+    "Name": "k8sleaderelectorext",
+    "Suite": "tests/e2e-otel/k8sleaderelectorext",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "tests/e2e-otel/k8sobjectsreceiver:31cf78e8adf8f5405a413fa0fa78cf9d",
     "Name": "k8sobjectsreceiver",
     "Suite": "tests/e2e-otel/k8sobjectsreceiver",
@@ -199355,6 +199419,22 @@
     "ID": "Overall CI (test step):9d7bb765fbe0b0dfba27ae809707de48",
     "Name": "network-mtu-migration-increase-start-conf",
     "Suite": "Overall CI (test step)",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e-openshift/networkpolicy:3f062db1e289f781dc34b2678e6f886a",
+    "Name": "networkpolicy",
+    "Suite": "tests/e2e-openshift/networkpolicy",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -204360,6 +204440,86 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-collector-daemonset:1968e81ed402dd2a068c742c335f4f50",
+    "Name": "smoke-collector-daemonset",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-daemonset",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-collector-deployment:8ee45bfc20282d3bcd36cd866a6c35c6",
+    "Name": "smoke-collector-deployment",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-deployment",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-collector-obi:a1863c34c67513617e5fc4701a4d149b",
+    "Name": "smoke-collector-obi",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-obi",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-collector-obi-unprivileged:a3bb3093f78f165b22ed719ed451a69e",
+    "Name": "smoke-collector-obi-unprivileged",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-obi-unprivileged",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-collector-statefulset:9a00981cb1813042ce1c2c720f25c451",
+    "Name": "smoke-collector-statefulset",
+    "Suite": "tests/e2e/smoke-collector/smoke-collector-statefulset",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "tests/e2e/smoke-daemonset:2151b41eb89b46fc645587db50af3695",
     "Name": "smoke-daemonset",
     "Suite": "tests/e2e/smoke-daemonset",
@@ -204491,6 +204651,22 @@
     "ID": "tests/e2e/smoke-pod-labels:d527b4911b1c67d3a5d9d22dec9bf867",
     "Name": "smoke-pod-labels",
     "Suite": "tests/e2e/smoke-pod-labels",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e-metadata-filters/labels:d527b4911b1c67d3a5d9d22dec9bf867",
+    "Name": "smoke-pod-labels",
+    "Suite": "tests/e2e-metadata-filters/labels",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -204712,6 +204888,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "tests/e2e/smoke-collector/smoke-targetallocator:969c4e8e464d214f5f5d3e8ad5b6d131",
+    "Name": "smoke-targetallocator",
+    "Suite": "tests/e2e/smoke-collector/smoke-targetallocator",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):db91aa0b2b11b153e2216112aa5ee594",
     "Name": "ssh-bastion",
     "Suite": "Overall CI (test step)",
@@ -204731,6 +204923,22 @@
     "ID": "tests/e2e/statefulset-features:dbc2fd98c4a29db2b5a47e763a287c91",
     "Name": "statefulset-features",
     "Suite": "tests/e2e/statefulset-features",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/status-observed-generation:9c9f0fa14bef226da62996f7856d878e",
+    "Name": "status-observed-generation",
+    "Suite": "tests/e2e/status-observed-generation",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -204936,6 +205144,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "tests/e2e-targetallocator/targetallocator-annotations:9866abe2c72ab1a1225f9ca6c52284ff",
+    "Name": "targetallocator-annotations",
+    "Suite": "tests/e2e-targetallocator/targetallocator-annotations",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "tests/e2e-targetallocator-cr:b1bd82f2b5ba640efbb4a1739c93d346",
     "Name": "targetallocator-cr",
     "Suite": "tests/e2e-targetallocator-cr",
@@ -204955,6 +205179,22 @@
     "ID": "tests/e2e-targetallocator/targetallocator-features:b88f55513821a848cc32dddc7bc68ccf",
     "Name": "targetallocator-features",
     "Suite": "tests/e2e-targetallocator/targetallocator-features",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e-targetallocator/targetallocator-insecure-auth-secrets:4fb4c35ebc316db1b0de11619181077f",
+    "Name": "targetallocator-insecure-auth-secrets",
+    "Suite": "tests/e2e-targetallocator/targetallocator-insecure-auth-secrets",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -206973,6 +207213,22 @@
     "ID": "Overall CI (test step):9f7d13b99819799c698895e44bbc13d7",
     "Name": "upi-install-vsphere",
     "Suite": "Overall CI (test step)",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "tests/e2e/use-labels-for-resource-attributes:6ea9aae1c87b821f76d078d8e0183704",
+    "Name": "use-labels-for-resource-attributes",
+    "Suite": "tests/e2e/use-labels-for-resource-attributes",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,

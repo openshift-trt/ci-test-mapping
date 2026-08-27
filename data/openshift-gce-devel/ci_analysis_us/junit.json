@@ -4704,14 +4704,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.vsphere.vmware.com] [Testpattern: Dynamic PV (default fs)] read-write-once-pod[Feature:ReadWriteOncePod] should block a second pod from using an in-use ReadWriteOncePod volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.vsphere.vmware.com] [Testpattern: Dynamic PV (default fs)] read-write-once-pod[Feature:ReadWriteOncePod] should block a second pod from using an in-use ReadWriteOncePod volume on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.vsphere.vmware.com] [Testpattern: Dynamic PV (default fs)] read-write-once-pod[MinimumKubeletVersion:1.27] should block a second pod from using an in-use ReadWriteOncePod volume on the same node",
     "Suite": "openshift-tests"
   },
@@ -26856,6 +26848,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-ertqahdu\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-ewadyyzz\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -30192,6 +30188,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-mdpqjsol\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-mkgmtcwz\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -31125,6 +31125,10 @@
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-gvyygxdt\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-gznawaka\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -33244,6 +33248,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-pomwgrwk\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
+  },
+  {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-pqzfpbvp\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -35186,6 +35194,10 @@
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-asxzhqxf\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-axbkbsxa\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-bayyxxhj\"",
@@ -42948,6 +42960,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-ajwjkmmj\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-ajwzvdfd\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
@@ -44077,6 +44093,10 @@
   },
   {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-bnxfedga\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-borktnhk\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
@@ -45504,6 +45524,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-twqkyeot\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-uhkgcdju\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -46101,6 +46125,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-rzbpkgdl\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-sfoochnv\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -47024,6 +47052,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-mkgynqct\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-mpgbrajr\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -47697,6 +47729,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-mhqcmlqe\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-mmlgahqy\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -54004,6 +54040,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-uwmlrqtx_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-vamylboc_to_be_deleted",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -54654,6 +54694,10 @@
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-usbjxawj",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-uwmlrqtx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-vamylboc",
@@ -55332,6 +55376,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-uwmlrqtx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-vamylboc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -55768,6 +55816,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-bpeeiwab",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-btojqhxg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56192,6 +56244,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-grietmoe",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-grmzjabk",
     "Suite": "Serverless-lp-interop"
   },
@@ -56553,6 +56609,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-khujnens",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-kjhdyntz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -57436,6 +57496,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-tbydzbwz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-tcftnhos",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58188,6 +58252,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-acybbjaz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-aelejqns",
     "Suite": "Serverless-lp-interop"
   },
@@ -58256,6 +58324,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-atlddutk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-atscieve",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58298,6 +58370,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-badvjjlm",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-bapewnzh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-bcduynmv",
@@ -59441,6 +59517,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-iippkxcu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ijgogjkz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -61008,6 +61088,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-txjdcxvs",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ubmswciy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -61081,6 +61165,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-unqkhlza",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-uoajqzeh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62124,6 +62212,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-ehwyogus",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-eiuybloy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -62377,6 +62469,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-izvppkyu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-jbowqgio",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -63796,6 +63892,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-nbafjgpa",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-nbkoqdtj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -64121,6 +64221,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-uioayxrt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ujkcocyj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64517,6 +64621,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-axwpapxg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-bajtthtc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65201,6 +65309,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-pivalteu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-pjiumppw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -65924,6 +66036,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-dvxnbbgx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-dxxdnaya",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -66330,6 +66446,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-mvaibtqp",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-mwhdkych",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-myjjfgig",
@@ -67316,6 +67436,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-frlevost",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-ftahbics",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -68188,6 +68312,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-yeidqxqd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-ygurfscv",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -68665,6 +68793,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dlgbcwyu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dmqfyhpr",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -69236,6 +69368,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jgfmyqzo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jgsklmpf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -69333,6 +69469,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-jyaeadel",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-kaslxzww",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -70532,6 +70672,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-xgyivesu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-xhtgszts",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -71176,6 +71320,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-boubcznt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bpmoothy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -71234,6 +71382,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bxoexosw",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-byqjuknc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bzbdawsz",
@@ -72188,6 +72340,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-gjybxjzz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-gklpqgxx",
     "Suite": "Serverless-lp-interop"
   },
@@ -72593,6 +72749,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-isgvzicf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-isjmpnub",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -75048,6 +75208,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wivqqikv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wjahqgqq",
     "Suite": "Serverless-lp-interop"
   },
@@ -75233,6 +75397,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdaqjyxq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xdbltiau",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -75724,11 +75892,19 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zujsyqea",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zuqjokmi",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zuvgikcc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zuwvkgbs",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -76624,6 +76800,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-pvdxytvh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-pyifnhyd",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -76881,6 +77061,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-vikrzdwp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-vildkcwh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -77684,6 +77868,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-kzzzflqi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-lbkmodxo",
     "Suite": "Serverless-lp-interop"
   },
@@ -78141,6 +78329,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-vpoilkki",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-vsulremb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -97156,7 +97348,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should accept TLS 1.3 but reject TLS 1.2 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should accept both TLS 1.2 and TLS 1.3 connections after downgrade to Intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should accept both TLS 1.2 and TLS 1.3 connections after downgrade to Intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97164,7 +97364,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should accept both TLS 1.2 and TLS 1.3 connections with intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should have --tls-min-version set to VersionTLS12 with default/intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should have --tls-min-version set to VersionTLS12 with default/intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97172,7 +97380,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should propagate --tls-min-version VersionTLS12 after downgrade [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should propagate --tls-min-version VersionTLS13 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified aws-pod-identity-webhook should propagate --tls-min-version VersionTLS13 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97180,7 +97396,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should accept TLS 1.3 but reject TLS 1.2 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should accept both TLS 1.2 and TLS 1.3 connections after downgrade to Intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should accept both TLS 1.2 and TLS 1.3 connections after downgrade to Intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97188,7 +97412,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should accept both TLS 1.2 and TLS 1.3 connections with intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should have control-plane-pki-operator-config ConfigMap with TLS configuration [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should have control-plane-pki-operator-config ConfigMap with TLS configuration [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97196,7 +97428,15 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should have minTLSVersion set to VersionTLS12 with default/intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should propagate minTLSVersion VersionTLS12 after downgrade [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should propagate minTLSVersion VersionTLS12 after downgrade [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -97204,11 +97444,47 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified control-plane-pki-operator should propagate minTLSVersion VersionTLS13 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should accept TLS 1.3 but reject TLS 1.2 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should accept both TLS 1.2 and TLS 1.3 connections after downgrade to Intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should accept both TLS 1.2 and TLS 1.3 connections with intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should have --tls-min-version set to VersionTLS12 with default/intermediate profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should propagate --tls-min-version VersionTLS12 after downgrade [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified konnectivity-server should propagate --tls-min-version VersionTLS13 with Modern profile [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified should downgrade HostedCluster TLS profile to default/intermediate [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified should downgrade HostedCluster TLS profile to default/intermediate [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified should update HostedCluster TLS profile to Modern [control-plane-pki-operator, aws-pod-identity-webhook, Serial, lifecycle]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneTLS] Control Plane TLS Operator when control plane TLS configuration is modified should update HostedCluster TLS profile to Modern [control-plane-pki-operator, aws-pod-identity-webhook, konnectivity-server, Serial, lifecycle]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -100880,6 +101156,10 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:NodePoolArm64] NodePool ARM64 When creating an ARM64 NodePool, it should provision a node with ARM64 architecture [nodepool-arm64]",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:NodePoolAutoscaling] NodePool Autoscaling should balance pods across multiple autoscaling NodePools [lifecycle, nodepool-autoscaling]",
     "Suite": "hypershift-e2e"
   },
@@ -102105,6 +102385,14 @@
   },
   {
     "Name": "[Jira:\"Monitoring\"] prometheus pod disruption",
+    "Suite": "chaos-krkn"
+  },
+  {
+    "Name": "[Jira:\"Monitoring\"] pvc scenarios prometheus pod",
+    "Suite": "chaos-krkn"
+  },
+  {
+    "Name": "[Jira:\"Monitoring\"] syn flood prometheus disruption",
     "Suite": "chaos-krkn"
   },
   {
@@ -159324,10 +159612,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all containers in ns/openshift-adp must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all containers in ns/openshift-apiserver must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests-upgrade"
   },
@@ -159449,10 +159733,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-cluster-node-tuning-operator must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-cluster-observability-operator must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -159660,10 +159940,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all containers in ns/openshift-kmm must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all containers in ns/openshift-kni-infra must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests-upgrade"
   },
@@ -159701,10 +159977,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-kube-controller-manager-operator must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-kube-descheduler-operator must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -159741,18 +160013,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-kube-storage-version-migrator-operator must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-local-storage must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-logging must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-loki must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -159805,10 +160065,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-monitoring must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-mtv must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -159869,10 +160125,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-nmstate must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-numaresources must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -159952,10 +160204,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all containers in ns/openshift-pipelines must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all containers in ns/openshift-platform-operators must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
@@ -159989,10 +160237,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-security must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-serverless must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -160049,14 +160293,6 @@
   },
   {
     "Name": "[sig-arch] all containers in ns/openshift-vsphere-infra must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-workload-availability must have terminationMessagePolicy=FallbackToLogsOnError",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all containers in ns/openshift-workload-maintenance must have terminationMessagePolicy=FallbackToLogsOnError",
     "Suite": "openshift-tests"
   },
   {
@@ -160188,10 +160424,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all leases in ns/openshift-kmm must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all leases in ns/openshift-kube-apiserver-operator must gracefully release",
     "Suite": "openshift-tests-upgrade"
   },
@@ -160208,10 +160440,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all leases in ns/openshift-kube-descheduler-operator must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all leases in ns/openshift-kube-scheduler-operator must gracefully release",
     "Suite": "openshift-tests-upgrade"
   },
@@ -160225,14 +160453,6 @@
   },
   {
     "Name": "[sig-arch] all leases in ns/openshift-kube-storage-version-migrator-operator must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all leases in ns/openshift-local-storage must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all leases in ns/openshift-loki must gracefully release",
     "Suite": "openshift-tests"
   },
   {
@@ -160272,10 +160492,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all leases in ns/openshift-mtv must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all leases in ns/openshift-multiarch-tuning-operator must gracefully release",
     "Suite": "openshift-tests"
   },
@@ -160300,27 +160516,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-arch] all leases in ns/openshift-pipelines must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all leases in ns/openshift-serverless must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-arch] all leases in ns/openshift-service-ca-operator must gracefully release",
     "Suite": "openshift-tests-upgrade"
   },
   {
     "Name": "[sig-arch] all leases in ns/openshift-service-ca-operator must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all leases in ns/openshift-storage must gracefully release",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-arch] all leases in ns/openshift-workload-maintenance must gracefully release",
     "Suite": "openshift-tests"
   },
   {
@@ -162200,18 +162400,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-architecture] platform pods in ns/kube-amd-gpu should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/kube-amd-gpu should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/kube-amd-gpu should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-architecture] platform pods in ns/kube-node-lease should not exit a moderate amount of times",
     "Suite": "openshift-tests-upgrade"
   },
@@ -162317,18 +162505,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-addon-operator should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-adp should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-adp should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-adp should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -162969,18 +163145,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-cluster-node-tuning-operator that restart more than 2 is considered a flake for now",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-cluster-observability-operator should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-cluster-observability-operator should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-cluster-observability-operator should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -163816,18 +163980,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kmm should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kmm should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kmm should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-architecture] platform pods in ns/openshift-kni-infra should not exit a moderate amount of times",
     "Suite": "openshift-tests-upgrade"
   },
@@ -163977,18 +164129,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-kube-controller-manager-operator that restart more than 2 is considered a flake for now",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kube-descheduler-operator should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kube-descheduler-operator should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-kube-descheduler-operator should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -164144,18 +164284,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-architecture] platform pods in ns/openshift-local-storage should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-local-storage should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-local-storage should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-architecture] platform pods in ns/openshift-logging should not exit a moderate amount of times",
     "Suite": "openshift-tests"
   },
@@ -164165,18 +164293,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-logging should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-loki should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-loki should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-loki should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -164369,18 +164485,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-monitoring that restart more than 2 is considered a flake for now",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-mtv should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-mtv should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-mtv should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -164684,18 +164788,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-architecture] platform pods in ns/openshift-numaresources should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-numaresources should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-numaresources should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-architecture] platform pods in ns/openshift-nutanix-infra should not exit a moderate amount of times",
     "Suite": "openshift-tests-upgrade"
   },
@@ -164996,18 +165088,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-architecture] platform pods in ns/openshift-pipelines should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-pipelines should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-pipelines should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-architecture] platform pods in ns/openshift-rbac-permissions should not exit a moderate amount of times",
     "Suite": "openshift-tests"
   },
@@ -165073,18 +165153,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-security should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-serverless should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-serverless should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-serverless should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -165285,30 +165353,6 @@
   },
   {
     "Name": "[sig-architecture] platform pods in ns/openshift-vsphere-infra should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-availability should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-availability should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-availability should not fail to start",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-maintenance should not exit a moderate amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-maintenance should not exit an excessive amount of times",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-architecture] platform pods in ns/openshift-workload-maintenance should not fail to start",
     "Suite": "openshift-tests"
   },
   {
@@ -165700,10 +165744,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-auth] all workloads in ns/kube-amd-gpu must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-auth] all workloads in ns/kube-node-lease must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests-upgrade"
   },
@@ -165733,10 +165773,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-adp must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -165865,10 +165901,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-cluster-node-tuning-operator must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-cluster-observability-operator must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166080,10 +166112,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-auth] all workloads in ns/openshift-kmm must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-auth] all workloads in ns/openshift-kni-infra must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests-upgrade"
   },
@@ -166121,10 +166149,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-kube-controller-manager-operator must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-kube-descheduler-operator must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166165,14 +166189,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-lightspeed must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-local-storage must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-loki must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166217,10 +166233,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-monitoring must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-mtv must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166285,10 +166297,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-node must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-numaresources must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166360,10 +166368,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "[sig-auth] all workloads in ns/openshift-pipelines must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "[sig-auth] all workloads in ns/openshift-platform-operators must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
@@ -166385,10 +166389,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-sdn must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-serverless must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -166433,14 +166433,6 @@
   },
   {
     "Name": "[sig-auth] all workloads in ns/openshift-vsphere-infra must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-workload-availability must set the 'openshift.io/required-scc' annotation",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[sig-auth] all workloads in ns/openshift-workload-maintenance must set the 'openshift.io/required-scc' annotation",
     "Suite": "openshift-tests"
   },
   {
@@ -254312,14 +254304,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "objects in ns/kube-amd-gpu should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/kube-amd-gpu should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "objects in ns/kube-node-lease should have generation increasing monotonically",
     "Suite": "openshift-tests-upgrade"
   },
@@ -254389,14 +254373,6 @@
   },
   {
     "Name": "objects in ns/openshift-addon-operator should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-adp should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-adp should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -254765,14 +254741,6 @@
   },
   {
     "Name": "objects in ns/openshift-cluster-node-tuning-operator should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-cluster-observability-operator should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-cluster-observability-operator should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -255232,14 +255200,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "objects in ns/openshift-kmm should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-kmm should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "objects in ns/openshift-kni-infra should have generation increasing monotonically",
     "Suite": "openshift-tests-upgrade"
   },
@@ -255317,14 +255277,6 @@
   },
   {
     "Name": "objects in ns/openshift-kube-controller-manager-operator should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-kube-descheduler-operator should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-kube-descheduler-operator should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -255408,27 +255360,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "objects in ns/openshift-local-storage should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-local-storage should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "objects in ns/openshift-logging should have generation increasing monotonically",
     "Suite": "openshift-tests"
   },
   {
     "Name": "objects in ns/openshift-logging should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-loki should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-loki should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -255533,14 +255469,6 @@
   },
   {
     "Name": "objects in ns/openshift-monitoring should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-mtv should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-mtv should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -255661,14 +255589,6 @@
   },
   {
     "Name": "objects in ns/openshift-node should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-numaresources should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-numaresources should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -255848,14 +255768,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "objects in ns/openshift-pipelines should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-pipelines should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "objects in ns/openshift-rbac-permissions should have generation increasing monotonically",
     "Suite": "openshift-tests"
   },
@@ -255893,14 +255805,6 @@
   },
   {
     "Name": "objects in ns/openshift-security should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-serverless should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-serverless should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -256021,22 +255925,6 @@
   },
   {
     "Name": "objects in ns/openshift-vsphere-infra should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-workload-availability should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-workload-availability should not have too many generations",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-workload-maintenance should have generation increasing monotonically",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "objects in ns/openshift-workload-maintenance should not have too many generations",
     "Suite": "openshift-tests"
   },
   {
@@ -256216,10 +256104,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "operators in in ns/kube-amd-gpu should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "operators in in ns/kube-node-lease should not submit invalid apply statements",
     "Suite": "openshift-tests-upgrade"
   },
@@ -256253,10 +256137,6 @@
   },
   {
     "Name": "operators in in ns/openshift-addon-operator should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-adp should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256441,10 +256321,6 @@
   },
   {
     "Name": "operators in in ns/openshift-cluster-node-tuning-operator should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-cluster-observability-operator should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256676,10 +256552,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "operators in in ns/openshift-kmm should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "operators in in ns/openshift-kni-infra should not submit invalid apply statements",
     "Suite": "openshift-tests-upgrade"
   },
@@ -256717,10 +256589,6 @@
   },
   {
     "Name": "operators in in ns/openshift-kube-controller-manager-operator should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-kube-descheduler-operator should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256764,15 +256632,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "operators in in ns/openshift-local-storage should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "operators in in ns/openshift-logging should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-loki should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256825,10 +256685,6 @@
   },
   {
     "Name": "operators in in ns/openshift-monitoring should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-mtv should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256889,10 +256745,6 @@
   },
   {
     "Name": "operators in in ns/openshift-node should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-numaresources should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -256984,10 +256836,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "operators in in ns/openshift-pipelines should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "operators in in ns/openshift-rbac-permissions should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
@@ -257005,10 +256853,6 @@
   },
   {
     "Name": "operators in in ns/openshift-security should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-serverless should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -257069,14 +256913,6 @@
   },
   {
     "Name": "operators in in ns/openshift-vsphere-infra should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-workload-availability should not submit invalid apply statements",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "operators in in ns/openshift-workload-maintenance should not submit invalid apply statements",
     "Suite": "openshift-tests"
   },
   {
@@ -258780,26 +258616,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "users in ns/kube-amd-gpu must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/kube-amd-gpu must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/kube-amd-gpu must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/kube-amd-gpu must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/kube-amd-gpu must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "users in ns/kube-node-lease must not produce too many applies",
     "Suite": "openshift-tests-upgrade"
   },
@@ -258977,26 +258793,6 @@
   },
   {
     "Name": "users in ns/openshift-addon-operator must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-adp must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-adp must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-adp must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-adp must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-adp must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -259917,26 +259713,6 @@
   },
   {
     "Name": "users in ns/openshift-cluster-node-tuning-operator must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-cluster-observability-operator must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-cluster-observability-operator must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-cluster-observability-operator must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-cluster-observability-operator must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-cluster-observability-operator must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -261080,26 +260856,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "users in ns/openshift-kmm must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kmm must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kmm must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kmm must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kmm must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "users in ns/openshift-kni-infra must not produce too many applies",
     "Suite": "openshift-tests-upgrade"
   },
@@ -261297,26 +261053,6 @@
   },
   {
     "Name": "users in ns/openshift-kube-controller-manager-operator must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kube-descheduler-operator must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kube-descheduler-operator must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kube-descheduler-operator must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kube-descheduler-operator must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-kube-descheduler-operator must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -261520,26 +261256,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "users in ns/openshift-local-storage must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-local-storage must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-local-storage must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-local-storage must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-local-storage must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "users in ns/openshift-logging must not produce too many applies",
     "Suite": "openshift-tests"
   },
@@ -261557,26 +261273,6 @@
   },
   {
     "Name": "users in ns/openshift-logging must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-loki must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-loki must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-loki must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-loki must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-loki must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -261837,26 +261533,6 @@
   },
   {
     "Name": "users in ns/openshift-monitoring must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-mtv must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-mtv must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-mtv must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-mtv must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-mtv must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -262157,26 +261833,6 @@
   },
   {
     "Name": "users in ns/openshift-node must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-numaresources must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-numaresources must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-numaresources must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-numaresources must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-numaresources must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -262620,26 +262276,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "users in ns/openshift-pipelines must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-pipelines must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-pipelines must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-pipelines must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-pipelines must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "users in ns/openshift-rbac-permissions must not produce too many applies",
     "Suite": "openshift-tests"
   },
@@ -262737,26 +262373,6 @@
   },
   {
     "Name": "users in ns/openshift-security must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-serverless must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-serverless must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-serverless must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-serverless must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-serverless must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
@@ -263057,46 +262673,6 @@
   },
   {
     "Name": "users in ns/openshift-vsphere-infra must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-availability must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-availability must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-availability must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-availability must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-availability must not produce too many invalid \"update\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-maintenance must not produce too many applies",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-maintenance must not produce too many invalid \"apply\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-maintenance must not produce too many invalid \"create\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-maintenance must not produce too many invalid \"patch\" requests",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "users in ns/openshift-workload-maintenance must not produce too many invalid \"update\" requests",
     "Suite": "openshift-tests"
   },
   {
