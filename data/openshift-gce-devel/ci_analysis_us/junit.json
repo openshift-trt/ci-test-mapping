@@ -170508,6 +170508,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-cluster-lifecycle][OCPFeatureGate:VSphereMultiVCenterDay2][platform:vsphere] vSphere failure domain ValidatingAdmissionPolicies should allow an unrelated Infrastructure update when a MachineSet's region/zone labels match no failure domain [apigroup:machine.openshift.io][Suite:openshift/conformance/serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-cluster-lifecycle][OCPFeatureGate:VSphereMultiVCenterDay2][platform:vsphere] vSphere failure domain ValidatingAdmissionPolicies should allow removing a failure domain after the referencing MachineSet is deleted [apigroup:machine.openshift.io][Suite:openshift/conformance/serial]",
     "Suite": "openshift-tests"
   },
