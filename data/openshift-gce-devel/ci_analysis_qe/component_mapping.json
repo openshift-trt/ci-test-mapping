@@ -136647,22 +136647,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Cluster_Infrastructure:f8b7268eefa81162ec37cf020fa40d52",
-    "Name": "OCP-6XX65:huliu:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure Upgrade Ensure controlplanemachineset is generated automatically after upgrade",
-    "Suite": "Cluster_Infrastructure",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Cloud Compute / Machine API Providers",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Cloud Compute / Machine API Providers",
-    "JIRAComponentID": "14845"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Cluster_Infrastructure:a2a564316785d81150043cca977d3cb9",
     "Name": "OCP-6XX65:huliu:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure [Upgrade] Ensure controlplanemachineset is generated automatically after upgrade",
     "Suite": "Cluster_Infrastructure",
@@ -164537,22 +164521,6 @@
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Cluster_Infrastructure:bb198ac6c718722b22cb12479494a694",
-    "Name": "OCP-XX612:zhsun:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure Upgrade Cluster could scale up/down after upgrade [Disruptive] [Serial][Slow]",
-    "Suite": "Cluster_Infrastructure",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Cloud Compute / Machine API Providers",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Cloud Compute / Machine API Providers",
-    "JIRAComponentID": "14845"
   },
   {
     "APIVersion": "v1",

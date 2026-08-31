@@ -34160,10 +34160,6 @@
     "Suite": "Cluster_Infrastructure"
   },
   {
-    "Name": "OCP-6XX65:huliu:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure Upgrade Ensure controlplanemachineset is generated automatically after upgrade",
-    "Suite": "Cluster_Infrastructure"
-  },
-  {
     "Name": "OCP-6XX65:huliu:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure [Upgrade] Ensure controlplanemachineset is generated automatically after upgrade",
     "Suite": "Cluster_Infrastructure"
   },
@@ -41129,10 +41125,6 @@
   },
   {
     "Name": "OCP-XX612:zhsun:Cluster_Infrastructure:[Upgrade] Cluster could scale up/down after upgrade [Disruptive] [Serial][Slow]",
-    "Suite": "Cluster_Infrastructure"
-  },
-  {
-    "Name": "OCP-XX612:zhsun:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure Upgrade Cluster could scale up/down after upgrade [Disruptive] [Serial][Slow]",
     "Suite": "Cluster_Infrastructure"
   },
   {
