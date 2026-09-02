@@ -1264,38 +1264,6 @@
     "Suite": "OpenshiftPipelines-lp-interop"
   },
   {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Golang language Change layout and check in analysis wizard",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Golang language Create Custom Migration Target with rules from repository with credentials",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Golang language Custom Migration Targets CRUD with rules uploaded manually",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Golang language Custom rule with source and target technology",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Java language Change layout and check in analysis wizard",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Java language Create Custom Migration Target with rules from repository with credentials",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Java language Custom Migration Targets CRUD with rules uploaded manually",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Custom Migration Targets CRUD operations Custom Migration Targets CRUD | Java language Custom rule with source and target technology",
-    "Suite": "MTA-lp-interop"
-  },
-  {
     "Name": "Delete Auth provider",
     "Suite": "lp-ocp-compat--ACS--ClientCertAuthTest"
   },
@@ -21988,18 +21956,6 @@
     "Suite": "lp-chaos--cnv--snapshot--kill--apiserver"
   },
   {
-    "Name": "Stakeholder CRUD operations Stakeholder CRUD",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Stakeholder CRUD operations Stakeholder CRUD cancel",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Stakeholder CRUD operations Stakeholder CRUD operations with members (jobfunction and groups)",
-    "Suite": "MTA-lp-interop"
-  },
-  {
     "Name": "Start image pre-fetcher for pre-built images (NOT built for current commit).",
     "Suite": "lp-ocp-compat--ACS--image-prefetcher-prebuilt-start"
   },
@@ -27252,6 +27208,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-dtyryvks\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-duyhzksk\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -30396,6 +30356,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-bhvyvpkm\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-bvvqapyg\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -31626,6 +31590,10 @@
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-hrnlvznl\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-hsavfcuy\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-icwkbrbg\"",
@@ -34008,6 +33976,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
   {
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-yvmgrvqv\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
+  },
+  {
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-ywvmbpos\"",
     "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt"
   },
@@ -35698,6 +35670,10 @@
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-ajgdviqe\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-annsonjo\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-ansmfxdd\"",
@@ -43784,6 +43760,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-lggvabsn\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-ljxxpqrb\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
@@ -45212,6 +45192,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
   },
   {
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-yvopoequ\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel"
+  },
+  {
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-zcnupeix\"",
     "Suite": "Serverless-lp-interop"
   },
@@ -46068,6 +46052,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-pxaucqon\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-qbifkvym\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -46386,6 +46374,10 @@
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-chjktqff\"",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-cjysgipk\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-cvyjernk\"",
@@ -47512,6 +47504,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-famgxwvx\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-fhdgtfud\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -48361,6 +48357,10 @@
   },
   {
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-mdjfgzdc\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-mgbwunzn\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -54660,6 +54660,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-tfvpviuf_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-tjrnduwg_to_be_deleted",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -55333,6 +55337,10 @@
   },
   {
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-tduvoyoj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-tfvpviuf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -56036,6 +56044,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-tfvpviuf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-tjrnduwg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56672,6 +56684,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-dipekqaj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ditoofia",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -56745,6 +56761,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ebilhqcf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ecocrjvw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -57872,6 +57892,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-oucupmza",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ououfpce",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -58445,6 +58469,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-uxfyatcj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-uxyagvxm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -60084,6 +60112,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gpxrbwfr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-gqcizues",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60372,6 +60404,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-iffldxba",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-ifquysvu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60544,6 +60580,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-josxohsu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-jpgyunbi",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -60662,6 +60702,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-kltmukrr",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-kmfzrioe",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-kokdhekv",
@@ -61505,6 +61549,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-qlvnxcye",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-qmvzjzzb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -62776,6 +62824,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zpkrxtdo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zpqwskjt",
     "Suite": "Serverless-lp-interop"
   },
@@ -63512,6 +63564,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-lnqfbgkm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-ltxynyoc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -63933,6 +63989,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-uzturzhb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-vcqlgzlz",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -64920,6 +64980,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ntjguosx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-nujjrvgw",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -64998,6 +65062,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-pnykkseo",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-porowxlt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-posyzqpq",
@@ -65844,6 +65912,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-gikjnwep",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-gppeearv",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -66668,6 +66740,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-woukxczj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-wrccafvb",
     "Suite": "Serverless-lp-interop"
   },
@@ -67260,6 +67336,10 @@
     "Suite": "Serverless-lp-interop"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-hveytqyf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-hvipwzix",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -67342,6 +67422,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-jtnocjkt",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-jylsnybw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-kaizbnlo",
@@ -68272,6 +68356,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-apvgphho",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-asiuectu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -69112,6 +69200,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-slntcpwt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-snhctgrt",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -69642,6 +69734,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-apjbpuzw",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-apnjzgrq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-aqdgfkgt",
@@ -70660,6 +70756,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-kdlsqqbq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-kgjyvspe",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
@@ -70753,6 +70853,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lfbaohbd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-liarhadj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -71177,6 +71281,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-psxyftnw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ptfzevnl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -73048,6 +73156,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ealetblj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ebsmjbxb",
     "Suite": "Serverless-lp-interop"
   },
@@ -74388,6 +74500,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-koceifln",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kohbecpz",
     "Suite": "Serverless-lp-interop"
   },
@@ -75508,6 +75624,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-qjmewhdz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-qkybnmmj",
     "Suite": "Serverless-lp-interop"
   },
@@ -75957,6 +76077,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tctsasmw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tcxnheoe",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -76556,6 +76680,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wjsvhgpz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-wjyevzca",
     "Suite": "Serverless-lp-interop"
   },
@@ -76757,6 +76885,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xejmmgtu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xemadfkn",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -76977,6 +77109,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-ymkvuocd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-yngznpnj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -77222,6 +77358,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zohqyswk",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zpepqsvy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zpyhlwsj",
@@ -77661,6 +77801,10 @@
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-fvycaciq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-fwhbzhhh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
@@ -78438,6 +78582,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-uwcallpb",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-uxkgawhg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-uxpjcyll",
@@ -79308,6 +79456,10 @@
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-lybxpopr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
+  },
+  {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-mcrkmusd",
     "Suite": "Serverless-lp-interop"
   },
@@ -79898,6 +80050,10 @@
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-yhefjgeo",
     "Suite": "Serverless-lp-interop"
+  },
+  {
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-yictdrpj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new"
   },
   {
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-yolugpuz",
@@ -87512,66 +87668,6 @@
     "Suite": "lp-ocp-compat--ACS--ImageScanningTest"
   },
   {
-    "Name": "Validation of Source Control Credentials Creating default source control credentials with username/password",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Creating source control credentials with source private key",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Creating source control credentials with source private key and cancelling without saving",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Creating source control credentials with username/password",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Creating source control credentials with username/password and cancelling without saving",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Creating source control credentials with username/password then setting as default",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Deleting source control credentials with source private key",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Deleting source control credentials with source private key with cancellation",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Deleting source control credentials with username/password",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Deleting source control credentials with username/password with cancellation",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Editing source control credentials with source private key",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Editing source control credentials with source private key and cancelling without saving",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Editing source control credentials with username/password",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Editing source control credentials with username/password and cancelling without saving",
-    "Suite": "MTA-lp-interop"
-  },
-  {
-    "Name": "Validation of Source Control Credentials Unsetting default source control credentials after creating it",
-    "Suite": "MTA-lp-interop"
-  },
-  {
     "Name": "Verify AC allows deployment with init containers",
     "Suite": "lp-ocp-compat--ACS--AdmissionControllerTest"
   },
@@ -89954,6 +90050,10 @@
   {
     "Name": "[AfterSuite]",
     "Suite": "OADP-lp-interop"
+  },
+  {
+    "Name": "[AfterSuite]",
+    "Suite": "E2E Suite"
   },
   {
     "Name": "[BeforeSuite]",
@@ -92846,6 +92946,438 @@
   {
     "Name": "[It] Autoscaler should use a ClusterAutoscaler with maximum total nodes scales up and down while respecting MaxNodesTotal [Slow][Serial] [autoscaler, periodic]",
     "Suite": "Machine Suite"
+  },
+  {
+    "Name": "[It] BGP A load balancer service should work with overlapping IPs IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A load balancer service should work with overlapping IPs IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=cluster DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=cluster DUALSTACK - request Dual Stack via custom annotation",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=cluster IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=cluster IPV4 - request IPv4 via custom annotation",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=cluster IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=local DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=local IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with ETP=local IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with two protocols IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP A service of protocol load balancer should work with two protocols IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile DUALSTACK - full params",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile IPV4 - default",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile IPV4 - echo mode enabled",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile IPV4 - full params",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile IPV6 - default",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BFD should work with the given bfd profile IPV6 - full params",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR configure peers with GracefulRestart and validate external containers are paired with nodes IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR configure peers with GracefulRestart and validate external containers are paired with nodes IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR establishes connections with dynamic ASN  IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR establishes connections with dynamic ASN  IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR must be deployed when enabled IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR must be deployed when enabled IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR-MODE FRR validate reload feedback should update MetalLB config and log reload-validate success",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart and when GR enabled dataplane should keep working FRR-MODE DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart and when GR enabled dataplane should keep working FRR-MODE IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart and when GR enabled dataplane should keep working FRR-MODE IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart when GR disabled dataplane should have a downtime FRR-MODE DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart when GR disabled dataplane should have a downtime FRR-MODE IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP GracefulRestart, when speakers restart when GR disabled dataplane should have a downtime FRR-MODE IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB FRR rejects any routes advertised by any neighbor IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB FRR rejects any routes advertised by any neighbor IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRR-MODE IPV4 - after config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRR-MODE IPV4 - before config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRR-MODE IPV6 - after config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRR-MODE IPV6 - before config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRRK8S-MODE IPV4 - after config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRRK8S-MODE IPV4 - before config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRRK8S-MODE IPV6 - after config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP MetalLB allows adding extra FRR configuration to accept any routes advertised by any neighbor FRRK8S-MODE IPV6 - before config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should advertise both ipv4 and ipv6 addresses with DUALSTACK - via both, advertising ipv4 only",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should advertise both ipv4 and ipv6 addresses with DUALSTACK - via both, advertising ipv6 only",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should advertise both ipv4 and ipv6 addresses with DUALSTACK - via ipv4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should advertise both ipv4 and ipv6 addresses with DUALSTACK - via ipv6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should propagate the localpreference and the communities to both ipv4 and ipv6 addresses with DUALSTACK via ipv4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Multiprotocol Multiprotocol should propagate the localpreference and the communities to both ipv4 and ipv6 addresses with DUALSTACK via ipv6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector One service, one advertisement with node selector, labeling node IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector One service, one advertisement with node selector, labeling node IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Peer selector IPV4 Should work with a limited set of nodes First to one, second to one, third to same as first",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Peer selector IPV4 Should work with a limited set of nodes First to one, second to one, third to three",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Peer selector IPV4 Should work with a limited set of nodes First to one, second to two",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Single service, two advertisement with different node selectors FRR IPV4 - one on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Single service, two advertisement with different node selectors FRR IPV4 - two on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Single service, two advertisement with different node selectors FRR IPV4 - zero on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Single service, two advertisement with different node selectors FRR IPV6 - one on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two services, two distinct advertisements with different node selectors IPV4 - one on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two services, two distinct advertisements with different node selectors IPV4 - two on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two services, two distinct advertisements with different node selectors IPV4 - zero on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two services, two distinct advertisements with different node selectors IPV6 - one on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service IP will not be advertised to peers outside the BGPAdvertisement peers list DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service IP will not be advertised to peers outside the BGPAdvertisement peers list DUALSTACK - force V6 only",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service IP will not be advertised to peers outside the BGPAdvertisement peers list IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service IP will not be advertised to peers outside the BGPAdvertisement peers list IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service advertised through two different bgpadvertisements to two different peers DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service advertised through two different bgpadvertisements to two different peers DUALSTACK - force V6 only",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service advertised through two different bgpadvertisements to two different peers IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Peer Selector A service advertised through two different bgpadvertisements to two different peers IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service with ETP=cluster IPV4 - should not be announced from a node with a NetworkUnavailable condition",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP ServiceBGPStatus DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP ServiceBGPStatus IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP ServiceBGPStatus IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP configure peers with routerid and validate external containers are paired with nodes IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP configure peers with routerid and validate external containers are paired with nodes IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics BFD metrics from FRR DUALSTACK - full params",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics BFD metrics from FRR IPV4 - default",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics BFD metrics from FRR IPV4 - echo mode enabled",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics BFD metrics from FRR IPV6 - default",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics FRR metrics related to config should be exposed",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics metrics should be exposed by the controller IPV4 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics metrics should be exposed by the controller IPV6 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics metrics should collect BGP metrics in FRR mode IPV4 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP metrics metrics should collect BGP metrics in FRR mode IPV6 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate FRR running configuration BGP Peer parameters",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate FRR running configuration Full BFD profile",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated FRR - IPV4 - large community and localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated FRR - IPV6 - large community and localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV4 - community",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV4 - community and localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV4 - community from CRD",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV4 - ip pool selector",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV4 - localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV6 - community",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV6 - community and localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV6 - community from CRD",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure bgp advertisement and verify it gets propagated IPV6 - localpref",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure peers one by one and validate FRR paired with nodes IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes configure peers one by one and validate FRR paired with nodes IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes should work after subsequent configuration updates IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes should work after subsequent configuration updates IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes DUALSTACK - test AddressPool defined by address range",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes DUALSTACK - test AddressPool defined by network prefix",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes IPV4 - test AddressPool defined by address range",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes IPV4 - test AddressPool defined by network prefix",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes IPV6 - test AddressPool defined by address range",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes IPV6 - test AddressPool defined by network prefix",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate external containers are paired with nodes IPV4 with Secret Ref set for BGPPeer CR",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate external containers are paired with nodes IPV6 with Secret Ref set for BGPPeer CR",
+    "Suite": "E2E Suite"
   },
   {
     "Name": "[It] Backup Restore tests PVC mounted to a Completed pod  [tc-id:OADP-404] [skip-osp] [Tier1] [vf:pod-down] PVC bound to Completed Pod with Restic [exclude_gcp-wif]",
@@ -95836,6 +96368,18 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] Gateway Controller with Install Library when a custom GatewayClass and Gateway are created curl client pod is ready [gateway-controller, slow]",
     "Suite": "ServiceMesh-lp-interop"
   },
@@ -96456,6 +97000,86 @@
     "Suite": "lp-ocp-compat--Gitops--Parallel Test Suite"
   },
   {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with namespace and namespace labels",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with namespace and service label",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with namespace with labels",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with only priority",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 - Validate service allocation in address pools with service label",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 Assignment should preseve the same external ip after controller restart",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 Assignment should reconsider services when sharing the ip and conditions change",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 Assignment should remove the ip from a service assign it to a free one when changing the service type to clusterIP",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 Assignment should remove the ip from a service assign it to a free one when deleting the service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 removing pools reallocates svc after deleting a pool",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment IPV4 removing pools removes all pools",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Additional ip should be assigned when the assigned 1-stack pool becomes dual-stack",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Should prefer primary ip ipv4 family among single-stack pools by default",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Should prefer primary ipv6 ip family among single-stack pools",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Should select dual-stack pool if available",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Single-stack pool should assign based on svc changes between PreferDualStack and RequireDualStack",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK Svc assigned from single-stack pool should not jump to dual-stack pool when it's available",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment PREFER DUALSTACK When current dualstack pool becomes single-stack, svc should pick another dualstack pool if possible",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] IP Assignment Pool Status DUALSTACK",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] Incremental backup restore tests Incremental restore Role resource [tc-id:OADP-236][datamover] [Tier1] [vf:restore-policies] ocp role app with Native Data Mover and policy: update",
     "Suite": "OADP-lp-interop"
   },
@@ -96512,6 +97136,98 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] L2 Node Selector should work selecting one node",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Node Selector should work when adding nodes",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Node Selector should work with multiple node selectors",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 different services sharing the same ip should advertise from the same node IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 different services sharing the same ip should advertise from the same node IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 metrics should be exposed by the controller IPV4 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 metrics should be exposed by the controller IPV6 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer IPV4 Should work with mixed protocol services",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer It should be work when adding NodeExcludeBalancers label to a node",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer should not be announced from a node with a NetworkUnavailable condition",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer should process the status as L2ServiceStatus along with service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer should work for ExternalTrafficPolicy=Cluster",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 type=Loadbalancer should work for ExternalTrafficPolicy=Local",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes AddressPool defined by address range",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 validate different AddressPools for type=Loadbalancer set different AddressPools ranges modes AddressPool defined by network prefix",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 validate requesting a specific address pool for Loadbalancer service IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 validate requesting a specific address pool for Loadbalancer service IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector Address pool connected with two L2 advertisements",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector Modify L2 interface",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector Specify not existing interfaces",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector Validate L2ServiceStatus interface",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector Validate the LB IP's mac",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-interface selector Interface Selector node selector",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] Label Filter: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-681][kubevirt] [label-filter] [datavolume type root disk] Backup VMs 1-3 with orLabelSelectors in 2 namespaces, Restore VMs 1-2 with orLabelSelectors",
     "Suite": "OADP-lp-interop"
   },
@@ -96566,6 +97282,10 @@
   {
     "Name": "[It] Lifecycle Hooks should pause lifecycle actions when present [mapi, disruptive]",
     "Suite": "Machine Suite"
+  },
+  {
+    "Name": "[It] LoadBalancer class A service with loadbalancer class should not get an ip",
+    "Suite": "E2E Suite"
   },
   {
     "Name": "[It] Machine API GCP MachineSet should allow MachineSet update to set preemptible when provisioningModel is not set [mapi, disruptive]",
@@ -97884,6 +98604,10 @@
     "Suite": "OADP-lp-interop"
   },
   {
+    "Name": "[It] Networkpolicies only allowed traffic",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] Node agent flags [tc-id:OADP-687] [datamover] DPA Configuration for Datamover Pod Resources",
     "Suite": "OADP-lp-interop"
   },
@@ -98026,6 +98750,70 @@
   {
     "Name": "[It] Volumesnapshotclass deletion policy [tc-id:OADP-478] [datamover] [Tier2] [vf:volume-snapshot-class-policy] Verify backup/restore with vsclass deletion policy set as delete",
     "Suite": "OADP-lp-interop"
+  },
+  {
+    "Name": "[It] Webhooks For BFDProfile Should produce an error when deleting a profile used by a BGPPeer",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For BGPPeer Should reject invalid BGPPeer IP address",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject Community duplications FRR - in large format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject Community duplications in legacy format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject a new invalid Community in large format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject a new invalid Community in legacy format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject an update to an invalid Community in large format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For Community reject an update to an invalid Community in legacy format",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For IPAddressPool Should recognize overlapping addresses in two AddressPools",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks for BGPAdvertisement Should recognize invalid AggregationLength",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating BFDProfile in a different namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating BGPAdvertisement in a different namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating BGPPeer in a different namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating Community in a different namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating IPAddressPool in a different namespace",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks namespace validation Should reject creating L2Advertisement in a different namespace",
+    "Suite": "E2E Suite"
   },
   {
     "Name": "[It] Webhooks should be able to create a machine from a minimal providerSpec [machines]",
@@ -98697,6 +99485,10 @@
   },
   {
     "Name": "[It] [sig-hypershift][Jira:Hypershift] Karpenter [Feature:AutoNode] Karpenter Plumbing should report AutoNode vCPUs status as 0 when no Karpenter nodes are provisioned [lifecycle, karpenter, Informing]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift] Karpenter [Feature:AutoNode] Karpenter Upgrade should upgrade the control plane and drift Karpenter nodes to the new version [lifecycle, karpenter-upgrade, Informing]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -100397,6 +101189,254 @@
   },
   {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Deployment generation router should not indicate rapid rollouts [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation aws-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation aws-ebs-csi-driver-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation aws-ebs-csi-driver-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation aws-node-termination-handler should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation azure-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation azure-disk-csi-driver-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation azure-disk-csi-driver-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation azure-file-csi-driver-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation azure-file-csi-driver-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation capi-provider should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation catalog-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation certified-operators-catalog should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cloud-credential-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cloud-network-config-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-api should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-autoscaler should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-image-registry-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-network-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-node-tuning-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-policy-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-storage-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation cluster-version-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation community-operators-catalog should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation control-plane-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation control-plane-pki-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation csi-snapshot-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation csi-snapshot-controller-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation dns-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation etcd should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation etcd-backup should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation featuregate-generator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation gcp-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation hosted-cluster-config-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation ignition-server should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation ignition-server-proxy should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation ingress-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation karpenter should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation karpenter-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation konnectivity-agent should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kube-apiserver should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kube-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kube-scheduler should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kube-storage-version-migrator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kubevirt-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation kubevirt-csi-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation machine-approver should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation multus-admission-controller should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation network-node-identity should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation oauth-openshift should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation olm-collect-profiles should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation olm-operator should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation openshift-apiserver should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation openshift-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation openshift-oauth-apiserver should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation openshift-route-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation openstack-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation ovnkube-control-plane should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation packageserver should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation powervs-cloud-controller-manager should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation redhat-marketplace-catalog should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation redhat-operators-catalog should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
+    "Suite": "hypershift-e2e"
+  },
+  {
+    "Name": "[It] [sig-hypershift][Jira:Hypershift][Feature:ControlPlaneWorkloads] Control Plane Workloads Desired state hash annotation router should carry desired-state-hash annotation if managed by control-plane-operator [control-plane-workloads]",
     "Suite": "hypershift-e2e"
   },
   {
@@ -175309,6 +176349,18 @@
   },
   {
     "Name": "[sig-network-edge][Feature:Router][apigroup:gateway.networking.k8s.io] Verify Gateway API functionality during upgrade",
+    "Suite": "Cluster upgrade"
+  },
+  {
+    "Name": "[sig-network-edge][Feature:Router][apigroup:route.openshift.io] Verify HAProxy default version state during upgrade",
+    "Suite": "Cluster upgrade"
+  },
+  {
+    "Name": "[sig-network-edge][Feature:Router][apigroup:route.openshift.io] Verify HAProxy non-default version state during upgrade",
+    "Suite": "Cluster upgrade"
+  },
+  {
+    "Name": "[sig-network-edge][Feature:Router][apigroup:route.openshift.io] Verify HAProxy unset version state during upgrade",
     "Suite": "Cluster upgrade"
   },
   {
@@ -253464,10 +254516,6 @@
     "Suite": "CNV-lp-interop"
   },
   {
-    "Name": "test_csi_addon_pods_containers_ready",
-    "Suite": "ODF-lp-interop"
-  },
-  {
     "Name": "test_csi_addon_pods_containers_ready[app=openshift-storage.cephfs.csi.ceph.com-nodeplugin-csi-addons]",
     "Suite": "lp-ocp-compat--ODF--pytest"
   },
@@ -254253,10 +255301,6 @@
   },
   {
     "Name": "test_rwo_dynamic_pvc[CephBlockPool-Retain]",
-    "Suite": "ODF-lp-interop"
-  },
-  {
-    "Name": "test_rwo_dynamic_pvc[CephBlockPool-Retain]",
     "Suite": "CNV-lp-interop"
   },
   {
@@ -254277,10 +255321,6 @@
   },
   {
     "Name": "test_rwo_dynamic_pvc[CephFileSystem-Retain]",
-    "Suite": "ODF-lp-interop"
-  },
-  {
-    "Name": "test_rwo_dynamic_pvc[CephFileSystem-Retain]",
     "Suite": "CNV-lp-interop"
   },
   {
@@ -254298,10 +255338,6 @@
   {
     "Name": "test_rwx_dynamic_pvc[CephFileSystem-Delete]",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "test_rwx_dynamic_pvc[CephFileSystem-Retain]",
-    "Suite": "ODF-lp-interop"
   },
   {
     "Name": "test_rwx_dynamic_pvc[CephFileSystem-Retain]",
