@@ -141928,6 +141928,90 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker cleanup",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker cleanup",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker collection",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker collection",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker interval construction",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker interval construction",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker preparation",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker preparation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker setup",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker setup",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker test evaluation",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker test evaluation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker writing to storage",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][Jira:\"kube-apiserver\"] monitor test rbac-cluster-admin-escalation-checker writing to storage",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"olm-operator-binding-openshift-operator-lifecycle-manager\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"olm-operator-binding-openshift-operator-lifecycle-manager\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"system:openshift:capi-installer\" must not grant permission to create or modify admission webhook configurations",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"system:openshift:capi-installer\" must not grant permission to escalate or bind RBAC roles",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"system:openshift:controller:serviceaccount-pull-secrets-controller\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"system:openshift:controller:serviceaccount-pull-secrets-controller\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"system:openshift:openshift-compatibility-requirements-operator:compatibility-requirements-controllers\" must not grant permission to create or modify admission webhook configurations",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[Monitor:required-scc-annotation-checker][Jira:\"Cluster Version Operator\"] monitor test required-scc-annotation-checker cleanup",
     "Suite": "openshift-tests-upgrade"
   },
@@ -144993,6 +145077,18 @@
   },
   {
     "Name": "[OLM][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-operators",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[OTP][Jira:OCPCLOUD][OCPFeatureGate:ClusterAPIMachineManagementAWS][sig-cluster-lifecycle] Cluster API Secret Sync should re-sync worker-user-data secret after deletion",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[OTP][Jira:OCPCLOUD][OCPFeatureGate:ClusterAPIMachineManagement][sig-cluster-lifecycle] Cluster API Webhook Validation should deny deletion of infrastructure cluster resources",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[OTP][Jira:OCPCLOUD][OCPFeatureGate:ClusterAPIMachineManagement][sig-cluster-lifecycle] Cluster API Webhook Validation should enforce webhook validations for Cluster API cluster resources",
     "Suite": "openshift-tests"
   },
   {
@@ -172880,6 +172976,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-etcd][apigroup:config.openshift.io][OCPFeatureGate:DualReplica][Suite:openshift/two-node][Serial][Disruptive] PacemakerHealthCheck degraded condition should detect and recover from a node going offline via pcs cluster stop",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-etcd][apigroup:config.openshift.io][OCPFeatureGate:DualReplica][Suite:openshift/two-node][Serial][Disruptive] PacemakerHealthCheck degraded condition should detect and recover from cluster maintenance mode",
     "Suite": "openshift-tests"
   },
@@ -175976,7 +176076,27 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive] Node booted into custom pool should have appropriate labels and not moved back to worker pool [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:86495][OTP] Check default OS Image Stream [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:86924][OTP] Validate OS Image Streams value [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:87095][OTP] Realtime kernel from rhel9 stream to rhel10 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:87096][OTP] 64k pages kernel from rhel9 stream to rhel10 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:87259][OTP] Extensions from rhel9 stream to rhel10 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
     "Suite": "openshift-tests"
   },
   {
@@ -175988,7 +176108,27 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:88365][OTP] Verify when osstream and osImageurl MC is applied the MCP is degraded [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:88366][Skipped:Disconnected] osImageStream should be empty when osImageURL is set [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:88814] Invalid osImageURL degrades MCP and clears osImageStream status [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:89322][OTP] Realtime kernel from rhel10 stream to rhel9 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:89323][OTP] 64k pages kernel from rhel10 stream to rhel9 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:89324][OTP] Extensions from rhel10 stream to rhel9 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
     "Suite": "openshift-tests"
   },
   {
