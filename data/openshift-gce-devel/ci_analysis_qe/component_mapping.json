@@ -207114,6 +207114,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "Overall CI (test step):204affd471815c6aaff48823d11d499b",
+    "Name": "upi-deprovision-vsphere-workers-rhel",
+    "Suite": "Overall CI (test step)",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):c56816c4f43bea686d5b536a40c361ec",
     "Name": "upi-install-aws-cluster",
     "Suite": "Overall CI (test step)",
@@ -208447,6 +208463,22 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):75942d7326452dcbf19dbd2d992445d9",
     "Name": "workers-rhel-scaleup",
+    "Suite": "Overall CI (test step)",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "Overall CI (test step):c956a650e8e881f66f48e69d8e8d898f",
+    "Name": "workers-rhel-vsphere-provision",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,

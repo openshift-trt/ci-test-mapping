@@ -51772,6 +51772,10 @@
     "Suite": "Overall CI (test step)"
   },
   {
+    "Name": "upi-deprovision-vsphere-workers-rhel",
+    "Suite": "Overall CI (test step)"
+  },
+  {
     "Name": "upi-install-aws-cluster",
     "Suite": "Overall CI (test step)"
   },
@@ -52097,6 +52101,10 @@
   },
   {
     "Name": "workers-rhel-scaleup",
+    "Suite": "Overall CI (test step)"
+  },
+  {
+    "Name": "workers-rhel-vsphere-provision",
     "Suite": "Overall CI (test step)"
   },
   {
