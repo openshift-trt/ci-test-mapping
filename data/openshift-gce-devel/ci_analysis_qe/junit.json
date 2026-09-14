@@ -50028,10 +50028,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "openshift-logging-install-konflux-catalogsource",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "openshift-upgrade-qe-test-report",
     "Suite": "Overall CI (test step)"
   },

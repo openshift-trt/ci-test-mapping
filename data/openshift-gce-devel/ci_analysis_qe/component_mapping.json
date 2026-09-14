@@ -200136,22 +200136,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):52f0737becd9925164db4bee6343b513",
-    "Name": "openshift-logging-install-konflux-catalogsource",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):80c06e9218356578bf5f4b8218467647",
     "Name": "openshift-upgrade-qe-test-report",
     "Suite": "Overall CI (test step)",
