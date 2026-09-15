@@ -9464,14 +9464,6 @@
     "Suite": "Cluster_Operator"
   },
   {
-    "Name": "OCP-25321:SDN dpdk for intel card works well",
-    "Suite": "Sriov related scenarios"
-  },
-  {
-    "Name": "OCP-25321:SDN dpdk for intel card works well",
-    "Suite": "SDN_cucushift"
-  },
-  {
     "Name": "OCP-25321:zzhao:SDN:[sig-networking] SDN sriov [E810-C] Check intel dpdk works well [Disruptive] [Serial]",
     "Suite": "SDN"
   },

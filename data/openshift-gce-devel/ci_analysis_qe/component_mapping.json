@@ -37859,38 +37859,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Sriov related scenarios:27e6231bae370a700fe1d540a56fefc7",
-    "Name": "OCP-25321:SDN dpdk for intel card works well",
-    "Suite": "Sriov related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN_cucushift:27e6231bae370a700fe1d540a56fefc7",
-    "Name": "OCP-25321:SDN dpdk for intel card works well",
-    "Suite": "SDN_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:13e9983a5259a6306f21d915d87c5343",
     "Name": "OCP-25321:zzhao:SDN:[sig-networking] SDN sriov [E810-C] Check intel dpdk works well [Disruptive] [Serial]",
     "Suite": "SDN",
