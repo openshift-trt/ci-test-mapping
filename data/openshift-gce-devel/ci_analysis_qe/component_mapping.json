@@ -3122,22 +3122,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "BareMetalHosts related features:c39dd52e9033c0ee0358131453ea39fb",
-    "Name": "BareMetalHosts related features \"after all\" hook for \"(OCP-63080,yanpzhan,UserInterface) Check functions in actions list for BMH\"",
-    "Suite": "BareMetalHosts related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Cloud Compute / BareMetal Provider",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Cloud Compute / BareMetal Provider",
-    "JIRAComponentID": "14657"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Root Suite:3c9f98be016ae059fdcb5b3d301b68f4",
     "Name": "Branding check \"before all\" hook for \"(OCP-48357,yanpzhan,UserInterface) Switch the OCP branding logo and title to Red Hat OpenShift logo and title\"",
     "Suite": "Root Suite",
@@ -5922,22 +5906,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Features on managed cluster such as ROSA/OSD:958572a34c9c371cb23fe7341cdfb201",
-    "Name": "Features on managed cluster such as ROSA/OSD \"after all\" hook for \"(OCP-68381,yanpzhan,UserInterface) Hide page-specific doc links for ROSA and OSD\"",
-    "Suite": "Features on managed cluster such as ROSA/OSD",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Features on managed cluster such as ROSA/OSD:ea4fdc91ca0528d0e45661a657be888d",
     "Name": "Features on managed cluster such as ROSA/OSD \"before all\" hook for \"(OCP-68381,yanpzhan,UserInterface) Hide page-specific doc links for ROSA and OSD\"",
     "Suite": "Features on managed cluster such as ROSA/OSD",
@@ -6382,22 +6350,6 @@
     ],
     "JIRAComponent": "Insights Operator",
     "JIRAComponentID": "14926"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Jobs testing:94ccb98594471bcc5893723c33679adf",
-    "Name": "Jobs testing \"after all\" hook for \"(OCP-79979,yapei,UserInterface)Add Created column to Jobs list\"",
-    "Suite": "Jobs testing",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
   },
   {
     "APIVersion": "v1",
@@ -167325,22 +167277,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage Classes tests:028ae724297c8b3feabf0beeff698a7d",
-    "Name": "Storage Classes tests \"after all\" hook for \"(OCP-81230,yapei,UserInterface)Add support for setting default StorageClass\"",
-    "Suite": "Storage Classes tests",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Storage Classes tests:0494fa7f167bf31bc68d5dfb68753dab",
     "Name": "Storage Classes tests \"before all\" hook for \"(OCP-81230,yapei,UserInterface)Add support for setting default StorageClass\"",
     "Suite": "Storage Classes tests",
@@ -187328,38 +187264,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):3b95f915420c9adeada469a6b97cbf09",
-    "Name": "baremetal-lab-ipi-conf-external-lb",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):2fddf353df0ac64abe7644d6c683f697",
-    "Name": "baremetal-lab-ipi-conf-external-lb-load-balancer",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):3fa0619c1424da17e681eb66f6b0c07d",
     "Name": "baremetal-lab-ipi-conf-load-balancer",
     "Suite": "Overall CI (test step)",
@@ -189522,22 +189426,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):61ecec57b0e565f39ab43b21d186383e",
     "Name": "cucushift-hypershift-extended-nodepool-image-azure-health-check",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):97a946699d8ef56d7db09e786041cc7b",
-    "Name": "cucushift-hypershift-extended-registry-overrides-patch-hypershift-operator",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -198088,22 +197976,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "masthead related:90b715869ac34156f9f8912c6872dc85",
-    "Name": "masthead related \"after all\" hook for \"(OCP-81508,yanpzhan,UserInterface) Allow user to add second custom logo and favicon icons\"",
-    "Suite": "masthead related",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "masthead related:0909e810a649f860e9ee968700f30b5b",
     "Name": "masthead related \"before all\" hook for \"(OCP-60809,yanpzhan,UserInterface) Add customer feedback to console\"",
     "Suite": "masthead related",
@@ -202324,38 +202196,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "pod log page:ead52f5ff765b81bbc7dff458822ab2a",
-    "Name": "pod log page \"after all\" hook for \"(OCP-68476,xiyuzhao,UserInterface)Excessive permissions in web-console impersonating a user\"",
-    "Suite": "pod log page",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "pod log page:881b6600831bc994964bbed48bf94990",
-    "Name": "pod log page \"before all\" hook for \"(OCP-68476,xiyuzhao,UserInterface)Excessive permissions in web-console impersonating a user\"",
-    "Suite": "pod log page",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
   },
   {
     "APIVersion": "v1",
