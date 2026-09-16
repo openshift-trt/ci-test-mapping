@@ -780,10 +780,6 @@
     "Suite": "Azure disk and Azure file specific scenarios"
   },
   {
-    "Name": "BareMetalHosts related features \"after all\" hook for \"(OCP-63080,yanpzhan,UserInterface) Check functions in actions list for BMH\"",
-    "Suite": "BareMetalHosts related features"
-  },
-  {
     "Name": "Branding check \"before all\" hook for \"(OCP-48357,yanpzhan,UserInterface) Switch the OCP branding logo and title to Red Hat OpenShift logo and title\"",
     "Suite": "Root Suite"
   },
@@ -1480,10 +1476,6 @@
     "Suite": "cucushift-upgrade-prepare"
   },
   {
-    "Name": "Features on managed cluster such as ROSA/OSD \"after all\" hook for \"(OCP-68381,yanpzhan,UserInterface) Hide page-specific doc links for ROSA and OSD\"",
-    "Suite": "Features on managed cluster such as ROSA/OSD"
-  },
-  {
     "Name": "Features on managed cluster such as ROSA/OSD \"before all\" hook for \"(OCP-68381,yanpzhan,UserInterface) Hide page-specific doc links for ROSA and OSD\"",
     "Suite": "Features on managed cluster such as ROSA/OSD"
   },
@@ -1594,10 +1586,6 @@
   {
     "Name": "Insights check (OCP-48054,yanpzhan,UserInterface) Add severity links on insights popover",
     "Suite": "Insights check"
-  },
-  {
-    "Name": "Jobs testing \"after all\" hook for \"(OCP-79979,yapei,UserInterface)Add Created column to Jobs list\"",
-    "Suite": "Jobs testing"
   },
   {
     "Name": "Jobs testing \"before all\" hook for \"(OCP-79979,yapei,UserInterface)Add Created column to Jobs list\"",
@@ -41828,10 +41816,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "Storage Classes tests \"after all\" hook for \"(OCP-81230,yapei,UserInterface)Add support for setting default StorageClass\"",
-    "Suite": "Storage Classes tests"
-  },
-  {
     "Name": "Storage Classes tests \"before all\" hook for \"(OCP-81230,yapei,UserInterface)Add support for setting default StorageClass\"",
     "Suite": "Storage Classes tests"
   },
@@ -46828,14 +46812,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-ipi-conf-external-lb",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-ipi-conf-external-lb-load-balancer",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-ipi-conf-load-balancer",
     "Suite": "Overall CI (test step)"
   },
@@ -47377,10 +47353,6 @@
   },
   {
     "Name": "cucushift-hypershift-extended-nodepool-image-azure-health-check",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "cucushift-hypershift-extended-registry-overrides-patch-hypershift-operator",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -49516,10 +49488,6 @@
     "Suite": "masthead related"
   },
   {
-    "Name": "masthead related \"after all\" hook for \"(OCP-81508,yanpzhan,UserInterface) Allow user to add second custom logo and favicon icons\"",
-    "Suite": "masthead related"
-  },
-  {
     "Name": "masthead related \"before all\" hook for \"(OCP-60809,yanpzhan,UserInterface) Add customer feedback to console\"",
     "Suite": "masthead related"
   },
@@ -50574,14 +50542,6 @@
   {
     "Name": "platformoperator-valid-service-mesh",
     "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "pod log page \"after all\" hook for \"(OCP-68476,xiyuzhao,UserInterface)Excessive permissions in web-console impersonating a user\"",
-    "Suite": "pod log page"
-  },
-  {
-    "Name": "pod log page \"before all\" hook for \"(OCP-68476,xiyuzhao,UserInterface)Excessive permissions in web-console impersonating a user\"",
-    "Suite": "pod log page"
   },
   {
     "Name": "pod log page (OCP-68476,xiyuzhao,UserInterface)Excessive permissions in web-console impersonating a user",
