@@ -3570,6 +3570,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "Check on hypershift provisined cluster:54c67677ad025deec45fa226eec2de75",
+    "Name": "Check on hypershift provisined cluster \"after all\" hook for \"(OCP-51733,yanpzhan,UserInterface) Check no idp alert for temporary administrative user on HyperShift Provisioned Clusters\"",
+    "Suite": "Check on hypershift provisined cluster",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "HyperShift",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "HyperShift",
+    "JIRAComponentID": "14684"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Check on hypershift provisined cluster:8fee1d4ad62be7d4f6b4ffb1dd5616af",
     "Name": "Check on hypershift provisined cluster \"before all\" hook for \"(OCP-50740,yanpzhan,UserInterface) Remove manchine related resources for HyperShift Provisioned Clusters\"",
     "Suite": "Check on hypershift provisined cluster",
@@ -26834,22 +26850,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "API_Server:f8cebc2bfcf6be19fcba23be1d296020",
-    "Name": "OCP-1XX63:rgangwar:API_Server:[Apiserver] When exceed openshift.io/images will ban to create image reference or push image to project",
-    "Suite": "API_Server",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-apiserver",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-apiserver",
-    "JIRAComponentID": "14814"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "API_Server:00b688f8fa37de0458aa10fc2ae5c207",
     "Name": "OCP-1XX63:rgangwar:API_Server:[sig-api-machinery] API_Server [Apiserver] When exceed openshift.io/images will ban to create image reference or push image to project",
     "Suite": "API_Server",
@@ -39919,22 +39919,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "OLM:75468b16f14577fa80cc391ec3c141f8",
-    "Name": "OCP-259XX:jiazha:OLM:Support spec.config.volumes and volumemount in Subscription",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
   },
   {
     "APIVersion": "v1",
@@ -61571,22 +61555,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Network_Edge:78ddf6af53a800c9fbf60cca45a0c78d",
-    "Name": "OCP-408XX:mjoseph:Network_Edge:The headerBufferBytes and headerBufferMaxRewriteBytes strictly honours the default minimum values",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:64a5d7ae2c92676473cee6440bab43d9",
     "Name": "OCP-408XX:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The headerBufferBytes and headerBufferMaxRewriteBytes strictly honours the default minimum values",
     "Suite": "Network_Edge",
@@ -69215,22 +69183,6 @@
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Security_and_Compliance:c01813c8c6be82cbb737d53f6665e770",
-    "Name": "OCP-43136:pdhamdhe:Security_and_Compliance:[sig-isc] Security_and_Compliance File_Integrity_Operator an end user handle FIO within a namespace WRS-Check FIO metrics and alerting [Serial][Slow]",
-    "Suite": "Security_and_Compliance",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -81894,22 +81846,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OTA:90f479109cdac7279b62efaddc70c913",
-    "Name": "OCP-469XX:jiajliu:OTA:check runlevel in cvo ns",
-    "Suite": "OTA",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:640d98724517995b0b065b3f638a9d06",
     "Name": "OCP-47001:wduan:STORAGE:[Azure-Disk-CSI-Driver] support different skuName in storageclass with Premium_LRS, StandardSSD_LRS, Standard_LRS",
     "Suite": "STORAGE",
@@ -84311,22 +84247,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OLM:dfdb7a37873dc39860589750ffb0c13b",
-    "Name": "OCP-473XX:xzha:OLM:Arbitrary Constraints can be defined as bundle properties",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "OLM:0ae4d3bcb6a6ef667bfc0f1d2b5b7309",
     "Name": "OCP-473XX:xzha:OLM:[sig-operators] OLM for an end user handle within a namespace Arbitrary Constraints can be defined as bundle properties",
     "Suite": "OLM",
@@ -85623,43 +85543,11 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:d62bf21a66ddccd65760f65062f10f72",
-    "Name": "OCP-47XX4:wduan:STORAGE:[CSI-Driver] [CSI Clone] [Filesystem] provisioning volume with pvc data source larger than original volume",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:49d6387d5da701214bfdc12c6dfca6af",
     "Name": "OCP-47XX4:wduan:STORAGE:[sig-storage] STORAGE [CSI-Driver] [CSI Clone] [Filesystem] provisioning volume with pvc data source larger than original volume",
     "Suite": "STORAGE",
     "Product": "OpenShift",
     "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "STORAGE:fad0cd35f770c1fa99c427a3928b857c",
-    "Name": "OCP-47XX5:wduan:STORAGE:[CSI-Driver] [CSI Clone] [Raw Block] provisioning volume with pvc data source larger than original volume",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
@@ -90807,40 +90695,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Network_Edge:ce6718fc301df4648345d138cde95bb8",
-    "Name": "OCP-4XX30:aiyengar:Network_Edge:route can be configured to whitelist more than 61 ips/CIDRs",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:308583b16016e871d033ca33724ff749",
     "Name": "OCP-4XX76:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router should enable annotation traffic-policy.network.alpha.openshift.io/local-with-fallback on LB and nodePort service",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Network_Edge:fb3e6ed6fb536d71f7e830b6e11c034c",
-    "Name": "OCP-4XX76:hongli:Network_Edge:enable annotation traffic-policy.network.alpha.openshift.io/local-with-fallback on LB and nodePort service",
     "Suite": "Network_Edge",
     "Product": "OpenShift",
     "Priority": 0,
@@ -97271,40 +97127,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:ec0cd5f7f52a600a6dc2e76ec86ed947",
-    "Name": "OCP-517XX:weliang:SDN:Create runbook and link SOP for SouthboundStale alert",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:375916c8306ce6041e7503708048ec0e",
     "Name": "OCP-517XX:weliang:SDN:[sig-networking] SDN Create runbook and link SOP for SouthboundStale alert",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:5e960339f35be8b905a001810ebeb95c",
-    "Name": "OCP-517XX:weliang:SDN:[sig-networking] SDN alerts Create runbook and link SOP for SouthboundStale alert",
     "Suite": "SDN",
     "Product": "OpenShift",
     "Priority": 0,
@@ -102647,40 +102471,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:9776c36b9c5c5f15963ea9ea75124f81",
-    "Name": "OCP-53XX3:huirwang:SDN:Verify ACL audit logs can be generated for traffic hit EgressFirewall rules.",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:ee6718d2aeff2d1541cc696df4a3b21d",
     "Name": "OCP-53XX3:huirwang:SDN:[sig-networking] SDN egressfirewall Verify ACL audit logs can be generated for traffic hit EgressFirewall rules.",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:711c07a9122fb731e686fac1af46984f",
-    "Name": "OCP-53XX4:huirwang:SDN:Disable and enable acl logging for EgressFirewall.",
     "Suite": "SDN",
     "Product": "OpenShift",
     "Priority": 0,
@@ -102711,22 +102503,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:c131a702034dc6a4cbbc43944b5a3e56",
-    "Name": "OCP-53XX6:huirwang:SDN:The namespace enabled acl logging will not affect the namespace not enabling acl logging.",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:5983c222d2b496fec42a4d3507d53dd0",
     "Name": "OCP-53XX6:huirwang:SDN:[sig-networking] SDN egressfirewall The namespace enabled acl logging will not affect the namespace not enabling acl logging.",
     "Suite": "SDN",
@@ -102739,22 +102515,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "API_Server:0fc6bf1220c5592c098caf9fb42707a1",
-    "Name": "OCP-53XX9:dpunia:API_Server:[Apiserver] Test Arbitrary path injection via type field in CNI configuration",
-    "Suite": "API_Server",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-apiserver",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-apiserver",
-    "JIRAComponentID": "14814"
   },
   {
     "APIVersion": "v1",
@@ -108407,22 +108167,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Network_Edge:10d3b9a85ea67818ec641802bd151040",
-    "Name": "OCP-55XX3:mjoseph:Network_Edge:Configuring list of IP address ranges using allowedSourceRanges in LoadBalancerService",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:973784d86ad8f5db134a2e9bce156941",
     "Name": "OCP-55XX3:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Configuring list of IP address ranges using allowedSourceRanges in LoadBalancerService",
     "Suite": "Network_Edge",
@@ -110151,43 +109895,11 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:08efc3f84d928a41dcca251cdec95b1b",
-    "Name": "OCP-56XX3:pewang:STORAGE:[Local-ephemeral-storage] setting requests and limits should work on container level",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:82d89b31d00b882f65d13cc69688764a",
     "Name": "OCP-56XX3:pewang:STORAGE:[sig-storage] STORAGE [Local-ephemeral-storage] setting requests and limits should work on container level",
     "Suite": "STORAGE",
     "Product": "OpenShift",
     "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "STORAGE:2914f5f6cbaf43061745734b1d645a93",
-    "Name": "OCP-56XX5:pewang:STORAGE:[Local-ephemeral-storage] should calculate total requests of Pod when scheduling",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
@@ -112151,22 +111863,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OLM:6c5a74a736e2100f7fef0eb7e5ca4ff4",
-    "Name": "OCP-594XX:jiazha:OLM:package-server-manager does not stomp on changes made to packgeserver CSV",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Cluster_Observability:aacbbd2d33e6a9e6f2a558099f023fbc",
     "Name": "OCP-59521:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring check On/Off switch of cpufreq Collector in Node Exporter [Serial]",
     "Suite": "Cluster_Observability",
@@ -112835,22 +112531,6 @@
     ],
     "JIRAComponent": "Monitoring",
     "JIRAComponentID": "14802"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "STORAGE:9931eccc3e611c251c5c4672e0b67996",
-    "Name": "OCP-5XX39:pewang:STORAGE:[CSI-Driver] [Generic ephemeral volumes] lifecycle should be the same with pod level",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -116519,43 +116199,11 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:55b134fc4e897be9c44e25c05f0c577b",
-    "Name": "OCP-60XX4:wduan:STORAGE:[Azure-Disk-CSI-Driver] support skuName:PremiumV2_LRS in storageclass",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:d5bc070720f3419da5d5b31c90649824",
     "Name": "OCP-60XX4:wduan:STORAGE:[sig-storage] STORAGE [Azure-Disk-CSI-Driver] support skuName:PremiumV2_LRS in storageclass",
     "Suite": "STORAGE",
     "Product": "OpenShift",
     "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "STORAGE:b9d4a3c3ec9881773616ec2efa927054",
-    "Name": "OCP-60XX8:wduan:STORAGE:[Azure-Disk-CSI-Driver] support location in storageclass",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
     "StaffApprovedObsolete": false,
     "Component": "Storage",
     "Capabilities": [
@@ -123095,22 +122743,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "PSAP:bf4f30f87be509612821809d907e40d1",
-    "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift.",
-    "Suite": "PSAP",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "PSAP:15200e0f5871b16fd535bf730d21ec6e",
     "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift. [Disruptive] [Serial]",
     "Suite": "PSAP",
@@ -127895,22 +127527,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:75efe42b6e411cc4f708a640ad96d67e",
-    "Name": "OCP-663XX:rdeore:STORAGE:[LVMS] Show status column for lvmCluster and show warning event for Not Enough Storage capacity directly from PVC",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:2d8ae921e35e24eafbed4e6cb2c2598d",
     "Name": "OCP-663XX:rdeore:STORAGE:[sig-storage] STORAGE [LVMS] Show status column for lvmCluster and show warning event for Not Enough Storage capacity directly from PVC",
     "Suite": "STORAGE",
@@ -131479,22 +131095,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Workloads:3c2032adb3f05f76fedc2a805bee02d7",
-    "Name": "OCP-678XX:knarra:Workloads:Update staticpod file permissions to conform with CIS benchmarks",
-    "Suite": "Workloads",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:33df8971b5d6e7045eb3bf32625c09fe",
     "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads Update staticpod file permissions to conform with CIS benchmarks",
     "Suite": "Workloads",
@@ -133639,22 +133239,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:f31b5e93c575bebf2ffdd545d9ca723e",
-    "Name": "OCP-688XX:ropatil:STORAGE:[AWS-EFS-CSI Driver][Dynamic PV][Filesystem] the provisioning directory should respect the ensureUniqueDirectory parameter setting",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:a9140222f56ae8c18ee053d97d64fac1",
     "Name": "OCP-688XX:ropatil:STORAGE:[sig-storage] STORAGE [AWS-EFS-CSI Driver][Dynamic PV][Filesystem] the provisioning directory should respect the ensureUniqueDirectory parameter setting",
     "Suite": "STORAGE",
@@ -134115,22 +133699,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Cluster_Operator:41b748ea451585ceaf5bb8d0e4f151ed",
-    "Name": "OCP-68XX0:fxie:Cluster_Operator:Leverage Composable OpenShift feature to make cloud-credential optional",
-    "Suite": "Cluster_Operator",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -157339,40 +156907,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Workloads:48e41b2e65707da5f0798a095b3724d7",
-    "Name": "OCP-7XX17:yinzhou:Workloads:Should get warning when there is an identical short name for two or more resources",
-    "Suite": "Workloads",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:fef915a3c1df71ea89c600b3889cd3a9",
     "Name": "OCP-7XX17:yinzhou:Workloads:[sig-cli] Workloads client test Should get warning when there is an identical short name for two or more resources",
-    "Suite": "Workloads",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads:0f2717a77e560edf994485bd9f73ec24",
-    "Name": "OCP-7XX93:yinzhou:Workloads:Should ignore certificate-authority checking when use insecure for oc image commands",
     "Suite": "Workloads",
     "Product": "OpenShift",
     "Priority": 0,
@@ -157531,40 +157067,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:ef32819a3d82ae939d9bdd58e18fd3af",
-    "Name": "OCP-80052:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to ClusterIP Service across CUDN Layer2 and default network in SGW [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 2,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / ovn-kubernetes",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / ovn-kubernetes",
-    "JIRAComponentID": "14951"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:56e2dfbc1755e50317d892c608a3a0a6",
     "Name": "OCP-80052:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to ClusterIP Service across CUDN Layer2 and default network in SGW and LGW [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 2,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / ovn-kubernetes",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / ovn-kubernetes",
-    "JIRAComponentID": "14951"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:767c2078d3df836d30c409cb9de342f0",
-    "Name": "OCP-80053:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to nodePort service across CUDN Layer2 and default network in SGW [Serial]",
     "Suite": "SDN",
     "Product": "OpenShift",
     "Priority": 2,
@@ -164061,22 +163565,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Image_Registry:aa8b9f3f7f654c075ed8fb0a17ffb613",
-    "Name": "OCP-XX056:tbuskey:Image_Registry:Registry operator configure prometheus metric gathering",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Image_Registry:733c20e7e12b313bf1a24abff7ac7e0f",
     "Name": "OCP-XX056:tbuskey:Image_Registry:[sig-imageregistry] Image_Registry Registry operator configure prometheus metric gathering",
     "Suite": "Image_Registry",
@@ -164221,22 +163709,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Authentication:1f7b11920b95ad374e10475a82f3f59c",
-    "Name": "OCP-XX470:zxiao:Authentication:The basic challenge will be shown when user pass the X-CSRF-TOKEN http header",
-    "Suite": "Authentication",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Authentication:4e8571d4a7528f7013eb255b8b09e31a",
     "Name": "OCP-XX470:zxiao:Authentication:[sig-auth] Authentication The basic challenge will be shown when user pass the X-CSRF-TOKEN http header",
     "Suite": "Authentication",
@@ -164269,22 +163741,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "API_Server:4ec3d334486b65864570ee92bb337060",
-    "Name": "OCP-XX565:zxiao:API_Server:[origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
-    "Suite": "API_Server",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-apiserver",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-apiserver",
-    "JIRAComponentID": "14814"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "API_Server:54724603b4c50f546b594f1ae7b893d5",
     "Name": "OCP-XX565:zxiao:API_Server:[sig-api-machinery] API_Server [origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
     "Suite": "API_Server",
@@ -164297,22 +163753,6 @@
     ],
     "JIRAComponent": "kube-apiserver",
     "JIRAComponentID": "14814"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Image_Registry:5f733ca40a5903bb2d615e31f858e754",
-    "Name": "OCP-XX596:jitli:Image_Registry:ImageRegistry Create app with template eap74-basic-s2i with jbosseap rhel7 image",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
   },
   {
     "APIVersion": "v1",
@@ -164413,40 +163853,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Network_Edge:d39f7b32742262868ff94ae221569399",
-    "Name": "OCP-XX636:mjoseph:Network_Edge:The namespaceSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:37899c42a41bb959f4a99b871fc0c0a8",
     "Name": "OCP-XX636:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The namespaceSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / router",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / router",
-    "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Network_Edge:426b3b87356e8044ca1027fde47fea15",
-    "Name": "OCP-XX637:mjoseph:Network_Edge:The routeSelector of router is controlled by ingresscontroller",
     "Suite": "Network_Edge",
     "Product": "OpenShift",
     "Priority": 0,
@@ -164591,38 +163999,6 @@
     "Kind": "TestOwnership",
     "ID": "OLM:8a356e64a680ec2674eb7d002664cebf",
     "Name": "OCP-XXXX6:kuiwang:OLM:[sig-operators] OLM for an end user handle to support the csv without support MultiNamespace fails for og with MultiNamespace",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "OLM:e170a997c80486da466cb484e556ce21",
-    "Name": "OCP-XXXX6:kuiwang:OLM:the csv without support AllNamespaces fails for og with allnamespace",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "OLM:75944ae0c6024d7932f1887b8b87a335",
-    "Name": "OCP-XXXX6:kuiwang:OLM:the csv without support MultiNamespace fails for og with MultiNamespace",
     "Suite": "OLM",
     "Product": "OpenShift",
     "Priority": 0,

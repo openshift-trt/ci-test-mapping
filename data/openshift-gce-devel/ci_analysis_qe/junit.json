@@ -892,6 +892,10 @@
     "Suite": "Check on hypershift provisined cluster"
   },
   {
+    "Name": "Check on hypershift provisined cluster \"after all\" hook for \"(OCP-51733,yanpzhan,UserInterface) Check no idp alert for temporary administrative user on HyperShift Provisioned Clusters\"",
+    "Suite": "Check on hypershift provisined cluster"
+  },
+  {
     "Name": "Check on hypershift provisined cluster \"before all\" hook for \"(OCP-50740,yanpzhan,UserInterface) Remove manchine related resources for HyperShift Provisioned Clusters\"",
     "Suite": "Check on hypershift provisined cluster"
   },
@@ -6708,10 +6712,6 @@
     "Suite": "Quota related scenarios"
   },
   {
-    "Name": "OCP-1XX63:rgangwar:API_Server:[Apiserver] When exceed openshift.io/images will ban to create image reference or push image to project",
-    "Suite": "API_Server"
-  },
-  {
     "Name": "OCP-1XX63:rgangwar:API_Server:[sig-api-machinery] API_Server [Apiserver] When exceed openshift.io/images will ban to create image reference or push image to project",
     "Suite": "API_Server"
   },
@@ -9978,10 +9978,6 @@
   {
     "Name": "OCP-25963:zzhao:SDN:[sig-networking] SDN sriov-legacy Test container with VF and set vlan minTxRate maxTxRate [Disruptive] [Serial]",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-259XX:jiazha:OLM:Support spec.config.volumes and volumemount in Subscription",
-    "Suite": "OLM"
   },
   {
     "Name": "OCP-259XX:jiazha:OLM:[sig-operators] OLM should Support spec.config.volumes and volumemount in Subscription",
@@ -15392,10 +15388,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-408XX:mjoseph:Network_Edge:The headerBufferBytes and headerBufferMaxRewriteBytes strictly honours the default minimum values",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-408XX:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The headerBufferBytes and headerBufferMaxRewriteBytes strictly honours the default minimum values",
     "Suite": "Network_Edge"
   },
@@ -17302,10 +17294,6 @@
   {
     "Name": "OCP-43135:jiazha:OLM:[sig-operators] OLM should PackageServer respects single-node configuration [Disruptive] [Serial]",
     "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-43136:pdhamdhe:Security_and_Compliance:[sig-isc] Security_and_Compliance File_Integrity_Operator an end user handle FIO within a namespace WRS-Check FIO metrics and alerting [Serial][Slow]",
-    "Suite": "Security_and_Compliance"
   },
   {
     "Name": "OCP-43136:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance File_Integrity_Operator an end user handle FIO within a namespace Check FIO metrics and alerting [Serial][Slow]",
@@ -20472,10 +20460,6 @@
     "Suite": "OTA"
   },
   {
-    "Name": "OCP-469XX:jiajliu:OTA:check runlevel in cvo ns",
-    "Suite": "OTA"
-  },
-  {
     "Name": "OCP-47001:wduan:STORAGE:[Azure-Disk-CSI-Driver] support different skuName in storageclass with Premium_LRS, StandardSSD_LRS, Standard_LRS",
     "Suite": "STORAGE"
   },
@@ -21076,10 +21060,6 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-473XX:xzha:OLM:Arbitrary Constraints can be defined as bundle properties",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-473XX:xzha:OLM:[sig-operators] OLM for an end user handle within a namespace Arbitrary Constraints can be defined as bundle properties",
     "Suite": "OLM"
   },
@@ -21404,15 +21384,7 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-47XX4:wduan:STORAGE:[CSI-Driver] [CSI Clone] [Filesystem] provisioning volume with pvc data source larger than original volume",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-47XX4:wduan:STORAGE:[sig-storage] STORAGE [CSI-Driver] [CSI Clone] [Filesystem] provisioning volume with pvc data source larger than original volume",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-47XX5:wduan:STORAGE:[CSI-Driver] [CSI Clone] [Raw Block] provisioning volume with pvc data source larger than original volume",
     "Suite": "STORAGE"
   },
   {
@@ -22700,15 +22672,7 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-4XX30:aiyengar:Network_Edge:route can be configured to whitelist more than 61 ips/CIDRs",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-4XX76:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router should enable annotation traffic-policy.network.alpha.openshift.io/local-with-fallback on LB and nodePort service",
-    "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-4XX76:hongli:Network_Edge:enable annotation traffic-policy.network.alpha.openshift.io/local-with-fallback on LB and nodePort service",
     "Suite": "Network_Edge"
   },
   {
@@ -24316,15 +24280,7 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-517XX:weliang:SDN:Create runbook and link SOP for SouthboundStale alert",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-517XX:weliang:SDN:[sig-networking] SDN Create runbook and link SOP for SouthboundStale alert",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-517XX:weliang:SDN:[sig-networking] SDN alerts Create runbook and link SOP for SouthboundStale alert",
     "Suite": "SDN"
   },
   {
@@ -25660,15 +25616,7 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-53XX3:huirwang:SDN:Verify ACL audit logs can be generated for traffic hit EgressFirewall rules.",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-53XX3:huirwang:SDN:[sig-networking] SDN egressfirewall Verify ACL audit logs can be generated for traffic hit EgressFirewall rules.",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX4:huirwang:SDN:Disable and enable acl logging for EgressFirewall.",
     "Suite": "SDN"
   },
   {
@@ -25676,16 +25624,8 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-53XX6:huirwang:SDN:The namespace enabled acl logging will not affect the namespace not enabling acl logging.",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-53XX6:huirwang:SDN:[sig-networking] SDN egressfirewall The namespace enabled acl logging will not affect the namespace not enabling acl logging.",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX9:dpunia:API_Server:[Apiserver] Test Arbitrary path injection via type field in CNI configuration",
-    "Suite": "API_Server"
   },
   {
     "Name": "OCP-53XX9:dpunia:API_Server:[sig-api-machinery] API_Server [Apiserver] Test Arbitrary path injection via type field in CNI configuration",
@@ -27100,10 +27040,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-55XX3:mjoseph:Network_Edge:Configuring list of IP address ranges using allowedSourceRanges in LoadBalancerService",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-55XX3:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Configuring list of IP address ranges using allowedSourceRanges in LoadBalancerService",
     "Suite": "Network_Edge"
   },
@@ -27536,15 +27472,7 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-56XX3:pewang:STORAGE:[Local-ephemeral-storage] setting requests and limits should work on container level",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-56XX3:pewang:STORAGE:[sig-storage] STORAGE [Local-ephemeral-storage] setting requests and limits should work on container level",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-56XX5:pewang:STORAGE:[Local-ephemeral-storage] should calculate total requests of Pod when scheduling",
     "Suite": "STORAGE"
   },
   {
@@ -28036,10 +27964,6 @@
     "Suite": "OLM"
   },
   {
-    "Name": "OCP-594XX:jiazha:OLM:package-server-manager does not stomp on changes made to packgeserver CSV",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-59521:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring check On/Off switch of cpufreq Collector in Node Exporter [Serial]",
     "Suite": "Cluster_Observability"
   },
@@ -28206,10 +28130,6 @@
   {
     "Name": "OCP-59986:juzhao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring Allow to configure secrets in alertmanager component [Serial]",
     "Suite": "Cluster_Observability"
-  },
-  {
-    "Name": "OCP-5XX39:pewang:STORAGE:[CSI-Driver] [Generic ephemeral volumes] lifecycle should be the same with pod level",
-    "Suite": "STORAGE"
   },
   {
     "Name": "OCP-5XX39:pewang:STORAGE:[sig-storage] STORAGE [CSI-Driver] [Generic ephemeral volumes] lifecycle should be the same with pod level",
@@ -29128,15 +29048,7 @@
     "Suite": "NODE"
   },
   {
-    "Name": "OCP-60XX4:wduan:STORAGE:[Azure-Disk-CSI-Driver] support skuName:PremiumV2_LRS in storageclass",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-60XX4:wduan:STORAGE:[sig-storage] STORAGE [Azure-Disk-CSI-Driver] support skuName:PremiumV2_LRS in storageclass",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-60XX8:wduan:STORAGE:[Azure-Disk-CSI-Driver] support location in storageclass",
     "Suite": "STORAGE"
   },
   {
@@ -30772,10 +30684,6 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift.",
-    "Suite": "PSAP"
-  },
-  {
     "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift. [Disruptive] [Serial]",
     "Suite": "PSAP"
   },
@@ -31972,10 +31880,6 @@
     "Suite": "NODE"
   },
   {
-    "Name": "OCP-663XX:rdeore:STORAGE:[LVMS] Show status column for lvmCluster and show warning event for Not Enough Storage capacity directly from PVC",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-663XX:rdeore:STORAGE:[sig-storage] STORAGE [LVMS] Show status column for lvmCluster and show warning event for Not Enough Storage capacity directly from PVC",
     "Suite": "STORAGE"
   },
@@ -32868,10 +32772,6 @@
     "Suite": "Hypershift"
   },
   {
-    "Name": "OCP-678XX:knarra:Workloads:Update staticpod file permissions to conform with CIS benchmarks",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads Update staticpod file permissions to conform with CIS benchmarks",
     "Suite": "Workloads"
   },
@@ -33408,10 +33308,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-688XX:ropatil:STORAGE:[AWS-EFS-CSI Driver][Dynamic PV][Filesystem] the provisioning directory should respect the ensureUniqueDirectory parameter setting",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-688XX:ropatil:STORAGE:[sig-storage] STORAGE [AWS-EFS-CSI Driver][Dynamic PV][Filesystem] the provisioning directory should respect the ensureUniqueDirectory parameter setting",
     "Suite": "STORAGE"
   },
@@ -33526,10 +33422,6 @@
   {
     "Name": "OCP-68965:huirwang:SDN:[sig-networking] SDN OVN EgressIP EgressIP works for podSelector and namespaceSelector.",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-68XX0:fxie:Cluster_Operator:Leverage Composable OpenShift feature to make cloud-credential optional",
-    "Suite": "Cluster_Operator"
   },
   {
     "Name": "OCP-68XX0:fxie:Cluster_Operator:[sig-cco] Cluster_Operator CCO is disabled Leverage Composable OpenShift feature to make cloud-credential optional",
@@ -39332,15 +39224,7 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-7XX17:yinzhou:Workloads:Should get warning when there is an identical short name for two or more resources",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-7XX17:yinzhou:Workloads:[sig-cli] Workloads client test Should get warning when there is an identical short name for two or more resources",
-    "Suite": "Workloads"
-  },
-  {
-    "Name": "OCP-7XX93:yinzhou:Workloads:Should ignore certificate-authority checking when use insecure for oc image commands",
     "Suite": "Workloads"
   },
   {
@@ -39380,15 +39264,7 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-80052:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to ClusterIP Service across CUDN Layer2 and default network in SGW [Serial]",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-80052:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to ClusterIP Service across CUDN Layer2 and default network in SGW and LGW [Serial]",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-80053:meinli:SDN:[sig-networking] SDN ovn-kubernetes ibgp-cudn Validate pod to nodePort service across CUDN Layer2 and default network in SGW [Serial]",
     "Suite": "SDN"
   },
   {
@@ -41012,10 +40888,6 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-XX056:tbuskey:Image_Registry:Registry operator configure prometheus metric gathering",
-    "Suite": "Image_Registry"
-  },
-  {
     "Name": "OCP-XX056:tbuskey:Image_Registry:[sig-imageregistry] Image_Registry Registry operator configure prometheus metric gathering",
     "Suite": "Image_Registry"
   },
@@ -41052,10 +40924,6 @@
     "Suite": "UI-console-operator related"
   },
   {
-    "Name": "OCP-XX470:zxiao:Authentication:The basic challenge will be shown when user pass the X-CSRF-TOKEN http header",
-    "Suite": "Authentication"
-  },
-  {
     "Name": "OCP-XX470:zxiao:Authentication:[sig-auth] Authentication The basic challenge will be shown when user pass the X-CSRF-TOKEN http header",
     "Suite": "Authentication"
   },
@@ -41064,16 +40932,8 @@
     "Suite": "SCC policy related scenarios"
   },
   {
-    "Name": "OCP-XX565:zxiao:API_Server:[origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
-    "Suite": "API_Server"
-  },
-  {
     "Name": "OCP-XX565:zxiao:API_Server:[sig-api-machinery] API_Server [origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
     "Suite": "API_Server"
-  },
-  {
-    "Name": "OCP-XX596:jitli:Image_Registry:ImageRegistry Create app with template eap74-basic-s2i with jbosseap rhel7 image",
-    "Suite": "Image_Registry"
   },
   {
     "Name": "OCP-XX596:jitli:Image_Registry:[sig-imageregistry] Image_Registry ImageRegistry Create app with template eap74-basic-s2i with jbosseap rhel7 image",
@@ -41100,15 +40960,7 @@
     "Suite": "Testing Ingress Operator related scenarios"
   },
   {
-    "Name": "OCP-XX636:mjoseph:Network_Edge:The namespaceSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-XX636:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The namespaceSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-XX637:mjoseph:Network_Edge:The routeSelector of router is controlled by ingresscontroller",
     "Suite": "Network_Edge"
   },
   {
@@ -41145,14 +40997,6 @@
   },
   {
     "Name": "OCP-XXXX6:kuiwang:OLM:[sig-operators] OLM for an end user handle to support the csv without support MultiNamespace fails for og with MultiNamespace",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XXXX6:kuiwang:OLM:the csv without support AllNamespaces fails for og with allnamespace",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XXXX6:kuiwang:OLM:the csv without support MultiNamespace fails for og with MultiNamespace",
     "Suite": "OLM"
   },
   {
