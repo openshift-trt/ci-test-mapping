@@ -186624,22 +186624,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):da2c1757aa3b7d698f65d0c7a21ee3c7",
-    "Name": "baremetal-lab-etcd-encryption",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):3fa0619c1424da17e681eb66f6b0c07d",
     "Name": "baremetal-lab-ipi-conf-load-balancer",
     "Suite": "Overall CI (test step)",
@@ -186738,22 +186722,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):848c9e316dc40feb9cc6d24ce4e12e80",
     "Name": "baremetal-lab-ipi-install",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):aa95208b6e33b4ae08614a8b02aeb78f",
-    "Name": "baremetal-lab-kdump",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -186896,22 +186864,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):e7740ba1cae991229124966fa8220ba2",
-    "Name": "baremetal-lab-pre-console-kargs",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):e02bb2197243de9ede432ac17debfa09",
     "Name": "baremetal-lab-pre-dhcp-conf",
     "Suite": "Overall CI (test step)",
@@ -186930,38 +186882,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):0ec8ea5fdc67323a2dac7e6d4a8d6702",
     "Name": "baremetal-lab-pre-dns",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):bf85a59d34882fb3ecc70365563821de",
-    "Name": "baremetal-lab-pre-firewall",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):8535bd0160c1b347d2b73489cc78fe73",
-    "Name": "baremetal-lab-pre-load-balancer",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -187008,56 +186928,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):91465fbf88eb3ecbb082ccb4b3a7cff7",
-    "Name": "baremetal-lab-pre-pull-artifacts",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):cb1897a4a0409eea28b8f3d9c3f26dce",
     "Name": "baremetal-lab-pre-reserve-nodes",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):dbbfa67b46a9ebeb69aa2c860abc433e",
-    "Name": "baremetal-lab-rt-kernel",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):a95be503c9b128aab4f6499a66f7cced",
-    "Name": "baremetal-lab-sno-bip",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -187088,40 +186960,8 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):af1f8c42890ebeb04010bbf473fae239",
-    "Name": "baremetal-lab-upi-conf-grub2",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):27475f0373bedff19c2bfef842e2d70a",
     "Name": "baremetal-lab-upi-conf-network",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):2595a7ab158dcaddbb69876bc82829c2",
-    "Name": "baremetal-lab-upi-install",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
