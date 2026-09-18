@@ -46652,10 +46652,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-etcd-encryption",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-ipi-conf-load-balancer",
     "Suite": "Overall CI (test step)"
   },
@@ -46681,10 +46677,6 @@
   },
   {
     "Name": "baremetal-lab-ipi-install",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-kdump",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -46720,23 +46712,11 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-pre-console-kargs",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-pre-dhcp-conf",
     "Suite": "Overall CI (test step)"
   },
   {
     "Name": "baremetal-lab-pre-dns",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-pre-firewall",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-pre-load-balancer",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -46748,19 +46728,7 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-pre-pull-artifacts",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-pre-reserve-nodes",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-rt-kernel",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-sno-bip",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -46768,15 +46736,7 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-upi-conf-grub2",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-upi-conf-network",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-upi-install",
     "Suite": "Overall CI (test step)"
   },
   {
