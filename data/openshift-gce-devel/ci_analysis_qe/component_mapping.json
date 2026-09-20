@@ -153177,22 +153177,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Windows_Containers:3e369e4398e9f751e6fa9df1dabf9f89",
-    "Name": "OCP-77313:rrasouli:Windows_Containers:[sig-windows] Windows_Containers Verify wmco monitors rendered-worker configmap changes [Serial]",
-    "Suite": "Windows_Containers",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Windows Containers",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Windows Containers",
-    "JIRAComponentID": "14956"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "MCO:d0102e91d550a8d9657cd1570e8f5ec6",
     "Name": "OCP-77354:sregidor:MCO:[sig-mco] MCO [P1] Install all extensions [Disruptive] [Serial]",
     "Suite": "MCO",
