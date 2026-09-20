@@ -38292,10 +38292,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-77313:rrasouli:Windows_Containers:[sig-windows] Windows_Containers Verify wmco monitors rendered-worker configmap changes [Serial]",
-    "Suite": "Windows_Containers"
-  },
-  {
     "Name": "OCP-77354:sregidor:MCO:[sig-mco] MCO [P1] Install all extensions [Disruptive] [Serial]",
     "Suite": "MCO"
   },
