@@ -800,30 +800,6 @@
     "Suite": "Symptom Detection"
   },
   {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12018:Workloads |  | :false | \"replicas\": 1 |  |)",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12018:Workloads |  | :false | \"replicas\": 1 |  |)",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12116:Workloads | :false | :false |  |  |)",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12116:Workloads | :false | :false |  |  |)",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12624:Workloads |  |  | \"replicas\": 1 | \"type\": \"Recreate\" |)",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12624:Workloads |  |  | \"replicas\": 1 | \"type\": \"Recreate\" |)",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "CSI dynamic provisioning with different type (outline example : | OCP-24546:Storage | gp2-csi | sc1 | 125Gi |)",
     "Suite": "Storage_cucushift"
   },
@@ -1092,14 +1068,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "Configure 'Retain' reclaim policy for StorageClass (outline example : | OCP-17274:Storage | azure-disk |)",
-    "Suite": "storageClass related feature"
-  },
-  {
-    "Name": "Configure 'Retain' reclaim policy for StorageClass (outline example : | OCP-17276:Storage | azure-file |)",
-    "Suite": "storageClass related feature"
-  },
-  {
     "Name": "Confirm node-node and pod-pod packets are ESP enrypted on IPsec clusters post upgrade",
     "Suite": "IPsec upgrade scenarios"
   },
@@ -1186,14 +1154,6 @@
   {
     "Name": "Create container with oc run command 4.11 and above (outline example : | OCP-50281:Workloads | kubectl |)",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "Create hostpath pv with access mode and reclaim policy (outline example : | OCP-9639:Storage | ReadWriteOnce | Retain | released | succeed |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "Create hostpath pv with access mode and reclaim policy (outline example : | OCP-9639:Storage | ReadWriteOnce | Retain | released | succeed |)",
-    "Suite": "Storage of Hostpath plugin testing"
   },
   {
     "Name": "Debug console for pods \"after all\" hook for \"(OCP-48000, xiangyli), Run Pod in Debug mode\"",
@@ -2132,70 +2092,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-10107:Storage Prebound pv is availabe due to requested pvc status is bound",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10107:Storage Prebound pv is availabe due to requested pvc status is bound",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10109:Storage Prebound pv is availabe due to mismatched accessmode with requested pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10109:Storage Prebound pv is availabe due to mismatched accessmode with requested pvc",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10110:Storage Prebound pv is availabe due to mismatched volume size with requested pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10110:Storage Prebound pv is availabe due to mismatched volume size with requested pvc",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10111:Storage Prebound pvc is pending due to requested pv status is bound",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10111:Storage Prebound pvc is pending due to requested pv status is bound",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10113:Storage Prebound PVC is pending due to mismatched accessmode with requested PV",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10113:Storage Prebound PVC is pending due to mismatched accessmode with requested PV",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10114:Storage Prebound PVC is pending due to mismatched volume size with requested PV",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10114:Storage Prebound PVC is pending due to mismatched volume size with requested PV",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10124:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PVC pre-bind to PV",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10124:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PVC pre-bind to PV",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10125:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV pre-bind to PVC",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-10125:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV pre-bind to PVC",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-10136:yinzhou:Workloads:Project should only watch its owned cache events",
     "Suite": "Workloads"
   },
@@ -2208,71 +2104,11 @@
     "Suite": "Workloads"
   },
   {
-    "Name": "OCP-10145:Storage Pre-bound PVC with invalid PV should have consistent status",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10145:Storage Pre-bound PVC with invalid PV should have consistent status",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "OCP-10167:Storage Consume same name configMap via volum plugin on different namespaces",
-    "Suite": "configMap"
-  },
-  {
-    "Name": "OCP-10170:Storage Consume secret via volume plugin with multiple volumes",
-    "Suite": "secrets related scenarios"
-  },
-  {
-    "Name": "OCP-10170:Storage Consume secret via volume plugin with multiple volumes",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10171:Authentication New-app using tagged imagestreamtag across projects without cross-namespace permission",
-    "Suite": "oc tag related scenarios"
-  },
-  {
-    "Name": "OCP-10171:Authentication New-app using tagged imagestreamtag across projects without cross-namespace permission",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-10172:Storage Check the pvc capacity",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10172:Storage Check the pvc capacity",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
     "Name": "OCP-10174:Storage Azure file with secretNamespace parameter of different project",
     "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-10174:Storage Azure file with secretNamespace parameter of different project",
-    "Suite": "Azure disk and Azure file specific scenarios"
-  },
-  {
-    "Name": "OCP-10187:Storage PV creation negative testing",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10187:Storage PV creation negative testing",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "OCP-10188:Storage PVC creation negative testing",
-    "Suite": "negative testing"
-  },
-  {
-    "Name": "OCP-10188:Storage PVC creation negative testing",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10200:Storage azureDisk volume with RWO access mode and Delete policy",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10200:Storage azureDisk volume with RWO access mode and Delete policy",
     "Suite": "Azure disk and Azure file specific scenarios"
   },
   {
@@ -2356,14 +2192,6 @@
     "Suite": "Node_cucushift"
   },
   {
-    "Name": "OCP-10281:Storage Permission denied when nfs pv annotaion is not right",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10281:Storage Permission denied when nfs pv annotaion is not right",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
     "Name": "OCP-10283:Node Annotation selector supports special characters",
     "Suite": "Quota related scenarios"
   },
@@ -2392,26 +2220,6 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-10415:Storage Negetive test of oc set volume with claim-class paraters",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10415:Storage Negetive test of oc set volume with claim-class paraters",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option"
-  },
-  {
-    "Name": "OCP-10467:Storage User with role storage-admin can get pvc object info",
-    "Suite": "change the policy of user/service account"
-  },
-  {
-    "Name": "OCP-10467:Storage User with role storage-admin can get pvc object info",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-10469:Storage storage class creation negative testing",
-    "Suite": "storageClass related feature"
-  },
-  {
     "Name": "OCP-10569:Node Allow specifying secret data using strings and images",
     "Suite": "secrets related scenarios"
   },
@@ -2436,14 +2244,6 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-10617:Workloads DeploymentConfig should allow valid value of resource requirements",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-10617:Workloads DeploymentConfig should allow valid value of resource requirements",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-10618:yinzhou:Workloads:Prune old builds by admin command [Serial]",
     "Suite": "Workloads"
   },
@@ -2464,18 +2264,6 @@
     "Suite": "Downward API"
   },
   {
-    "Name": "OCP-10631:Authentication Project admin can process local directory or files and convert it to kubernetes secret",
-    "Suite": "oc_secrets.feature"
-  },
-  {
-    "Name": "OCP-10631:Authentication Project admin can process local directory or files and convert it to kubernetes secret",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-10633:Workloads Deployment is automatically stopped when running time is more than ActiveDeadlineSeconds",
-    "Suite": "deployment related features"
-  },
-  {
     "Name": "OCP-10637:xiuwang:Image_Registry:Do not create tags for imageStream if image repository does not have tags",
     "Suite": "Image_Registry"
   },
@@ -2490,14 +2278,6 @@
   {
     "Name": "OCP-10642:Authentication Could grant admin permission for the service account username to access to its own project",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-10643:Workloads Manually make deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-10643:Workloads Manually make deployment",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-10644:Authentication Create pods without ImagePullSecrets will inherit the ImagePullSecrets from its service account.",
@@ -2628,14 +2408,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-10725:Workloads deployment hook volume inheritance --with secret volume",
-    "Suite": "secrets related scenarios"
-  },
-  {
-    "Name": "OCP-10725:Workloads deployment hook volume inheritance --with secret volume",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-10730:Node Creates horizontal pod autoscaler for deploymentConfig",
     "Suite": "Node_cucushift"
   },
@@ -2660,14 +2432,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-10736:Workloads The job and HPA should be deleted when project has been deleted",
-    "Suite": "project permissions"
-  },
-  {
-    "Name": "OCP-10736:Workloads The job and HPA should be deleted when project has been deleted",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-10748:Authentication Administrator can remove groups which are no longer present on the LDAP server from openshift records",
     "Suite": "Group sync related scenarios"
   },
@@ -2686,14 +2450,6 @@
   {
     "Name": "OCP-10780:Authentication Check if the capabilities work in pods",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-10781:Workloads Create job with specific deadline",
-    "Suite": "job.feature"
-  },
-  {
-    "Name": "OCP-10781:Workloads Create job with specific deadline",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-10788:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry Could import image and pull from private registry",
@@ -2804,14 +2560,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-10890:Storage PVC with less label selectors could bound to PV",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-10890:Storage PVC with less label selectors could bound to PV",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-10899:Node Mapping specified secret volume should update when secret is updated",
     "Suite": "secrets related scenarios"
   },
@@ -2906,10 +2654,6 @@
   {
     "Name": "OCP-10947:SDN Dropping all traffic when multiple egressnetworkpolicy in one project",
     "Suite": "Egress-ingress related networking scenarios"
-  },
-  {
-    "Name": "OCP-10967:Workloads Deployment config with automatic=false in ICT",
-    "Suite": "deployment related features"
   },
   {
     "Name": "OCP-10969:dpunia:API_Server:Create clusterip service",
@@ -3208,14 +2952,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11221:Workloads Scale up when deployment running",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11221:Workloads Scale up when deployment running",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11237:Authentication Cluster admin can configure the default capabilities for scc",
     "Suite": "SCC policy related scenarios"
   },
@@ -3326,14 +3062,6 @@
   {
     "Name": "OCP-11306:NetworkEdge Set negative backends weight for ab routing",
     "Suite": "Testing abrouting"
-  },
-  {
-    "Name": "OCP-11307:Storage PVC without any VolumeSelector could bind a PV with any labels",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-11307:Storage PVC without any VolumeSelector could bind a PV with any labels",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-11322:Node Service with multi nodeports should be charged properly in the quota system",
@@ -3492,14 +3220,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11516:Workloads Rolling-update pods with set maxSurge to 0",
-    "Suite": "rolling deployment related scenarios"
-  },
-  {
-    "Name": "OCP-11516:Workloads Rolling-update pods with set maxSurge to 0",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11526:Node Pod should be immediately deleted if TerminationGracePeriodSeconds is 0",
     "Suite": "oc_delete.feature"
   },
@@ -3616,20 +3336,8 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11586:Workloads Automatic set to true with ConfigChangeController on the DeploymentConfig",
-    "Suite": "deployment related features"
-  },
-  {
     "Name": "OCP-11608:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router Set backends weight for edge/passthrough/reencrypt/unsecure route",
     "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-11609:Storage Prebound PVC could bind to pv and ignore the label selector",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-11609:Storage Prebound PVC could bind to pv and ignore the label selector",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-11616:Node services.nodeports in quota system work well when change service type",
@@ -3740,14 +3448,6 @@
     "Suite": "Node_cucushift"
   },
   {
-    "Name": "OCP-11695:Workloads CLI rollback output to file",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11695:Workloads CLI rollback output to file",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11697:Authentication Delete role though rolebinding existed for the role",
     "Suite": "change the policy of user/service account"
   },
@@ -3804,14 +3504,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11744:Workloads Rolling-update pods with set maxUnavabilable to 0",
-    "Suite": "rolling deployment related scenarios"
-  },
-  {
-    "Name": "OCP-11744:Workloads Rolling-update pods with set maxUnavabilable to 0",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11753:Workloads Pod should be immediately deleted if it's not scheduled even if graceful termination period is set",
     "Suite": "pods related scenarios"
   },
@@ -3836,22 +3528,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11762:Workloads deployment hook volume inheritance with hostPath volume",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-11762:Workloads deployment hook volume inheritance with hostPath volume",
-    "Suite": "SCC policy related scenarios"
-  },
-  {
-    "Name": "OCP-11769:Workloads Start new deployment when deployment running",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11769:Workloads Start new deployment when deployment running",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11775:Authentication Create or update scc with illegal capability name should fail with prompt message",
     "Suite": "SCC policy related scenarios"
   },
@@ -3866,10 +3542,6 @@
   {
     "Name": "OCP-11785:Authentication Scc.allowhostdir should take precedence to allow or deny hostpath volume",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-11790:Workloads Automatic set to true without ConfigChangeController on the DeploymentConfig",
-    "Suite": "deployment related features"
   },
   {
     "Name": "OCP-11797:kewang:API_Server:[Apiserver] Image with single or multiple layer(s) sumed up size slightly exceed the openshift.io/image-size will push failed",
@@ -3892,14 +3564,6 @@
     "Suite": "Testing abrouting"
   },
   {
-    "Name": "OCP-11810:Storage PVC and PV still bound after remove the pv label",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-11810:Storage PVC and PV still bound after remove the pv label",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-11815:Node Extract configmap or secret from file",
     "Suite": "oc extract related scenarios"
   },
@@ -3918,18 +3582,6 @@
   {
     "Name": "OCP-11827:Node Quota scope conflict Terminating and NotTerminating",
     "Suite": "Node_cucushift"
-  },
-  {
-    "Name": "OCP-11834:Workloads Paused deployments shouldn't update the image to template",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11877:Workloads CLI rollback with one component",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11877:Workloads CLI rollback with one component",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-11882:Workloads Return description of resources with cli describe",
@@ -3988,14 +3640,6 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-11906:Storage Add secret volume to dc and rc",
-    "Suite": "oc_volume.feature"
-  },
-  {
-    "Name": "OCP-11906:Storage Add secret volume to dc and rc",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-11908:Authentication Limit the created container to access the hostdir via SCC",
     "Suite": "SCC policy related scenarios"
   },
@@ -4044,28 +3688,12 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-11939:Workloads start deployment when the latest deployment is completed",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-11939:Workloads start deployment when the latest deployment is completed",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-11946:Authentication Create pod will inherit all \"requiredCapabilities\" from the SCC that you validate against",
     "Suite": "pods related scenarios"
   },
   {
     "Name": "OCP-11946:Authentication Create pod will inherit all \"requiredCapabilities\" from the SCC that you validate against",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-11971:Storage PVC could bind prebound PV with mismatched label",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-11971:Storage PVC could bind prebound PV with mismatched label",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-11976:Node Extract configmap or secret to appointed directory",
@@ -4134,10 +3762,6 @@
   {
     "Name": "OCP-12022:NetworkEdge Be unable to add an existed alias name for service",
     "Suite": "NetworkEdge_cucushift"
-  },
-  {
-    "Name": "OCP-12034:Workloads Can't stop a deployment in Complete status",
-    "Suite": "deployment related features"
   },
   {
     "Name": "OCP-12035:Authentication The default service account could only get access to imagestreams in its own project",
@@ -4216,14 +3840,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-12077:Storage PVC could not bind PV with label selector matches but binding requirements are not met",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-12077:Storage PVC could not bind PV with label selector matches but binding requirements are not met",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-12081:Node Extract only the keys from configmap or secret to directory",
     "Suite": "oc extract related scenarios"
   },
@@ -4296,14 +3912,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-12133:Workloads Can't stop a deployment in Failed status",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12133:Workloads Can't stop a deployment in Failed status",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-12135:Authentication The container with requests privileged in SC can be created only when the SCC allowed",
     "Suite": "SCC policy related scenarios"
   },
@@ -4336,14 +3944,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-12151:Workloads When the latest deployment failed auto rollback to the active deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12151:Workloads When the latest deployment failed auto rollback to the active deployment",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-12156:Workloads Simple usage of oc proxy as API server",
     "Suite": "oc proxy related scenarios"
   },
@@ -4358,22 +3958,6 @@
   {
     "Name": "OCP-12158:rgangwar:API_Server:[sig-api-machinery] API_Server [Apiserver] Specify ResourceQuota on project",
     "Suite": "API_Server"
-  },
-  {
-    "Name": "OCP-12161:Workloads Proportionally scale - Scale down deployment succeed in unpause and pause",
-    "Suite": "deployment related steps"
-  },
-  {
-    "Name": "OCP-12161:Workloads Proportionally scale - Scale down deployment succeed in unpause and pause",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-12164:Storage Target pvc to a best fit size pv with same label selector",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-12164:Storage Target pvc to a best fit size pv with same label selector",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-12167:SDN The endpoints in EgressNetworkPolicy denying cidrSelector will be ignored",
@@ -4436,30 +4020,6 @@
     "Suite": "Node_cucushift"
   },
   {
-    "Name": "OCP-12220:Storage Target pvc to a specific pv with label selector",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-12220:Storage Target pvc to a specific pv with label selector",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12246:Workloads Stop a \"Running\" deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12246:Workloads Stop a \"Running\" deployment",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-12247:Workloads New volume can not have a same mount point that already exists in a container",
-    "Suite": "oc_volume.feature"
-  },
-  {
-    "Name": "OCP-12247:Workloads New volume can not have a same mount point that already exists in a container",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-12250:Node Limit range does not allow min \u003e defaultRequest",
     "Suite": "limit range related scenarios:"
   },
@@ -4492,28 +4052,12 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-12268:Storage Target pvc to pv with same label selector and multi accessmode",
-    "Suite": "Target pvc to a specific pv"
-  },
-  {
-    "Name": "OCP-12268:Storage Target pvc to pv with same label selector and multi accessmode",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-12281:Node Pods do not have access to each other's secrets in the same namespace",
     "Suite": "secrets related scenarios"
   },
   {
     "Name": "OCP-12281:Node Pods do not have access to each other's secrets in the same namespace",
     "Suite": "Node_cucushift"
-  },
-  {
-    "Name": "OCP-12283:Storage option '--all' and '--selector' can not be used together",
-    "Suite": "oc_volume.feature"
-  },
-  {
-    "Name": "OCP-12283:Storage option '--all' and '--selector' can not be used together",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-12292:Node The quota usage should NOT be incremented if Requests and Limits aren't specified",
@@ -4560,14 +4104,6 @@
     "Suite": "API_Server"
   },
   {
-    "Name": "OCP-12361:Authentication The SCC will take effect only when the user request the SC in the pod",
-    "Suite": "SCC policy related scenarios"
-  },
-  {
-    "Name": "OCP-12361:Authentication The SCC will take effect only when the user request the SC in the pod",
-    "Suite": "Authentication_cucushift"
-  },
-  {
     "Name": "OCP-12387:yinzhou:Workloads:Check race condition in port forward connection handling logic [Serial]",
     "Suite": "Workloads"
   },
@@ -4600,18 +4136,6 @@
     "Suite": "Image_Registry"
   },
   {
-    "Name": "OCP-12402:Workloads Negative test for deployment history",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12430:Authentication Could get projects for new role which has permission to get projects",
-    "Suite": "change the policy of user/service account"
-  },
-  {
-    "Name": "OCP-12430:Authentication Could get projects for new role which has permission to get projects",
-    "Suite": "Authentication_cucushift"
-  },
-  {
     "Name": "OCP-12438:Node Project secrets, configmap not explicitly defining keys for pathing within a volume",
     "Suite": "Node_cucushift"
   },
@@ -4626,14 +4150,6 @@
   {
     "Name": "OCP-12447:Node Project secrets, configmap with a same path of keys within a volume",
     "Suite": "All in one volume"
-  },
-  {
-    "Name": "OCP-12457:Authentication Only cluster-admin could get namespaces",
-    "Suite": "project permissions"
-  },
-  {
-    "Name": "OCP-12457:Authentication Only cluster-admin could get namespaces",
-    "Suite": "Authentication_cucushift"
   },
   {
     "Name": "OCP-12479:Workloads Fixed predicates rules testing - PodFitsPorts",
@@ -4660,24 +4176,12 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-12536:Workloads oc deploy negative test",
-    "Suite": "deployment related features"
-  },
-  {
     "Name": "OCP-12540:SDN Linking external services to OpenShift multitenant",
     "Suite": "Service related networking scenarios"
   },
   {
     "Name": "OCP-12540:SDN Linking external services to OpenShift multitenant",
     "Suite": "SDN_cucushift"
-  },
-  {
-    "Name": "OCP-12543:Workloads Restart a failed deployment by oc deploy",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12543:Workloads Restart a failed deployment by oc deploy",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-12556:NetworkEdge Create a route without host named",
@@ -4756,82 +4260,6 @@
     "Suite": "NetworkEdge_cucushift"
   },
   {
-    "Name": "OCP-12622:Workloads Trigger info is retained for deployment caused by config changes",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12623:Workloads Negative test for rollback",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-12629:Authentication Could know the user or group's rights via ResourceAccessReview",
-    "Suite": "REST related features"
-  },
-  {
-    "Name": "OCP-12637:Authentication Could grant edit permission for the service account group to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12637:Authentication Could grant edit permission for the service account group to access to other project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12638:Authentication Could grant view permission for the service account group to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12638:Authentication Could grant view permission for the service account group to access to other project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12639:Authentication Could grant edit permission for the service account group to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12639:Authentication Could grant edit permission for the service account group to access to its own project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12640:Authentication Could grant view permission for the service account group to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12640:Authentication Could grant view permission for the service account group to access to its own project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12641:Authentication Could grant edit permission for the service account username to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12641:Authentication Could grant edit permission for the service account username to access to other project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12642:Authentication Could grant view permission for the service account username to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12642:Authentication Could grant view permission for the service account username to access to other project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12643:Authentication Could grant edit permission for the service account username to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12643:Authentication Could grant edit permission for the service account username to access to its own project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-12644:Authentication Could grant view permission for the service account username to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment"
-  },
-  {
-    "Name": "OCP-12644:Authentication Could grant view permission for the service account username to access to its own project",
-    "Suite": "Authentication_cucushift"
-  },
-  {
     "Name": "OCP-12652:NetworkEdge The later route should be HostAlreadyClaimed when there is a same host exist",
     "Suite": "Testing route"
   },
@@ -4850,38 +4278,6 @@
   {
     "Name": "OCP-12659:SDN Make the network of given projects be accessible globally",
     "Suite": "SDN_cucushift"
-  },
-  {
-    "Name": "OCP-12671:Storage NFS volume failed to mount returns more verbose message",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12671:Storage NFS volume failed to mount returns more verbose message",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
-    "Name": "OCP-12672:Storage User permission to write to nfs",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12672:Storage User permission to write to nfs",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
-    "Name": "OCP-12679:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV/PVC pre-bind to each other",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-12679:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV/PVC pre-bind to each other",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12680:Storage Pre-bound PV with invalid PVC should have consistent status",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12680:Storage Pre-bound PV with invalid PVC should have consistent status",
-    "Suite": "Persistent Volume Claim binding policies"
   },
   {
     "Name": "OCP-12765:xiuwang:Image_Registry:Allow imagestream request deployment config triggers by different mode(TagreferencePolicy:source/local)",
@@ -4996,18 +4392,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-12897:Workloads PDB create with beta1",
-    "Suite": "pods related scenarios"
-  },
-  {
-    "Name": "OCP-12900:Workloads PDB take effective with percentage number with beta1",
-    "Suite": "pod related features"
-  },
-  {
-    "Name": "OCP-12900:Workloads PDB take effective with percentage number with beta1",
-    "Suite": "Workloads_cucushift"
-  },
-  {
     "Name": "OCP-12916:Node quota apply to pod with init containers",
     "Suite": "Node_cucushift"
   },
@@ -5088,30 +4472,6 @@
     "Suite": "SDN_cucushift"
   },
   {
-    "Name": "OCP-12972:Storage PV volume is unmounted and detached without failure if PV is deleted before pod referencing the volume",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12972:Storage PV volume is unmounted and detached without failure if PV is deleted before pod referencing the volume",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "OCP-12973:Storage PV volume is unmounted and detached without failure if PVC is deleted before pod referencing the volume",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12973:Storage PV volume is unmounted and detached without failure if PVC is deleted before pod referencing the volume",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "OCP-12974:Storage PV volume is unmounted and detached without failure if the namespace of PVC and pod is deleted",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-12974:Storage PV volume is unmounted and detached without failure if the namespace of PVC and pod is deleted",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
     "Name": "OCP-12977:SDN multicast is disabled by default if not annotate the namespace",
     "Suite": "testing multicast scenarios"
   },
@@ -5156,32 +4516,12 @@
     "Suite": "Node components upgrade tests"
   },
   {
-    "Name": "OCP-13095:Authentication Add add-cluster-role-to-user support for -z",
-    "Suite": "change the policy of user/service account"
-  },
-  {
     "Name": "OCP-13248:NetworkEdge The hostname should be converted to available route when met special character",
     "Suite": "Testing route"
   },
   {
     "Name": "OCP-13248:NetworkEdge The hostname should be converted to available route when met special character",
     "Suite": "NetworkEdge_cucushift"
-  },
-  {
-    "Name": "OCP-13289:Workloads PDBs represent percentage in StatefulSet",
-    "Suite": "pod related features"
-  },
-  {
-    "Name": "OCP-13289:Workloads PDBs represent percentage in StatefulSet",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-13303:Workloads PDBs represent percentage in Deployment",
-    "Suite": "pod related features"
-  },
-  {
-    "Name": "OCP-13303:Workloads PDBs represent percentage in Deployment",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-13304:SDN podSelector allow-to and allow-from can work together",
@@ -5264,24 +4604,12 @@
     "Suite": "Workloads"
   },
   {
-    "Name": "OCP-13573:Authentication Verify the privileged SCC allow to request any capabilities",
-    "Suite": "SCC policy related scenarios"
-  },
-  {
-    "Name": "OCP-13573:Authentication Verify the privileged SCC allow to request any capabilities",
-    "Suite": "Authentication_cucushift"
-  },
-  {
     "Name": "OCP-13660:Workloads Taint Toleration - value must be empty when 'operator' is 'Exists'",
     "Suite": "taint toleration related scenarios"
   },
   {
     "Name": "OCP-13660:Workloads Taint Toleration - value must be empty when 'operator' is 'Exists'",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-13676:Storage Setting mount options for volume plugins that doesn't support it",
-    "Suite": "Storage of Hostpath plugin testing"
   },
   {
     "Name": "OCP-13753:NetworkEdge Check the cookie if using secure mode when insecureEdgeTerminationPolicy to Redirect for edge/reencrypt route",
@@ -5364,20 +4692,8 @@
     "Suite": "SDN related networking scenarios"
   },
   {
-    "Name": "OCP-13912:Storage Setting NFS read-only mount option in PV's annotation",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-13912:Storage Setting NFS read-only mount option in PV's annotation",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
     "Name": "OCP-14059:NetworkEdge Use the default destination CA of router if the route does not specify one for reencrypt route",
     "Suite": "Testing route"
-  },
-  {
-    "Name": "OCP-14087:Storage Subpath should receive right permissions - emptyDir",
-    "Suite": "volumeMounts should be able to use subPath"
   },
   {
     "Name": "OCP-14089:NetworkEdge route cannot be accessed if the backend cannot be matched the the default destination CA of router",
@@ -5396,44 +4712,12 @@
     "Suite": "Egress-ingress related networking scenarios"
   },
   {
-    "Name": "OCP-14269:Workloads Set owner refs in new RCs owned by DCs",
-    "Suite": "oc import-image related feature"
-  },
-  {
-    "Name": "OCP-14269:Workloads Set owner refs in new RCs owned by DCs",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-14280:Storage Setting NFS mount options in PV annotation",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-14280:Storage Setting NFS mount options in PV annotation",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
     "Name": "OCP-14353:rdeore:STORAGE:[NFS] volume mounts should be cleaned up in previous node after Pod is rescheduled",
     "Suite": "STORAGE"
   },
   {
     "Name": "OCP-14353:rdeore:STORAGE:[sig-storage] STORAGE [NFS] volume mounts should be cleaned up in previous node after Pod is rescheduled",
     "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-14380:Workloads Set owner refs in adopted/released RCs owned by DCs",
-    "Suite": "oc import-image related feature"
-  },
-  {
-    "Name": "OCP-14380:Workloads Set owner refs in adopted/released RCs owned by DCs",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-14382:Storage Setting quota for a StorageClass",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-14382:Storage Setting quota for a StorageClass",
-    "Suite": "ResourceQuata for storage"
   },
   {
     "Name": "OCP-14478:Workloads pod will not be scheduled if node affinity not match",
@@ -5852,52 +5136,12 @@
     "Suite": "Image_Registry"
   },
   {
-    "Name": "OCP-15153:Workloads Imagestream updates triggering on Kubernetes Deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15156:Workloads Requesting dereference on an entire object for Kubernetes Deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15167:Workloads Pod referencing image streams directly",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15168:Workloads Job referencing image streams directly",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15169:Workloads Replicasets referencing image streams directly",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15170:Workloads ReplicationController referencing image streams directly",
-    "Suite": "deployment related features"
-  },
-  {
     "Name": "OCP-15172:Authentication Changing from no-cert to edge encryption",
     "Suite": "route related features via cli"
   },
   {
     "Name": "OCP-15172:Authentication Changing from no-cert to edge encryption",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-15174:Workloads Requesting dereference on an entire object for Pod",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15179:Workloads Requesting dereference on an entire object for Job",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15180:Workloads Requesting dereference on an entire object for Replicaset",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-15181:Workloads  Requesting dereference on an entire object for ReplicationController",
-    "Suite": "deployment related features"
   },
   {
     "Name": "OCP-15259:NetworkEdge Could not set more than 3 additional backends for route",
@@ -6076,22 +5320,6 @@
     "Suite": "Testing route"
   },
   {
-    "Name": "OCP-16443:Workloads Trigger info is retained for deployment caused by image changes 37 new feature",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-16443:Workloads Trigger info is retained for deployment caused by image changes 37 new feature",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-16485:Storage RWO volumes are exclusively mounted on different nodes",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-16485:Storage RWO volumes are exclusively mounted on different nodes",
-    "Suite": "Regression testing cases"
-  },
-  {
     "Name": "OCP-16495:wewang:Image_Registry:No prune layer of a valid Image due to minimum aging and prune images when DC reference to invalid image [Disruptive] [Serial]",
     "Suite": "Image_Registry"
   },
@@ -6174,38 +5402,6 @@
   {
     "Name": "OCP-17288:Storage Recreate pvc when pvc is in pvc-protection state should fail",
     "Suite": "Storage object in use protection"
-  },
-  {
-    "Name": "OCP-17511:Workloads Cronjob with spec.startingDeadlineSeconds",
-    "Suite": "job.feature"
-  },
-  {
-    "Name": "OCP-17511:Workloads Cronjob with spec.startingDeadlineSeconds",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-17513:Workloads User can schedule(Cronjob) a job execution with different concurrencypolicy",
-    "Suite": "job.feature"
-  },
-  {
-    "Name": "OCP-17513:Workloads User can schedule(Cronjob) a job execution with different concurrencypolicy",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-17514:Workloads The subsequent Cronjob should be suspend when set suppend flag to true",
-    "Suite": "job.feature"
-  },
-  {
-    "Name": "OCP-17514:Workloads The subsequent Cronjob should be suspend when set suppend flag to true",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-17515:Workloads User can schedule a Cronjob execution with cron format time",
-    "Suite": "job.feature"
-  },
-  {
-    "Name": "OCP-17515:Workloads User can schedule a Cronjob execution with cron format time",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-17550:Storage PV with Filesystem VolumeMode and PVC with unspecified VolumeMode should be bound successfully",
@@ -6364,14 +5560,6 @@
     "Suite": "Storage_cucushift"
   },
   {
-    "Name": "OCP-18797:Storage Recreate pv when pv is in pv-protection state should fail",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-18797:Storage Recreate pv when pv is in pv-protection state should fail",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
     "Name": "OCP-18828:Authentication Allow scc access via RBAC at project level",
     "Suite": "SCC policy related scenarios"
   },
@@ -6430,14 +5618,6 @@
   {
     "Name": "OCP-19150:Storage iSCSI ReadOnly block volume should not be written in Pod",
     "Suite": "ISCSI volume plugin testing"
-  },
-  {
-    "Name": "OCP-19192:Storage Azure file can not dynamic provision block volume",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-19192:Storage Azure file can not dynamic provision block volume",
-    "Suite": "Azure disk and Azure file specific scenarios"
   },
   {
     "Name": "OCP-19196:wewang:Image_Registry:No prune layer of a valid Image due to minimum aging and prune images when DC reference to invalid image [Disruptive] [Serial]",
@@ -9832,22 +9012,6 @@
     "Suite": "UI-about cluster setting page"
   },
   {
-    "Name": "OCP-25833:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to dc",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-25833:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to dc",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option"
-  },
-  {
-    "Name": "OCP-25837:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to rc",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-25837:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to rc",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option"
-  },
-  {
     "Name": "OCP-25840:UserInterface Add label selector to namespace-scoped ConsoleLink",
     "Suite": "UserInterface_cucushift"
   },
@@ -9866,14 +9030,6 @@
   {
     "Name": "OCP-25855:kuiwang:OLM:[sig-operators] OLM for an end user handle within a namespace Add the channel field to subscription_sync_count [Serial]",
     "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-25861:Storage VolumeMode defaults to Filesystem for dynamic provisioned volumes",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "OCP-25861:Storage VolumeMode defaults to Filesystem for dynamic provisioned volumes",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-25868:UserInterface Check projectUID in external logging link on pod log tab",
@@ -10060,14 +9216,6 @@
     "Suite": "OVN related networking scenarios"
   },
   {
-    "Name": "OCP-26147:Storage VolumeMode defaults to Filesystem for manually provisioned volumes",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "OCP-26147:Storage VolumeMode defaults to Filesystem for manually provisioned volumes",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-26150:NetworkEdge integrate ingress operator metrics with Prometheus",
     "Suite": "Testing Ingress Operator related scenarios"
   },
@@ -10130,14 +9278,6 @@
   {
     "Name": "OCP-26247:yinzhou:Workloads:[sig-apps] Workloads test kcm works well Alert when pod has a PodDisruptionBudget with minAvailable 1 disruptionsAllowed 0",
     "Suite": "Workloads"
-  },
-  {
-    "Name": "OCP-26273:Storage Secret encoded using base64",
-    "Suite": "scenarios related with secret volume"
-  },
-  {
-    "Name": "OCP-26273:Storage Secret encoded using base64",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-26286:pod prefers to be scheduled to the node which matches node affinity",
@@ -10926,14 +10066,6 @@
   {
     "Name": "OCP-28091:Workloads `oc adm must-gather` command could be used in disconnected env",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-28097:Storage Run pod with specific SELinux by using seLinuxOptions in securityContext",
-    "Suite": "storage security check"
-  },
-  {
-    "Name": "OCP-28097:Storage Run pod with specific SELinux by using seLinuxOptions in securityContext",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-28108:ClusterInfrastructure Cluster should automatically scale up and scale down with clusterautoscaler deployed",
@@ -11897,14 +11029,6 @@
   },
   {
     "Name": "OCP-30885:Workloads --dry-run parameter test",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-31200:Workloads A/B Deployment for OCP 4.5 or greater",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-31200:Workloads A/B Deployment for OCP 4.5 or greater",
     "Suite": "Workloads_cucushift"
   },
   {
@@ -24326,10 +23450,6 @@
   {
     "Name": "OCP-51857:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_DNS should Support CoreDNS forwarding DNS requests over TLS - non existing CA bundle [Disruptive] [Serial]",
     "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-51877:Workloads The metrics endpoint for the Scheduler is not protected by RBAC",
-    "Suite": "Workloads_cucushift"
   },
   {
     "Name": "OCP-51946:mjoseph:Network_Edge:Support CoreDNS forwarding DNS requests over TLS using UpstreamResolvers [Disruptive] [Serial]",
@@ -40704,38 +39824,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-9551:Authentication User can know if he can create podspec against the current scc rules via CLI",
-    "Suite": "change the policy of user/service account"
-  },
-  {
-    "Name": "OCP-9551:Authentication User can know if he can create podspec against the current scc rules via CLI",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-9552:Authentication User can know which serviceaccount and SA groups can create the podspec against the current sccs by CLI",
-    "Suite": "change the policy of user/service account"
-  },
-  {
-    "Name": "OCP-9552:Authentication User can know which serviceaccount and SA groups can create the podspec against the current sccs by CLI",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-9553:Authentication User can know whether the PodSpec he's describing will actually be allowed by the current SCC rules via CLI",
-    "Suite": "change the policy of user/service account"
-  },
-  {
-    "Name": "OCP-9553:Authentication User can know whether the PodSpec he's describing will actually be allowed by the current SCC rules via CLI",
-    "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-9572:Storage Share NFS with multiple pods with ReadWriteMany mode",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-9572:Storage Share NFS with multiple pods with ReadWriteMany mode",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
     "Name": "OCP-9641:SDN Make the network of given project be accessible to other projects",
     "Suite": "networking isolation related scenarios"
   },
@@ -40772,18 +39860,6 @@
     "Suite": "Testing route"
   },
   {
-    "Name": "OCP-9704:Storage Hostpath volume security checking",
-    "Suite": "Storage of Hostpath plugin testing"
-  },
-  {
-    "Name": "OCP-9709:Storage secret volume security check",
-    "Suite": "storage security check"
-  },
-  {
-    "Name": "OCP-9709:Storage secret volume security check",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "OCP-9747:SDN Pod cannot claim UDP port 4789 on the node as part of a port mapping",
     "Suite": "SDN_cucushift"
   },
@@ -40800,51 +39876,11 @@
     "Suite": "SDN related networking scenarios"
   },
   {
-    "Name": "OCP-9768:Workloads Could edit the deployer pod during deployment",
-    "Suite": "deployment related features"
-  },
-  {
-    "Name": "OCP-9778:Workloads when the deployment can not be created due to a quota limit will get event from original report",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-9778:Workloads when the deployment can not be created due to a quota limit will get event from original report",
-    "Suite": "Quota related scenarios"
-  },
-  {
-    "Name": "OCP-9797:Authentication serviceaccount can not create projectrequest",
-    "Suite": "projects related features via cli"
-  },
-  {
-    "Name": "OCP-9845:Storage Pod should be able to mount multiple PVCs",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-9845:Storage Pod should be able to mount multiple PVCs",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option"
-  },
-  {
-    "Name": "OCP-9846:Storage PV/PVC status should be consistent",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-9846:Storage PV/PVC status should be consistent",
-    "Suite": "NFS Persistent Volume"
-  },
-  {
     "Name": "OCP-9854:Workloads Debug pod with oc debug",
     "Suite": "oc debug related scenarios"
   },
   {
     "Name": "OCP-9854:Workloads Debug pod with oc debug",
-    "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-9862:Workloads When rolling deployments the pod should shutdown gracefully",
-    "Suite": "scaling related scenarios"
-  },
-  {
-    "Name": "OCP-9862:Workloads When rolling deployments the pod should shutdown gracefully",
     "Suite": "Workloads_cucushift"
   },
   {
@@ -40854,22 +39890,6 @@
   {
     "Name": "OCP-9864:Workloads oc tag gets istag pointing to image of latest revision from the source istag",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "OCP-9940:Storage PV and PVC bound successfully when pv created prebound to pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-9940:Storage PV and PVC bound successfully when pv created prebound to pvc",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "OCP-9941:Storage PV and PVC bound successfully when pvc created prebound to pv",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "OCP-9941:Storage PV and PVC bound successfully when pvc created prebound to pv",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "OCP-9952:Workloads Specifying your own pod selector for job",
@@ -41376,42 +40396,6 @@
     "Suite": "Persistent Volume Claim binding policies"
   },
   {
-    "Name": "PVC modification after creating storage class (outline example : | OCP-13488:Storage | managed-premium |)",
-    "Suite": "storageClass related feature"
-  },
-  {
-    "Name": "PVC request storage class with specific provisioner (outline example : | OCP-12326:Storage | manual |)",
-    "Suite": "storageClass related feature"
-  },
-  {
-    "Name": "PVC request storage class with specific provisioner (outline example : | OCP-12348:Storage | kubernetes.io/unknown |)",
-    "Suite": "storageClass related feature"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27722:Storage | ReadOnlyMany |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27722:Storage | ReadOnlyMany |)",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27723:Storage | ReadWriteMany |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27723:Storage | ReadWriteMany |)",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27724:Storage | ReadWriteOnce |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27724:Storage | ReadWriteOnce |)",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
     "Name": "PVC tests \"after all\" hook for \"(OCP-72032,yapei,UserInterface)Cross storage class clone and restore\"",
     "Suite": "PVC tests"
   },
@@ -41422,30 +40406,6 @@
   {
     "Name": "PVC tests (OCP-72032,yapei,UserInterface)Cross storage class clone and restore",
     "Suite": "PVC tests"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-10680:Storage | ReadWriteOnce | ReadOnlyMany | ReadWriteMany |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-10680:Storage | ReadWriteOnce | ReadOnlyMany | ReadWriteMany |)",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-11168:Storage | ReadWriteMany | ReadWriteOnce | ReadOnlyMany |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-11168:Storage | ReadWriteMany | ReadWriteOnce | ReadOnlyMany |)",
-    "Suite": "Persistent Volume Claim binding policies"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-9702:Storage | ReadOnlyMany | ReadWriteMany | ReadWriteOnce |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-9702:Storage | ReadOnlyMany | ReadWriteMany | ReadWriteOnce |)",
-    "Suite": "Persistent Volume Claim binding policies"
   },
   {
     "Name": "Perspective testing \"after all\" hook for \"(OCP-79831,yapei,UserInterface)Disable developer perspective by default\"",
@@ -41462,22 +40422,6 @@
   {
     "Name": "Pools updated with the new kerneltype",
     "Suite": "Kerneltype Install"
-  },
-  {
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10108:Storage | nfsc | nfspv1-\u003c%= project.name %\u003e |)",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10108:Storage | nfsc | nfspv1-\u003c%= project.name %\u003e |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10112:Storage | nfsc1 | nfspv-\u003c%= project.name %\u003e |)",
-    "Suite": "Testing for pv and pvc pre-bind feature"
-  },
-  {
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10112:Storage | nfsc1 | nfspv-\u003c%= project.name %\u003e |)",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "Projects \"before all\" hook for \"(OCP-44210,yanpzhan,UserInterface) check description and help text on project creation page\"",
@@ -41584,22 +40528,6 @@
     "Suite": "Roles and RoleBindings tests"
   },
   {
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28093:Storage | runAsUser |)",
-    "Suite": "storage security check"
-  },
-  {
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28093:Storage | runAsUser |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28095:Storage | fsGroup |)",
-    "Suite": "storage security check"
-  },
-  {
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28095:Storage | fsGroup |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
     "Name": "Scale up and scale down a machineSet after upgrade",
     "Suite": "cucushift-upgrade-check"
   },
@@ -41636,10 +40564,6 @@
     "Suite": "fips-check-node-scan"
   },
   {
-    "Name": "Setting mountOptions for StorageClass (outline example : | OCP-17490:Storage | azure |)",
-    "Suite": "storageClass related feature"
-  },
-  {
     "Name": "Show better output for syntax error (outline example : | OCP-11049:Workloads | oc |)",
     "Suite": "creating 'apps' with CLI"
   },
@@ -41662,14 +40586,6 @@
   {
     "Name": "Storage Classes tests (OCP-81230,yapei,UserInterface)Add support for setting default StorageClass",
     "Suite": "Storage Classes tests"
-  },
-  {
-    "Name": "Storage class option volumeBindingMode with invalid value (outline example : | OCP-26071:Storage | '' |)",
-    "Suite": "Dynamic provision via storage class with options"
-  },
-  {
-    "Name": "Storage class option volumeBindingMode with invalid value (outline example : | OCP-26073:Storage | invalid |)",
-    "Suite": "Dynamic provision via storage class with options"
   },
   {
     "Name": "Subpath with cloud volumes (outline example : | OCP-18418:Storage | aws-ebs |)",
@@ -41790,38 +40706,6 @@
   {
     "Name": "Update the annotations on more resources (outline example : | OCP-21056:Workloads | kubectl |)",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26148:Storage | Block |)",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26148:Storage | Block |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26149:Storage | Filesystem |)",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26149:Storage | Filesystem |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26143:Storage | Block |)",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26143:Storage | Block |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26144:Storage | Filesystem |)",
-    "Suite": "scenarios specific for block volume support"
-  },
-  {
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26144:Storage | Filesystem |)",
-    "Suite": "Storage_cucushift"
   },
   {
     "Name": "UserInterface Operator Hub tests \"after all\" hook for \"(OCP-45874,yapei,UserInterface) Check source labels on the operator hub page tiles\"",
@@ -46596,22 +45480,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10204:Storage | ReadOnly |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10204:Storage | ReadOnly |)",
-    "Suite": "Azure disk and Azure file specific scenarios"
-  },
-  {
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10205:Storage | ReadWrite |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10205:Storage | ReadWrite |)",
-    "Suite": "Azure disk and Azure file specific scenarios"
-  },
-  {
     "Name": "azureFile dynamic provisioning with storage class (outline example : | OCP-10203:Storage | NOPAR |)",
     "Suite": "Storage_cucushift"
   },
@@ -46800,10 +45668,6 @@
     "Suite": "web console related upgrade check"
   },
   {
-    "Name": "cilium-dump",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "clusterapi-workers-day2",
     "Suite": "Overall CI (test step)"
   },
@@ -46972,86 +45836,6 @@
     "Suite": "tests/e2e-prometheuscr/create-sm-prometheus-exporters"
   },
   {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37745:Storage | invailid-volumesnapshot-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37745:Storage | invailid-volumesnapshot-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37746:Storage | invailid-volumesnapshot-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37746:Storage | invailid-volumesnapshot-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37747:Storage | invailid-volumesnapshot-snapshotclass-nil.yaml | [Vv]olumeSnapshotClassName must not be the empty string |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37747:Storage | invailid-volumesnapshot-snapshotclass-nil.yaml | [Vv]olumeSnapshotClassName must not be the empty string |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37751:Storage | persistentVolumeClaimName | [Pp]ersistentVolumeClaimName is immutable |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37751:Storage | persistentVolumeClaimName | [Pp]ersistentVolumeClaimName is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37752:Storage | volumeSnapshotContentName | [Vv]olumeSnapshotContentName is immutable |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37752:Storage | volumeSnapshotContentName | [Vv]olumeSnapshotContentName is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37748:Storage | invailid-volumesnapshotcontent-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37748:Storage | invailid-volumesnapshotcontent-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37749:Storage | invailid-volumesnapshotcontent-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37749:Storage | invailid-volumesnapshotcontent-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37750:Storage | invailid-volumesnapshotcontent-snapshotref-nil.yaml | spec.volumeSnapshotRef: Required value |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37750:Storage | invailid-volumesnapshotcontent-snapshotref-nil.yaml | spec.volumeSnapshotRef: Required value |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37753:Storage | volumeHandle | [Vv]olumeHandle is immutable |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37753:Storage | volumeHandle | [Vv]olumeHandle is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37754:Storage | snapshotHandle | [Ss]napshotHandle is immutable |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37754:Storage | snapshotHandle | [Ss]napshotHandle is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios"
-  },
-  {
     "Name": "cucushift-chainupgrade-toimage",
     "Suite": "Overall CI (test step)"
   },
@@ -47073,14 +45857,6 @@
   },
   {
     "Name": "cucushift-hypershift-extended-capacity-reservation-create",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "cucushift-hypershift-extended-cilium",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "cucushift-hypershift-extended-cilium-health-check",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -47722,14 +46498,6 @@
   {
     "Name": "dump",
     "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "dynamic provisioning for block volume (outline example : | OCP-19188:Storage | azure-disk |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "dynamic provisioning for block volume (outline example : | OCP-19188:Storage | azure-disk |)",
-    "Suite": "Dynamic provisioning"
   },
   {
     "Name": "edge-nodes-machineset-manifests",
@@ -48840,10 +47608,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "ipi-conf-inframachineset",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "ipi-conf-machinecidr",
     "Suite": "Overall CI (test step)"
   },
@@ -49428,10 +48192,6 @@
     "Suite": "tests/e2e-openshift/multi-cluster"
   },
   {
-    "Name": "multiarch-migration-machine-type",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "multiarch-tuning-operator-deploy",
     "Suite": "Overall CI (test step)"
   },
@@ -49568,10 +48328,6 @@
     "Suite": "nodes page"
   },
   {
-    "Name": "nodes page \"before each\" hook for \"(OCP-69089,yanpzhan,UserInterface) Add uptime info for node on console\"",
-    "Suite": "nodes page"
-  },
-  {
     "Name": "nodes page \"before each\" hook for \"(OCP-75487,yapei,UserInterface)Add Architecture column to NodeList and filter for archs)\"",
     "Suite": "nodes page"
   },
@@ -49680,14 +48436,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "oc set volume with claim-class parameter test (outline example : | OCP-13729:Storage | azure-disk |)",
-    "Suite": "Storage_cucushift"
-  },
-  {
-    "Name": "oc set volume with claim-class parameter test (outline example : | OCP-13729:Storage | azure-disk |)",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option"
-  },
-  {
     "Name": "ofcir-acquire",
     "Suite": "Overall CI (test step)"
   },
@@ -49717,10 +48465,6 @@
   },
   {
     "Name": "openshift-e2e-cert-rotation-observe",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "openshift-e2e-cert-rotation-test",
     "Suite": "Overall CI (test step)"
   },
   {
