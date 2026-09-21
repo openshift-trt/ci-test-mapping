@@ -3202,102 +3202,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:374dc6a44c3062a9e3bd0de090b533a6",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12018:Workloads |  | :false | \"replicas\": 1 |  |)",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:374dc6a44c3062a9e3bd0de090b533a6",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12018:Workloads |  | :false | \"replicas\": 1 |  |)",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:2bfde451a69e06a3b7e7780ef8b7fe11",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12116:Workloads | :false | :false |  |  |)",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:2bfde451a69e06a3b7e7780ef8b7fe11",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12116:Workloads | :false | :false |  |  |)",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:8986095ec680c70910ff879d694a5670",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12624:Workloads |  |  | \"replicas\": 1 | \"type\": \"Recreate\" |)",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:8986095ec680c70910ff879d694a5670",
-    "Name": "CLI rollback two more components of deploymentconfig (outline example : | OCP-12624:Workloads |  |  | \"replicas\": 1 | \"type\": \"Recreate\" |)",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Storage_cucushift:1d149f5314af330a13ea741c5d6b1952",
     "Name": "CSI dynamic provisioning with different type (outline example : | OCP-24546:Storage | gp2-csi | sc1 | 125Gi |)",
     "Suite": "Storage_cucushift",
@@ -4370,38 +4274,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "storageClass related feature:d79ed66eb1c701559e6c77af7d985481",
-    "Name": "Configure 'Retain' reclaim policy for StorageClass (outline example : | OCP-17274:Storage | azure-disk |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storageClass related feature:7d26316ea9d347f58bb451176d4d101c",
-    "Name": "Configure 'Retain' reclaim policy for StorageClass (outline example : | OCP-17276:Storage | azure-file |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "IPsec upgrade scenarios:60abd38de408a82c2ce004432adcd6fd",
     "Name": "Confirm node-node and pod-pod packets are ESP enrypted on IPsec clusters post upgrade",
     "Suite": "IPsec upgrade scenarios",
@@ -4750,38 +4622,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:033c662073ed591c5088d5a21710cf6b",
-    "Name": "Create hostpath pv with access mode and reclaim policy (outline example : | OCP-9639:Storage | ReadWriteOnce | Retain | released | succeed |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage of Hostpath plugin testing:033c662073ed591c5088d5a21710cf6b",
-    "Name": "Create hostpath pv with access mode and reclaim policy (outline example : | OCP-9639:Storage | ReadWriteOnce | Retain | released | succeed |)",
-    "Suite": "Storage of Hostpath plugin testing",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -8530,262 +8370,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:ffdf600b9ef43569313a4990609856f8",
-    "Name": "OCP-10107:Storage Prebound pv is availabe due to requested pvc status is bound",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:ffdf600b9ef43569313a4990609856f8",
-    "Name": "OCP-10107:Storage Prebound pv is availabe due to requested pvc status is bound",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:2bcaf6a43dbcf159a6548ad949993116",
-    "Name": "OCP-10109:Storage Prebound pv is availabe due to mismatched accessmode with requested pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:2bcaf6a43dbcf159a6548ad949993116",
-    "Name": "OCP-10109:Storage Prebound pv is availabe due to mismatched accessmode with requested pvc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:708f014df881a33a67c823be2718ece6",
-    "Name": "OCP-10110:Storage Prebound pv is availabe due to mismatched volume size with requested pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:708f014df881a33a67c823be2718ece6",
-    "Name": "OCP-10110:Storage Prebound pv is availabe due to mismatched volume size with requested pvc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:e951a619fea663fac235ad42c7cf8df1",
-    "Name": "OCP-10111:Storage Prebound pvc is pending due to requested pv status is bound",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:e951a619fea663fac235ad42c7cf8df1",
-    "Name": "OCP-10111:Storage Prebound pvc is pending due to requested pv status is bound",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:7b54229126c27f90277a7b6957f0d694",
-    "Name": "OCP-10113:Storage Prebound PVC is pending due to mismatched accessmode with requested PV",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:7b54229126c27f90277a7b6957f0d694",
-    "Name": "OCP-10113:Storage Prebound PVC is pending due to mismatched accessmode with requested PV",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:8847ad14a614af64886a26c2ad5febf6",
-    "Name": "OCP-10114:Storage Prebound PVC is pending due to mismatched volume size with requested PV",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:8847ad14a614af64886a26c2ad5febf6",
-    "Name": "OCP-10114:Storage Prebound PVC is pending due to mismatched volume size with requested PV",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:d2fb7d29ba9a708a73e9a5cbc30c9a43",
-    "Name": "OCP-10124:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PVC pre-bind to PV",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:d2fb7d29ba9a708a73e9a5cbc30c9a43",
-    "Name": "OCP-10124:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PVC pre-bind to PV",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:ec42e0ae4151a58f7a643c7099eb3904",
-    "Name": "OCP-10125:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV pre-bind to PVC",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:ec42e0ae4151a58f7a643c7099eb3904",
-    "Name": "OCP-10125:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV pre-bind to PVC",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:64ef696fd78aa0218aae614d67858a0b",
     "Name": "OCP-10136:yinzhou:Workloads:Project should only watch its owned cache events",
     "Suite": "Workloads",
@@ -8834,150 +8418,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:04891e54256b188cbd13212236bd5375",
-    "Name": "OCP-10145:Storage Pre-bound PVC with invalid PV should have consistent status",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:04891e54256b188cbd13212236bd5375",
-    "Name": "OCP-10145:Storage Pre-bound PVC with invalid PV should have consistent status",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "configMap:905c74a319e97da316a7763c85a02a1d",
-    "Name": "OCP-10167:Storage Consume same name configMap via volum plugin on different namespaces",
-    "Suite": "configMap",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "secrets related scenarios:41544e74da6d93d2b391ef3f006f9c9e",
-    "Name": "OCP-10170:Storage Consume secret via volume plugin with multiple volumes",
-    "Suite": "secrets related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:41544e74da6d93d2b391ef3f006f9c9e",
-    "Name": "OCP-10170:Storage Consume secret via volume plugin with multiple volumes",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "oc tag related scenarios:008eb8e74c87442161cdd47db6691aeb",
-    "Name": "OCP-10171:Authentication New-app using tagged imagestreamtag across projects without cross-namespace permission",
-    "Suite": "oc tag related scenarios",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:008eb8e74c87442161cdd47db6691aeb",
-    "Name": "OCP-10171:Authentication New-app using tagged imagestreamtag across projects without cross-namespace permission",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:76218cf4f01553182e8f4d1f6cae2986",
-    "Name": "OCP-10172:Storage Check the pvc capacity",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:76218cf4f01553182e8f4d1f6cae2986",
-    "Name": "OCP-10172:Storage Check the pvc capacity",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Storage_cucushift:e033c720fb41746bb244b8c2267d1344",
     "Name": "OCP-10174:Storage Azure file with secretNamespace parameter of different project",
     "Suite": "Storage_cucushift",
@@ -8996,102 +8436,6 @@
     "Kind": "TestOwnership",
     "ID": "Azure disk and Azure file specific scenarios:e033c720fb41746bb244b8c2267d1344",
     "Name": "OCP-10174:Storage Azure file with secretNamespace parameter of different project",
-    "Suite": "Azure disk and Azure file specific scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:fa42f0957e6e3ba056406242ac2671bb",
-    "Name": "OCP-10187:Storage PV creation negative testing",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:fa42f0957e6e3ba056406242ac2671bb",
-    "Name": "OCP-10187:Storage PV creation negative testing",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "negative testing:f96358a12e43030ddacd0f3a17b4f098",
-    "Name": "OCP-10188:Storage PVC creation negative testing",
-    "Suite": "negative testing",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:f96358a12e43030ddacd0f3a17b4f098",
-    "Name": "OCP-10188:Storage PVC creation negative testing",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:814bbea55429fa988e5c454ac26c36e0",
-    "Name": "OCP-10200:Storage azureDisk volume with RWO access mode and Delete policy",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Azure disk and Azure file specific scenarios:814bbea55429fa988e5c454ac26c36e0",
-    "Name": "OCP-10200:Storage azureDisk volume with RWO access mode and Delete policy",
     "Suite": "Azure disk and Azure file specific scenarios",
     "Product": "OpenShift",
     "Priority": 1,
@@ -9426,38 +8770,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:7c2b591eeaaccdff10c046e86ee59f51",
-    "Name": "OCP-10281:Storage Permission denied when nfs pv annotaion is not right",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:7c2b591eeaaccdff10c046e86ee59f51",
-    "Name": "OCP-10281:Storage Permission denied when nfs pv annotaion is not right",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Quota related scenarios:03b4c5f800b3f0ded9372829d7f176b4",
     "Name": "OCP-10283:Node Annotation selector supports special characters",
     "Suite": "Quota related scenarios",
@@ -9570,86 +8882,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:309c1e3caed86b68b777d545c9467e62",
-    "Name": "OCP-10415:Storage Negetive test of oc set volume with claim-class paraters",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Add, update remove volume to rc/dc and --overwrite option:309c1e3caed86b68b777d545c9467e62",
-    "Name": "OCP-10415:Storage Negetive test of oc set volume with claim-class paraters",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:fbf0c7ef8220efd4a773b38a83f51288",
-    "Name": "OCP-10467:Storage User with role storage-admin can get pvc object info",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:fbf0c7ef8220efd4a773b38a83f51288",
-    "Name": "OCP-10467:Storage User with role storage-admin can get pvc object info",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storageClass related feature:c362cd6d8e98387efa939fe42ee5e3ee",
-    "Name": "OCP-10469:Storage storage class creation negative testing",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "secrets related scenarios:74fcaa4f182c900be634632850b91733",
     "Name": "OCP-10569:Node Allow specifying secret data using strings and images",
     "Suite": "secrets related scenarios",
@@ -9746,38 +8978,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:40316bf05fa7253c98709af49dc447e9",
-    "Name": "OCP-10617:Workloads DeploymentConfig should allow valid value of resource requirements",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:40316bf05fa7253c98709af49dc447e9",
-    "Name": "OCP-10617:Workloads DeploymentConfig should allow valid value of resource requirements",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:65b1ecd1bff4838fd775c51c4fadb327",
     "Name": "OCP-10618:yinzhou:Workloads:Prune old builds by admin command [Serial]",
     "Suite": "Workloads",
@@ -9858,54 +9058,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "oc_secrets.feature:cb63c4d84a072242389d7bfd8c30496f",
-    "Name": "OCP-10631:Authentication Project admin can process local directory or files and convert it to kubernetes secret",
-    "Suite": "oc_secrets.feature",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:cb63c4d84a072242389d7bfd8c30496f",
-    "Name": "OCP-10631:Authentication Project admin can process local directory or files and convert it to kubernetes secret",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:5680b5238aafa662d8b7e6d0ff306b0b",
-    "Name": "OCP-10633:Workloads Deployment is automatically stopped when running time is more than ActiveDeadlineSeconds",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Image_Registry:1a4e81c008bd9102780b6a5ddb7d093e",
     "Name": "OCP-10637:xiuwang:Image_Registry:Do not create tags for imageStream if image repository does not have tags",
     "Suite": "Image_Registry",
@@ -9966,38 +9118,6 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:faec71fddda505a22a6b2b8dba0f46d1",
-    "Name": "OCP-10643:Workloads Manually make deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:faec71fddda505a22a6b2b8dba0f46d1",
-    "Name": "OCP-10643:Workloads Manually make deployment",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -10514,38 +9634,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "secrets related scenarios:c5aaa6b77fb9917116ef2fc0da5a1ea5",
-    "Name": "OCP-10725:Workloads deployment hook volume inheritance --with secret volume",
-    "Suite": "secrets related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:c5aaa6b77fb9917116ef2fc0da5a1ea5",
-    "Name": "OCP-10725:Workloads deployment hook volume inheritance --with secret volume",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Node_cucushift:d393a450d55b0d8cd051941d1311ebd9",
     "Name": "OCP-10730:Node Creates horizontal pod autoscaler for deploymentConfig",
     "Suite": "Node_cucushift",
@@ -10642,38 +9730,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "project permissions:d25ccc3ac52bb952a2c1e728fb5c7b23",
-    "Name": "OCP-10736:Workloads The job and HPA should be deleted when project has been deleted",
-    "Suite": "project permissions",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "openshift-apiserver",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "openshift-apiserver",
-    "JIRAComponentID": "14769"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:d25ccc3ac52bb952a2c1e728fb5c7b23",
-    "Name": "OCP-10736:Workloads The job and HPA should be deleted when project has been deleted",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Group sync related scenarios:a7a635b54b7d93357af7645713daa965",
     "Name": "OCP-10748:Authentication Administrator can remove groups which are no longer present on the LDAP server from openshift records",
     "Suite": "Group sync related scenarios",
@@ -10750,38 +9806,6 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "job.feature:edc61d28c1bec2eaf60c3c8c238fc259",
-    "Name": "OCP-10781:Workloads Create job with specific deadline",
-    "Suite": "job.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:edc61d28c1bec2eaf60c3c8c238fc259",
-    "Name": "OCP-10781:Workloads Create job with specific deadline",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -11218,38 +10242,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:c84b6d1c4a059f4d74de11dd1d8ae413",
-    "Name": "OCP-10890:Storage PVC with less label selectors could bound to PV",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:c84b6d1c4a059f4d74de11dd1d8ae413",
-    "Name": "OCP-10890:Storage PVC with less label selectors could bound to PV",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "secrets related scenarios:658a4fafca3862d12174fa7b4b366776",
     "Name": "OCP-10899:Node Mapping specified secret volume should update when secret is updated",
     "Suite": "secrets related scenarios",
@@ -11630,22 +10622,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:f57439cd943809bd9348eb35a8610fb9",
-    "Name": "OCP-10967:Workloads Deployment config with automatic=false in ICT",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
   },
   {
     "APIVersion": "v1",
@@ -12834,38 +11810,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:8cd3748fb3d0fa0bef18c40d73e073c1",
-    "Name": "OCP-11221:Workloads Scale up when deployment running",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:8cd3748fb3d0fa0bef18c40d73e073c1",
-    "Name": "OCP-11221:Workloads Scale up when deployment running",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SCC policy related scenarios:6012d839276df1bfcb6dc1edfa520f6a",
     "Name": "OCP-11237:Authentication Cluster admin can configure the default capabilities for scc",
     "Suite": "SCC policy related scenarios",
@@ -13310,38 +12254,6 @@
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:c05e1fcc719f4c91ddec8d0c84f5bb1c",
-    "Name": "OCP-11307:Storage PVC without any VolumeSelector could bind a PV with any labels",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:c05e1fcc719f4c91ddec8d0c84f5bb1c",
-    "Name": "OCP-11307:Storage PVC without any VolumeSelector could bind a PV with any labels",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -13970,38 +12882,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "rolling deployment related scenarios:943044b84ab6952d42d639c2dad9c4e9",
-    "Name": "OCP-11516:Workloads Rolling-update pods with set maxSurge to 0",
-    "Suite": "rolling deployment related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:943044b84ab6952d42d639c2dad9c4e9",
-    "Name": "OCP-11516:Workloads Rolling-update pods with set maxSurge to 0",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "oc_delete.feature:fe3a4553b38746247c4f594acaa596e1",
     "Name": "OCP-11526:Node Pod should be immediately deleted if TerminationGracePeriodSeconds is 0",
     "Suite": "oc_delete.feature",
@@ -14466,22 +13346,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:3ec583a4d9c138bcb9ce5f595292db39",
-    "Name": "OCP-11586:Workloads Automatic set to true with ConfigChangeController on the DeploymentConfig",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:08a363ec03f29c6b8d1e78aa2a7f31cf",
     "Name": "OCP-11608:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router Set backends weight for edge/passthrough/reencrypt/unsecure route",
     "Suite": "Network_Edge",
@@ -14494,38 +13358,6 @@
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:f64413cd156f8d654872eec99e3eb825",
-    "Name": "OCP-11609:Storage Prebound PVC could bind to pv and ignore the label selector",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:f64413cd156f8d654872eec99e3eb825",
-    "Name": "OCP-11609:Storage Prebound PVC could bind to pv and ignore the label selector",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -14962,38 +13794,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:78b6340d5affa06a4c6a676563f12dd4",
-    "Name": "OCP-11695:Workloads CLI rollback output to file",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:78b6340d5affa06a4c6a676563f12dd4",
-    "Name": "OCP-11695:Workloads CLI rollback output to file",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "change the policy of user/service account:aceefe29708adb84f8755d459248c17b",
     "Name": "OCP-11697:Authentication Delete role though rolebinding existed for the role",
     "Suite": "change the policy of user/service account",
@@ -15218,38 +14018,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "rolling deployment related scenarios:9c8248a6dd21a4ac3ed2902773c27efa",
-    "Name": "OCP-11744:Workloads Rolling-update pods with set maxUnavabilable to 0",
-    "Suite": "rolling deployment related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:9c8248a6dd21a4ac3ed2902773c27efa",
-    "Name": "OCP-11744:Workloads Rolling-update pods with set maxUnavabilable to 0",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "pods related scenarios:4ff7c897211b5b4d817130a5bb4efb33",
     "Name": "OCP-11753:Workloads Pod should be immediately deleted if it's not scheduled even if graceful termination period is set",
     "Suite": "pods related scenarios",
@@ -15346,70 +14114,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:6c60946b12e1918ab50bec3788f4bdda",
-    "Name": "OCP-11762:Workloads deployment hook volume inheritance with hostPath volume",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SCC policy related scenarios:6c60946b12e1918ab50bec3788f4bdda",
-    "Name": "OCP-11762:Workloads deployment hook volume inheritance with hostPath volume",
-    "Suite": "SCC policy related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:a74e267638a25380abb96771d7fffa7d",
-    "Name": "OCP-11769:Workloads Start new deployment when deployment running",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:a74e267638a25380abb96771d7fffa7d",
-    "Name": "OCP-11769:Workloads Start new deployment when deployment running",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SCC policy related scenarios:24f62ea36f7aa04c1550644b0679f75f",
     "Name": "OCP-11775:Authentication Create or update scc with illegal capability name should fail with prompt message",
     "Suite": "SCC policy related scenarios",
@@ -15470,22 +14174,6 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:bfc8083d2ff8e83e0fa41c35bd5fd928",
-    "Name": "OCP-11790:Workloads Automatic set to true without ConfigChangeController on the DeploymentConfig",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
   },
   {
     "APIVersion": "v1",
@@ -15570,38 +14258,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:381e4bdf50aea82a5e1ea9913912f1f1",
-    "Name": "OCP-11810:Storage PVC and PV still bound after remove the pv label",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:381e4bdf50aea82a5e1ea9913912f1f1",
-    "Name": "OCP-11810:Storage PVC and PV still bound after remove the pv label",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "oc extract related scenarios:48a09d8e0716ec2fc637323774f2bf5d",
     "Name": "OCP-11815:Node Extract configmap or secret from file",
     "Suite": "oc extract related scenarios",
@@ -15678,54 +14334,6 @@
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:2fa9497bf9862922e2a01aab0269ead0",
-    "Name": "OCP-11834:Workloads Paused deployments shouldn't update the image to template",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:1f57f40ca26edb4e68fe7b1c6bb41ca9",
-    "Name": "OCP-11877:Workloads CLI rollback with one component",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:1f57f40ca26edb4e68fe7b1c6bb41ca9",
-    "Name": "OCP-11877:Workloads CLI rollback with one component",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -15954,38 +14562,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "oc_volume.feature:07f9eef5f41d2c2a1a66ef775f0e5124",
-    "Name": "OCP-11906:Storage Add secret volume to dc and rc",
-    "Suite": "oc_volume.feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:07f9eef5f41d2c2a1a66ef775f0e5124",
-    "Name": "OCP-11906:Storage Add secret volume to dc and rc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SCC policy related scenarios:3466238e0f494e4938fe7c91648251c1",
     "Name": "OCP-11908:Authentication Limit the created container to access the hostdir via SCC",
     "Suite": "SCC policy related scenarios",
@@ -16178,38 +14754,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:8ccc85fc56057f375cbd1cfb686a3b7e",
-    "Name": "OCP-11939:Workloads start deployment when the latest deployment is completed",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:8ccc85fc56057f375cbd1cfb686a3b7e",
-    "Name": "OCP-11939:Workloads start deployment when the latest deployment is completed",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "pods related scenarios:ab2a3be6092ab50d6391dc0183fe7d5a",
     "Name": "OCP-11946:Authentication Create pod will inherit all \"requiredCapabilities\" from the SCC that you validate against",
     "Suite": "pods related scenarios",
@@ -16238,38 +14782,6 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:589ff5b2a88af5c4d321205bc70c2b13",
-    "Name": "OCP-11971:Storage PVC could bind prebound PV with mismatched label",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:589ff5b2a88af5c4d321205bc70c2b13",
-    "Name": "OCP-11971:Storage PVC could bind prebound PV with mismatched label",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -16542,22 +15054,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:483900bae6e3c2b87752e1e7818cc0c7",
-    "Name": "OCP-12034:Workloads Can't stop a deployment in Complete status",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
   },
   {
     "APIVersion": "v1",
@@ -16866,38 +15362,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:d976afcef48444083f885a16beeafea9",
-    "Name": "OCP-12077:Storage PVC could not bind PV with label selector matches but binding requirements are not met",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:d976afcef48444083f885a16beeafea9",
-    "Name": "OCP-12077:Storage PVC could not bind PV with label selector matches but binding requirements are not met",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "oc extract related scenarios:2d7ff466ad75d77099c5b8cb5b8992d5",
     "Name": "OCP-12081:Node Extract only the keys from configmap or secret to directory",
     "Suite": "oc extract related scenarios",
@@ -17186,38 +15650,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:fcb68f1a080e79e0591f633e91e4ae9a",
-    "Name": "OCP-12133:Workloads Can't stop a deployment in Failed status",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:fcb68f1a080e79e0591f633e91e4ae9a",
-    "Name": "OCP-12133:Workloads Can't stop a deployment in Failed status",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SCC policy related scenarios:a92fa7b945b2c4f375f7c2a2a8581722",
     "Name": "OCP-12135:Authentication The container with requests privileged in SC can be created only when the SCC allowed",
     "Suite": "SCC policy related scenarios",
@@ -17346,38 +15778,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:28fabeb403f0227544756f3185e28190",
-    "Name": "OCP-12151:Workloads When the latest deployment failed auto rollback to the active deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:28fabeb403f0227544756f3185e28190",
-    "Name": "OCP-12151:Workloads When the latest deployment failed auto rollback to the active deployment",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "oc proxy related scenarios:ab68bad82655c165da0b3d99b35926e4",
     "Name": "OCP-12156:Workloads Simple usage of oc proxy as API server",
     "Suite": "oc proxy related scenarios",
@@ -17438,70 +15838,6 @@
     ],
     "JIRAComponent": "kube-controller-manager",
     "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related steps:1b418af671c55da46fdac9483f29eaa5",
-    "Name": "OCP-12161:Workloads Proportionally scale - Scale down deployment succeed in unpause and pause",
-    "Suite": "deployment related steps",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:1b418af671c55da46fdac9483f29eaa5",
-    "Name": "OCP-12161:Workloads Proportionally scale - Scale down deployment succeed in unpause and pause",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:65dfde9091a07f5921981ff994b585bb",
-    "Name": "OCP-12164:Storage Target pvc to a best fit size pv with same label selector",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:65dfde9091a07f5921981ff994b585bb",
-    "Name": "OCP-12164:Storage Target pvc to a best fit size pv with same label selector",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -17746,102 +16082,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:d2c0d2459be12a58da0a0ded8e48b6eb",
-    "Name": "OCP-12220:Storage Target pvc to a specific pv with label selector",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:d2c0d2459be12a58da0a0ded8e48b6eb",
-    "Name": "OCP-12220:Storage Target pvc to a specific pv with label selector",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:9e53ae50fd4c1bfb14c2d00f255f3641",
-    "Name": "OCP-12246:Workloads Stop a \"Running\" deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:9e53ae50fd4c1bfb14c2d00f255f3641",
-    "Name": "OCP-12246:Workloads Stop a \"Running\" deployment",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "oc_volume.feature:590fc76ee6bddae18604f350bbb4f81f",
-    "Name": "OCP-12247:Workloads New volume can not have a same mount point that already exists in a container",
-    "Suite": "oc_volume.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:590fc76ee6bddae18604f350bbb4f81f",
-    "Name": "OCP-12247:Workloads New volume can not have a same mount point that already exists in a container",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "limit range related scenarios::22e71a5d7ba4f8c553b819f4bbd0fe7f",
     "Name": "OCP-12250:Node Limit range does not allow min \u003e defaultRequest",
     "Suite": "limit range related scenarios:",
@@ -17970,38 +16210,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Target pvc to a specific pv:8c109e0d5988c689ce31d40f3c500a81",
-    "Name": "OCP-12268:Storage Target pvc to pv with same label selector and multi accessmode",
-    "Suite": "Target pvc to a specific pv",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:8c109e0d5988c689ce31d40f3c500a81",
-    "Name": "OCP-12268:Storage Target pvc to pv with same label selector and multi accessmode",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "secrets related scenarios:b3f8abe0c38b45cdbd925f12709139ee",
     "Name": "OCP-12281:Node Pods do not have access to each other's secrets in the same namespace",
     "Suite": "secrets related scenarios",
@@ -18030,38 +16238,6 @@
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "oc_volume.feature:e8a3db3dccb5fd1edfa03dd26d262882",
-    "Name": "OCP-12283:Storage option '--all' and '--selector' can not be used together",
-    "Suite": "oc_volume.feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:e8a3db3dccb5fd1edfa03dd26d262882",
-    "Name": "OCP-12283:Storage option '--all' and '--selector' can not be used together",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -18242,38 +16418,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SCC policy related scenarios:d5010a23a637df4badadc23fd93bd1d3",
-    "Name": "OCP-12361:Authentication The SCC will take effect only when the user request the SC in the pod",
-    "Suite": "SCC policy related scenarios",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:d5010a23a637df4badadc23fd93bd1d3",
-    "Name": "OCP-12361:Authentication The SCC will take effect only when the user request the SC in the pod",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:a7d20ebf6e6cb04bd7df88fb7f24fb57",
     "Name": "OCP-12387:yinzhou:Workloads:Check race condition in port forward connection handling logic [Serial]",
     "Suite": "Workloads",
@@ -18402,54 +16546,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:ca65f7e44f6d540a2dba7e152f95d3ca",
-    "Name": "OCP-12402:Workloads Negative test for deployment history",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:42202dca8a1e0de03b91aaee93e2affb",
-    "Name": "OCP-12430:Authentication Could get projects for new role which has permission to get projects",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:42202dca8a1e0de03b91aaee93e2affb",
-    "Name": "OCP-12430:Authentication Could get projects for new role which has permission to get projects",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Node_cucushift:aceaf804770151ad44b87967b94b818b",
     "Name": "OCP-12438:Node Project secrets, configmap not explicitly defining keys for pathing within a volume",
     "Suite": "Node_cucushift",
@@ -18510,38 +16606,6 @@
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "project permissions:32671b77f6fbefecffccda5dbff52257",
-    "Name": "OCP-12457:Authentication Only cluster-admin could get namespaces",
-    "Suite": "project permissions",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:32671b77f6fbefecffccda5dbff52257",
-    "Name": "OCP-12457:Authentication Only cluster-admin could get namespaces",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
   },
   {
     "APIVersion": "v1",
@@ -18642,22 +16706,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:7a65a7c92d3b3a388e714b2a5b258f03",
-    "Name": "OCP-12536:Workloads oc deploy negative test",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Service related networking scenarios:b7d19b4224bd476d7c1da7ed55b99752",
     "Name": "OCP-12540:SDN Linking external services to OpenShift multitenant",
     "Suite": "Service related networking scenarios",
@@ -18686,38 +16734,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:278d929fb314222ad799774fe01a6ea1",
-    "Name": "OCP-12543:Workloads Restart a failed deployment by oc deploy",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:278d929fb314222ad799774fe01a6ea1",
-    "Name": "OCP-12543:Workloads Restart a failed deployment by oc deploy",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -19026,310 +17042,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:dbcdf6a383cf8d6059b82c1afe24f29e",
-    "Name": "OCP-12622:Workloads Trigger info is retained for deployment caused by config changes",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:dd706a58dbe4ae956d96f9e1c8799d6a",
-    "Name": "OCP-12623:Workloads Negative test for rollback",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "REST related features:3f38e96423eb5aadb30984feca0454e3",
-    "Name": "OCP-12629:Authentication Could know the user or group's rights via ResourceAccessReview",
-    "Suite": "REST related features",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:cc908239d4b6c0a443567c437276a12b",
-    "Name": "OCP-12637:Authentication Could grant edit permission for the service account group to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:cc908239d4b6c0a443567c437276a12b",
-    "Name": "OCP-12637:Authentication Could grant edit permission for the service account group to access to other project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:d72a1e36ad0334514a033b14c98af47d",
-    "Name": "OCP-12638:Authentication Could grant view permission for the service account group to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:d72a1e36ad0334514a033b14c98af47d",
-    "Name": "OCP-12638:Authentication Could grant view permission for the service account group to access to other project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:6b74e04dfd05547e610fc8fb5a1c4083",
-    "Name": "OCP-12639:Authentication Could grant edit permission for the service account group to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:6b74e04dfd05547e610fc8fb5a1c4083",
-    "Name": "OCP-12639:Authentication Could grant edit permission for the service account group to access to its own project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:b5c1087983250d9a9d7cc8015ffb01b5",
-    "Name": "OCP-12640:Authentication Could grant view permission for the service account group to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:b5c1087983250d9a9d7cc8015ffb01b5",
-    "Name": "OCP-12640:Authentication Could grant view permission for the service account group to access to its own project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:f07929f869551fe3d54fc8fcfbaa162e",
-    "Name": "OCP-12641:Authentication Could grant edit permission for the service account username to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:f07929f869551fe3d54fc8fcfbaa162e",
-    "Name": "OCP-12641:Authentication Could grant edit permission for the service account username to access to other project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:3423bd1c1e947f4ccb7fec10d2ef1626",
-    "Name": "OCP-12642:Authentication Could grant view permission for the service account username to access to other project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:3423bd1c1e947f4ccb7fec10d2ef1626",
-    "Name": "OCP-12642:Authentication Could grant view permission for the service account username to access to other project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:3775c7542e4e556b418707eba9782efc",
-    "Name": "OCP-12643:Authentication Could grant edit permission for the service account username to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:3775c7542e4e556b418707eba9782efc",
-    "Name": "OCP-12643:Authentication Could grant edit permission for the service account username to access to its own project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ServiceAccount and Policy Managerment:cab85135613dfddc0bdf54a67efac6f5",
-    "Name": "OCP-12644:Authentication Could grant view permission for the service account username to access to its own project",
-    "Suite": "ServiceAccount and Policy Managerment",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:cab85135613dfddc0bdf54a67efac6f5",
-    "Name": "OCP-12644:Authentication Could grant view permission for the service account username to access to its own project",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Testing route:f9272e0b4cc1c910a785a6fd0aa9a98c",
     "Name": "OCP-12652:NetworkEdge The later route should be HostAlreadyClaimed when there is a same host exist",
     "Suite": "Testing route",
@@ -19406,134 +17118,6 @@
     ],
     "JIRAComponent": "Networking / openshift-sdn",
     "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:0210a1a0eb00d2906bae972baff23942",
-    "Name": "OCP-12671:Storage NFS volume failed to mount returns more verbose message",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:0210a1a0eb00d2906bae972baff23942",
-    "Name": "OCP-12671:Storage NFS volume failed to mount returns more verbose message",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:8f33adadaf9638fdb43b83f690213d69",
-    "Name": "OCP-12672:Storage User permission to write to nfs",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:8f33adadaf9638fdb43b83f690213d69",
-    "Name": "OCP-12672:Storage User permission to write to nfs",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:19390539b78fdad132c46588e4366df6",
-    "Name": "OCP-12679:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV/PVC pre-bind to each other",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:19390539b78fdad132c46588e4366df6",
-    "Name": "OCP-12679:Storage PV/PVC bind in a reasonable time when PVC is created before PV while PV/PVC pre-bind to each other",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:0172d917a993a9ce7c46499172016ed1",
-    "Name": "OCP-12680:Storage Pre-bound PV with invalid PVC should have consistent status",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:0172d917a993a9ce7c46499172016ed1",
-    "Name": "OCP-12680:Storage Pre-bound PV with invalid PVC should have consistent status",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -19986,54 +17570,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "pods related scenarios:e9e05187210678d75c1ff179350b0971",
-    "Name": "OCP-12897:Workloads PDB create with beta1",
-    "Suite": "pods related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "pod related features:24c86a02599675fae629286a8e25859b",
-    "Name": "OCP-12900:Workloads PDB take effective with percentage number with beta1",
-    "Suite": "pod related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:24c86a02599675fae629286a8e25859b",
-    "Name": "OCP-12900:Workloads PDB take effective with percentage number with beta1",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Node_cucushift:d8535275665aa2f3ebfa2e1d76641117",
     "Name": "OCP-12916:Node quota apply to pod with init containers",
     "Suite": "Node_cucushift",
@@ -20354,102 +17890,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:4ec21695d764751f7bbe1165250c97b4",
-    "Name": "OCP-12972:Storage PV volume is unmounted and detached without failure if PV is deleted before pod referencing the volume",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:4ec21695d764751f7bbe1165250c97b4",
-    "Name": "OCP-12972:Storage PV volume is unmounted and detached without failure if PV is deleted before pod referencing the volume",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:5a42341cf0cf733e8255e2ed31194aa1",
-    "Name": "OCP-12973:Storage PV volume is unmounted and detached without failure if PVC is deleted before pod referencing the volume",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:5a42341cf0cf733e8255e2ed31194aa1",
-    "Name": "OCP-12973:Storage PV volume is unmounted and detached without failure if PVC is deleted before pod referencing the volume",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:373b2c34935b0a4540d86b71956f4008",
-    "Name": "OCP-12974:Storage PV volume is unmounted and detached without failure if the namespace of PVC and pod is deleted",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:373b2c34935b0a4540d86b71956f4008",
-    "Name": "OCP-12974:Storage PV volume is unmounted and detached without failure if the namespace of PVC and pod is deleted",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "testing multicast scenarios:27c1ea4c9a7181f7c78516647723e7f4",
     "Name": "OCP-12977:SDN multicast is disabled by default if not annotate the namespace",
     "Suite": "testing multicast scenarios",
@@ -20626,22 +18066,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:24d6667f77b901e4c55208120c4d9fd1",
-    "Name": "OCP-13095:Authentication Add add-cluster-role-to-user support for -z",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Testing route:0c0593e96cb4abf6088b18121abc1cbb",
     "Name": "OCP-13248:NetworkEdge The hostname should be converted to available route when met special character",
     "Suite": "Testing route",
@@ -20661,70 +18085,6 @@
     "ID": "NetworkEdge_cucushift:0c0593e96cb4abf6088b18121abc1cbb",
     "Name": "OCP-13248:NetworkEdge The hostname should be converted to available route when met special character",
     "Suite": "NetworkEdge_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "pod related features:790516f4270a4024e5339336c8759434",
-    "Name": "OCP-13289:Workloads PDBs represent percentage in StatefulSet",
-    "Suite": "pod related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:790516f4270a4024e5339336c8759434",
-    "Name": "OCP-13289:Workloads PDBs represent percentage in StatefulSet",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "pod related features:ed5bccc593cad1b392832d047c5fcc29",
-    "Name": "OCP-13303:Workloads PDBs represent percentage in Deployment",
-    "Suite": "pod related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:ed5bccc593cad1b392832d047c5fcc29",
-    "Name": "OCP-13303:Workloads PDBs represent percentage in Deployment",
-    "Suite": "Workloads_cucushift",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -21058,38 +18418,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SCC policy related scenarios:5384e8aa29419d9f4e5e4f8f944bf062",
-    "Name": "OCP-13573:Authentication Verify the privileged SCC allow to request any capabilities",
-    "Suite": "SCC policy related scenarios",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:5384e8aa29419d9f4e5e4f8f944bf062",
-    "Name": "OCP-13573:Authentication Verify the privileged SCC allow to request any capabilities",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "taint toleration related scenarios:b3f13c8e8a59b7a2cad5d765ab54e321",
     "Name": "OCP-13660:Workloads Taint Toleration - value must be empty when 'operator' is 'Exists'",
     "Suite": "taint toleration related scenarios",
@@ -21118,22 +18446,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage of Hostpath plugin testing:3bb373886aa8c9891b7ea40a498443ca",
-    "Name": "OCP-13676:Storage Setting mount options for volume plugins that doesn't support it",
-    "Suite": "Storage of Hostpath plugin testing",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -21458,38 +18770,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:79e9b82094a724d5ae890d8553dfa8fa",
-    "Name": "OCP-13912:Storage Setting NFS read-only mount option in PV's annotation",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:79e9b82094a724d5ae890d8553dfa8fa",
-    "Name": "OCP-13912:Storage Setting NFS read-only mount option in PV's annotation",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Testing route:13a4029cd21fcee6b1ed8008fb552bed",
     "Name": "OCP-14059:NetworkEdge Use the default destination CA of router if the route does not specify one for reencrypt route",
     "Suite": "Testing route",
@@ -21502,22 +18782,6 @@
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "volumeMounts should be able to use subPath:039741b93ff85c43f1c85fb8dfb5c49f",
-    "Name": "OCP-14087:Storage Subpath should receive right permissions - emptyDir",
-    "Suite": "volumeMounts should be able to use subPath",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -21586,70 +18850,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "oc import-image related feature:e970b774aedb3b3239c76c75b9d8c812",
-    "Name": "OCP-14269:Workloads Set owner refs in new RCs owned by DCs",
-    "Suite": "oc import-image related feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:e970b774aedb3b3239c76c75b9d8c812",
-    "Name": "OCP-14269:Workloads Set owner refs in new RCs owned by DCs",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:dfeb6ab0af37c88b3f4b6acf6fe46b3d",
-    "Name": "OCP-14280:Storage Setting NFS mount options in PV annotation",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:dfeb6ab0af37c88b3f4b6acf6fe46b3d",
-    "Name": "OCP-14280:Storage Setting NFS mount options in PV annotation",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "STORAGE:0429db81fe53f7632408c4239417e167",
     "Name": "OCP-14353:rdeore:STORAGE:[NFS] volume mounts should be cleaned up in previous node after Pod is rescheduled",
     "Suite": "STORAGE",
@@ -21669,70 +18869,6 @@
     "ID": "STORAGE:6e2194ddf9e56e9111a90678a2203789",
     "Name": "OCP-14353:rdeore:STORAGE:[sig-storage] STORAGE [NFS] volume mounts should be cleaned up in previous node after Pod is rescheduled",
     "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "oc import-image related feature:4dc48aa29711af78d4f1df22c8ce4fb9",
-    "Name": "OCP-14380:Workloads Set owner refs in adopted/released RCs owned by DCs",
-    "Suite": "oc import-image related feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:4dc48aa29711af78d4f1df22c8ce4fb9",
-    "Name": "OCP-14380:Workloads Set owner refs in adopted/released RCs owned by DCs",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:2d3b2eb3d9056b2420e480e3c48b9f02",
-    "Name": "OCP-14382:Storage Setting quota for a StorageClass",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "ResourceQuata for storage:2d3b2eb3d9056b2420e480e3c48b9f02",
-    "Name": "OCP-14382:Storage Setting quota for a StorageClass",
-    "Suite": "ResourceQuata for storage",
     "Product": "OpenShift",
     "Priority": 1,
     "StaffApprovedObsolete": false,
@@ -23410,102 +20546,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:4dd47a5beba78c8fb0c46d99e579beb0",
-    "Name": "OCP-15153:Workloads Imagestream updates triggering on Kubernetes Deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:efb9e767a9b8e1fc99515d87cdf029d3",
-    "Name": "OCP-15156:Workloads Requesting dereference on an entire object for Kubernetes Deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:64813f5c33f711cfb5d2f4283db6eb34",
-    "Name": "OCP-15167:Workloads Pod referencing image streams directly",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:97307c9fac80631785e164e9a358c474",
-    "Name": "OCP-15168:Workloads Job referencing image streams directly",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:3df855abc27eac19f7490a8ad470becd",
-    "Name": "OCP-15169:Workloads Replicasets referencing image streams directly",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:3760f0ba3773fdea3888ab5714254c6a",
-    "Name": "OCP-15170:Workloads ReplicationController referencing image streams directly",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "route related features via cli:b55786d8d565588692b64b1ce42467c0",
     "Name": "OCP-15172:Authentication Changing from no-cert to edge encryption",
     "Suite": "route related features via cli",
@@ -23534,70 +20574,6 @@
     ],
     "JIRAComponent": "apiserver-auth",
     "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:d920547e3b8fbab782b94494274beaa1",
-    "Name": "OCP-15174:Workloads Requesting dereference on an entire object for Pod",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:4e5387b0055818a7c6b8effff132e40b",
-    "Name": "OCP-15179:Workloads Requesting dereference on an entire object for Job",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:1a0a7382cdee8f91e11372acd11e4f36",
-    "Name": "OCP-15180:Workloads Requesting dereference on an entire object for Replicaset",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:a20ac204cc57f46ae2daa0d1aa8036fa",
-    "Name": "OCP-15181:Workloads  Requesting dereference on an entire object for ReplicationController",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
   },
   {
     "APIVersion": "v1",
@@ -24306,70 +21282,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:338f986d1c5a4d23dc6f7d7cdc28a6da",
-    "Name": "OCP-16443:Workloads Trigger info is retained for deployment caused by image changes 37 new feature",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:338f986d1c5a4d23dc6f7d7cdc28a6da",
-    "Name": "OCP-16443:Workloads Trigger info is retained for deployment caused by image changes 37 new feature",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:2bf30fb5e6c3e983cebb560e1aa1a8e5",
-    "Name": "OCP-16485:Storage RWO volumes are exclusively mounted on different nodes",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Regression testing cases:2bf30fb5e6c3e983cebb560e1aa1a8e5",
-    "Name": "OCP-16485:Storage RWO volumes are exclusively mounted on different nodes",
-    "Suite": "Regression testing cases",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Image_Registry:e7362eb61a117a9f12a88d70f4e8ac53",
     "Name": "OCP-16495:wewang:Image_Registry:No prune layer of a valid Image due to minimum aging and prune images when DC reference to invalid image [Disruptive] [Serial]",
     "Suite": "Image_Registry",
@@ -24702,134 +21614,6 @@
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "job.feature:a475896425a2edeb385dd4532ea7a1be",
-    "Name": "OCP-17511:Workloads Cronjob with spec.startingDeadlineSeconds",
-    "Suite": "job.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:a475896425a2edeb385dd4532ea7a1be",
-    "Name": "OCP-17511:Workloads Cronjob with spec.startingDeadlineSeconds",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "job.feature:d84cc4c997629d1f3117d163c31ec5b0",
-    "Name": "OCP-17513:Workloads User can schedule(Cronjob) a job execution with different concurrencypolicy",
-    "Suite": "job.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:d84cc4c997629d1f3117d163c31ec5b0",
-    "Name": "OCP-17513:Workloads User can schedule(Cronjob) a job execution with different concurrencypolicy",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "job.feature:b52ff469523cba9590866af3c0f73e60",
-    "Name": "OCP-17514:Workloads The subsequent Cronjob should be suspend when set suppend flag to true",
-    "Suite": "job.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:b52ff469523cba9590866af3c0f73e60",
-    "Name": "OCP-17514:Workloads The subsequent Cronjob should be suspend when set suppend flag to true",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "job.feature:a524769f3bd0b7a32e1ba70853c9daad",
-    "Name": "OCP-17515:Workloads User can schedule a Cronjob execution with cron format time",
-    "Suite": "job.feature",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:a524769f3bd0b7a32e1ba70853c9daad",
-    "Name": "OCP-17515:Workloads User can schedule a Cronjob execution with cron format time",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -25458,38 +22242,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:b3004602381d3f176ae2b8c8cef5ebab",
-    "Name": "OCP-18797:Storage Recreate pv when pv is in pv-protection state should fail",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:b3004602381d3f176ae2b8c8cef5ebab",
-    "Name": "OCP-18797:Storage Recreate pv when pv is in pv-protection state should fail",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SCC policy related scenarios:ac8130aef08a2e247817d2be0edaa1cf",
     "Name": "OCP-18828:Authentication Allow scc access via RBAC at project level",
     "Suite": "SCC policy related scenarios",
@@ -25717,38 +22469,6 @@
     "ID": "ISCSI volume plugin testing:e7ba79c7b3e7bafed084d145bd6b3ca3",
     "Name": "OCP-19150:Storage iSCSI ReadOnly block volume should not be written in Pod",
     "Suite": "ISCSI volume plugin testing",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:407d0bbc1ae945a6d6775cb6f1dc5835",
-    "Name": "OCP-19192:Storage Azure file can not dynamic provision block volume",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Azure disk and Azure file specific scenarios:407d0bbc1ae945a6d6775cb6f1dc5835",
-    "Name": "OCP-19192:Storage Azure file can not dynamic provision block volume",
-    "Suite": "Azure disk and Azure file specific scenarios",
     "Product": "OpenShift",
     "Priority": 1,
     "StaffApprovedObsolete": false,
@@ -39331,70 +36051,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:a906a0b0345fe6701d0a554f0223643d",
-    "Name": "OCP-25833:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to dc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Add, update remove volume to rc/dc and --overwrite option:a906a0b0345fe6701d0a554f0223643d",
-    "Name": "OCP-25833:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to dc",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:461d0f7e72fbc73d2daa508a57965ece",
-    "Name": "OCP-25837:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to rc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Add, update remove volume to rc/dc and --overwrite option:461d0f7e72fbc73d2daa508a57965ece",
-    "Name": "OCP-25837:Storage Add/Remove dynamic-provisioning persistentVolumeClaim to rc",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "UserInterface_cucushift:e4f2b62cbba3981cebd922ce1b1574e0",
     "Name": "OCP-25840:UserInterface Add label selector to namespace-scoped ConsoleLink",
     "Suite": "UserInterface_cucushift",
@@ -39471,38 +36127,6 @@
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:da4d9ade671489a931af0542c8b4b5b2",
-    "Name": "OCP-25861:Storage VolumeMode defaults to Filesystem for dynamic provisioned volumes",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:da4d9ade671489a931af0542c8b4b5b2",
-    "Name": "OCP-25861:Storage VolumeMode defaults to Filesystem for dynamic provisioned volumes",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -40243,38 +36867,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:fcb8e4110c4930f0802afe41fbbc902d",
-    "Name": "OCP-26147:Storage VolumeMode defaults to Filesystem for manually provisioned volumes",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:fcb8e4110c4930f0802afe41fbbc902d",
-    "Name": "OCP-26147:Storage VolumeMode defaults to Filesystem for manually provisioned volumes",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Testing Ingress Operator related scenarios:7f6d69116bc6e4d46ad49ea31c53c1ff",
     "Name": "OCP-26150:NetworkEdge integrate ingress operator metrics with Prometheus",
     "Suite": "Testing Ingress Operator related scenarios",
@@ -40527,38 +37119,6 @@
     ],
     "JIRAComponent": "openshift-controller-manager / apps",
     "JIRAComponentID": "14971"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios related with secret volume:9cdbe6ad13957e4083df1569d3eb86d5",
-    "Name": "OCP-26273:Storage Secret encoded using base64",
-    "Suite": "scenarios related with secret volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:9cdbe6ad13957e4083df1569d3eb86d5",
-    "Name": "OCP-26273:Storage Secret encoded using base64",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -43711,38 +40271,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storage security check:4150349a044c9bccead098f3ad703867",
-    "Name": "OCP-28097:Storage Run pod with specific SELinux by using seLinuxOptions in securityContext",
-    "Suite": "storage security check",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:4150349a044c9bccead098f3ad703867",
-    "Name": "OCP-28097:Storage Run pod with specific SELinux by using seLinuxOptions in securityContext",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -47589,38 +44117,6 @@
     "Kind": "TestOwnership",
     "ID": "Workloads_cucushift:15974cd4e79f6cd6e62db37688a450d1",
     "Name": "OCP-30885:Workloads --dry-run parameter test",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "deployment related features:1c3ab15248edfa3bd212498737ad9d8b",
-    "Name": "OCP-31200:Workloads A/B Deployment for OCP 4.5 or greater",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:1c3ab15248edfa3bd212498737ad9d8b",
-    "Name": "OCP-31200:Workloads A/B Deployment for OCP 4.5 or greater",
     "Suite": "Workloads_cucushift",
     "Product": "OpenShift",
     "Priority": 0,
@@ -97315,22 +93811,6 @@
     ],
     "JIRAComponent": "Networking / DNS",
     "JIRAComponentID": "14866"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:a206f278e3e8a2473a61a7f52e80879e",
-    "Name": "OCP-51877:Workloads The metrics endpoint for the Scheduler is not protected by RBAC",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -162829,134 +159309,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:6fd733274d750cecf9efa72d0d08f64f",
-    "Name": "OCP-9551:Authentication User can know if he can create podspec against the current scc rules via CLI",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:6fd733274d750cecf9efa72d0d08f64f",
-    "Name": "OCP-9551:Authentication User can know if he can create podspec against the current scc rules via CLI",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:d5963ea9d4d248a8646f1989cf8e1224",
-    "Name": "OCP-9552:Authentication User can know which serviceaccount and SA groups can create the podspec against the current sccs by CLI",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:d5963ea9d4d248a8646f1989cf8e1224",
-    "Name": "OCP-9552:Authentication User can know which serviceaccount and SA groups can create the podspec against the current sccs by CLI",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "change the policy of user/service account:fe2bdb6c9c69b27c7eb3108b962a886e",
-    "Name": "OCP-9553:Authentication User can know whether the PodSpec he's describing will actually be allowed by the current SCC rules via CLI",
-    "Suite": "change the policy of user/service account",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Authentication_cucushift:fe2bdb6c9c69b27c7eb3108b962a886e",
-    "Name": "OCP-9553:Authentication User can know whether the PodSpec he's describing will actually be allowed by the current SCC rules via CLI",
-    "Suite": "Authentication_cucushift",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:37054dab19b15823f9b11c705c736829",
-    "Name": "OCP-9572:Storage Share NFS with multiple pods with ReadWriteMany mode",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:37054dab19b15823f9b11c705c736829",
-    "Name": "OCP-9572:Storage Share NFS with multiple pods with ReadWriteMany mode",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "networking isolation related scenarios:507f21e6b8a7877db08be86d3accc2f0",
     "Name": "OCP-9641:SDN Make the network of given project be accessible to other projects",
     "Suite": "networking isolation related scenarios",
@@ -163101,54 +159453,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage of Hostpath plugin testing:914c7f86b7f184236f169458179708ab",
-    "Name": "OCP-9704:Storage Hostpath volume security checking",
-    "Suite": "Storage of Hostpath plugin testing",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storage security check:1f350a7b290d0c0f1b05044b9b9146c1",
-    "Name": "OCP-9709:Storage secret volume security check",
-    "Suite": "storage security check",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:1f350a7b290d0c0f1b05044b9b9146c1",
-    "Name": "OCP-9709:Storage secret volume security check",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN_cucushift:5c771d8a21714d4875a5a3fa2ef07d77",
     "Name": "OCP-9747:SDN Pod cannot claim UDP port 4789 on the node as part of a port mapping",
     "Suite": "SDN_cucushift",
@@ -163213,134 +159517,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "deployment related features:308849d658407969082b737444bcd9dc",
-    "Name": "OCP-9768:Workloads Could edit the deployer pod during deployment",
-    "Suite": "deployment related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:f142d97df1f5336d219d5603e0a16307",
-    "Name": "OCP-9778:Workloads when the deployment can not be created due to a quota limit will get event from original report",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Quota related scenarios:f142d97df1f5336d219d5603e0a16307",
-    "Name": "OCP-9778:Workloads when the deployment can not be created due to a quota limit will get event from original report",
-    "Suite": "Quota related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-controller-manager",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-controller-manager",
-    "JIRAComponentID": "14825"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "projects related features via cli:bcd1ea5aa6b78a41de2513b697f0744a",
-    "Name": "OCP-9797:Authentication serviceaccount can not create projectrequest",
-    "Suite": "projects related features via cli",
-    "Product": "OpenShift",
-    "Priority": 3,
-    "StaffApprovedObsolete": false,
-    "Component": "apiserver-auth",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "apiserver-auth",
-    "JIRAComponentID": "14714"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:a5b3b3ebe1474787442d57cd7b8e12b7",
-    "Name": "OCP-9845:Storage Pod should be able to mount multiple PVCs",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Add, update remove volume to rc/dc and --overwrite option:a5b3b3ebe1474787442d57cd7b8e12b7",
-    "Name": "OCP-9845:Storage Pod should be able to mount multiple PVCs",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:e242d0d7c6f0f7d3274b2f2babbc613f",
-    "Name": "OCP-9846:Storage PV/PVC status should be consistent",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "NFS Persistent Volume:e242d0d7c6f0f7d3274b2f2babbc613f",
-    "Name": "OCP-9846:Storage PV/PVC status should be consistent",
-    "Suite": "NFS Persistent Volume",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "oc debug related scenarios:bb16d3bd6196df9f8a9ee2613c9a6017",
     "Name": "OCP-9854:Workloads Debug pod with oc debug",
     "Suite": "oc debug related scenarios",
@@ -163359,38 +159535,6 @@
     "Kind": "TestOwnership",
     "ID": "Workloads_cucushift:bb16d3bd6196df9f8a9ee2613c9a6017",
     "Name": "OCP-9854:Workloads Debug pod with oc debug",
-    "Suite": "Workloads_cucushift",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scaling related scenarios:6168731627a95b6d4e053d4f1fe67592",
-    "Name": "OCP-9862:Workloads When rolling deployments the pod should shutdown gracefully",
-    "Suite": "scaling related scenarios",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workloads_cucushift:6168731627a95b6d4e053d4f1fe67592",
-    "Name": "OCP-9862:Workloads When rolling deployments the pod should shutdown gracefully",
     "Suite": "Workloads_cucushift",
     "Product": "OpenShift",
     "Priority": 0,
@@ -163433,70 +159577,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:0af60a3e9f0c13e46efa1bb40216806e",
-    "Name": "OCP-9940:Storage PV and PVC bound successfully when pv created prebound to pvc",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:0af60a3e9f0c13e46efa1bb40216806e",
-    "Name": "OCP-9940:Storage PV and PVC bound successfully when pv created prebound to pvc",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:cab8ca03741314a8da2250b8f76b9d0f",
-    "Name": "OCP-9941:Storage PV and PVC bound successfully when pvc created prebound to pv",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:cab8ca03741314a8da2250b8f76b9d0f",
-    "Name": "OCP-9941:Storage PV and PVC bound successfully when pvc created prebound to pv",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -165517,150 +161597,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "storageClass related feature:6d99e079bedddde9f6631ec0822edf07",
-    "Name": "PVC modification after creating storage class (outline example : | OCP-13488:Storage | managed-premium |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storageClass related feature:3ec9190d7659bf3c35bee2877ad6a1ad",
-    "Name": "PVC request storage class with specific provisioner (outline example : | OCP-12326:Storage | manual |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storageClass related feature:821b82ad81e39c9db844b296a5b0a0b8",
-    "Name": "PVC request storage class with specific provisioner (outline example : | OCP-12348:Storage | kubernetes.io/unknown |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:0c50a82a5ef965d38621bdb641453143",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27722:Storage | ReadOnlyMany |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:0c50a82a5ef965d38621bdb641453143",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27722:Storage | ReadOnlyMany |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:d950e0b57c6387e3250521e6592a2faa",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27723:Storage | ReadWriteMany |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:d950e0b57c6387e3250521e6592a2faa",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27723:Storage | ReadWriteMany |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:64a0a3931f38a7f23720e9772539faaa",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27724:Storage | ReadWriteOnce |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:64a0a3931f38a7f23720e9772539faaa",
-    "Name": "PVC should bound the PV with most appropriate access mode and size (outline example : | OCP-27724:Storage | ReadWriteOnce |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "PVC tests:9f29a95b321c69dadbbb0e8b3e2f824c",
     "Name": "PVC tests \"after all\" hook for \"(OCP-72032,yapei,UserInterface)Cross storage class clone and restore\"",
     "Suite": "PVC tests",
@@ -165705,102 +161641,6 @@
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:b745383e3e3093ef0feb89830508abfb",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-10680:Storage | ReadWriteOnce | ReadOnlyMany | ReadWriteMany |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:b745383e3e3093ef0feb89830508abfb",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-10680:Storage | ReadWriteOnce | ReadOnlyMany | ReadWriteMany |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:6374bcd312801e501d99b344b0f92b45",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-11168:Storage | ReadWriteMany | ReadWriteOnce | ReadOnlyMany |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:6374bcd312801e501d99b344b0f92b45",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-11168:Storage | ReadWriteMany | ReadWriteOnce | ReadOnlyMany |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:146101001b52f51605c25b073ba628e6",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-9702:Storage | ReadOnlyMany | ReadWriteMany | ReadWriteOnce |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Persistent Volume Claim binding policies:146101001b52f51605c25b073ba628e6",
-    "Name": "PVC with one accessMode can bind PV with all accessMode (outline example : | OCP-9702:Storage | ReadOnlyMany | ReadWriteMany | ReadWriteOnce |)",
-    "Suite": "Persistent Volume Claim binding policies",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -165865,70 +161705,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:370cf7917617411ade1572fec53dde0c",
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10108:Storage | nfsc | nfspv1-\u003c%= project.name %\u003e |)",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:370cf7917617411ade1572fec53dde0c",
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10108:Storage | nfsc | nfspv1-\u003c%= project.name %\u003e |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Testing for pv and pvc pre-bind feature:3957708d6b8cd34f58463cf70090383a",
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10112:Storage | nfsc1 | nfspv-\u003c%= project.name %\u003e |)",
-    "Suite": "Testing for pv and pvc pre-bind feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:3957708d6b8cd34f58463cf70090383a",
-    "Name": "Prebound pv/pvc is availabe/pending due to requested pvc/pv prebound to other pv/pvc (outline example : | OCP-10112:Storage | nfsc1 | nfspv-\u003c%= project.name %\u003e |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -166349,70 +162125,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "storage security check:a5f2f8ee0993480e6f999c231d411f7f",
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28093:Storage | runAsUser |)",
-    "Suite": "storage security check",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:a5f2f8ee0993480e6f999c231d411f7f",
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28093:Storage | runAsUser |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "storage security check:9e7d049e1940dccd836e15736682abde",
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28095:Storage | fsGroup |)",
-    "Suite": "storage security check",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:9e7d049e1940dccd836e15736682abde",
-    "Name": "Run pod with specific user/group by using securityContext (outline example : | OCP-28095:Storage | fsGroup |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "cucushift-upgrade-check:df2bc93c9313065bec3bfbab2ee85116",
     "Name": "Scale up and scale down a machineSet after upgrade",
     "Suite": "cucushift-upgrade-check",
@@ -166557,22 +162269,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "storageClass related feature:9e0bf94d06fbff2928df12288e341b00",
-    "Name": "Setting mountOptions for StorageClass (outline example : | OCP-17490:Storage | azure |)",
-    "Suite": "storageClass related feature",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "creating 'apps' with CLI:d453644204e0b1a8e1ffae3b4da70416",
     "Name": "Show better output for syntax error (outline example : | OCP-11049:Workloads | oc |)",
     "Suite": "creating 'apps' with CLI",
@@ -166665,38 +162361,6 @@
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Dynamic provision via storage class with options:3775cb326a8e9f0b0cd11e58ecf1073b",
-    "Name": "Storage class option volumeBindingMode with invalid value (outline example : | OCP-26071:Storage | '' |)",
-    "Suite": "Dynamic provision via storage class with options",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Dynamic provision via storage class with options:7e01f491fff91daa9a1312ee8dfcc040",
-    "Name": "Storage class option volumeBindingMode with invalid value (outline example : | OCP-26073:Storage | invalid |)",
-    "Suite": "Dynamic provision via storage class with options",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -167177,134 +162841,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:00f872f2ae4a00d1a4bde35b4234b773",
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26148:Storage | Block |)",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:00f872f2ae4a00d1a4bde35b4234b773",
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26148:Storage | Block |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:8c9eff50bd5992b18791e2801dcbfae2",
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26149:Storage | Filesystem |)",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:8c9eff50bd5992b18791e2801dcbfae2",
-    "Name": "User can create PVC with specific VolumeMode (outline example : | OCP-26149:Storage | Filesystem |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:9915315c4a600d2ecb69251bf6f899b7",
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26143:Storage | Block |)",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:9915315c4a600d2ecb69251bf6f899b7",
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26143:Storage | Block |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "scenarios specific for block volume support:9f07e15e1bc61af4a39dd0ce9cd37217",
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26144:Storage | Filesystem |)",
-    "Suite": "scenarios specific for block volume support",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:9f07e15e1bc61af4a39dd0ce9cd37217",
-    "Name": "User can manually create PV with specific VolumeMode (outline example : | OCP-26144:Storage | Filesystem |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -186400,70 +181936,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:b6624a51e5492083ec9a7c52439cb439",
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10204:Storage | ReadOnly |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Azure disk and Azure file specific scenarios:b6624a51e5492083ec9a7c52439cb439",
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10204:Storage | ReadOnly |)",
-    "Suite": "Azure disk and Azure file specific scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:e6eb6d5e5357eec0f44f6ecb0065d03f",
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10205:Storage | ReadWrite |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Azure disk and Azure file specific scenarios:e6eb6d5e5357eec0f44f6ecb0065d03f",
-    "Name": "azureDisk volume with readwrite/readonly cachingmode and xfs fstype (outline example : | OCP-10205:Storage | ReadWrite |)",
-    "Suite": "Azure disk and Azure file specific scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Storage_cucushift:0698c393f5d17105c675fa33eea0ac0f",
     "Name": "azureFile dynamic provisioning with storage class (outline example : | OCP-10203:Storage | NOPAR |)",
     "Suite": "Storage_cucushift",
@@ -187216,22 +182688,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):fc005b430fff59edc7a1d18f70bc9dc1",
-    "Name": "cilium-dump",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):5cd6659c1ebb63676844f782f3856758",
     "Name": "clusterapi-workers-day2",
     "Suite": "Overall CI (test step)",
@@ -187904,326 +183360,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:f3fcd4bdcffc5dc1110729eb8f52ba12",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37745:Storage | invailid-volumesnapshot-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:f3fcd4bdcffc5dc1110729eb8f52ba12",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37745:Storage | invailid-volumesnapshot-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:0ecb27c68aaa2ffaf3753b5924dd38e6",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37746:Storage | invailid-volumesnapshot-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:0ecb27c68aaa2ffaf3753b5924dd38e6",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37746:Storage | invailid-volumesnapshot-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeSnapshotContentName and persistentVolumeClaimName must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:7590b8fb52cb28581e8ee016acc41eff",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37747:Storage | invailid-volumesnapshot-snapshotclass-nil.yaml | [Vv]olumeSnapshotClassName must not be the empty string |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:7590b8fb52cb28581e8ee016acc41eff",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot creation (outline example : | OCP-37747:Storage | invailid-volumesnapshot-snapshotclass-nil.yaml | [Vv]olumeSnapshotClassName must not be the empty string |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:afe06c2015c458802bc59809104aad71",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37751:Storage | persistentVolumeClaimName | [Pp]ersistentVolumeClaimName is immutable |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:afe06c2015c458802bc59809104aad71",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37751:Storage | persistentVolumeClaimName | [Pp]ersistentVolumeClaimName is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:a4fb6573d9c8d657049caf4c3123946d",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37752:Storage | volumeSnapshotContentName | [Vv]olumeSnapshotContentName is immutable |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:a4fb6573d9c8d657049caf4c3123946d",
-    "Name": "csi-snapshot-webhook blocks volumesnapshot update (outline example : | OCP-37752:Storage | volumeSnapshotContentName | [Vv]olumeSnapshotContentName is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:53da7e61b1a795b208473dc2055094fd",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37748:Storage | invailid-volumesnapshotcontent-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:53da7e61b1a795b208473dc2055094fd",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37748:Storage | invailid-volumesnapshotcontent-both-nil.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:1b25a57ef3d2d81058b765d2d7ced694",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37749:Storage | invailid-volumesnapshotcontent-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:1b25a57ef3d2d81058b765d2d7ced694",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37749:Storage | invailid-volumesnapshotcontent-both.yaml | (\"spec.source\" must validate one and only one schema|exactly one of volumeHandle and snapshotHandle must be set) |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:478edfbc9e1ce3840b20dd31f0ade6d6",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37750:Storage | invailid-volumesnapshotcontent-snapshotref-nil.yaml | spec.volumeSnapshotRef: Required value |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:478edfbc9e1ce3840b20dd31f0ade6d6",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent creation (outline example : | OCP-37750:Storage | invailid-volumesnapshotcontent-snapshotref-nil.yaml | spec.volumeSnapshotRef: Required value |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:f46f4d875e84a1ae83d0e2e28d2b177a",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37753:Storage | volumeHandle | [Vv]olumeHandle is immutable |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:f46f4d875e84a1ae83d0e2e28d2b177a",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37753:Storage | volumeHandle | [Vv]olumeHandle is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:4b1a442c6063b15818ad89e81664ecbd",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37754:Storage | snapshotHandle | [Ss]napshotHandle is immutable |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "CSI snapshot webhook related scenarios:4b1a442c6063b15818ad89e81664ecbd",
-    "Name": "csi-snapshot-webhook blocks volumesnapshotcontent update (outline example : | OCP-37754:Storage | snapshotHandle | [Ss]napshotHandle is immutable |)",
-    "Suite": "CSI snapshot webhook related scenarios",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):fd99acb5772fa8381db51c432870be39",
     "Name": "cucushift-chainupgrade-toimage",
     "Suite": "Overall CI (test step)",
@@ -188306,38 +183442,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):a9be1e83a9c1d36783feddc97389fd18",
     "Name": "cucushift-hypershift-extended-capacity-reservation-create",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):3922e6f8f29ec92c7de4dcb513a50f86",
-    "Name": "cucushift-hypershift-extended-cilium",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):5cd0f399e7d5af4d515d8e3859fbec46",
-    "Name": "cucushift-hypershift-extended-cilium-health-check",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -190916,38 +186020,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:2dc11c0110e3ea5616609d473678087b",
-    "Name": "dynamic provisioning for block volume (outline example : | OCP-19188:Storage | azure-disk |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Dynamic provisioning:2dc11c0110e3ea5616609d473678087b",
-    "Name": "dynamic provisioning for block volume (outline example : | OCP-19188:Storage | azure-disk |)",
-    "Suite": "Dynamic provisioning",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
   },
   {
     "APIVersion": "v1",
@@ -195384,22 +190456,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):0a0f88caad2a994c16a8f73194aa825e",
-    "Name": "ipi-conf-inframachineset",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):5b998448cb8d17c395a9bb9e77b7f91d",
     "Name": "ipi-conf-machinecidr",
     "Suite": "Overall CI (test step)",
@@ -197736,22 +192792,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):f07075053c43b2f16f87b32ff745fef2",
-    "Name": "multiarch-migration-machine-type",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):bf84234e0f3279f64a79df00bafac0cf",
     "Name": "multiarch-tuning-operator-deploy",
     "Suite": "Overall CI (test step)",
@@ -198296,22 +193336,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "nodes page:7546bbf8d24fb689df365aef5b2afcdf",
-    "Name": "nodes page \"before each\" hook for \"(OCP-69089,yanpzhan,UserInterface) Add uptime info for node on console\"",
-    "Suite": "nodes page",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "nodes page:5c6426a9b87ec31db005d57e22f8017b",
     "Name": "nodes page \"before each\" hook for \"(OCP-75487,yapei,UserInterface)Add Architecture column to NodeList and filter for archs)\"",
     "Suite": "nodes page",
@@ -198744,38 +193768,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Storage_cucushift:d69e7f92432ef462a56969e70b635dda",
-    "Name": "oc set volume with claim-class parameter test (outline example : | OCP-13729:Storage | azure-disk |)",
-    "Suite": "Storage_cucushift",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Add, update remove volume to rc/dc and --overwrite option:d69e7f92432ef462a56969e70b635dda",
-    "Name": "oc set volume with claim-class parameter test (outline example : | OCP-13729:Storage | azure-disk |)",
-    "Suite": "Add, update remove volume to rc/dc and --overwrite option",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):8715c334b17d00ebe2845862f8052785",
     "Name": "ofcir-acquire",
     "Suite": "Overall CI (test step)",
@@ -198890,22 +193882,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):febcd05f9903f37199bee8c0aa34ad12",
     "Name": "openshift-e2e-cert-rotation-observe",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):3eb1e536cc8afaf2509f777e976092f6",
-    "Name": "openshift-e2e-cert-rotation-test",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
