@@ -316,10 +316,6 @@
     "Suite": "(OCP-66141 Network_Observability) PacketDrop test"
   },
   {
-    "Name": "(OCP-66141 Network_Observability) PacketDrop test \"before each\" hook: any packetDrop test for \"(OCP-66141, aramesha, Network_Observability) Verify packetDrop Query Options filters\"",
-    "Suite": "(OCP-66141 Network_Observability) PacketDrop test"
-  },
-  {
     "Name": "(OCP-66141 Network_Observability) PacketDrop test \"before each\" hook: any packetDrop test for \"(OCP-66141, aramesha, Network_Observability) Verify packetDrop panels\"",
     "Suite": "(OCP-66141 Network_Observability) PacketDrop test"
   },
@@ -677,14 +673,6 @@
   },
   {
     "Name": "(OCP-81751 Network_Observability) UDN test \"before all\" hook: any test for \"(OCP-81751, aramesha) should verify default Network Name columns\"",
-    "Suite": "(OCP-81751 Network_Observability) UDN test"
-  },
-  {
-    "Name": "(OCP-81751 Network_Observability) UDN test (OCP-81751, aramesha) should verify default Network Name columns",
-    "Suite": "(OCP-81751 Network_Observability) UDN test"
-  },
-  {
-    "Name": "(OCP-81751 Network_Observability) UDN test (OCP-81751, aramesha) should verify network scope",
     "Suite": "(OCP-81751 Network_Observability) UDN test"
   },
   {
@@ -1904,10 +1892,6 @@
     "Suite": "Monitoring dashboards related features"
   },
   {
-    "Name": "NetObserv developer view \"after all\" hook: after all tests are done for \"(OCP-75874, OCP-73876 aramesha, Network_Observability) should verify developer view - Prom DataSource\"",
-    "Suite": "NetObserv developer view"
-  },
-  {
     "Name": "NetObserv developer view \"after all\" hook: after all tests are done for \"(OCP-75874, aramesha, Network_Observability) should verify developer view - Loki DataSource\"",
     "Suite": "NetObserv developer view"
   },
@@ -2021,10 +2005,6 @@
   },
   {
     "Name": "Notification drawer tests \"after each\" hook for \"(OCP-43119,yapei,UserInterface) Check alerts are filtered based on Pod/Project/Node labels\"",
-    "Suite": "Notification drawer tests"
-  },
-  {
-    "Name": "Notification drawer tests \"after each\" hook for \"(OCP-45305,yanpzhan,UserInterface) check alert on overview page and notification drawer list\"",
     "Suite": "Notification drawer tests"
   },
   {
@@ -31892,10 +31872,6 @@
     "Suite": "Hypershift"
   },
   {
-    "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads Update staticpod file permissions to conform with CIS benchmarks",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads test kubescheduler operator works well Update staticpod file permissions to conform with CIS benchmarks",
     "Suite": "Workloads"
   },
@@ -38344,10 +38320,6 @@
     "Suite": "Workloads"
   },
   {
-    "Name": "OCP-7XX93:yinzhou:Workloads:[sig-cli] Workloads Should ignore certificate-authority checking when use insecure for oc image commands",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-7XX93:yinzhou:Workloads:[sig-cli] Workloads oc adm command works well Should ignore certificate-authority checking when use insecure for oc image commands",
     "Suite": "Workloads"
   },
@@ -40708,10 +40680,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "UserInterface Operator Hub tests \"after all\" hook for \"(OCP-45874,yapei,UserInterface) Check source labels on the operator hub page tiles\"",
-    "Suite": "UserInterface Operator Hub tests"
-  },
-  {
     "Name": "UserInterface Operator Hub tests \"after all\" hook for \"(OCP-62266,xiyuzhao,UserInterface) Filter operators based on nodes OS type\"",
     "Suite": "UserInterface Operator Hub tests"
   },
@@ -40765,10 +40733,6 @@
   },
   {
     "Name": "Workload Secrets test \"after all\" hook for \"(OCP-47010,xiyuzhao,UserInterface) Check Secrets is editable on console\"",
-    "Suite": "Workload Secrets test"
-  },
-  {
-    "Name": "Workload Secrets test \"after all\" hook for \"(OCP-73150,yapei,UserInterface)Passwords entered on the console are obfuscated\"",
     "Suite": "Workload Secrets test"
   },
   {
@@ -45532,10 +45496,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetal-lab-ipi-conf-virtual-media",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetal-lab-ipi-deprovision",
     "Suite": "Overall CI (test step)"
   },
@@ -45593,10 +45553,6 @@
   },
   {
     "Name": "baremetal-lab-pre-reserve-nodes",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "baremetal-lab-tang",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -48877,34 +48833,6 @@
   },
   {
     "Name": "optional-operators-subscribe",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-cluster-deprovision",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-cluster-deprovision-gcp-iam-creds-xpn-roles",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-cluster-operators-wait-ready",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-cluster-private",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-cluster-provision-gcp",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-conf-idp-htpasswd",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "osd-ccs-conf-idp-htpasswd-multi-users",
     "Suite": "Overall CI (test step)"
   },
   {

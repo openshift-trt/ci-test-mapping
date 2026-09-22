@@ -1266,22 +1266,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "(OCP-66141 Network_Observability) PacketDrop test:b5b12ce12ff941f037bbc522a7d3b054",
-    "Name": "(OCP-66141 Network_Observability) PacketDrop test \"before each\" hook: any packetDrop test for \"(OCP-66141, aramesha, Network_Observability) Verify packetDrop Query Options filters\"",
-    "Suite": "(OCP-66141 Network_Observability) PacketDrop test",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "(OCP-66141 Network_Observability) PacketDrop test:db29cab524ad774b628dbd9a92547f56",
     "Name": "(OCP-66141 Network_Observability) PacketDrop test \"before each\" hook: any packetDrop test for \"(OCP-66141, aramesha, Network_Observability) Verify packetDrop panels\"",
     "Suite": "(OCP-66141 Network_Observability) PacketDrop test",
@@ -2708,38 +2692,6 @@
     "Kind": "TestOwnership",
     "ID": "(OCP-81751 Network_Observability) UDN test:e8f7b4358e738e9c101af7f523508788",
     "Name": "(OCP-81751 Network_Observability) UDN test \"before all\" hook: any test for \"(OCP-81751, aramesha) should verify default Network Name columns\"",
-    "Suite": "(OCP-81751 Network_Observability) UDN test",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "(OCP-81751 Network_Observability) UDN test:d6666012c94a8c16c4f35dd26091f12e",
-    "Name": "(OCP-81751 Network_Observability) UDN test (OCP-81751, aramesha) should verify default Network Name columns",
-    "Suite": "(OCP-81751 Network_Observability) UDN test",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "(OCP-81751 Network_Observability) UDN test:a45f502463679df4a8cab69851a9b7dc",
-    "Name": "(OCP-81751 Network_Observability) UDN test (OCP-81751, aramesha) should verify network scope",
     "Suite": "(OCP-81751 Network_Observability) UDN test",
     "Product": "OpenShift",
     "Priority": 0,
@@ -7618,22 +7570,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "NetObserv developer view:083ebf9fc1c3460d21270f5cf323971f",
-    "Name": "NetObserv developer view \"after all\" hook: after all tests are done for \"(OCP-75874, OCP-73876 aramesha, Network_Observability) should verify developer view - Prom DataSource\"",
-    "Suite": "NetObserv developer view",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "NetObserv developer view:4aac9c9af28cdfaafd4eaf3fb6c4a4fc",
     "Name": "NetObserv developer view \"after all\" hook: after all tests are done for \"(OCP-75874, aramesha, Network_Observability) should verify developer view - Loki DataSource\"",
     "Suite": "NetObserv developer view",
@@ -8084,22 +8020,6 @@
     "Kind": "TestOwnership",
     "ID": "Notification drawer tests:a867384fc68a45a1b7c6fe0b3ee1dfa5",
     "Name": "Notification drawer tests \"after each\" hook for \"(OCP-43119,yapei,UserInterface) Check alerts are filtered based on Pod/Project/Node labels\"",
-    "Suite": "Notification drawer tests",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Notification drawer tests:380638119653f699b08cb8cb525a790a",
-    "Name": "Notification drawer tests \"after each\" hook for \"(OCP-45305,yanpzhan,UserInterface) check alert on overview page and notification drawer list\"",
     "Suite": "Notification drawer tests",
     "Product": "OpenShift",
     "Priority": -1,
@@ -127575,22 +127495,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Workloads:33df8971b5d6e7045eb3bf32625c09fe",
-    "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads Update staticpod file permissions to conform with CIS benchmarks",
-    "Suite": "Workloads",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "openshift-controller-manager / apps",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "openshift-controller-manager / apps",
-    "JIRAComponentID": "14971"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:932ecaca36a5adb57093b3d7344eb5c5",
     "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads test kubescheduler operator works well Update staticpod file permissions to conform with CIS benchmarks",
     "Suite": "Workloads",
@@ -153387,22 +153291,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Workloads:51332ea9adbb7a5780a79a21639bc785",
-    "Name": "OCP-7XX93:yinzhou:Workloads:[sig-cli] Workloads Should ignore certificate-authority checking when use insecure for oc image commands",
-    "Suite": "Workloads",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "oc",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "oc",
-    "JIRAComponentID": "14806"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:f6726738a6adffb702101db32115a3e8",
     "Name": "OCP-7XX93:yinzhou:Workloads:[sig-cli] Workloads oc adm command works well Should ignore certificate-authority checking when use insecure for oc image commands",
     "Suite": "Workloads",
@@ -162845,22 +162733,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "UserInterface Operator Hub tests:548caf38378116e9898334300d1a323e",
-    "Name": "UserInterface Operator Hub tests \"after all\" hook for \"(OCP-45874,yapei,UserInterface) Check source labels on the operator hub page tiles\"",
-    "Suite": "UserInterface Operator Hub tests",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "UserInterface Operator Hub tests:c5aba15e527f30f1a1faf31e8e9c8059",
     "Name": "UserInterface Operator Hub tests \"after all\" hook for \"(OCP-62266,xiyuzhao,UserInterface) Filter operators based on nodes OS type\"",
     "Suite": "UserInterface Operator Hub tests",
@@ -163071,22 +162943,6 @@
     "Kind": "TestOwnership",
     "ID": "Workload Secrets test:daea57af6bea88c69824581b44d6d031",
     "Name": "Workload Secrets test \"after all\" hook for \"(OCP-47010,xiyuzhao,UserInterface) Check Secrets is editable on console\"",
-    "Suite": "Workload Secrets test",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Workload Secrets test:7ea5579f80c32ff54db05cfcc3d4437b",
-    "Name": "Workload Secrets test \"after all\" hook for \"(OCP-73150,yapei,UserInterface)Passwords entered on the console are obfuscated\"",
     "Suite": "Workload Secrets test",
     "Product": "OpenShift",
     "Priority": 0,
@@ -182144,22 +182000,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):523d01906c7f267ce0c2a2dd2321bb7a",
-    "Name": "baremetal-lab-ipi-conf-virtual-media",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):bd201b4bd7d3cc25a98b902cba1b48d8",
     "Name": "baremetal-lab-ipi-deprovision",
     "Suite": "Overall CI (test step)",
@@ -182386,22 +182226,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):cb1897a4a0409eea28b8f3d9c3f26dce",
     "Name": "baremetal-lab-pre-reserve-nodes",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):5fd3415bbc921780eb9af336a69ef0ca",
-    "Name": "baremetal-lab-tang",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
@@ -195530,118 +195354,6 @@
     "Kind": "TestOwnership",
     "ID": "Overall CI (test step):4043ce3a79c85e47617535f075632c67",
     "Name": "optional-operators-subscribe",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):71f72a4409a012a86e8ba926b53d98a7",
-    "Name": "osd-ccs-cluster-deprovision",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):37c9dd539b58f41f23dc8f9625596c1d",
-    "Name": "osd-ccs-cluster-deprovision-gcp-iam-creds-xpn-roles",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):61630e751aedee5521f56f5e44234eeb",
-    "Name": "osd-ccs-cluster-operators-wait-ready",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):d5ab873e2548900250b535d1d50dcd50",
-    "Name": "osd-ccs-cluster-private",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):66c3819c4b08a6610c1aa9114d74cd8d",
-    "Name": "osd-ccs-cluster-provision-gcp",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):fa02424eab24f042f706c70986d27fa1",
-    "Name": "osd-ccs-conf-idp-htpasswd",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):e43091c64bf0ac6cfa83245d5c6ab2a9",
-    "Name": "osd-ccs-conf-idp-htpasswd-multi-users",
     "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
