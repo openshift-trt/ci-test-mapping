@@ -34179,22 +34179,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "UI-console style related:f59d36b3bedc43dea0ea16dd3c8ab9a8",
-    "Name": "OCP-24XX3:UserInterface Check Alerts styles",
-    "Suite": "UI-console style related",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "UPI GCP Tests:bc653a214810189a2b63dfc4b0a7a729",
     "Name": "OCP-25034:ClusterInfrastructure GCP Scaling OCP Cluster on UPI",
     "Suite": "UPI GCP Tests",
@@ -49599,22 +49583,6 @@
     ],
     "JIRAComponent": "Networking / router",
     "JIRAComponentID": "14827"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Security_and_Compliance:428ffafa86557b1d3449ce3c8fde6d5e",
-    "Name": "OCP-33XX6:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance File_Integrity_Operator an end user handle FIO within a namespace WRS-enable configuring tolerations in FileIntegrities [Disruptive] [Serial]",
-    "Suite": "Security_and_Compliance",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -87079,22 +87047,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "UI-dashboards related cases:33ae00992e1c138fd045c22cdc68004b",
-    "Name": "OCP-4XX05:UserInterface Check node types filter for cluster utilization card on cluster dashboard",
-    "Suite": "UI-dashboards related cases",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Network_Edge:c1dd8240463479baa0f2e356cf35ee40",
     "Name": "OCP-4XX30:aiyengar:Network_Edge:[sig-network-edge] Network_Edge Component_Router should route can be configured to whitelist more than 61 ips/CIDRs",
     "Suite": "Network_Edge",
@@ -90723,22 +90675,6 @@
     ],
     "JIRAComponent": "Security Profiles Operator",
     "JIRAComponentID": "14854"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "API_Server:dc7564873375181bf5d1c4e15a63ec2c",
-    "Name": "OCP-50XX3:jmekkatt:API_Server:[sig-api-machinery] API_Server Checks on different bad admission webhook errors, status of kube-apiserver [Serial]",
-    "Suite": "API_Server",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "kube-apiserver",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "kube-apiserver",
-    "JIRAComponentID": "14814"
   },
   {
     "APIVersion": "v1",
@@ -111065,6 +111001,22 @@
     "Kind": "TestOwnership",
     "ID": "STORAGE:175f9c5edf1dd1c9ac5411cafec34bd4",
     "Name": "OCP-60578:chaoyang:STORAGE:[sig-storage] STORAGE [Azure-File-CSI-Driver]Support fsgroup for nfs file share protocol",
+    "Suite": "STORAGE",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Storage",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Storage",
+    "JIRAComponentID": "14799"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "STORAGE:af6f360a0cb7a8da91e1c87b47231260",
+    "Name": "OCP-60580:ropatil:STORAGE:[sig-storage] STORAGE [AWS-EFS-CSI Driver][Dynamic PV][Filesystem][Stage] EFS csi operator is installed and provision volume successfully",
     "Suite": "STORAGE",
     "Product": "OpenShift",
     "Priority": 1,
@@ -142649,22 +142601,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:00ca848c2eb7369a8246aad4b46c0a75",
-    "Name": "OCP-737XX:huirwang:SDN:[sig-networking] SDN egressfirewall-techpreview Update domain name in EgressFirewall,EgressFirewall works after restart ovnkube-node pods. [Disruptive] [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "SDN:6f6c527b40bab69272b1df93a0093dac",
     "Name": "OCP-73802:asood:SDN:[sig-networking] SDN adminnetworkpolicy [FdpOvnOvs] BANP and ANP work with named ports. [Serial]",
     "Suite": "SDN",
@@ -159501,22 +159437,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "STORAGE:3ffc5582cb517fb3463dd20244aa531e",
-    "Name": "OCP-XX019:wduan:STORAGE:[sig-storage] STORAGE [Storageclass] The cluster-storage-operator should manage pre-defined storage class [Disruptive] [Serial]",
-    "Suite": "STORAGE",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Storage",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Storage",
-    "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Image_Registry:733c20e7e12b313bf1a24abff7ac7e0f",
     "Name": "OCP-XX056:tbuskey:Image_Registry:[sig-imageregistry] Image_Registry Registry operator configure prometheus metric gathering",
     "Suite": "Image_Registry",
@@ -159581,22 +159501,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OLM:7e79931092804df0aca9b6be6c01b706",
-    "Name": "OCP-XX259:kuiwang:OLM:[sig-operators] OLM for an end user handle common object marketplace operator CR status on a running cluster [Exclusive] [Serial]",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "pods related scenarios:3882b6fec7401e7ff573230ba8178150",
     "Name": "OCP-XX283:Authentication 4.0 Oauth provider info should be consumed in a pod",
     "Suite": "pods related scenarios",
@@ -159632,22 +159536,6 @@
     "ID": "UI-customize console related:e7fdae72832e488c652db65a5b22a579",
     "Name": "OCP-XX330:UserInterface console customization",
     "Suite": "UI-customize console related",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "UI-console-operator related:a5fe4270f47837bb08676124919c3b29",
-    "Name": "OCP-XX343:UserInterface console operator and console deployment have resource limits",
-    "Suite": "UI-console-operator related",
     "Product": "OpenShift",
     "Priority": -1,
     "StaffApprovedObsolete": false,
@@ -173369,6 +173257,54 @@
     ],
     "JIRAComponent": "Cluster Version Operator",
     "JIRAComponentID": "14665"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "cluster-baremetal-operator/firmware:45fd17931b9058f07e6bcaabccd362f7",
+    "Name": "[OTP][sig-baremetal] IPI BareMetal Author:jhajyahy-Longduration-NonPreRelease-Medium-75430-DAY1 Update host firmware of bmc, bios and nic [Disruptive]",
+    "Suite": "cluster-baremetal-operator/firmware",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "cluster-baremetal-operator/firmware:f4cdcea96bed21d603c8e6a342252712",
+    "Name": "[OTP][sig-baremetal] IPI BareMetal Author:jhajyahy-Longduration-NonPreRelease-Medium-78361-DAY2 Update host firmware of bmc, bios and nic with reboot annotation  [Disruptive]",
+    "Suite": "cluster-baremetal-operator/firmware",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "cluster-baremetal-operator/firmware:42a2feb7947a56472d79acbec1169e24",
+    "Name": "[OTP][sig-baremetal] IPI BareMetal Author:jhajyahy-Longduration-NonPreRelease-Medium-90291-DAY2 Batched firmware Update of bmc, bios and nic using service annotation [Disruptive]",
+    "Suite": "cluster-baremetal-operator/firmware",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Unknown",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Unknown",
+    "JIRAComponentID": "14832"
   },
   {
     "APIVersion": "v1",
@@ -194490,22 +194426,6 @@
     "Kind": "TestOwnership",
     "ID": "operand tests:e622f0651efe6ba4161ee819cd4388d2",
     "Name": "operand tests \"after all\" hook for \"(OCP-46583,xiyuzhao,UserInterface) Operator should be able to customize order of conditions table\"",
-    "Suite": "operand tests",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "operand tests:fdc188ffffe734cc053b8423011e8406",
-    "Name": "operand tests \"after all\" hook for \"(OCP-63078,yapei,UserInterface)Enable filtering for k8sResourcePrefix x-descriptor\"",
     "Suite": "operand tests",
     "Product": "OpenShift",
     "Priority": -1,
