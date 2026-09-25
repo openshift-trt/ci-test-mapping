@@ -191480,22 +191480,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "knmstate operator console plugin related features:083fc7daee9ed9ef2718b112ba5d0c5b",
-    "Name": "knmstate operator console plugin related features \"before all\" hook for \"(OCP-64784,qiowang) Verify NMState cosole plugin operator installation(GUI)\"",
-    "Suite": "knmstate operator console plugin related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "knmstate operator console plugin related features:b2bac799f9f65dd3b18caa62b35d5d0b",
     "Name": "knmstate operator console plugin related features \"before all\" hook for \"(OCP-64784,qiowang,SDN) Verify NMState cosole plugin operator installation(GUI)\"",
     "Suite": "knmstate operator console plugin related features",

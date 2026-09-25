@@ -16368,6 +16368,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: pd.csi.storage.gke.io] [Testpattern: Dynamic PV (default fs)] OpenShift CSI extended - Pod delete after umount should delete pod after volume directory was umounted on the node",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: pd.csi.storage.gke.io] [Testpattern: Dynamic PV (default fs)] capacity provides storage capacity information",
     "Suite": "openshift-tests"
   },
@@ -156237,6 +156241,10 @@
   },
   {
     "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"openshift-ingress-operator\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
+    "Suite": "openshift-tests-upgrade"
+  },
+  {
+    "Name": "[Monitor:rbac-cluster-admin-escalation-checker][sig-auth] clusterrolebinding \"openshift-ingress-operator\" must not grant permission to impersonate users, groups, or service accounts, or mint service account tokens",
     "Suite": "openshift-tests"
   },
   {
@@ -183641,6 +183649,14 @@
   },
   {
     "Name": "[sig-cluster-lifecycle][platform:vsphere][Disruptive] Managed cluster should create machinesets with thin data disk [apigroup:machine.openshift.io][Serial][Suite:openshift/conformance/serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][platform:vsphere][Suite:openshift/conformance/serial][Serial] Managed cluster should provisions multiple MachineSets with bounded concurrency [apigroup:machine.openshift.io][Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cluster-lifecycle][platform:vsphere][Suite:openshift/conformance/serial][Serial] Managed cluster should scales and deletes a MachineSet through its lifecycle [apigroup:machine.openshift.io][Serial]",
     "Suite": "openshift-tests"
   },
   {
