@@ -12724,10 +12724,6 @@
     "Suite": "Image_Registry"
   },
   {
-    "Name": "OCP-34XX3:rgangwar:API_Server:[sig-api-machinery] API_Server [Apiserver] kube-apiserver and openshift-apiserver should have zero-disruption upgrade",
-    "Suite": "API_Server"
-  },
-  {
     "Name": "OCP-35069:mihuang:Cluster_Operator:Hive supports cluster hibernation for gcp[Serial]",
     "Suite": "Cluster_Operator"
   },
@@ -39824,15 +39820,7 @@
     "Suite": "Image_Registry"
   },
   {
-    "Name": "OCP-XX615:xzha:OLM:[sig-operators] OLM should Post check the OLM status",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-XX615:xzha:OLM:[sig-operators] OLM should prepare to check the OLM status",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XX618:xzha:OLM:[sig-operators] OLM should Post check the catalogsource status of catalogsource",
     "Suite": "OLM"
   },
   {

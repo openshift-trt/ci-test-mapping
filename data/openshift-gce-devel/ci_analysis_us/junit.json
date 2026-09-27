@@ -1696,6 +1696,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: cinder.csi.openstack.org] [Testpattern: Dynamic PV (default fs)] OpenShift CSI extended - Pod delete after umount should delete pod after volume directory was umounted on the node",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: cinder.csi.openstack.org] [Testpattern: Dynamic PV (default fs)] capacity provides storage capacity information",
     "Suite": "openshift-tests"
   },
@@ -14629,6 +14633,10 @@
   },
   {
     "Name": "External Storage [Driver: manila.csi.openstack.org] [Testpattern: Dynamic PV (default fs)] OpenShift CSI extended - CSI Clone should provision volume with pvc data source larger than original volume",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "External Storage [Driver: manila.csi.openstack.org] [Testpattern: Dynamic PV (default fs)] OpenShift CSI extended - Pod delete after umount should delete pod after volume directory was umounted on the node",
     "Suite": "openshift-tests"
   },
   {
@@ -102160,11 +102168,35 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] BGP BGP advertisement updates of communities and localpref and aggregation length IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP BGP advertisement updates of communities and localpref and aggregation length IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] BGP FRR configure peers with GracefulRestart and validate external containers are paired with nodes IPV4",
     "Suite": "E2E Suite"
   },
   {
     "Name": "[It] BGP FRR configure peers with GracefulRestart and validate external containers are paired with nodes IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR configure peers with localASN and validate session uses the local-as override FRR-MODE IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR configure peers with localASN and validate session uses the local-as override FRR-MODE IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR does not establish connections with wrong dynamic ASN mode IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP FRR does not establish connections with wrong dynamic ASN mode IPV6",
     "Suite": "E2E Suite"
   },
   {
@@ -102276,6 +102308,10 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] BGP Node Selector FRR - Different ASN per node IPV4 - should establish sessions when each node has a different MyASN",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] BGP Node Selector One service, one advertisement with node selector, labeling node IPV4",
     "Suite": "E2E Suite"
   },
@@ -102309,6 +102345,14 @@
   },
   {
     "Name": "[It] BGP Node Selector Single service, two advertisement with different node selectors FRR IPV6 - one on first, two on second",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two advertisements - updating one nodeSelector to non-matching withdraws its service without affecting the other IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Node Selector Two advertisements - updating one nodeSelector to non-matching withdraws its service without affecting the other IPV6",
     "Suite": "E2E Suite"
   },
   {
@@ -102357,6 +102401,62 @@
   },
   {
     "Name": "[It] BGP Peer Selector A service advertised through two different bgpadvertisements to two different peers IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Multiple service selectors IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Multiple service selectors IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Non-overlapping BGP advertisements apply distinct communities by service selector IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Non-overlapping BGP advertisements apply distinct communities by service selector IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Overlapping BGP advertisements where selected service gets all communities and staged gets shared only IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Overlapping BGP advertisements where selected service gets all communities and staged gets shared only IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Pool and service selectors together IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Pool and service selectors together IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selector updates propagate to BGP routes by updating BGPAdvertisement ServiceSelectors IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selector updates propagate to BGP routes by updating BGPAdvertisement ServiceSelectors IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selector updates propagate to BGP routes by updating Service labels IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selector updates propagate to BGP routes by updating Service labels IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selectors with split aggregation length advertisements IPV4",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP Service Selector Service selectors with split aggregation length advertisements IPV6",
     "Suite": "E2E Suite"
   },
   {
@@ -102425,6 +102525,18 @@
   },
   {
     "Name": "[It] BGP validate FRR running configuration Full BFD profile",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate FRR running configuration IPV4 BGP Timer Update",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate FRR running configuration IPV4 BGP connect time IPV4 retry timer reconnects to neighbor within connect time after BGP reset",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] BGP validate configuration changes IPV4 - overlapping bgp advertisements union communities for the same prefix",
     "Suite": "E2E Suite"
   },
   {
@@ -103950,6 +104062,46 @@
   {
     "Name": "[It] Cluster autoscaler operator should reject invalid MachineAutoscaler resources early via webhook [operators, autoscaler]",
     "Suite": "Machine Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState FRR - should preserve invalid state after all ConfigurationStates are deleted and recreated",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState FRR - should surface configState error when node relabeling causes BGPPeer conflict",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState FRR - speaker should cycle through errors as invalid BGPPeers are removed one by one",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState FRR - speaker should report node-specific validation results",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState a single speaker should have invalid result when BGPPeer with nodeSelector references secret with wrong type",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState all ConfigurationStates should report valid with a valid BGP peer config",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState should self-heal after deletion",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState speaker should have invalid result when BFD profile is missing",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState speaker should have invalid result when valid BGPPeer BFD profile reference is broken at runtime",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] ConfigurationState speaker should recover when missing community for BGPAdvertisement is created",
+    "Suite": "E2E Suite"
   },
   {
     "Name": "[It] Control Plane Installation defaulting Istio empty spec [control-plane, slow, sidecar]",
@@ -105872,11 +106024,35 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised DUALSTACK with BFD",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised DUALSTACK without BFD",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV4",
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV4 with BFD",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV4 without BFD",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV6 with BFD",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised IPV6 without BFD",
     "Suite": "E2E Suite"
   },
   {
@@ -106736,6 +106912,38 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] L2 Preferred Node Selector should announce from the nodeSelectors set when it is disjoint from preferredNodeSelectors",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should behave like the baseline advertisement when no node matches the preferred selector",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should fail over when the preferred node becomes unschedulable and reclaim when it returns",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should prefer the labeled node and fall back to the baseline election when the label is removed",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should re-elect when the L2Advertisement spec changes at runtime",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should respect nodeSelectors as a hard filter while preferredNodeSelectors orders the eligible set",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should scope preferredNodeSelectors to services matching serviceSelectors",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 Preferred Node Selector should sum weights across multiple L2Advertisements targeting the same pool",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] L2 different services sharing the same ip should advertise from the same node IPV4",
     "Suite": "E2E Suite"
   },
@@ -106744,11 +106952,19 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] L2 metrics periodic-gratuitous-arp - should increase gratuitous sent counter over time",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] L2 metrics should be exposed by the controller IPV4 - Checking service",
     "Suite": "E2E Suite"
   },
   {
     "Name": "[It] L2 metrics should be exposed by the controller IPV6 - Checking service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2 speaker failover should move L2 advertisement when the announcing node stops running a ready speaker",
     "Suite": "E2E Suite"
   },
   {
@@ -106789,6 +107005,22 @@
   },
   {
     "Name": "[It] L2 validate requesting a specific address pool for Loadbalancer service IPV6",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-ServiceSelector Pool and Service Selectors together should only advertise services matching both pool and service selectors",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-ServiceSelector Service Selector should use OR logic for multiple selectors",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-ServiceSelector Service selector filters election candidate nodes should announce from exactly one node when both advertisements match the service",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] L2-ServiceSelector Service selector filters election candidate nodes should not announce when no advertisement matches both service and node",
     "Suite": "E2E Suite"
   },
   {
@@ -108936,6 +109168,14 @@
     "Suite": "E2E Suite"
   },
   {
+    "Name": "[It] Webhooks For BGPPeer FRR - Should allow two BGPPeers with the same address when nodeSelectors are disjoint",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks For BGPPeer FRR - Should reject two BGPPeers with the same address and overlapping nodeSelectors",
+    "Suite": "E2E Suite"
+  },
+  {
     "Name": "[It] Webhooks For BGPPeer Should reject invalid BGPPeer IP address",
     "Suite": "E2E Suite"
   },
@@ -108969,6 +109209,10 @@
   },
   {
     "Name": "[It] Webhooks for BGPAdvertisement Should recognize invalid AggregationLength",
+    "Suite": "E2E Suite"
+  },
+  {
+    "Name": "[It] Webhooks for BGPAdvertisement Should reject serviceSelectors with non-default aggregationLength",
     "Suite": "E2E Suite"
   },
   {
@@ -167908,6 +168152,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-api-machinery] Garbage collector should not delete dependents that have both valid owner and owner that's waiting for dependents to be deleted [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-api-machinery] Garbage collector should not delete dependents that have both valid owner and owner that's waiting for dependents to be deleted [Conformance] [Suite:openshift/conformance/parallel/minimal]",
     "Suite": "openshift-tests"
   },
@@ -167933,6 +168181,10 @@
   },
   {
     "Name": "[sig-api-machinery] Garbage collector should orphan RS created by deployment when deleteOptions.PropagationPolicy is Orphan [Conformance] [Suite:openshift/conformance/parallel/minimal] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Garbage collector should orphan pods created by rc if delete options say so [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -168153,6 +168405,10 @@
   },
   {
     "Name": "[sig-api-machinery] Namespaces [Serial] should patch a Namespace [Conformance] [Suite:openshift/conformance/serial/minimal] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should always delete fast (ALL of 100 namespaces in 150 seconds) [Feature:ComprehensiveNamespaceDraining] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -170053,6 +170309,14 @@
   },
   {
     "Name": "[sig-apps] Daemon set [Serial] should verify changes to a daemon set status [Conformance] [Suite:openshift/conformance/serial/minimal] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should run and stop simple daemon [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should verify changes to a daemon set status [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -197092,6 +197356,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-network] DefaultIngressClass should choose the one with the later CreationTimestamp, if equal the one with the lower name when two ingressClasses are marked as default [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-network] Disruption should not overlap with DNS problems in cluster running tests",
     "Suite": "openshift-tests-upgrade"
   },
@@ -197317,6 +197585,10 @@
   },
   {
     "Name": "[sig-network] IngressClass [Feature:Ingress] should set default value on new IngressClass [Serial] [Suite:openshift/conformance/serial] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-network] IngressClass should allow IngressClass to have Namespace-scoped parameters [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -203496,6 +203768,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should be able to pull image [NodeConformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should be able to pull image [NodeConformance] [Suite:openshift/conformance/parallel]",
     "Suite": "openshift-tests"
   },
@@ -203517,6 +203793,10 @@
   },
   {
     "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should not be able to pull image from invalid registry [NodeConformance]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should not be able to pull image from invalid registry [NodeConformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -204349,6 +204629,10 @@
   },
   {
     "Name": "[sig-node] NoExecuteTaintManager Single Pod [Serial] pods evicted from tainted nodes have pod disruption condition [Suite:openshift/conformance/serial] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] NoExecuteTaintManager Single Pod pods evicted from tainted nodes have pod disruption condition [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -205648,6 +205932,14 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod InPlace Resize Container (deferred-resizes) [FeatureGate:InPlacePodVerticalScaling] pod-resize-retry-deferred-test-1 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod InPlace Resize Container (deferred-resizes) [FeatureGate:InPlacePodVerticalScaling] pod-resize-retry-deferred-test-3 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod InPlace Resize Container (limit-ranger) [FeatureGate:InPlacePodVerticalScaling] pod-resize-limit-ranger-test exceed maximum CPU",
     "Suite": "openshift-tests"
   },
@@ -206681,6 +206973,34 @@
   },
   {
     "Name": "[sig-node] Pod InPlace Resize Init Container [FeatureGate:InPlacePodVerticalScalingInitContainers] [Beta] should support resizing a non-sidecar init container",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod with yet some other container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources limits, container resources requests [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests, container resources requests [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests, partial container resources limits [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod with only container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, 1 container with resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, pod resources limits, no container resources [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -208829,6 +209149,10 @@
   },
   {
     "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] must run a pod with implicit extended resource with one container one resource [KubeletMinVersion:1.35] [FeatureGate:DynamicResourceAllocation]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] must run pods with extended resource on dra nodes and device plugin nodes [KubeletMinVersion:1.35] [FeatureGate:DynamicResourceAllocation] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -213432,6 +213756,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPredicates PodTopologySpread Filtering validates 4 pods with MaxSkew=1 are evenly distributed into 2 nodes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPredicates [Serial] PodTopologySpread Filtering validates 4 pods with MaxSkew=1 are evenly distributed into 2 nodes",
     "Suite": "openshift-tests"
   },
@@ -213552,6 +213880,22 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPredicates validates local ephemeral storage resource limits of pods that are allowed to run [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that NodeAffinity is respected if not matching [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that there is no conflict between pods with same hostPort but different hostIP and protocol [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption PreemptionExecutionPath runs ReplicaSets to verify preemption running path [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPreemption [Serial] PodTopologySpread Preemption validates proper pods are preempted",
     "Suite": "openshift-tests"
   },
@@ -213609,6 +213953,22 @@
   },
   {
     "Name": "[sig-scheduling] SchedulerPreemption [Serial] validates various priority Pods preempt expectedly with the async preemption [Feature:SchedulerAsyncPreemption] [FeatureGate:SchedulerAsyncPreemption] [Beta] [Suite:openshift/conformance/serial] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption validates basic preemption works [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption validates lower priority pod preemption by critical pod [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption validates pod disruption condition is added to the preempted pod [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPriorities Pod should be preferably scheduled to nodes pod can tolerate [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -214865,6 +215225,38 @@
   },
   {
     "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] [Serial] warning is not bumped on two Pods with the same context on RWO volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [Feature:SELinuxMountReadWriteOncePodOnly]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different context on RWX volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different policy on RWO volume and SELinuxMount enabled (Recursive + nil) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different policy on RWO volume and SELinuxMount enabled (nil + Recursive) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on a failed Pod with a different context on RWO volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two Pods with the same policy RWX volume (MountOption + MountOption) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two Pods with the same policy RWX volume (nil + MountOption) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWO volume with CSIDriver.SELinuxMount disabled and mismatched policies [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWX volume with CSIDriver.SELinuxMount disabled and mismatched labels [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -218293,6 +218685,150 @@
   },
   {
     "Name": "[sig-storage] CSI Volumes [Driver: csi-hostpath] [Testpattern: SnapshotMetadata] snapshotmetadata [Feature:snapshotmetadata] should verify GetMetadataDelta",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)(allowExpansion)] volume-expand should resize volume when PVC is edited and the pod is re-created on the same node after controller resize is finished [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)(allowExpansion)] volume-expand should resize volume when PVC is edited while pod is using it [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with any volume data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with mount options [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with pvc data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with snapshot data source (ROX mode) [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] volumeMode should not mount / map unused volumes in a pod [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] volumes should store data [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)(allowExpansion)] volume-expand Verify if offline PVC expansion works [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)(allowExpansion)] volume-expand should resize volume when PVC is edited and the pod is re-created on the same node after controller resize is finished [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (Always)[LinuxOnly], pod created with an initial fsgroup, volume contents ownership changed via chgrp in first pod, new pod with same fsgroup applied to the volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with pvc data source (ROX mode) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with pvc data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support existing directories when readOnly specified in the volumeSource [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support readOnly directory specified in the volumeMount [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] volume-expand should not allow expansion of pvcs without AllowVolumeExpansion property [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (delayed binding)] topology should fail to schedule a pod which has topologies that conflict with AllowedTopologies [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (delayed binding)] topology should provision a volume and schedule a pod with AllowedTopologies [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (ext4)] volumes should allow exec of files on the volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (immediate binding)] topology should fail to schedule a pod which has topologies that conflict with AllowedTopologies [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should create read-only inline ephemeral volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should create read/write inline ephemeral volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should support two pods which have the same volume definition [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should create read/write inline ephemeral volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should support expansion of pvcs created for ephemeral pvcs [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should support two pods which have the same volume definition [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should create read/write inline ephemeral volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should support expansion of pvcs created for ephemeral pvcs [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should support two pods which have the same volume definition [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Pre-provisioned Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Pre-provisioned Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -225160,6 +225696,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] In-tree Volumes [Driver: azure-disk] [Provider:azure] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] In-tree Volumes [Driver: azure-disk] [Provider:azure] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with mount options",
     "Suite": "openshift-tests"
   },
@@ -227469,6 +228009,10 @@
   },
   {
     "Name": "[sig-storage] In-tree Volumes [Driver: azure-file] [Provider:azure] [Testpattern: Dynamic PV (default fs)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: azure-file] [Provider:azure] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -230221,6 +230765,10 @@
   },
   {
     "Name": "[sig-storage] In-tree Volumes [Driver: cinder] [Provider:openstack] [Testpattern: Dynamic PV (default fs)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: cinder] [Provider:openstack] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -250940,6 +251488,18 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should be able to unmount after the subpath directory is deleted [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support file as subpath [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support readOnly file specified in the volumeMount [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: tmpfs] [Testpattern:  (delete policy)] volumegroupsnapshotclass [Feature:volumegroupsnapshot] VolumeGroupSnapshotClass should report error when VolumeGroupSnapshot is created without className and multiple default classes exist [Serial]",
     "Suite": "openshift-tests"
   },
@@ -268897,6 +269457,14 @@
   },
   {
     "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: dir] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] One pod requesting one prebound PVC should be able to mount volume and read from pod1 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2 [Serial]",
     "Suite": "openshift-tests"
   },
   {
