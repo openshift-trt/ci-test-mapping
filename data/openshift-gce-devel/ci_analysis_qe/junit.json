@@ -3136,10 +3136,6 @@
     "Suite": "Authentication_cucushift"
   },
   {
-    "Name": "OCP-113XX:Node Service with multi nodeports should be charged properly in the quota system",
-    "Suite": "Quota related scenarios"
-  },
-  {
     "Name": "OCP-11401:Node User can specify a default permission mode for the whole downward API volume",
     "Suite": "Permission Data"
   },
@@ -3856,10 +3852,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-120XX:NetworkEdge Be unable to add an existed alias name for service",
-    "Suite": "route related features via cli"
-  },
-  {
     "Name": "OCP-12105:Node User can specify different permission for different files in secret volume",
     "Suite": "Permission Data"
   },
@@ -3982,10 +3974,6 @@
   {
     "Name": "OCP-12198:Authentication Create/Edit/delete the cluster group",
     "Suite": "Authentication_cucushift"
-  },
-  {
-    "Name": "OCP-121XX:NetworkEdge Alias will be invalid after removing it",
-    "Suite": "Testing route"
   },
   {
     "Name": "OCP-12206:Node The quota usage should NOT be incremented if Requests = Limits but exceeding hard quota",
@@ -5728,10 +5716,6 @@
     "Suite": "Testing route"
   },
   {
-    "Name": "OCP-197XX:UserInterface Check nodes list columns and terminal tab",
-    "Suite": "UI-Node related"
-  },
-  {
     "Name": "OCP-19800:NetworkEdge Route validation should catch the cert which lack of dash",
     "Suite": "Testing route"
   },
@@ -5850,34 +5834,6 @@
   {
     "Name": "OCP-19994:SDN The completed pod should also have IP address",
     "Suite": "Pod related networking scenarios"
-  },
-  {
-    "Name": "OCP-199XX:Workloads Terminating pod should removed from endpoints list for service",
-    "Suite": "deployment related steps"
-  },
-  {
-    "Name": "OCP-1XX06:Node The quota usage should NOT be incremented if Requests = Limits but exceeding hard quota",
-    "Suite": "Quota related scenarios"
-  },
-  {
-    "Name": "OCP-1XX55:Workloads cli:parameter requirement check works correctly",
-    "Suite": "oc new-app related scenarios"
-  },
-  {
-    "Name": "OCP-1XX56:Node The quota usage should NOT be incremented if Requests \u003e Limits",
-    "Suite": "Quota related scenarios"
-  },
-  {
-    "Name": "OCP-1XX63:rgangwar:API_Server:[sig-api-machinery] API_Server [Apiserver] When exceed openshift.io/images will ban to create image reference or push image to project",
-    "Suite": "API_Server"
-  },
-  {
-    "Name": "OCP-1XX81:Node Pods do not have access to each other's secrets in the same namespace",
-    "Suite": "secrets related scenarios"
-  },
-  {
-    "Name": "OCP-1XX92:Node The quota usage should NOT be incremented if Requests and Limits aren't specified",
-    "Suite": "Quota related scenarios"
   },
   {
     "Name": "OCP-20020:UserInterface Source Secret",
@@ -9106,10 +9062,6 @@
   {
     "Name": "OCP-25963:zzhao:SDN:[sig-networking] SDN sriov-legacy Test container with VF and set vlan minTxRate maxTxRate [Disruptive] [Serial]",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-259XX:jiazha:OLM:[sig-operators] OLM should Support spec.config.volumes and volumemount in Subscription",
-    "Suite": "OLM"
   },
   {
     "Name": "OCP-26014:SDN Pod readiness check for OVN",
@@ -14464,10 +14416,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-408XX:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The headerBufferBytes and headerBufferMaxRewriteBytes strictly honours the default minimum values",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-40908:SDN Allow from hostnetwork policy to allow traffic from hostnetwork pods on LoadBalancerService endpoint strategy cluster",
     "Suite": "SDN_cucushift"
   },
@@ -19524,10 +19472,6 @@
     "Suite": "MCO"
   },
   {
-    "Name": "OCP-469XX:jiajliu:OTA:[sig-updates] OTA cvo should check runlevel in cvo ns",
-    "Suite": "OTA"
-  },
-  {
     "Name": "OCP-47001:wduan:STORAGE:[Azure-Disk-CSI-Driver] support different skuName in storageclass with Premium_LRS, StandardSSD_LRS, Standard_LRS",
     "Suite": "STORAGE"
   },
@@ -20128,10 +20072,6 @@
     "Suite": "STORAGE"
   },
   {
-    "Name": "OCP-473XX:xzha:OLM:[sig-operators] OLM for an end user handle within a namespace Arbitrary Constraints can be defined as bundle properties",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-47455:jechen:SDN:[sig-networking] SDN openshift-sdn egressip The egressIP could be assigned to project automatically once it is defined in hostsubnet egressCIDR. [Disruptive] [Serial]",
     "Suite": "SDN"
   },
@@ -20449,14 +20389,6 @@
   },
   {
     "Name": "OCP-47999:ropatil:STORAGE:[sig-storage] STORAGE [Alibaba-CSI-Driver] [Dynamic PV] [Filesystem default] support mountOptions, mkfsOptions",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-47XX4:wduan:STORAGE:[sig-storage] STORAGE [CSI-Driver] [CSI Clone] [Filesystem] provisioning volume with pvc data source larger than original volume",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-47XX5:wduan:STORAGE:[sig-storage] STORAGE [CSI-Driver] [CSI Clone] [Raw Block] provisioning volume with pvc data source larger than original volume",
     "Suite": "STORAGE"
   },
   {
@@ -21726,14 +21658,6 @@
   {
     "Name": "OCP-49960:jfan:Operator_SDK:verify an empty CRD description",
     "Suite": "Operator_SDK"
-  },
-  {
-    "Name": "OCP-4XX30:aiyengar:Network_Edge:[sig-network-edge] Network_Edge Component_Router should route can be configured to whitelist more than 61 ips/CIDRs",
-    "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-4XX76:hongli:Network_Edge:[sig-network-edge] Network_Edge Component_Router should enable annotation traffic-policy.network.alpha.openshift.io/local-with-fallback on LB and nodePort service",
-    "Suite": "Network_Edge"
   },
   {
     "Name": "OCP-50008:tagao:Cluster_Observability:Expose sigv4 settings for remote write in the CMO configuration [Serial]",
@@ -23336,10 +23260,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-517XX:weliang:SDN:[sig-networking] SDN Create runbook and link SOP for SouthboundStale alert",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-51839:yingwang:SDN:[sig-networking] SDN egressqos can work fine when new/update/delete matching pods.",
     "Suite": "SDN"
   },
@@ -24658,22 +24578,6 @@
   {
     "Name": "OCP-53999:qiowang:SDN:[sig-networking] SDN alerts OVN-K alerts for ovn controller disconnection",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX3:huirwang:SDN:[sig-networking] SDN egressfirewall Verify ACL audit logs can be generated for traffic hit EgressFirewall rules.",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX4:huirwang:SDN:[sig-networking] SDN egressfirewall Disable and enable acl logging for EgressFirewall.",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX6:huirwang:SDN:[sig-networking] SDN egressfirewall The namespace enabled acl logging will not affect the namespace not enabling acl logging.",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-53XX9:dpunia:API_Server:[sig-api-machinery] API_Server [Apiserver] Test Arbitrary path injection via type field in CNI configuration",
-    "Suite": "API_Server"
   },
   {
     "Name": "OCP-54005:huliu:Cluster_Infrastructure:[sig-cluster-lifecycle] Cluster_Infrastructure CPMS MAPI Control plane machine set OnDelete update strategies - update some field [Disruptive] [Serial]",
@@ -26080,10 +25984,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-55XX3:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should Configuring list of IP address ranges using allowedSourceRanges in LoadBalancerService",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-56012:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance Security_Profiles_Operator The Security_Profiles_Operator Verify the mergeStrategy wroks for log enricher based seccompprofiles recording for deployment [Slow][Disruptive] [Serial]",
     "Suite": "Security_and_Compliance"
   },
@@ -26510,14 +26410,6 @@
   {
     "Name": "OCP-56934:dpunia:API_Server:[sig-api-machinery] API_Server [Apiserver] bug Ensure unique CA serial numbers, after enable automated service CA rotation",
     "Suite": "API_Server"
-  },
-  {
-    "Name": "OCP-56XX3:pewang:STORAGE:[sig-storage] STORAGE [Local-ephemeral-storage] setting requests and limits should work on container level",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-56XX5:pewang:STORAGE:[sig-storage] STORAGE [Local-ephemeral-storage] should calculate total requests of Pod when scheduling",
-    "Suite": "STORAGE"
   },
   {
     "Name": "OCP-57001:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router edge terminated h2 (gRPC) connections need a haproxy template change to work correctly",
@@ -27000,10 +26892,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-594XX:jiazha:OLM:[sig-operators] OLM should package-server-manager does not stomp on changes made to packgeserver CSV",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-59521:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring check On/Off switch of cpufreq Collector in Node Exporter [Serial]",
     "Suite": "Cluster_Observability"
   },
@@ -27170,10 +27058,6 @@
   {
     "Name": "OCP-59986:juzhao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring Allow to configure secrets in alertmanager component [Serial]",
     "Suite": "Cluster_Observability"
-  },
-  {
-    "Name": "OCP-5XX39:pewang:STORAGE:[sig-storage] STORAGE [CSI-Driver] [Generic ephemeral volumes] lifecycle should be the same with pod level",
-    "Suite": "STORAGE"
   },
   {
     "Name": "OCP-60012:shudili:Network_Edge:[sig-network-edge] Network_Edge Component_Router matchExpressions for routeSelector defined in an ingress-controller",
@@ -28088,14 +27972,6 @@
     "Suite": "NODE"
   },
   {
-    "Name": "OCP-60XX4:wduan:STORAGE:[sig-storage] STORAGE [Azure-Disk-CSI-Driver] support skuName:PremiumV2_LRS in storageclass",
-    "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-60XX8:wduan:STORAGE:[sig-storage] STORAGE [Azure-Disk-CSI-Driver] support location in storageclass",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-61086:zhsun:Cluster_Infrastructure:[Upgrade] Enable IMDSv2 on existing worker machines via machine set [Disruptive] [Serial][Slow]",
     "Suite": "Cluster_Infrastructure"
   },
@@ -28950,10 +28826,6 @@
   {
     "Name": "OCP-62692:UserInterface Check Bare Metal Host list page and details page",
     "Suite": "UserInterface_cucushift"
-  },
-  {
-    "Name": "OCP-62692:UserInterface Check Bare Metal Host list page and details page",
-    "Suite": "UI-BM related features"
   },
   {
     "Name": "OCP-62694:yinzhou:Workloads:[sig-cli] Workloads oc mirror for oci fbc catalogs should work fine with registries.conf[Serial]",
@@ -30908,10 +30780,6 @@
     "Suite": "NODE"
   },
   {
-    "Name": "OCP-663XX:rdeore:STORAGE:[sig-storage] STORAGE [LVMS] Show status column for lvmCluster and show warning event for Not Enough Storage capacity directly from PVC",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-66436:sregidor:MCO:[sig-mco] MCO [P2] disable weak SSH cipher suites [Serial]",
     "Suite": "MCO"
   },
@@ -31800,10 +31668,6 @@
     "Suite": "Hypershift"
   },
   {
-    "Name": "OCP-678XX:knarra:Workloads:[sig-apps] Workloads test kubescheduler operator works well Update staticpod file permissions to conform with CIS benchmarks",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-68125:aramesha:Network_Observability:Verify DSCP with NetObserv [Serial]",
     "Suite": "Network_Observability"
   },
@@ -32328,10 +32192,6 @@
     "Suite": "Network_Edge"
   },
   {
-    "Name": "OCP-688XX:ropatil:STORAGE:[sig-storage] STORAGE [AWS-EFS-CSI Driver][Dynamic PV][Filesystem] the provisioning directory should respect the ensureUniqueDirectory parameter setting",
-    "Suite": "STORAGE"
-  },
-  {
     "Name": "OCP-68901:bandrade:OLM:Packageserver pod should not crash if pdateStrategy is incorrect ",
     "Suite": "OLM"
   },
@@ -32442,10 +32302,6 @@
   {
     "Name": "OCP-68965:huirwang:SDN:[sig-networking] SDN OVN EgressIP EgressIP works for podSelector and namespaceSelector.",
     "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-68XX0:fxie:Cluster_Operator:[sig-cco] Cluster_Operator CCO is disabled Leverage Composable OpenShift feature to make cloud-credential optional",
-    "Suite": "Cluster_Operator"
   },
   {
     "Name": "OCP-69008:wewang:Image_Registry:Add IBM Cloud service endpoint override support",
@@ -38220,14 +38076,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-7XX17:yinzhou:Workloads:[sig-cli] Workloads client test Should get warning when there is an identical short name for two or more resources",
-    "Suite": "Workloads"
-  },
-  {
-    "Name": "OCP-7XX93:yinzhou:Workloads:[sig-cli] Workloads oc adm command works well Should ignore certificate-authority checking when use insecure for oc image commands",
-    "Suite": "Workloads"
-  },
-  {
     "Name": "OCP-80047:jechen:SDN:[sig-networking] SDN bgp egressIP Configuring egressIP advertisement on L2 CUDN is rejected (singlestack)",
     "Suite": "SDN"
   },
@@ -39776,10 +39624,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-XX056:tbuskey:Image_Registry:[sig-imageregistry] Image_Registry Registry operator configure prometheus metric gathering",
-    "Suite": "Image_Registry"
-  },
-  {
     "Name": "OCP-XX070:jiazha:OLM:[sig-operators] OLM should support grpc sourcetype [Serial]",
     "Suite": "OLM"
   },
@@ -39788,36 +39632,8 @@
     "Suite": "PerfScale"
   },
   {
-    "Name": "OCP-XX178:ClusterObservability Deploy prometheus operator by marketplace",
-    "Suite": "Install and configuration related scenarios"
-  },
-  {
-    "Name": "OCP-XX283:Authentication 4.0 Oauth provider info should be consumed in a pod",
-    "Suite": "pods related scenarios"
-  },
-  {
-    "Name": "OCP-XX308:UserInterface Check Machine Config Pools/Machine Configs page",
-    "Suite": "UI-machineconfig/machineconfig pool related"
-  },
-  {
     "Name": "OCP-XX330:UserInterface console customization",
     "Suite": "UI-customize console related"
-  },
-  {
-    "Name": "OCP-XX470:zxiao:Authentication:[sig-auth] Authentication The basic challenge will be shown when user pass the X-CSRF-TOKEN http header",
-    "Suite": "Authentication"
-  },
-  {
-    "Name": "OCP-XX485:Authentication 4.x User can know which serviceaccount and SA groups can create the podspec against the current sccs",
-    "Suite": "SCC policy related scenarios"
-  },
-  {
-    "Name": "OCP-XX565:zxiao:API_Server:[sig-api-machinery] API_Server [origin_platformexp_214][REST] Check if the given user or group have the privilege via SubjectAccessReview",
-    "Suite": "API_Server"
-  },
-  {
-    "Name": "OCP-XX596:jitli:Image_Registry:[sig-imageregistry] Image_Registry ImageRegistry Create app with template eap74-basic-s2i with jbosseap rhel7 image",
-    "Suite": "Image_Registry"
   },
   {
     "Name": "OCP-XX615:xzha:OLM:[sig-operators] OLM should prepare to check the OLM status",
@@ -39828,28 +39644,12 @@
     "Suite": "OLM"
   },
   {
-    "Name": "OCP-XX633:NetworkEdge the nodeSelector of router is controlled by ingresscontroller",
-    "Suite": "Testing Ingress Operator related scenarios"
-  },
-  {
-    "Name": "OCP-XX636:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The namespaceSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge"
-  },
-  {
-    "Name": "OCP-XX637:mjoseph:Network_Edge:[sig-network-edge] Network_Edge Component_Router should The routeSelector of router is controlled by ingresscontroller",
-    "Suite": "Network_Edge"
-  },
-  {
     "Name": "OCP-XX640:UserInterface Add HTPasswd IDP",
     "Suite": "UI-customize console related"
   },
   {
     "Name": "OCP-XX678:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry Check image-registry operator upgrade",
     "Suite": "Image_Registry"
-  },
-  {
-    "Name": "OCP-XX704:SDN The clusteroperator should be able to reflect the network operator version corresponding to the OCP version",
-    "Suite": "Operator related networking scenarios"
   },
   {
     "Name": "OCP-XX862:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry CloudFront storage configuration with invalid values [Disruptive] [Serial]",
@@ -39862,14 +39662,6 @@
   {
     "Name": "OCP-XX945:wewang:Image_Registry:[sig-imageregistry] Image_Registry Autoconfigure registry storage [Disruptive] [Serial]",
     "Suite": "Image_Registry"
-  },
-  {
-    "Name": "OCP-XXXX6:kuiwang:OLM:[sig-operators] OLM for an end user handle to support the csv without support AllNamespaces fails for og with allnamespace",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XXXX6:kuiwang:OLM:[sig-operators] OLM for an end user handle to support the csv without support MultiNamespace fails for og with MultiNamespace",
-    "Suite": "OLM"
   },
   {
     "Name": "OLM V1 tests (OCP-75036,yapei,UserInterface)List packages from catalogs",
@@ -47760,38 +47552,6 @@
     "Suite": "knmstate operator console plugin related features"
   },
   {
-    "Name": "knmstate operator console plugin related features (OCP-64784,qiowang,SDN) Verify NMState cosole plugin operator installation(GUI)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64803,qiowang,SDN) Create/Edit NNCP on web console(from yaml)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64820,qiowang,SDN) Verify can configure node selector on web console(from form)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64852,qiowang,SDN) Check NodeNetworkConfigurationPolicy Page",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64853,qiowang,SDN) Check NodeNetworkState Page",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64981,qiowang,SDN) Create NNCP for adding bridge on web console(from form)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64982,qiowang,SDN) Create NNCP for adding bond on web console(from form)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
-    "Name": "knmstate operator console plugin related features (OCP-64987,qiowang,SDN) Create NNCP for adding multiple interfaces on web console(from form)",
-    "Suite": "knmstate operator console plugin related features"
-  },
-  {
     "Name": "kubeletstatsreceiver",
     "Suite": "tests/e2e-otel/kubeletstatsreceiver"
   },
@@ -48194,10 +47954,6 @@
   {
     "Name": "oc patch resource with different values for --type (outline example : | OCP-12298:Workloads | oc |)",
     "Suite": "Workloads_cucushift"
-  },
-  {
-    "Name": "oc patch resource with different values for --type (outline example : | OCP-1XX98:Workloads | oc |)",
-    "Suite": "oc patch/apply related scenarios"
   },
   {
     "Name": "oc patch resource with different values for --type (outline example : | OCP-21119:Workloads | kubectl |)",
