@@ -97064,6 +97064,10 @@
     "Suite": "lp-ocp-compat--ACS--SACTest"
   },
   {
+    "Name": "Verify Search on Image resources using the searchImagesToken token returns 1 results",
+    "Suite": "lp-ocp-compat--ACS--SACTest"
+  },
+  {
     "Name": "Verify Search on Image resources using the searchImagesToken token returns 2 results",
     "Suite": "lp-ocp-compat--ACS--SACTest"
   },
@@ -201117,6 +201121,10 @@
   },
   {
     "Name": "[sig-network] services when running openshift ipv4 cluster ensures external ip policy is configured correctly on the cluster [apigroup:config.openshift.io] [Serial] [Suite:openshift/conformance/serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-network] services when running openshift ipv4 cluster ensures external ip policy is configured correctly on the cluster [apigroup:config.openshift.io] [Serial] [Timeout:30m] [Suite:openshift/conformance/serial]",
     "Suite": "openshift-tests"
   },
   {
