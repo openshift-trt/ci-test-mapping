@@ -39636,20 +39636,8 @@
     "Suite": "UI-customize console related"
   },
   {
-    "Name": "OCP-XX615:xzha:OLM:[sig-operators] OLM should prepare to check the OLM status",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XX618:xzha:OLM:[sig-operators] OLM should prepare to check the catalogsource status of catalogsource",
-    "Suite": "OLM"
-  },
-  {
     "Name": "OCP-XX640:UserInterface Add HTPasswd IDP",
     "Suite": "UI-customize console related"
-  },
-  {
-    "Name": "OCP-XX678:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry Check image-registry operator upgrade",
-    "Suite": "Image_Registry"
   },
   {
     "Name": "OCP-XX862:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry CloudFront storage configuration with invalid values [Disruptive] [Serial]",
