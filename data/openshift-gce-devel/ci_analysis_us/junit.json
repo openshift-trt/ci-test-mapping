@@ -38696,6 +38696,10 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "TestCreateCluster/Main/EnsureKubeAPIDNSNameCustomCert/EnsureKASReachableViaSVCURL",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "TestCreateCluster/Main/EnsureKubeAPIServerAllowedCIDRs",
     "Suite": "hypershift-e2e"
   },
@@ -192784,6 +192788,10 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[sig-hypershift][Jira:Hypershift][Feature:DNS] Hosted Cluster DNS when KubeAPIDNSName and custom certificate are configured should keep KAS reachable via the internal SVC URL",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[sig-hypershift][Jira:Hypershift][Feature:DNS] Hosted Cluster DNS when KubeAPIDNSName and custom certificate are configured should make KAS reachable via the custom DNS endpoint",
     "Suite": "hypershift-e2e"
   },
@@ -274052,6 +274060,22 @@
     "Suite": "CNV-lp-interop"
   },
   {
+    "Name": "acm-connectivity",
+    "Suite": "lp-interop--OPP--smoke"
+  },
+  {
+    "Name": "acm-upgrade",
+    "Suite": "lp-interop--OPP--acm-upgrade"
+  },
+  {
+    "Name": "acs-sensors",
+    "Suite": "lp-interop--OPP--smoke"
+  },
+  {
+    "Name": "acs-upgrade",
+    "Suite": "lp-interop--OPP--acs-upgrade"
+  },
+  {
     "Name": "application-outages",
     "Suite": "chaos-krkn"
   },
@@ -274064,6 +274088,10 @@
     "Suite": "CNV-lp-interop"
   },
   {
+    "Name": "backup",
+    "Suite": "lp-interop--OPP--backup"
+  },
+  {
     "Name": "central",
     "Suite": "lp-ocp-compat--ACS--Check unexpected pod restarts"
   },
@@ -274073,7 +274101,15 @@
   },
   {
     "Name": "ceph-health-detail",
+    "Suite": "lp-interop--OPP--odf-health"
+  },
+  {
+    "Name": "ceph-health-detail",
     "Suite": "lp-interop--ODF"
+  },
+  {
+    "Name": "cephcluster-health",
+    "Suite": "lp-interop--OPP--odf-health"
   },
   {
     "Name": "cephcluster-health",
@@ -274102,6 +274138,10 @@
   {
     "Name": "cluster-config-operator should report complete ClusterOperator status with health and version information [apigroup:config.openshift.io][Operator][Parallel]",
     "Suite": "openshift-tests"
+  },
+  {
+    "Name": "cluster-health",
+    "Suite": "lp-interop--OPP--smoke"
   },
   {
     "Name": "cpu-hog",
@@ -274289,6 +274329,10 @@
   },
   {
     "Name": "mco-ready",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
+  },
+  {
+    "Name": "mco-ready",
     "Suite": "lp-interop--ACM-OBS-ODF"
   },
   {
@@ -274305,7 +274349,15 @@
   },
   {
     "Name": "noobaa-s3-functional",
+    "Suite": "lp-interop--OPP--odf-health"
+  },
+  {
+    "Name": "noobaa-s3-functional",
     "Suite": "lp-interop--ODF"
+  },
+  {
+    "Name": "obc-bound",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
   },
   {
     "Name": "obc-bound",
@@ -275953,7 +276005,15 @@
   },
   {
     "Name": "odf-csv-phase",
+    "Suite": "lp-interop--OPP--odf-health"
+  },
+  {
+    "Name": "odf-csv-phase",
     "Suite": "lp-interop--ODF"
+  },
+  {
+    "Name": "odf-storage-ready",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
   },
   {
     "Name": "odf-storage-ready",
@@ -276944,6 +277004,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "opp-operators",
+    "Suite": "lp-interop--OPP--smoke"
+  },
+  {
     "Name": "pod-network-chaos",
     "Suite": "chaos-krkn"
   },
@@ -277093,7 +277157,15 @@
   },
   {
     "Name": "pvc-provision-cephfs",
+    "Suite": "lp-interop--OPP--odf-health"
+  },
+  {
+    "Name": "pvc-provision-cephfs",
     "Suite": "lp-interop--ODF"
+  },
+  {
+    "Name": "pvc-provision-rbd",
+    "Suite": "lp-interop--OPP--odf-health"
   },
   {
     "Name": "pvc-provision-rbd",
@@ -277102,6 +277174,14 @@
   {
     "Name": "pvc-scenario",
     "Suite": "chaos-krkn"
+  },
+  {
+    "Name": "quay-pull",
+    "Suite": "lp-interop--OPP--smoke"
+  },
+  {
+    "Name": "quay-upgrade",
+    "Suite": "lp-interop--OPP--quay-upgrade"
   },
   {
     "Name": "resource operator.openshift.io.olms/cluster has been updated too often",
@@ -277117,11 +277197,23 @@
   },
   {
     "Name": "storage-endpoint",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
+  },
+  {
+    "Name": "storage-endpoint",
     "Suite": "lp-interop--ACM-OBS-ODF"
   },
   {
     "Name": "storageclasses-available",
+    "Suite": "lp-interop--OPP--odf-health"
+  },
+  {
+    "Name": "storageclasses-available",
     "Suite": "lp-interop--ODF"
+  },
+  {
+    "Name": "storagecluster-ready",
+    "Suite": "lp-interop--OPP--odf-health"
   },
   {
     "Name": "storagecluster-ready",
@@ -278261,7 +278353,15 @@
   },
   {
     "Name": "thanos-health",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
+  },
+  {
+    "Name": "thanos-health",
     "Suite": "lp-interop--ACM-OBS-ODF"
+  },
+  {
+    "Name": "thanos-query",
+    "Suite": "lp-interop--OPP--acm-obs-odf"
   },
   {
     "Name": "thanos-query",
@@ -282570,6 +282670,10 @@
   {
     "Name": "verify the cluster readiness and stability",
     "Suite": "openshift-tests"
+  },
+  {
+    "Name": "wait-mcp",
+    "Suite": "lp-interop--OPP--wait-mcp"
   },
   {
     "Name": "zone-outages",

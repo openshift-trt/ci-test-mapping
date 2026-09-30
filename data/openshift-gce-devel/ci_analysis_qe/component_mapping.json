@@ -158557,38 +158557,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OLM:964bcc5ae82eda3fa5e5b6e438f46af9",
-    "Name": "OCP-XX615:xzha:OLM:[sig-operators] OLM should prepare to check the OLM status",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "OLM:05c7436784a0e7ecba86761da6580881",
-    "Name": "OCP-XX618:xzha:OLM:[sig-operators] OLM should prepare to check the catalogsource status of catalogsource",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "UI-customize console related:dfe2a6da2620aabc4e17878152dbc745",
     "Name": "OCP-XX640:UserInterface Add HTPasswd IDP",
     "Suite": "UI-customize console related",
@@ -158601,22 +158569,6 @@
     ],
     "JIRAComponent": "Management Console",
     "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Image_Registry:c420a52feb141e8363dc2e2268dfbbd7",
-    "Name": "OCP-XX678:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry Check image-registry operator upgrade",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
   },
   {
     "APIVersion": "v1",
