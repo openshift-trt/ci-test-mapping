@@ -37872,6 +37872,22 @@
     "Suite": "ACS-lp-interop"
   },
   {
+    "Name": "TestComplianceV2GetComplianceRule",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2GetComplianceRule/custom",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2GetComplianceRule/not-found",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2GetComplianceRule/regular",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
     "Name": "TestComplianceV2Integration",
     "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
   },
@@ -37902,6 +37918,22 @@
   {
     "Name": "TestComplianceV2ScheduleRescan",
     "Suite": "ACS-lp-interop"
+  },
+  {
+    "Name": "TestComplianceV2TailoredProfileVariants",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2TailoredProfileVariants/custom-rules",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2TailoredProfileVariants/extends",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
+  },
+  {
+    "Name": "TestComplianceV2TailoredProfileVariants/from-scratch",
+    "Suite": "lp-ocp-compat--ACS--github.com/stackrox/rox/tests"
   },
   {
     "Name": "TestComplianceV2UpdateScanConfigurations",
@@ -196169,6 +196201,30 @@
   },
   {
     "Name": "[sig-mco][Suite:openshift/machine-config-operator/longduration][Serial][Disruptive][OCPFeatureGate:OSStreams] MCO osImageStream [PolarionID:89324][OTP] Extensions from rhel10 stream to rhel9 stream [Disruptive] [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should attach every data disk with the configured storage account type, size and LUN [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should provision, partition and mount a second user-defined data disk on compute nodes [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should provision, partition and mount a user-defined data disk on compute nodes [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should provision, partition and mount a user-defined data disk on control plane nodes [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should provision, partition and mount an etcd data disk on control plane nodes [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-mco][Suite:openshift/machine-config-operator/parallel][OCPFeatureGate:AzureMultiDisk][OCPFeatureGate:MultiDiskSetup] Azure machine pool disk setup should render the MachineConfig of every configured disk setup into its MachineConfigPool [apigroup:machineconfiguration.openshift.io]",
     "Suite": "openshift-tests"
   },
   {

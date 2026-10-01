@@ -6642,22 +6642,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Logging related features:3940a29f391becbf802df54e1f527723",
-    "Name": "Logging related features \"before each\" hook for \"(OCP-66825,qitang,Logging) Vector - OpenShift Logging Collection Vector metrics dashboard\"",
-    "Suite": "Logging related features",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Logging",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Logging",
-    "JIRAComponentID": "14829"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Logging related features:e5ccfc7787aa521a27b34d82fd23f3ab",
     "Name": "Logging related features \"before each\" hook for \"(OCP-70833,gkarager,Logging) Deploy loki-operator via Web Console\"",
     "Suite": "Logging related features",
@@ -86119,22 +86103,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "SDN:f5a16d641683a53b4a5ab41dd5973d35",
-    "Name": "OCP-496XX:asood:SDN:[sig-networking] SDN metallb l2 Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "PSAP:e1861d600edad47f1e884edb7307f002",
     "Name": "OCP-49705:liqcui:PSAP:Tuned net plugin handle net devices with n/a value for a channel. [Disruptive] [Serial]",
     "Suite": "PSAP",
@@ -134889,22 +134857,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Logging:ed95eeb837ba603588471edc5f0b1c11",
-    "Name": "OCP-71773:kbharti:Logging:[sig-openshift-logging] Logging  loki-operator - Managed auth/STS mode Verify CCO support with custom region on a AZWIF cluster and forward logs to LokiStack logstore[Serial]",
-    "Suite": "Logging",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Logging",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Logging",
-    "JIRAComponentID": "14829"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Logging:c0247f1427b70d096d967cdffa82d380",
     "Name": "OCP-71777:qitang:Logging:[sig-openshift-logging] Logging  Forward to GCL Include or exclude logs by combining namespace and container selectors.[Slow]",
     "Suite": "Logging",
@@ -134981,22 +134933,6 @@
     ],
     "JIRAComponent": "Etcd",
     "JIRAComponentID": "14713"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Logging:79053b286da1d00bca6f7c6108455a2c",
-    "Name": "OCP-71794:kbharti:Logging:[sig-openshift-logging] Logging  loki-operator - Managed auth/STS mode Verify CCO support with default region on a AZWIF cluster and forward logs to LokiStack logstore[Serial]",
-    "Suite": "Logging",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Logging",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Logging",
-    "JIRAComponentID": "14829"
   },
   {
     "APIVersion": "v1",
@@ -144117,70 +144053,6 @@
     ],
     "JIRAComponent": "OLM",
     "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:b3e675433796832d68ce47f6ac2135f1",
-    "Name": "OCP-74XX0:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Transport mode can be setup for IPSec NS in NAT env - Host2Net [Serial][Disruptive] [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:cb0cb5a51369e2144044e6908c822ef3",
-    "Name": "OCP-74XX1:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Tunnel mode can be setup for IPSec NS in NAT env - Host2Net [Serial][Disruptive] [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:23d4a0f3b97ef2e96936ee48b0c43e9e",
-    "Name": "OCP-74XX2:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Transport tunnel can be setup for IPSEC NS in NAT env, [Serial][Disruptive] [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:559e4b32f46e24211adfc8b2723055ff",
-    "Name": "OCP-74XX3:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Tunnel mode can be setup for IPSEC NS in NAT env, [Serial][Disruptive] [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
   },
   {
     "APIVersion": "v1",

@@ -1660,10 +1660,6 @@
     "Suite": "Logging related features"
   },
   {
-    "Name": "Logging related features \"before each\" hook for \"(OCP-66825,qitang,Logging) Vector - OpenShift Logging Collection Vector metrics dashboard\"",
-    "Suite": "Logging related features"
-  },
-  {
     "Name": "Logging related features \"before each\" hook for \"(OCP-70833,gkarager,Logging) Deploy loki-operator via Web Console\"",
     "Suite": "Logging related features"
   },
@@ -21528,10 +21524,6 @@
     "Suite": "SDN"
   },
   {
-    "Name": "OCP-496XX:asood:SDN:[sig-networking] SDN metallb l2 Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
-    "Suite": "SDN"
-  },
-  {
     "Name": "OCP-49705:liqcui:PSAP:Tuned net plugin handle net devices with n/a value for a channel. [Disruptive] [Serial]",
     "Suite": "PSAP"
   },
@@ -33720,10 +33712,6 @@
     "Suite": "LOGGING"
   },
   {
-    "Name": "OCP-71773:kbharti:Logging:[sig-openshift-logging] Logging  loki-operator - Managed auth/STS mode Verify CCO support with custom region on a AZWIF cluster and forward logs to LokiStack logstore[Serial]",
-    "Suite": "Logging"
-  },
-  {
     "Name": "OCP-71777:qitang:Logging:[sig-openshift-logging] Logging  Forward to GCL Include or exclude logs by combining namespace and container selectors.[Slow]",
     "Suite": "Logging"
   },
@@ -33742,10 +33730,6 @@
   {
     "Name": "OCP-71790:geliu:ETCD:[sig-etcd] ETCD Microshift Etcd db defragment manually. [Disruptive] [Serial]",
     "Suite": "ETCD"
-  },
-  {
-    "Name": "OCP-71794:kbharti:Logging:[sig-openshift-logging] Logging  loki-operator - Managed auth/STS mode Verify CCO support with default region on a AZWIF cluster and forward logs to LokiStack logstore[Serial]",
-    "Suite": "Logging"
   },
   {
     "Name": "OCP-71796:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance File_Integrity_Operator an end user handle FIO within a namespace V-EST.01-V-EDR.01-file integrity operator should pass DAST test",
@@ -36026,22 +36010,6 @@
   {
     "Name": "OCP-74978:xzha:OLM:[sig-operators] OLM v1 opeco should CRD upgrade will be prevented if the Scope is switched between Namespaced and Cluster",
     "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-74XX0:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Transport mode can be setup for IPSec NS in NAT env - Host2Net [Serial][Disruptive] [Serial]",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-74XX1:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Tunnel mode can be setup for IPSec NS in NAT env - Host2Net [Serial][Disruptive] [Serial]",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-74XX2:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Transport tunnel can be setup for IPSEC NS in NAT env, [Serial][Disruptive] [Serial]",
-    "Suite": "SDN"
-  },
-  {
-    "Name": "OCP-74XX3:anusaxen:SDN:[sig-networking] SDN IPSEC NS [rdu2cluster] Tunnel mode can be setup for IPSEC NS in NAT env, [Serial][Disruptive] [Serial]",
-    "Suite": "SDN"
   },
   {
     "Name": "OCP-75024:ropatil:STORAGE:[sig-storage] STORAGE [IBM-VPC-BLOCK-CSI] [Dynamic] customize encryptionKey should provision volume as expected",
