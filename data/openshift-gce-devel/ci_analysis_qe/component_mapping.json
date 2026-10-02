@@ -186248,22 +186248,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):2e176ba5d9631b368081fe389b259944",
-    "Name": "hypershift-mce-upgrade",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": -10,
-    "StaffApprovedObsolete": false,
-    "Component": "Cluster Version Operator",
-    "Capabilities": [
-      "ClusterUpgrade"
-    ],
-    "JIRAComponent": "Cluster Version Operator",
-    "JIRAComponentID": "14665"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Overall CI (test step):23ce049899d9d4913b691b6c3d49a799",
     "Name": "ibmcloud-deprovision-bastionhost",
     "Suite": "Overall CI (test step)",

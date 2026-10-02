@@ -46556,10 +46556,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "hypershift-mce-upgrade",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "ibmcloud-deprovision-bastionhost",
     "Suite": "Overall CI (test step)"
   },

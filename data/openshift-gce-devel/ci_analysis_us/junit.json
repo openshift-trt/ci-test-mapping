@@ -22529,6 +22529,10 @@
   },
   {
     "Name": "Snapshot create and verify.",
+    "Suite": "lp-chaos--cnv--vm-snapshot"
+  },
+  {
+    "Name": "Snapshot create and verify.",
     "Suite": "lp-chaos--cnv--snapshot--kill--virt-api"
   },
   {
@@ -96346,6 +96350,10 @@
   {
     "Name": "User disables idle nodes",
     "Suite": "ServiceMesh-lp-interop"
+  },
+  {
+    "Name": "VM creation after chaos.",
+    "Suite": "lp-chaos--cnv--vm-create-after-chaos"
   },
   {
     "Name": "VM running status and IP connectivity check.",
@@ -180181,6 +180189,18 @@
   },
   {
     "Name": "[sig-auth][Feature:UserAPI] users can manipulate groups [apigroup:user.openshift.io][apigroup:authorization.openshift.io][apigroup:project.openshift.io] [Suite:openshift/conformance/parallel]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth][Suite:openshift/auth/external-oidc][Serial][Slow][Disruptive] [OCPFeatureGate:ExternalOIDCExternalClaimsSourcing] with invalid external claims source should reject authentication when external claims source is unreachable and validation requires sourced claims",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth][Suite:openshift/auth/external-oidc][Serial][Slow][Disruptive] [OCPFeatureGate:ExternalOIDCExternalClaimsSourcing] with multiple mappings from the same external claims endpoint should merge groups from multiple mappings of the same external claims endpoint",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth][Suite:openshift/auth/external-oidc][Serial][Slow][Disruptive] [OCPFeatureGate:ExternalOIDCExternalClaimsSourcing] with single external claims source should source groups from external claims endpoint",
     "Suite": "openshift-tests"
   },
   {
