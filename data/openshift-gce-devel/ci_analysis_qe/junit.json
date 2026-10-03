@@ -45204,10 +45204,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "baremetalds-devscripts-conf-extranetwork",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "baremetalds-devscripts-gather",
     "Suite": "Overall CI (test step)"
   },
@@ -46104,10 +46100,6 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "enable-qe-catalogsource-baremetalds-proxy-server",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "enable-qe-catalogsource-disconnected",
     "Suite": "Overall CI (test step)"
   },
@@ -46440,22 +46432,6 @@
     "Suite": "tests/e2e/httpRoute"
   },
   {
-    "Name": "hypershift-agent-create-add-worker-metal3",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-agent-create-config-dns",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-agent-create-metallb",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-agent-create-proxy",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "hypershift-aws-create-nodepool",
     "Suite": "Overall CI (test step)"
   },
@@ -46469,50 +46445,6 @@
   },
   {
     "Name": "hypershift-dump-azure-diagnostics",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-baremetalds-lvm",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-baremetalds-metallb",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-baremetalds-odf",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-baremetalds-proxy",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-baremetalds-redhat-operators",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-create",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-health-check",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-kubevirt-install",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-mce-agent-create-agentserviceconfig",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-mce-agent-create-hostedcluster",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "hypershift-mce-agent-lvm",
     "Suite": "Overall CI (test step)"
   },
   {
@@ -48376,19 +48308,7 @@
     "Suite": "Overall CI (test step)"
   },
   {
-    "Name": "operatorhub-subscribe-local-storage-operator",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "operatorhub-subscribe-lvm-operator",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "operatorhub-subscribe-metallb-operator",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "operatorhub-subscribe-odf-operator",
     "Suite": "Overall CI (test step)"
   },
   {
