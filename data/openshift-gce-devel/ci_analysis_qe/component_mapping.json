@@ -3122,22 +3122,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Symptom Detection:fc76297ae9386d66c9a4f0a7d8d23dc3",
-    "Name": "Bug 181XX61: iptables is segfaulting",
-    "Suite": "Symptom Detection",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Monitoring",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Monitoring",
-    "JIRAComponentID": "14802"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Storage_cucushift:1d149f5314af330a13ea741c5d6b1952",
     "Name": "CSI dynamic provisioning with different type (outline example : | OCP-24546:Storage | gp2-csi | sc1 | 125Gi |)",
     "Suite": "Storage_cucushift",
@@ -56067,22 +56051,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Cluster_Observability:a27ef032de17d603a7a66c69a26efaf7",
-    "Name": "OCP-3XX24:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring user workload monitoring Separate user workload configuration [Serial]",
-    "Suite": "Cluster_Observability",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Monitoring",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Monitoring",
-    "JIRAComponentID": "14802"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Install and configuration related scenarios:f28bb24c977831577493a39dd2d5246c",
     "Name": "OCP-40029:ClusterObservability remove Ceph block devices in rules",
     "Suite": "Install and configuration related scenarios",
@@ -75542,22 +75510,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OTA:1a826f56cbb092b7a8cb299db9b7d3b9",
-    "Name": "OCP-464XX:jianl:OTA:[sig-updates] OTA cvo should cvo drops invalid conditional edges [Serial]",
-    "Suite": "OTA",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Cluster Version Operator",
-    "Capabilities": [
-      "Operator"
-    ],
-    "JIRAComponent": "Cluster Version Operator",
-    "JIRAComponentID": "14665"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "Workloads:89cd854f271f9995083d588c1a6ea8a3",
     "Name": "OCP-46506:yinzhou:Workloads:[sig-cli] Workloads Mirror a single image works well [Serial]",
     "Suite": "Workloads",
@@ -86083,22 +86035,6 @@
     ],
     "JIRAComponent": "Unknown",
     "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "SDN:0c312cd3bc5dd4cabbebc16f31a33120",
-    "Name": "OCP-496XX:asood:SDN:[sig-networking] SDN metallb Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
-    "Suite": "SDN",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Networking / openshift-sdn",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Networking / openshift-sdn",
-    "JIRAComponentID": "14763"
   },
   {
     "APIVersion": "v1",
@@ -118307,22 +118243,6 @@
     ],
     "JIRAComponent": "Storage",
     "JIRAComponentID": "14799"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "PSAP:15200e0f5871b16fd535bf730d21ec6e",
-    "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift. [Disruptive] [Serial]",
-    "Suite": "PSAP",
-    "Product": "OpenShift",
-    "Priority": 1,
-    "StaffApprovedObsolete": false,
-    "Component": "Node / Kubelet",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Node / Kubelet",
-    "JIRAComponentID": "14851"
   },
   {
     "APIVersion": "v1",
@@ -158381,118 +158301,6 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "OLM:ff6347bcc48e02b43c33c33f9d6276dc",
-    "Name": "OCP-XX070:jiazha:OLM:[sig-operators] OLM should support grpc sourcetype [Serial]",
-    "Suite": "OLM",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "OLM",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "OLM",
-    "JIRAComponentID": "14927"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "PerfScale:08824e4b7f03280338a3fa7b17df9087",
-    "Name": "OCP-XX140:liqcui:PerfScale:[sig-perfscale] PerfScale oc cli perf Create multiple projects and time various oc commands durations[Slow][Serial]",
-    "Suite": "PerfScale",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "UI-customize console related:e7fdae72832e488c652db65a5b22a579",
-    "Name": "OCP-XX330:UserInterface console customization",
-    "Suite": "UI-customize console related",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "UI-customize console related:dfe2a6da2620aabc4e17878152dbc745",
-    "Name": "OCP-XX640:UserInterface Add HTPasswd IDP",
-    "Suite": "UI-customize console related",
-    "Product": "OpenShift",
-    "Priority": -1,
-    "StaffApprovedObsolete": false,
-    "Component": "Management Console",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Management Console",
-    "JIRAComponentID": "14749"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Image_Registry:1f6f71055ac1b0ec0b4c2e423a3763d9",
-    "Name": "OCP-XX862:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry CloudFront storage configuration with invalid values [Disruptive] [Serial]",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Image_Registry:a260ad6608dc0e3afb31890b660350f6",
-    "Name": "OCP-XX893:wewang:Image_Registry:[sig-imageregistry] Image_Registry PodAntiAffinity should work for image registry pod[Serial]",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Image_Registry:e0eca25a2b01c6ea4c90e51a0e58a44c",
-    "Name": "OCP-XX945:wewang:Image_Registry:[sig-imageregistry] Image_Registry Autoconfigure registry storage [Disruptive] [Serial]",
-    "Suite": "Image_Registry",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Image Registry",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Image Registry",
-    "JIRAComponentID": "14735"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "OLM V1 tests:0a13c4f4eea01d25bed66d7c1250de35",
     "Name": "OLM V1 tests (OCP-75036,yapei,UserInterface)List packages from catalogs",
     "Suite": "OLM V1 tests",
@@ -191576,57 +191384,9 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):8715c334b17d00ebe2845862f8052785",
-    "Name": "ofcir-acquire",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):cdd04547ee398589813f8f10222fc7ca",
-    "Name": "ofcir-release",
-    "Suite": "Overall CI (test step)",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
     "ID": "tests/e2e-otel/oidcauthextension:1180cac1d6c71155d519333bbc6549fa",
     "Name": "oidcauthextension",
     "Suite": "tests/e2e-otel/oidcauthextension",
-    "Product": "OpenShift",
-    "Priority": 0,
-    "StaffApprovedObsolete": false,
-    "Component": "Unknown",
-    "Capabilities": [
-      "Other"
-    ],
-    "JIRAComponent": "Unknown",
-    "JIRAComponentID": "14832"
-  },
-  {
-    "APIVersion": "v1",
-    "Kind": "TestOwnership",
-    "ID": "Overall CI (test step):393d286fd575384f1f202916efc51244",
-    "Name": "olmv1-disable-default-clustercatalogs",
-    "Suite": "Overall CI (test step)",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
