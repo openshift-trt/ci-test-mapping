@@ -780,10 +780,6 @@
     "Suite": "Symptom Detection"
   },
   {
-    "Name": "Bug 181XX61: iptables is segfaulting",
-    "Suite": "Symptom Detection"
-  },
-  {
     "Name": "CSI dynamic provisioning with different type (outline example : | OCP-24546:Storage | gp2-csi | sc1 | 125Gi |)",
     "Suite": "Storage_cucushift"
   },
@@ -14016,10 +14012,6 @@
     "Suite": "OLM"
   },
   {
-    "Name": "OCP-3XX24:tagao:Cluster_Observability:[sig-monitoring] Cluster_Observability parallel monitoring user workload monitoring Separate user workload configuration [Serial]",
-    "Suite": "Cluster_Observability"
-  },
-  {
     "Name": "OCP-40029:ClusterObservability remove Ceph block devices in rules",
     "Suite": "Install and configuration related scenarios"
   },
@@ -18884,10 +18876,6 @@
     "Suite": "MCO"
   },
   {
-    "Name": "OCP-464XX:jianl:OTA:[sig-updates] OTA cvo should cvo drops invalid conditional edges [Serial]",
-    "Suite": "OTA"
-  },
-  {
     "Name": "OCP-46506:yinzhou:Workloads:[sig-cli] Workloads Mirror a single image works well [Serial]",
     "Suite": "Workloads"
   },
@@ -21518,10 +21506,6 @@
   {
     "Name": "OCP-49698:xiyuan:Security_and_Compliance:[sig-isc] Security_and_Compliance Compliance_Operator The Compliance Operator automates compliance check for OpenShift and CoreOS Check remediation works for ocp4-high ocp4-high-node and rhcos4-high profiles [Disruptive] [Serial][Slow]",
     "Suite": "Security_and_Compliance"
-  },
-  {
-    "Name": "OCP-496XX:asood:SDN:[sig-networking] SDN metallb Verify for the service IP address of NodePort or LoadBalancer service ARP requests gets response from one interface only and prometheus metrics are updated when service is removed. [Serial]",
-    "Suite": "SDN"
   },
   {
     "Name": "OCP-49705:liqcui:PSAP:Tuned net plugin handle net devices with n/a value for a channel. [Disruptive] [Serial]",
@@ -29574,10 +29558,6 @@
   {
     "Name": "OCP-63999:ropatil:STORAGE:[sig-storage] STORAGE [CSI-Driver] [Snapshot] [Filesystem default] volume snapshot should work well before and after upgrade",
     "Suite": "STORAGE"
-  },
-  {
-    "Name": "OCP-63XX3:liqcui:PSAP:[sig-node] PSAP should NTO support tuning sysctl and kernel bools that applied to all nodes of nodepool-level settings in hypershift. [Disruptive] [Serial]",
-    "Suite": "PSAP"
   },
   {
     "Name": "OCP-64000:kewang:API_Server:Check the http accessible /readyz for kube-apiserver [Serial]",
@@ -39592,34 +39572,6 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "OCP-XX070:jiazha:OLM:[sig-operators] OLM should support grpc sourcetype [Serial]",
-    "Suite": "OLM"
-  },
-  {
-    "Name": "OCP-XX140:liqcui:PerfScale:[sig-perfscale] PerfScale oc cli perf Create multiple projects and time various oc commands durations[Slow][Serial]",
-    "Suite": "PerfScale"
-  },
-  {
-    "Name": "OCP-XX330:UserInterface console customization",
-    "Suite": "UI-customize console related"
-  },
-  {
-    "Name": "OCP-XX640:UserInterface Add HTPasswd IDP",
-    "Suite": "UI-customize console related"
-  },
-  {
-    "Name": "OCP-XX862:xiuwang:Image_Registry:[sig-imageregistry] Image_Registry CloudFront storage configuration with invalid values [Disruptive] [Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
-    "Name": "OCP-XX893:wewang:Image_Registry:[sig-imageregistry] Image_Registry PodAntiAffinity should work for image registry pod[Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
-    "Name": "OCP-XX945:wewang:Image_Registry:[sig-imageregistry] Image_Registry Autoconfigure registry storage [Disruptive] [Serial]",
-    "Suite": "Image_Registry"
-  },
-  {
     "Name": "OLM V1 tests (OCP-75036,yapei,UserInterface)List packages from catalogs",
     "Suite": "OLM V1 tests"
   },
@@ -47888,20 +47840,8 @@
     "Suite": "Workloads_cucushift"
   },
   {
-    "Name": "ofcir-acquire",
-    "Suite": "Overall CI (test step)"
-  },
-  {
-    "Name": "ofcir-release",
-    "Suite": "Overall CI (test step)"
-  },
-  {
     "Name": "oidcauthextension",
     "Suite": "tests/e2e-otel/oidcauthextension"
-  },
-  {
-    "Name": "olmv1-disable-default-clustercatalogs",
-    "Suite": "Overall CI (test step)"
   },
   {
     "Name": "olmv1-performance",

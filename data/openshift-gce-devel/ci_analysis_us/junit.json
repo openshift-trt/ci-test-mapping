@@ -188532,7 +188532,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-etcd][apigroup:config.openshift.io][OCPFeatureGate:DualReplica][Suite:openshift/two-node][Serial][Disruptive] PacemakerHealthCheck degraded condition should detect and recover from stale PacemakerCluster status",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-etcd][apigroup:config.openshift.io][OCPFeatureGate:DualReplica][Suite:openshift/two-node][Serial][Disruptive] PacemakerHealthCheck degraded condition should not degrade when fencing is at risk but still available",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-etcd][apigroup:config.openshift.io][OCPFeatureGate:DualReplica][Suite:openshift/two-node][Serial][Disruptive] PacemakerHealthCheck degraded condition should remain healthy while status-collector writes are blocked",
     "Suite": "openshift-tests"
   },
   {
@@ -277860,10 +277868,6 @@
     "Suite": "Fusion-access-lp-interop"
   },
   {
-    "Name": "test_prepare_node_ip_10_0_100_136_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
     "Name": "test_prepare_node_ip_10_0_105_138_us_east_2_compute_internal",
     "Suite": "Fusion-access-lp-interop"
   },
@@ -277980,10 +277984,6 @@
     "Suite": "Fusion-access-lp-interop"
   },
   {
-    "Name": "test_prepare_node_ip_10_0_56_78_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
     "Name": "test_prepare_node_ip_10_0_58_161_us_east_2_compute_internal",
     "Suite": "Fusion-access-lp-interop"
   },
@@ -277993,10 +277993,6 @@
   },
   {
     "Name": "test_prepare_node_ip_10_0_64_194_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_67_245_us_west_2_compute_internal",
     "Suite": "Fusion-access-lp-interop"
   },
   {
