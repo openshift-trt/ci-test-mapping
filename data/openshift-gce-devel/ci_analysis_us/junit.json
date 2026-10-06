@@ -168568,6 +168568,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-api-machinery] Garbage collector should keep the rc around until all its pods are deleted if the deleteOptions says so [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-api-machinery] Garbage collector should keep the rc around until all its pods are deleted if the deleteOptions says so [Conformance] [Suite:openshift/conformance/parallel/minimal]",
     "Suite": "openshift-tests"
   },
@@ -168853,6 +168857,34 @@
   },
   {
     "Name": "[sig-api-machinery] Namespaces should always delete fast (ALL of 100 namespaces in 150 seconds) [Feature:ComprehensiveNamespaceDraining] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should apply a finalizer to a Namespace [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should apply an update to a Namespace [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should apply changes to a namespace status [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should delete fast enough (90 percent of 100 namespaces in 150 seconds) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should ensure that all pods are removed when a namespace is deleted [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should ensure that all services are removed when a namespace is deleted [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-api-machinery] Namespaces should patch a Namespace [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -170544,6 +170576,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-apps] ControllerRevision should manage the lifecycle of a ControllerRevision [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-apps] CronJob should be able to schedule after more than 100 missed schedule",
     "Suite": "openshift-tests"
   },
@@ -170756,7 +170792,39 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-apps] Daemon set should list and delete a collection of DaemonSets [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should not update pod when spec was updated and update strategy is OnDelete [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should retry creating failed daemon pods [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should rollback without unnecessary restarts [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should run and stop complex daemon [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should run and stop complex daemon with node affinity [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-apps] Daemon set should run and stop simple daemon [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should surge pods onto nodes when spec was updated and update strategy is RollingUpdate [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-apps] Daemon set should update pod when spec was updated and update strategy is RollingUpdate [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -178508,6 +178576,30 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] MaxExpirationSeconds validations should fail pod startup when MaxExpirationSeconds exceeds maximum (91d)",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] MaxExpirationSeconds validations should fail pod startup when MaxExpirationSeconds is less than minimum (1h)",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] MaxExpirationSeconds validations should issue certificate with default life time (24h) when MaxExpirationSeconds is not set",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] MaxExpirationSeconds validations should issue certificate with specified duration (1h) when MaxExpirationSeconds is set",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should allow server and client pods to establish an mTLS connection",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should honor UserAnnotations for SPIFFE URI path",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-auth] Projected PodCertificate [FeatureGate:PodCertificateRequest] [FeatureGate:ClusterTrustBundle] [FeatureGate:ClusterTrustBundleProjection] MaxExpirationSeconds validations should issue certificate with default life time (24h) when MaxExpirationSeconds is not set [MinimumKubeletVersion:1.37] [Conformance]",
     "Suite": "openshift-tests"
   },
@@ -178845,6 +178937,42 @@
   },
   {
     "Name": "[sig-auth] [Feature:NodeAuthorizer] Getting an existing secret should exit with the Forbidden error [Suite:openshift/conformance/parallel] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be able to mount a big number (\u003e100) of CTBs",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be able to mount a single ClusterTrustBundle by name",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be able to specify multiple CTB volumes",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be capable to mount multiple trust bundles by signer+labels can combine all signer CTBs with an empty label selector",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be capable to mount multiple trust bundles by signer+labels can combine multiple CTBs with signer name and label selector",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be capable to mount multiple trust bundles by signer+labels should start if only signer name and explicit label selector matches nothing + optional=true",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should be capable to mount multiple trust bundles by signer+labels should start if only signer name and nil label selector + optional=true",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should prevent a pod from starting if: sets optional=false and no trust bundle matches query",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-auth] [FeatureGate:ClusterTrustBundle] [Beta] [Feature:OffByDefault] [FeatureGate:ClusterTrustBundleProjection] [Beta] [Feature:OffByDefault] should prevent a pod from starting if: sets optional=false and the configured CTB does not exist",
     "Suite": "openshift-tests"
   },
   {
@@ -182101,6 +182229,14 @@
   },
   {
     "Name": "[sig-cli] Kubectl client Kubectl taint [Serial] should update the taint on a node [Suite:openshift/conformance/serial] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] Kubectl client Kubectl taint should remove all the taints with the same key off a node [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-cli] Kubectl client Kubectl taint should update the taint on a node [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -192968,6 +193104,10 @@
     "Suite": "hypershift-e2e"
   },
   {
+    "Name": "[sig-hypershift][Jira:Hypershift][Feature:GCPWorkloadIdentity] GCP Workload Identity GCP Workload Identity [Skipped:Disconnected] should mutate pods with workload identity federated credentials",
+    "Suite": "hypershift-e2e"
+  },
+  {
     "Name": "[sig-hypershift][Jira:Hypershift][Feature:GlobalPullSecret] Global Pull Secret when an additional pull secret is created in the hosted cluster should propagate it through the global pull secret pipeline and clean up on deletion",
     "Suite": "hypershift-e2e"
   },
@@ -197849,6 +197989,14 @@
   },
   {
     "Name": "[sig-network] DefaultIngressClass should choose the one with the later CreationTimestamp, if equal the one with the lower name when two ingressClasses are marked as default [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-network] DefaultIngressClass should not set default value if no default IngressClass [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-network] DefaultIngressClass should set default value on new IngressClass [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -204280,6 +204428,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should not be able to pull from private registry without secret [NodeConformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Container Runtime blackbox test when running a container with a new image should not be able to pull from private registry without secret [NodeConformance] [Suite:openshift/conformance/parallel]",
     "Suite": "openshift-tests"
   },
@@ -205080,6 +205232,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] NoExecuteTaintManager Multiple Pods only evicts pods without tolerations from tainted nodes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] NoExecuteTaintManager Single Pod [Serial] doesn't evict pod with tolerations from tainted nodes",
     "Suite": "openshift-tests"
   },
@@ -205125,6 +205281,18 @@
   },
   {
     "Name": "[sig-node] NoExecuteTaintManager Single Pod [Serial] pods evicted from tainted nodes have pod disruption condition [Suite:openshift/conformance/serial] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] NoExecuteTaintManager Single Pod doesn't evict pod with tolerations from tainted nodes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] NoExecuteTaintManager Single Pod eventually evict pod with finite tolerations from tainted nodes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] NoExecuteTaintManager Single Pod evicts pods from tainted nodes [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -206432,6 +206600,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod InPlace Resize Container (deferred-resizes) [FeatureGate:InPlacePodVerticalScaling] pod-resize-retry-deferred-test-2 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod InPlace Resize Container (deferred-resizes) [FeatureGate:InPlacePodVerticalScaling] pod-resize-retry-deferred-test-3 [Serial]",
     "Suite": "openshift-tests"
   },
@@ -206505,6 +206677,10 @@
   },
   {
     "Name": "[sig-node] Pod InPlace Resize Container (resource-quota) [FeatureGate:InPlacePodVerticalScaling] pod-resize-resource-quota-test valid increase of Memory",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod InPlace Resize Container (scheduler-focused) [FeatureGate:InPlacePodVerticalScaling] pod-resize-scheduler-tests [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -207472,7 +207648,35 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod Level Resources Fix Defaulting [FeatureGate:PodLevelResources] [FeatureGate:PodLevelResourcesFixDefaulting] Guaranteed QoS pod, pod resources requests, container resources limits auto-defaulted [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources Fix Defaulting [FeatureGate:PodLevelResources] [FeatureGate:PodLevelResourcesFixDefaulting] partial pod-level request: all missing pod requests and limits defaulted from containers, stable across updates [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] BestEffort QoS no pod resources, no container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod with yet some other container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, 1 container with resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, no container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, partial requests in pod level resources, 1 container with guaranteed resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources limits, container resources limits [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -207480,7 +207684,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests and limits, container resources limits [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests and limits, container resources requests [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests, container resources requests [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests, container resources requests and partial limits [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Burstable QoS pod, pod resources requests, no container resources [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -207492,11 +207712,27 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod with other container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, 1 container with resources [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, no container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, pod resources limits, no container resources [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, pod resources requests, container resources limits [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] Pod Level Resources [Feature:PodLevelResources] [FeatureGate:PodLevelResources] Guaranteed QoS pod, pod resources requests, container resources requests and limits [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -209604,6 +209840,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] must prefer device plugin over DRA when both advertise the same resource on a node [KubeletMinVersion:1.35] [FeatureGate:DynamicResourceAllocation] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] must prevent overcommitment of extended resources [KubeletMinVersion:1.34] [FeatureGate:DynamicResourceAllocation]",
     "Suite": "openshift-tests"
   },
@@ -209649,6 +209889,10 @@
   },
   {
     "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] must run pods with extended resource on dra nodes and device plugin nodes [KubeletMinVersion:1.35] [FeatureGate:DynamicResourceAllocation] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-node] [DRA] [FeatureGate:DRAExtendedResource] [Feature:DynamicResourceAllocation] process extended resources after device plugin uninstall [KubeletMinVersion:1.35] [FeatureGate:DynamicResourceAllocation] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -214376,7 +214620,19 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPredicates validates Pods with non-empty schedulingGates are blocked on scheduling [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPredicates validates local ephemeral storage resource limits of pods that are allowed to run [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates pod overhead is considered along with resource limits of pods that are allowed to run verify pod overhead is accounted for [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates resource limits of pods that are allowed to run [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -214384,11 +214640,43 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that NodeSelector is respected if matching [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that NodeSelector is respected if not matching [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that required NodeAffinity setting is respected if matching [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that taints-tolerations is respected if matching [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPredicates validates that taints-tolerations is respected if not matching [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPredicates validates that there is no conflict between pods with same hostPort but different hostIP and protocol [Serial]",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPredicates when PVC has node-affinity to non-existent/illegal nodes, the pod should be scheduled normally if suitable nodes exist [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption PodTopologySpread Preemption validates proper pods are preempted [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPreemption PreemptionExecutionPath runs ReplicaSets to verify preemption running path [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPreemption PriorityClass endpoints verify PriorityClass endpoints can be operated with different HTTP methods [Conformance] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -214464,7 +214752,19 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-scheduling] SchedulerPreemption validates various priority Pods preempt expectedly with the async preemption [Feature:SchedulerAsyncPreemption] [FeatureGate:SchedulerAsyncPreemption] [Beta] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-scheduling] SchedulerPriorities Pod should be preferably scheduled to nodes pod can tolerate [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPriorities Pod should be scheduled to node that don't match the PodAntiAffinity terms [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-scheduling] SchedulerPriorities PodTopologySpread Scoring validates pod should be preferably scheduled to node which makes the matching pods more evenly distributed [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -214977,6 +215277,18 @@
   },
   {
     "Name": "[sig-storage] CSI Mock VolumeLimitScaling scheduling [FeatureGate:VolumeLimitScaling] VolumeLimitScaling scheduling blocks scheduling when driver not installed and CSIDriver opts in [Beta]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock VolumeLimitScaling scheduling [FeatureGate:VolumeLimitScaling] [Alpha] [Feature:OffByDefault] VolumeLimitScaling scheduling allows scheduling when driver not installed and CSIDriver does not opt in",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock VolumeLimitScaling scheduling [FeatureGate:VolumeLimitScaling] [Alpha] [Feature:OffByDefault] VolumeLimitScaling scheduling allows scheduling when driver not installed and CSIDriver object is not present",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock VolumeLimitScaling scheduling [FeatureGate:VolumeLimitScaling] [Alpha] [Feature:OffByDefault] VolumeLimitScaling scheduling blocks scheduling when driver not installed and CSIDriver opts in",
     "Suite": "openshift-tests"
   },
   {
@@ -215724,7 +216036,31 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on a privileged and unprivileged Pod with given SELinux with MountOption policy [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on an unprivileged and privileged Pod with given SELinux with MountOption policy [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with MountOption policy and a different context on RWOP volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different context on RWO volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different context on RWOP volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMountReadWriteOncePod] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different context on RWX volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is bumped on two Pods with a different policy on RWO volume and SELinuxMount enabled (Recursive + MountOption) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -215740,6 +216076,22 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on a finished Pod with a different context on RWO volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on a privileged and unprivileged Pod with given SELinux context and recursive policy [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two Pods with Recursive policy and a different context on RWX volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two Pods with the same context on RWO volume and SELinuxMount enabled [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two Pods with the same policy RWX volume (MountOption + MountOption) [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
     "Suite": "openshift-tests"
   },
@@ -215748,11 +216100,27 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two privileged Pods with mount policy RWO volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] error is not bumped on two privileged Pods with recursive policy RWO volume [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWO volume with CSIDriver.SELinuxMount disabled and mismatched labels [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWO volume with CSIDriver.SELinuxMount disabled and mismatched policies [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
     "Suite": "openshift-tests"
   },
   {
     "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWX volume with CSIDriver.SELinuxMount disabled and mismatched labels [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Mock selinux on mount metrics and SELinuxWarningController SELinuxMount metrics [LinuxOnly] [Feature:SELinux] warning is not bumped on RWX volume with CSIDriver.SELinuxMount disabled and mismatched policies [FeatureGate:SELinuxMountReadWriteOncePod] [FeatureGate:SELinuxChangePolicy] [FeatureGate:SELinuxMount] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219184,11 +219552,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)(allowExpansion)] volume-expand Verify if offline PVC expansion works [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)(allowExpansion)] volume-expand should resize volume when PVC is edited and the pod is re-created on the same node after controller resize is finished [Serial]",
     "Suite": "openshift-tests"
   },
   {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)(allowExpansion)] volume-expand should resize volume when PVC is edited while pod is using it [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should mount multiple PV pointing to the same storage on the same node [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219200,11 +219580,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with pvc data source (ROX mode) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with pvc data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with snapshot data source (ROX mode) [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with snapshot data source [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (block volmode)] volume-expand should not allow expansion of pvcs without AllowVolumeExpansion property [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219224,11 +219616,51 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)(allowExpansion)] volume-expand should resize volume when PVC is edited while pod is using it [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (Always)[LinuxOnly], pod created with an initial fsgroup, new pod fsgroup applied to volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (Always)[LinuxOnly], pod created with an initial fsgroup, volume contents ownership changed via chgrp in first pod, new pod with different fsgroup applied to the volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (Always)[LinuxOnly], pod created with an initial fsgroup, volume contents ownership changed via chgrp in first pod, new pod with same fsgroup applied to the volume contents [Serial]",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (Always)[LinuxOnly], rwop pod created with an initial fsgroup, new pod fsgroup applied to volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (OnRootMismatch)[LinuxOnly], pod created with an initial fsgroup, new pod fsgroup applied to volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (OnRootMismatch)[LinuxOnly], pod created with an initial fsgroup, volume contents ownership changed via chgrp in first pod, new pod with different fsgroup applied to the volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] fsgroupchangepolicy (OnRootMismatch)[LinuxOnly], pod created with an initial fsgroup, volume contents ownership changed via chgrp in first pod, new pod with same fsgroup skips ownership changes to the volume contents [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should mount multiple PV pointing to the same storage on the same node [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with mount options [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219240,7 +219672,43 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with snapshot data source (ROX mode) [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with snapshot data source [Feature:VolumeSnapshotDataSource] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] read-write-once-pod should block a second pod from using an in-use ReadWriteOncePod volume on the same node [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] read-write-once-pod should preempt lower priority pods using ReadWriteOncePod volumes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should be able to unmount after the subpath directory is deleted [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support existing directories when readOnly specified in the volumeSource [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support existing directory [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support existing single file [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support file as subpath [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support non-existent path [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219248,7 +219716,19 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] subPath should support readOnly file specified in the volumeMount [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] volume-expand should not allow expansion of pvcs without AllowVolumeExpansion property [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] volumes should allow exec of files on the volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (default fs)] volumes should store data [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219260,7 +219740,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (ext3)] volumes should allow exec of files on the volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (ext3)] volumes should store data [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (ext4)] volumes should allow exec of files on the volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (ext4)] volumes should store data [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (filesystem volmode)] volumeMode should not mount / map unused volumes in a pod [LinuxOnly] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219268,11 +219764,39 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic PV (immediate binding)] topology should provision a volume and schedule a pod with AllowedTopologies [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Dynamic Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent) [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral) [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219284,7 +219808,19 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should support expansion of pvcs created for ephemeral pvcs [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should support multiple inline ephemeral volumes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (block volmode) (late-binding)] ephemeral should support two pods which have the same volume definition [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should create read-only inline ephemeral volume [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219296,7 +219832,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should support multiple inline ephemeral volumes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (immediate-binding)] ephemeral should support two pods which have the same volume definition [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should create read-only inline ephemeral volume [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -219305,6 +219849,10 @@
   },
   {
     "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should support expansion of pvcs created for ephemeral pvcs [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] CSI Volumes [Driver: pd.csi.storage.gke.io] [Provider:gce] [Testpattern: Generic Ephemeral-volume (default fs) (late-binding)] ephemeral should support multiple inline ephemeral volumes [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -224148,6 +224696,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] EmptyDir wrapper volumes should not cause race condition when used for configmaps [Conformance] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] EmptyDir wrapper volumes should not cause race condition when used for configmaps [Serial] [Conformance]",
     "Suite": "openshift-tests"
   },
@@ -226125,6 +226677,10 @@
   },
   {
     "Name": "[sig-storage] In-tree Volumes [Driver: azure-disk] [Provider:azure] [Testpattern: Dynamic PV (block volmode)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: azure-disk] [Provider:azure] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with any volume data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -231197,6 +231753,10 @@
   },
   {
     "Name": "[sig-storage] In-tree Volumes [Driver: cinder] [Provider:openstack] [Testpattern: Dynamic PV (block volmode)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: cinder] [Provider:openstack] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with any volume data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -251988,11 +252548,43 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support existing directories when readOnly specified in the volumeSource [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support existing directory [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support existing single file [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support file as subpath [LinuxOnly] [Serial]",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support non-existent path [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support readOnly directory specified in the volumeMount [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support readOnly file specified in the volumeMount [LinuxOnly] [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] volumes should allow exec of files on the volume [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (default fs)] volumes should store data [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: local] [LocalVolumeType: gce-localssd-scsi-fs] [Testpattern: Pre-provisioned PV (filesystem volmode)] volumeMode should not mount / map unused volumes in a pod [LinuxOnly] [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -264400,6 +264992,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] In-tree Volumes [Driver: vsphere] [Provider:vsphere] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with any volume data source [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] In-tree Volumes [Driver: vsphere] [Provider:vsphere] [Testpattern: Dynamic PV (block volmode)] provisioning should provision storage with mount options",
     "Suite": "openshift-tests"
   },
@@ -264461,6 +265057,10 @@
   },
   {
     "Name": "[sig-storage] In-tree Volumes [Driver: vsphere] [Provider:vsphere] [Testpattern: Dynamic PV (default fs)] provisioning should provision correct filesystem size when restoring snapshot to larger size pvc [Feature:VolumeSnapshotDataSource]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] In-tree Volumes [Driver: vsphere] [Provider:vsphere] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage with any volume data source [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -269816,6 +270416,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] PersistentVolumes-local Stress with local volumes should be able to process many pods and reuse local volumes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: block] One pod requesting one prebound PVC should be able to mount volume and read from pod1",
     "Suite": "openshift-tests"
   },
@@ -269960,7 +270564,19 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] One pod requesting one prebound PVC should be able to mount volume and write from pod1 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] Set fsGroup for local volume should set different fsGroup for second pod if first pod is deleted [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2 [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-storage] PersistentVolumes-local [LocalVolumeType: gce-localssd-scsi-fs] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2 [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -273632,6 +274248,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-windows] [Feature:Windows] Cpu Resources Container limits should not be exceeded after waiting 2 minutes [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-windows] [Feature:Windows] Cpu Resources [Serial] Container limits should not be exceeded after waiting 2 minutes",
     "Suite": "openshift-tests"
   },
@@ -273661,6 +274281,10 @@
   },
   {
     "Name": "[sig-windows] [Feature:Windows] Kubelet-Stats Kubelet stats collection for Windows nodes when running 3 pods should return within 10 seconds [Suite:openshift/conformance/parallel] [Suite:k8s]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-windows] [Feature:Windows] Kubelet-Stats Kubelet stats collection for Windows nodes when running up to 10 pods should return within 10 seconds [Serial]",
     "Suite": "openshift-tests"
   },
   {
@@ -277820,6 +278444,10 @@
     "Suite": "CNV-lp-interop"
   },
   {
+    "Name": "test_new_vm_creation_from_existing_template_succeeds_after_upgrade",
+    "Suite": "CNV-lp-interop"
+  },
+  {
     "Name": "test_no_deprecated_api_alert_after_tests",
     "Suite": "CNV-lp-interop"
   },
@@ -278316,6 +278944,18 @@
     "Suite": "CNV-lp-interop"
   },
   {
+    "Name": "test_template_creation_before_upgrade",
+    "Suite": "CNV-lp-interop"
+  },
+  {
+    "Name": "test_template_request_before_upgrade",
+    "Suite": "CNV-lp-interop"
+  },
+  {
+    "Name": "test_template_resources_preserved_after_upgrade",
+    "Suite": "CNV-lp-interop"
+  },
+  {
     "Name": "test_verify_kmm_config_content",
     "Suite": "Fusion-access-lp-interop"
   },
@@ -278337,6 +278977,10 @@
   },
   {
     "Name": "test_vm_console_before_upgrade",
+    "Suite": "CNV-lp-interop"
+  },
+  {
+    "Name": "test_vm_creation_from_template_before_upgrade",
     "Suite": "CNV-lp-interop"
   },
   {
