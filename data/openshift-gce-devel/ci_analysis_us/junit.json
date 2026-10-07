@@ -19912,6 +19912,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "External Storage [Driver: vpc.block.csi.ibm.io] [Testpattern: Dynamic PV (default fs)] OpenShift CSI extended - Pod delete after umount should delete pod after volume directory was umounted on the node",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "External Storage [Driver: vpc.block.csi.ibm.io] [Testpattern: Dynamic PV (default fs)] capacity provides storage capacity information",
     "Suite": "openshift-tests"
   },
@@ -98761,10 +98765,6 @@
   },
   {
     "Name": "[AfterSuite]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[AfterSuite]",
     "Suite": "E2E Suite"
   },
   {
@@ -98774,10 +98774,6 @@
   {
     "Name": "[BeforeSuite]",
     "Suite": "hypershift-e2e"
-  },
-  {
-    "Name": "[BeforeSuite]",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[BeforeSuite]",
@@ -100214,18 +100210,6 @@
   {
     "Name": "[Image Registry][invariant] alert/KubePodNotReady should not be at or above pending in ns/openshift-image-registry",
     "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[It]   [tc-id:OADP-508] [upstream-velero] [Tier1] [vf:operator-labels] Verify user specified labels/annotations are not removed by oadp controller",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It]  FileSystem backup/restore after successful CSI backup/restore [tc-id:OADP-521] [Tier2] [vf:alternating-backup-type] with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It]  FileSystem backup/restore after successful CSI backup/restore [tc-id:OADP-522] [Tier2] [vf:alternating-backup-type] with Kopia",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] Ambient API Validation Single Instance Name Enforcement when attempting to create IstioCNI with non-default name rejects IstioCNI CR with name != 'default' [ambient, ambient-validation]",
@@ -103076,418 +103060,6 @@
     "Suite": "E2E Suite"
   },
   {
-    "Name": "[It] Backup Restore tests PVC mounted to a Completed pod  [tc-id:OADP-404] [skip-osp] [Tier1] [vf:pod-down] PVC bound to Completed Pod with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests PVC mounted to a Completed pod  [tc-id:OADP-457] [skip-osp] [Tier1] [vf:pod-down] PVC bound to Completed Pod with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [bug-id:OADP-3009][tc-id:OADP-382] [Tier1] [vf:resource-filtering] Included Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [bug-id:OADP-3009][tc-id:OADP-512] [Tier1] [vf:resource-filtering] Included Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-383] [Tier1] [vf:resource-filtering] Excluded Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-384] [Tier2] [vf:resource-filtering] Include Cluster Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-385] [Tier2] [vf:resource-filtering] Included Cluster Scoped Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-386] [Tier2] [vf:resource-filtering] Included Namespace Scoped Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-387] [Tier2] [vf:resource-filtering] Excluded Cluster Scoped Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-388] [Tier2] [vf:resource-filtering] Excluded Namespace Scoped Resources with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-513] [Tier1] [vf:resource-filtering] Excluded Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-516] [Tier2] [vf:resource-filtering] Include Cluster Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-517] [Tier2] [vf:resource-filtering] Included Cluster Scoped Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-518] [Tier2] [vf:resource-filtering] Excluded Cluster Scoped Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-519] [Tier2] [vf:resource-filtering] Included Namespace Scoped Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-520] [Tier2] [vf:resource-filtering] Excluded Namespace Scoped Resources with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-589] [Tier1] [vf:resource-filtering] Included Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-590] [Tier2] [vf:resource-filtering] Included Cluster Scoped Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-591] [Tier2] [vf:resource-filtering] Excluded Cluster Scoped Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-592] [Tier2] [vf:resource-filtering] Included Namespace Scoped Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-593] [Tier2] [vf:resource-filtering] Excluded Namespace Scoped Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Resource Filtering Cases [tc-id:OADP-594] [Tier1] [vf:resource-filtering] Excluded Resources with CSI [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Storage class mapping [tc-id:OADP-342] [Tier1] [vf:storageclass-mapping] Storageclass mapping with Restic [exclude_azure, exclude_aro-4]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Storage class mapping [tc-id:OADP-434] [Tier1] [vf:storageclass-mapping] Storageclass mapping with Kopia [exclude_azure, exclude_aro-4]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Restore tests Storage class mapping [tc-id:OADP-434] [Tier1] [vf:storageclass-mapping] Storageclass mapping with Kopia [exclude_azure]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup Volumes Verification [tc-id:OADP-607] [Tier1] [vf:backup-volumes] Verify Backup Volumes info in velero describe for NativeDM, Kopia, CSI and VSL backups [exclude_gcp-wif, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-398] [Tier1] [vf:resource-policies] CSI with mysql application [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-514] [datamover] [Tier1] [vf:resource-policies] DataMover with mysql application [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-515] [Tier1] [vf:resource-policies] Kopia with mysql application [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-523] [Tier1] [vf:resource-policies] Restic with mysql application [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-524] [Tier1] [vf:resource-policies] VSL with mysql application [exclude_gcp-wif, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Enable resource policy that can filter volumes to skip in the backup [tc-id:OADP-573] [Tier2] [vf:resource-policies] Mixed lower and upper case configmap kind string [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Resource Policy to backup volumes using diff workflow based on Storageclass filter [tc-id:OADP-608] [Tier2] [vf:resource-policies] CSI with mysql \u0026 django application [exclude_gcp-wif, Serial, exclude_azure, exclude_aro-4]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup configuration Resource Policy to backup volumes using diff workflow based on Storageclass filter [tc-id:OADP-609] [datamover] [Tier2] [vf:resource-policies] DataMover with mysql \u0026 django application [exclude_gcp-wif, Serial, exclude_azure, exclude_aro-4]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup hooks tests Failed and successful hooks in backup description [tc-id:OADP-624] [csi] [Tier2] [vf:backup-hooks] Mysql application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup hooks tests Pre exec hook [tc-id:OADP-504][datamover] [Tier0] [vf:backup-hooks] Cassandra application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup hooks tests Pre exec hook [tc-id:OADP-92][interop][smoke] [Tier0] [vf:backup-hooks] Cassandra app with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup hooks tests Pre exec hook [tc-id:OADP-92][interop][smoke] [Tier0] [vf:backup-hooks] Cassandra app with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup hooks tests Pre exec hook [tc-id:OADP-92][smoke] [Tier0] [vf:backup-hooks] Cassandra app with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests  [tc-id:OADP-467][datamover] [Tier2] [vf:csi-timeout] Verify the backup is failed with timeout error when csiSnapshotTimeout field is set as 1s [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests  [tc-id:OADP-552] [Tier2] [vf:csi-timeout] Verify the backup is failed with timeout error when csiSnapshotTimeout field is set as 1s [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [skip-disconnected] [Tier0] [vf:imageStream] ImageStream application with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-104] [Tier1] [vf:fsb-restic] Storage class with Restic [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-121] [skip-disconnected] [Tier0] [vf:fsb-restic] Django application with Restic [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-122] [interop] [skip-disconnected] [Tier0] [vf:csi-snapshots] Django application with BSL\u0026CSI [exclude_aro-4]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-198][smoke] [Tier1] [vf:resource-filtering] Different labels selector: Backup and Restore with multiple matched labels [orLabelSelectors] [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-199] [Tier1] [vf:resource-filtering] Different labels selector: Backup and Restore by one matched label using [orLabelSelectors] [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-200] [Tier1] [vf:resource-filtering] Different labels selector: Backup and Restore with multiple matched multiple labels under (matchLabels) [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-201] [Tier1] [vf:resource-filtering] Different labels selector: Backup and Restore with one unmatched label under (matchLabels) [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-210] [Tier2] [vf:resource-filtering] Different labels selector: verify that labelSelector and orLabelSelectors cannot co-exist [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-232] [skip-disconnected] [Tier1] [vf:imageStream] Verify imageStream backup when s3Url contains a port with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-234] [Tier1] [vf:fsb-restic] templateInstance with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-266] [Tier1] [vf:resource-filtering] Label Selector (matchLabels) maching resources in multi_namespace Filesystem, Restic  [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-303] [skip-disconnected] [Tier1] [vf:imageStream] Verify imageStream backup when s3Url contains a port with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-308] [Tier1] [vf:emptyDir] App with emptyDir volume with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-329] [Tier1] [vf:emptyDir] App with emptyDir volume with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-351] [amd64] [skip-disconnected] [Tier1] [vf:volume-snapshot-location] Mongodb application with BSL\u0026VSL [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-352][interop][skip-disconnected][smoke] [Tier0] [vf:volume-snapshot-location] Django application with BSL\u0026VSL [vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-354] [Tier1] [vf:fsb-restic] Role \u0026 Role binding application  with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-356] [Tier1] [vf:fsb-restic] Job application with Restic [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-371] [interop] [smoke] [Tier0] [vf:fsb-restic] MySQL application with Restic [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-394] [Tier1] [vf:csi-snapshots] Django application with CSI [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-406] [Tier0] [vf:fsb-restic] MySQL application with Restic [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-417] [skip-disconnected] [amd64] [Tier1] [vf:fsb-kopia] Mongodb application with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-418] [Tier1] [vf:fsb-kopia] Resource Quota with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-419] [Tier0] [vf:fsb-kopia] Empty-project application with filesystem Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-420] [Tier1] [vf:fsb-kopia] Storage class with filesystem, Kopia [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-421] [skip-disconnected] [Tier0] [vf:fsb-kopia] Django application with filesystem, Kopia [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-428] [Tier1] [vf:fsb-kopia] templateInstance with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-432] [skip-disconnected] [Tier1] [vf:imageStream] Verify imageStream backup when s3Url contains a port with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-433] [Tier1] [vf:emptyDir] App with emptyDir volume with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-435] [Tier1] [vf:fsb-kopia] Role \u0026 Role binding application  with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-436] [Tier1] [vf:fsb-kopia] Job application with filesystem, Kopia [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-437][interop][smoke] [Tier0] [vf:fsb-kopia] MySQL application with filesystem, Kopia [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-470] [Tier1] [vf:pvc-sizing] PVC lower size with NativeDM [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-492] [skip-cephfs] [amd64] [Tier1] [vf:csi-snapshots] Todolist app w/ mongodb deployed over block PVCs - csi",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-511] [Tier1] [vf:resource-filtering] Label Selector (matchLabels) maching resources in multi_namespace Filesystem, Kopia [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-534] [Tier1] [vf:pvc-sizing] PVC lower size with CSI [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-535] [Restic] [Tier1] [vf:velero-configuration] Mysql with defaultVolumesToFSBackup: true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-536] [Kopia] [Tier1] [vf:velero-configuration] Mysql with defaultVolumesToFSBackup: true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-542] [Kopia] [Tier2] [vf:velero-configuration] django with disableInformerCache : true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-545] [datamover] [Tier1] [vf:velero-configuration] Mysql with defaultSnapshotMoveData: true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-548] [Tier1] [vf:csi-snapshots] MsSql application with Kopia [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-665] [datamover] [Tier1] [vf:velero-configuration] Mysql with disableFsBackup : true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-666] [CSI] [Tier1] [vf:velero-configuration] Mysql with disableFsBackup : true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-671] [Tier2] [vf:velero-configuration] Configure itemBlockWorkerCount through DPA",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-79] [Tier0] [vf:csi-snapshots] MySQL application with CSI [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-94] [amd64] [Tier1] [vf:csi-snapshots] Mysql application \u0026 mongodb with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-95] [skip-disconnected] [amd64] [Tier1] [vf:fsb-restic] Mongodb application with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-96] [Tier1] [vf:fsb-restic] Resource Quota with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-97][interop] [Tier0] [vf:fsb-restic] Empty-project application with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Application backup [tc-id:OADP-98] [skip-disconnected] [Tier0] [vf:imageStream] ImageStream application with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests Remove Backup [tc-id:OADP-229] [Tier1] [vf:csi-cleanup] Verify volumesnapshotcontent are removed",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests [tc-id:OADP-464] [Tier1] [datamover] [vf:resource-filtering] Backup \u0026 restore including cluster scope resources (storageClass) [Serial, exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests [tc-id:OADP-475] [Tier2] [datamover] [vf:resource-filtering] Backup \u0026 restore including cluster scope resource + labels(storageClass) [Serial, exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests with Parallel File Upload Enabled Application backup [tc-id:OADP-605] [Kopia] [Tier2] [vf:parallel-upload] Parallel File Upload with CSI [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore tests with Parallel File Upload Enabled Application backup [tc-id:OADP-606] [datamover] [Tier2] [vf:parallel-upload] Parallel File Upload with NativeDM [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-422] [Tier1] [vf:fsb-restic] Verify FileSystembackup via PV opt in approach with Restic [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-423] [Tier1] [vf:fsb-restic] Verify FileSystembackup via PV opt out approach with Restic [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-425] [Tier1] [vf:fsb-kopia] Verify FileSystembackup via PV opt in approach with Kopia [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-426] [Tier1] [vf:fsb-kopia] Verify FileSystembackup via PV opt out approach with Kopia [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-469] [Tier2] [vf:fsb-kopia] FileSystembackup via opt in approach with both Kopia and Native Datamover [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Backup restore with opt out/in approach for pod volumes Application backup [tc-id:OADP-472] [Tier2] [vf:fsb-kopia] FileSystembackup via opt out approach with Kopia and Native Datamover [labels]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
     "Name": "[It] CRD Ownership when OLM-managed CRDs exist before the library starts does not overwrite the OLM-managed CRD [crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
   },
@@ -103598,18 +103170,6 @@
   {
     "Name": "[It] CRD Ownership when library creates CRDs first and then OLM adopts one stops managing the CRD after OLM adopts it [library, crd-ownership]",
     "Suite": "ServiceMesh-lp-interop"
-  },
-  {
-    "Name": "[It] CSI: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-185] [kubevirt] [Tier0] [vf:vm] Backing up started VM should succeed",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] CSI: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-186] [kubevirt] [Tier0] [vf:vm] Stopped VM should be restored",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] CSI: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-187] [kubevirt] [Tier0] [vf:vm] Backup-restore data volume",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] CapacityReservationID machine should get Running with active capacityReservationId [cloud-provider-specific, AWS]",
@@ -106432,38 +105992,6 @@
     "Suite": "E2E Suite"
   },
   {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-222] [skip-disconnected] [Tier2] [vf:resource-limits] Verify the backup is not stuck with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-222] [skip-disconnected] [Tier2] [vf:resource-limits] Verify the backup is not stuck with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-222] [skip-disconnected] [Tier2] [vf:resource-limits] Verify the restore is not stuck with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-222] [skip-disconnected] [Tier2] [vf:resource-limits] Verify the restore is not stuck with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-231] [skip-disconnected] [Tier2] [vf:resource-limits] Verify backup doesn't get stuck due to OOMkilled error with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Backup restore case [tc-id:OADP-231] [skip-disconnected] [Tier2] [vf:resource-limits] Verify backup doesn't get stuck due to OOMkilled error with kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Test Existing resource policy [tc-id:OADP-204] [Tier0] [vf:restore-policies] Existing resource policy with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] DPA deployment with configuration Test Existing resource policy [tc-id:OADP-204] [Tier0] [vf:restore-policies] Existing resource policy with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
     "Name": "[It] FRR Unnumbered BGP Session is established and route is advertised DUALSTACK",
     "Suite": "E2E Suite"
   },
@@ -107288,62 +106816,6 @@
     "Suite": "E2E Suite"
   },
   {
-    "Name": "[It] Incremental backup restore tests Incremental restore Role resource [tc-id:OADP-236][datamover] [Tier1] [vf:restore-policies] ocp role app with Native Data Mover and policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore Role resource [tc-id:OADP-248] [Tier1] [vf:restore-policies] ocp role app with Restic and policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore Role resource [tc-id:OADP-429] [Tier1] [vf:restore-policies] ocp role app with Kopia and policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore [tc-id:OADP-203][datamover] [Tier1] [vf:restore-policies] Verify dockerconfigjson secret update using existingResourcePolicy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier0] Todolist app with Kopia - policy: none",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier0] Todolist app with Kopia - policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier0] Todolist app with Restic - policy: none",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier0] Todolist app with Restic - policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier1] Todolist app with VSL - policy: none [vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [Tier1] Todolist app with VSL - policy: update [vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [datamover] [Tier0] Todolist app with DataMover - policy: none",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [tc-id:OADP-165][interop] [Tier0] [vf:restore-policies] Todolist app with CSI - policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [tc-id:OADP-170] [Tier0] [vf:restore-policies] Todolist app with CSI - policy: none",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Incremental backup restore tests Incremental restore pod count [tc-id:OADP-482][datamover] [Tier0] [vf:restore-policies] Todolist app with DataMover - policy: update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
     "Name": "[It] L2 Node Selector should work selecting one node",
     "Suite": "E2E Suite"
   },
@@ -107490,14 +106962,6 @@
   {
     "Name": "[It] L2-interface selector Interface Selector node selector",
     "Suite": "E2E Suite"
-  },
-  {
-    "Name": "[It] Label Filter: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-681][kubevirt] [label-filter] [datavolume type root disk] Backup VMs 1-3 with orLabelSelectors in 2 namespaces, Restore VMs 1-2 with orLabelSelectors",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Lease Spec Validation [tc-id:OADP-604] [Tier1] [vf:leader-election] Get Lease and validate its duration based on cluster type",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] Library Reconciliation when TLS options are passed via Options propagates TLS defaults to the mesh config [library, reconciliation]",
@@ -109396,20 +108860,8 @@
     "Suite": "ServiceMesh-lp-interop"
   },
   {
-    "Name": "[It] Native CSI Data Mover: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-401] [kubevirt] [Tier1] Started VM should over ceph filesytem mode",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Native CSI Data Mover: Backup/Restore Openshift Virtualization Workloads  [tc-id:OADP-555] [kubevirt] [Tier1] Todo Over Fedora",
-    "Suite": "OADP-lp-interop"
-  },
-  {
     "Name": "[It] Networkpolicies only allowed traffic",
     "Suite": "E2E Suite"
-  },
-  {
-    "Name": "[It] Node agent flags [tc-id:OADP-687] [datamover] DPA Configuration for Datamover Pod Resources",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] OLM-Catalog-Validation validates image: certified-operator-index",
@@ -109544,46 +108996,6 @@
     "Suite": "Machine Suite"
   },
   {
-    "Name": "[It] Schedule CR Validation Tests [tc-id:OADP-679] [Tier1] [vf:scheduling] Validate cronjob syntax for schedule",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests Scheduled Backup/Restore of todolist application with cluster level resource SCC [tc-id:OADP-116] [Tier0] [vf:scheduling] using CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests Scheduled Backup/Restore of todolist application with cluster level resource SCC [tc-id:OADP-151] [Tier0] [vf:scheduling] using Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests Scheduled Backup/Restore of todolist application with cluster level resource SCC [tc-id:OADP-427] [Tier0] [vf:scheduling] using Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests Scheduled Backup/Restore of todolist application with velero default flags [tc-id:OADP-546] Scheduled Backup/Restore of todolist application with velero defaultSnapshotMoveData flag",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests Scheduled Backup/Restore of todolist application with velero default flags [tc-id:OADP-547] Scheduled Backup/Restore of todolist application with velero defaultVolumesToFsBackup flag",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests [tc-id:OADP-103] Perform scheduled backup of a namespace",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests [tc-id:OADP-103] [Tier0] [vf:scheduling] Perform scheduled backup of a namespace",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests [tc-id:OADP-350] [Tier1] [vf:scheduling] Verify pause/unpause works on Schedule with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Schedule backup tests [tc-id:OADP-350] [Tier1] [vf:scheduling] Verify pause/unpause works on Schedule with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
     "Name": "[It] Service Annotation tests GCP should reject invalid network-tier annotation values [ccm, disruptive]",
     "Suite": "Machine Suite"
   },
@@ -109594,18 +109006,6 @@
   {
     "Name": "[It] Service Annotation tests GCP should validate other GCP annotations(local-with-fallback, load-balancer-backend-share, internal-load-balancer-allow-global-access, internal-load-balancer-subnet) [ccm, disruptive]",
     "Suite": "Machine Suite"
-  },
-  {
-    "Name": "[It] Verify OADP must-gather Test must-gather [tc-id:OADP-117] [Tier0] [vf:must-gather] must-gather e2e with Kopia [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Verify OADP must-gather Test must-gather [tc-id:OADP-117] [Tier0] [vf:must-gather] must-gather e2e with Restic [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] Volumesnapshotclass deletion policy [tc-id:OADP-478] [datamover] [Tier2] [vf:volume-snapshot-class-policy] Verify backup/restore with vsclass deletion policy set as delete",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] Webhooks For BFDProfile Should produce an error when deleting a profile used by a BGPPeer",
@@ -109990,66 +109390,6 @@
   {
     "Name": "[It] ZTWIM Installation Istio version: v1.30.3 when the ZTWIM Operator is deployed waits for the operator deployment to be created by OLM [smoke, ztwim, slow]",
     "Suite": "ServiceMesh-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-237] [Tier1] [vf:data-mover] Multiple Namespaces: mysql and todolist-mariadb",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-402] [smoke] [skip-disconnected] [Tier0] [vf:data-mover] Django application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-439][interop] [Tier0] [vf:data-mover] MySQL application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-440] [Tier0] [vf:data-mover] Cassandra application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-440][interop] [Tier0] [vf:data-mover] Cassandra application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-441] [skip-disconnected] [amd64] [Tier1] [vf:data-mover] Mongodb application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-442] [skip-disconnected] [Tier0] [vf:data-mover] ImageStream application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-445] [smoke] [Tier0] [vf:data-mover] Empty-project application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-446] [Tier1] [vf:data-mover] App with emptyDir volume",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-449] [Tier2] [vf:resource-filtering] Backup and Restore application with includedResource and labelSelector [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-450] [Tier1] [vf:data-mover] Role \u0026 Role binding application",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-456] [Tier1] [vf:data-mover] Job application [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] DataMover: Backup/Restore stateful application with CSI  [tc-id:OADP-458] [skip-cephfs] [amd64] [Tier1] [vf:data-mover] Todolist app w/ mongodb deployed over block PVCs",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] plug-in Progress [tc-id:OADP-473] [Tier2] [vf:item-actions] BackupItemAction [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [datamover] plug-in Progress [tc-id:OADP-474] [Tier2] [vf:item-actions] RestoreItemAction [exclude_gcp-wif]",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[It] [sig-cluster-lifecycle] CCM Service Annotation tests GCP should reject invalid network-tier annotation values [ccm, disruptive, periodic]",
@@ -118866,390 +118206,6 @@
   {
     "Name": "[It] [sig-hypershift][Jira:Hypershift][FeatureGate:OSStreams][Feature:NodePoolOSImageStream] NodePool OSImageStream Status When no osImageStream is set, it should report a recognized RHEL stream in status [lifecycle, nodepool-osimagestream]",
     "Suite": "hypershift-e2e"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore Encryption tests Application backup with SSE-C [tc-id:OADP-564][bug-id:OADP-5388] [Tier0] [Kopia] [vf:encryption] Django application with SSE-C encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore Encryption tests Application backup with SSE-C [tc-id:OADP-565][bug-id:OADP-5388] [Tier0] [CSI] [vf:encryption] Django application with SSE-C encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore Encryption tests Application backup with SSE-C [tc-id:OADP-566][bug-id:OADP-5388] [Tier1] [datamover] [vf:encryption] Django application with SSE-C encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore encryption tests Application backup with SSE-KMS [tc-id:OADP-567] [Tier0] [Kopia] [vf:encryption] Mysql application with SSE-KMS encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore encryption tests Application backup with SSE-KMS [tc-id:OADP-568] [Tier0] [CSI] [vf:encryption] Mysql application with SSE-KMS encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-cephfs] [skip-legacy-aws] Backup restore encryption tests Application backup with SSE-KMS [tc-id:OADP-569] [Tier1] [datamover] [vf:encryption] Mysql application with SSE-KMS encryption [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests Failed and successful hooks in restore description [tc-id:OADP-625] [bug-id:OADP-5420] [datamover] [Tier2] [vf:restore-hooks] MySQL app",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests Successful Init hook [tc-id:OADP-164][interop][smoke] [Tier0] MySQL app with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests Successful Init hook [tc-id:OADP-164][interop][smoke] [Tier0] MySQL app with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests Successful Init hook [tc-id:OADP-505] [datamover] [Tier0] [vf:restore-hooks] MySQL app",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests [skip-disconnected] Successful Exec hook [tc-id:OADP-163] [Tier0] [vf:restore-hooks] MySQL app with Kopia [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests [skip-disconnected] Successful Exec hook [tc-id:OADP-163] [Tier0] [vf:restore-hooks] MySQL app with Restic [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-disconnected] Restore hooks tests [skip-disconnected] Successful Exec hook [tc-id:OADP-506] [datamover] [Tier0] [vf:restore-hooks] MySQL app with datamover [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-sts] DPA deployment with configuration Test Existing resource policy [tc-id:OADP-208] [Tier1] [vf:restore-policies] Verify opaque secret update with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [skip-sts] DPA deployment with configuration Test Existing resource policy [tc-id:OADP-208] [Tier1] [vf:restore-policies] Verify opaque secret update with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Credentials suite [tc-id:OADP-181] [Tier2] [skip-sts] [vf:credentials] Carriage return is ignored",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-249] [Tier0] [vf:ca-certificate] MySQL application with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-250] [Tier0] [vf:ca-certificate] MySQL application with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-430] [Tier0] [vf:ca-certificate] MySQL application with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-480][datamover] [Tier0] [vf:ca-certificate] MySQL application with datamover",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-541] [Tier1] [vf:ca-certificate] Imagestream applications with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-561] [Tier1] [vf:ca-certificate] Imagestream applications with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-562] [Tier1] [vf:ca-certificate] Imagestream applications with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Custom CA Cert Verification  [tc-id:OADP-563] [datamover] [Tier1] [vf:ca-certificate] Imagestream applications with datamover",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] DPA deployment with different configurations Images [tc-id:OADP-481] [Tier1] [vf:dpa-images] Check all pod images points to downstream images",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-174] [Tier1] [vf:dpa-node-selector] Restic node selector verification",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-175] [Tier1] [vf:dpa-node-selector] Velero node selector verification",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-452] [Tier1] [vf:dpa-node-selector] Kopia node selector verification",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-452] [Tier1] [vf:dpa-node-selector] NodeAgent pod node selector verification",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-560][bug-id:OADP-4743] [datamover] [Tier2] [vf:dpa-node-selector] Backup and Restore Mysql application with nodeAgent nodeSelector",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Node selector [tc-id:OADP-682] [datamover] [Tier2] [vf:dpa-node-agent-affinity] Backup/Restore Mysql App when NodeAgent pod's NodeSelector configured using LoadAffinity spec",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Security ClusterRole permissions [tc-id:OADP-233] [Tier1] [vf:security] Verify velero clusterRole permission",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Subscription Config Suite Test Subscription Config Suite Test Proxy test table [Tier1] [vf:proxy] HTTPS_PROXY set localhost",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Subscription Config Suite Test Subscription Config Suite Test Proxy test table [Tier1] [vf:proxy] NO_PROXY set [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Timezone backup test [tc-id:OADP-251] [skip-disconnected] [Tier2] [vf:dpa-configuration] Configuring timezone by setting environment variables in Velero and NodeAgents pods",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level debug",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level error",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level fatal",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level info",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level panic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level trace",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-178] [Tier1] [vf:dpa-configuration] Verify log level warning",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-230] [Tier2] [vf:dpa-configuration] openshift-adp controller shouldn't log after reconciled",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] Velero Log Level [tc-id:OADP-362] [Tier2] [vf:dpa-configuration] Verify invalid velero log level returns an error",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Backup restore tests [tc-id:OADP-397] [Tier1] [vf:dpa-configuration] DPA configuration: enable resourceTimeout",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [Tier0] [vf:dpa-plugins] Adding AWS plugin [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [Tier1] [vf:dpa-configuration] Adding Velero resource allocations",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-172] [Tier0] [vf:dpa-configuration] Default velero CR [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-173] [Tier1] [vf:dpa-plugins] Adding Velero custom plugin",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-363] [Tier1] [vf:dpa-cloud-provider] AWS Without Region And S3ForcePathStyle true should fail [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-364] [Tier1] [vf:dpa-cloud-provider] AWS With Region And S3ForcePathStyle should succeed [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-365] [Tier1] [vf:dpa-cloud-provider] AWS Without Region No S3ForcePathStyle with BackupImages false should succeed [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-367] [Tier0] [vf:dpa-plugins] Adding CSI plugin",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-369] [Tier0] [vf:dpa-configuration] DPA CR with bsl and vsl [vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-443] [Tier1] [vf:dpa-configuration] Enable tolerations (New Restic config)",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-460] [Tier0] [vf:dpa-configuration] DPA Configuration: Node Agent Disabled",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-527] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom velero image",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-529] [skip-legacy-aws] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom AWS plugin image [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-530] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom GCP plugin image [target_gcp]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-531] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom Azure plugin image [target_azure]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-532] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom Openshift plugin image",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-533] [Tier2] [vf:dpa-configuration] UnsupportedOverrides: custom Kubevirt plugin image",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-579] [Tier2] [vf:dpa-cloud-provider] AWS Without Region, BackupImages false And S3ForcePathStyle true should fail [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Configuration testing for DPA Custom Resource Updating custom resource with new configuration [tc-id:OADP-599] [legacy-aws] [Tier0] [vf:dpa-plugins] DPA with both legacy-aws and aws plugin [target_aws]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-179] [Tier0] [vf:credentials] Default secret name [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-179] [Tier0] [vf:credentials] Default vsl secret name [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-180] [Tier1] [vf:credentials] Default secret name and custom secret name [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-180] [Tier1] [vf:credentials] Default secret name and custom vsl secret name [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-182] [Tier0] [vf:credentials] Custom secret name only [mr-check]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-183] [Tier2] [vf:aws-profiles] AWS different profiles for BSL and VSL [target_aws, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-283] [Tier1] [vf:credentials-vsl] VSL-Custom secret name [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-286] [Tier1] [vf:credentials-vsl] DPA should not get reconcile when VSL secret doesn't exists [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [tc-id:OADP-293] [Tier2] [vf:credentials-vsl] Multiple VSL credentials [mr-check, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [upstream-velero] Backup and Restore with multiple BSL [tc-id:OADP-256] [Tier1] [vf:backup-storage-location] Multiple BSL's having same provider with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Credentials suite [upstream-velero] Backup and Restore with multiple BSL [tc-id:OADP-256] [Tier1] [vf:backup-storage-location] Multiple BSL's having same provider with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] DPA should be reconciled after  [tc-id:OADP-381] [Tier2] [vf:dpa-configuration] Velero args for gc freq and ttl should be respected with Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] DPA should be reconciled after  [tc-id:OADP-381] [Tier2] [vf:dpa-configuration] Velero args for gc freq and ttl should be respected with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] DPA should be reconciled after  [tc-id:OADP-498] [Tier1] [vf:dpa-reconciliation] When there is no default BSL or multiple default BSL [Serial]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] DPA should be reconciled after  [tc-id:OADP-509] [Tier0] [vf:dpa-reconciliation] BSL secret update",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Verify backups/restores when OADP operator installed in multiple namespaces Application backup [tc-id:OADP-252] [Tier2] [vf:multi-namespace] with Restic [Serial, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Verify backups/restores when OADP operator installed in multiple namespaces Application backup [tc-id:OADP-254] [Tier2] [vf:multi-namespace] with CSI [Serial, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Verify backups/restores when OADP operator installed in multiple namespaces Application backup [tc-id:OADP-255] [Tier2] [vf:multi-namespace] with VSL [Serial, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Verify backups/restores when OADP operator installed in multiple namespaces Application backup [tc-id:OADP-274][datamover] [Tier2] [vf:multi-namespace] with DataMover [Serial, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] Verify backups/restores when OADP operator installed in multiple namespaces Application backup [tc-id:OADP-431] [Tier2] [vf:multi-namespace] with Kopia [Serial, vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] noDefaultBackupLocation deployment [Tier2] [skip-sts] [vf:dpa-configuration] NoDefaultBackupLocation return an error scenarios [tc-id:OADP-176] [Tier2] [vf:dpa-configuration] noDefaultBackupLocation and backupImages: true",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] noDefaultBackupLocation deployment [Tier2] [skip-sts] [vf:dpa-configuration] NoDefaultBackupLocation return an error scenarios [vf:dpa-configuration] noDefaultBackupLocation and backupImages: nil",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] [upstream-velero] [skip-sts] noDefaultBackupLocation deployment [tc-id:OADP-177] [Tier1] [vf:dpa-configuration] Secret is not required with noDefaultBackupLocation and backupImages: false",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-389] [Tier1] [vf:namespace-mapping] MySQL application with Restic",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-390] [Tier0] [vf:namespace-mapping] MySQL application with CSI",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-391] [Tier1] [vf:namespace-mapping] MySQL application with VSL [vsl]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-438] [Tier0] [vf:namespace-mapping] MySQL application with filesystem, Kopia",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-479][datamover] [Tier1] [vf:namespace-mapping] MySQL application with datamover",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Application backup [tc-id:OADP-709] ImageStream application with namespace mapping",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Test Backup and Restore [tc-id:OADP-221] [Tier0] [vf:multiple-backup] Multiple Backup and Restore",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests Test Backup and Restore [tc-id:OADP-310][datamover] [Tier0] [vf:multiple-backup] Multiple Backup and Restore",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[It] backup restore tests [tc-id:OADP-465] [datamover] [Tier2] [vf:resilience] Kill velero pod during backup in phase: WaitingForPluginOperations",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[Jira: \"kube-apiserver\"] can collect apiserver.openshift.io/disruption-actor=poller poller pod logs",
@@ -160994,14 +159950,6 @@
   {
     "Name": "[Suite:openshift/usernamespace] [sig-node] [FeatureGate:ProcMountType] [FeatureGate:UserNamespacesSupport] nested container should pass podman localsystem test in baseline mode",
     "Suite": "openshift-tests"
-  },
-  {
-    "Name": "[SynchronizedAfterSuite]",
-    "Suite": "OADP-lp-interop"
-  },
-  {
-    "Name": "[SynchronizedBeforeSuite]",
-    "Suite": "OADP-lp-interop"
   },
   {
     "Name": "[Sysprep][sig-compute]Syspreped VirtualMachineInstance [ref_id:5105]should create the Admin user as specified in the Autounattend.xml [test_id:5843]Should run echo command on machine using the credentials specified in the Autounattend.xml file",
@@ -278204,30 +277152,6 @@
     "Suite": "CNV-lp-interop"
   },
   {
-    "Name": "test_cluster_creation",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_cluster_device_pattern",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_cluster_exists",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_cluster_idempotency_check",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_cluster_pods_running",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_cluster_success_condition",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
     "Name": "test_consumers_ceph_resources",
     "Suite": "lp-ocp-compat--ODF--pytest"
   },
@@ -278246,14 +277170,6 @@
   {
     "Name": "test_container_disk_vm",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "test_create_kmm_config",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_create_kmm_config_in_scale_operator_namespace",
-    "Suite": "Fusion-access-lp-interop"
   },
   {
     "Name": "test_create_vm[#rhel.10#-#ocs-storagecluster-ceph-rbd-virtualization#]",
@@ -278388,10 +277304,6 @@
     "Suite": "CNV-lp-interop"
   },
   {
-    "Name": "test_kmm_config_idempotency_check",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
     "Name": "test_lifecycle_daemonset_images_from_env_vars",
     "Suite": "insights-operator-tests"
   },
@@ -278490,186 +277402,6 @@
   {
     "Name": "test_post_installation",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_100_101_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_105_138_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_10_79_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_116_17_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_121_116_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_124_247_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_124_46_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_125_130_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_12_176_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_12_69_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_17_199_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_17_245_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_19_15_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_19_238_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_19_89_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_20_44_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_23_174_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_26_46_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_28_53_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_29_122_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_30_206_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_31_245_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_32_183_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_34_79_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_38_66_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_40_164_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_41_55_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_44_186_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_44_98_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_54_57_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_58_161_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_63_209_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_64_194_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_70_70_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_72_103_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_76_252_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_79_26_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_81_173_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_81_216_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_83_29_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_87_1_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_92_70_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_96_151_us_west_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_97_42_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
-    "Name": "test_prepare_node_ip_10_0_9_69_us_east_2_compute_internal",
-    "Suite": "Fusion-access-lp-interop"
   },
   {
     "Name": "test_production_source_cnv_upgrade_process",
@@ -278932,10 +277664,6 @@
     "Suite": "CNV-lp-interop"
   },
   {
-    "Name": "test_storage_scale_crds_established",
-    "Suite": "Fusion-access-lp-interop"
-  },
-  {
     "Name": "test_successful_import_basic_auth[#ocs-storagecluster-ceph-rbd-virtualization#-kubevirt-alpine-3.20.1-x86_64-disk.raw.xz]",
     "Suite": "CNV-lp-interop"
   },
@@ -278954,10 +277682,6 @@
   {
     "Name": "test_template_resources_preserved_after_upgrade",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "test_verify_kmm_config_content",
-    "Suite": "Fusion-access-lp-interop"
   },
   {
     "Name": "test_virtctl_image_upload_dv[#ocs-storagecluster-ceph-rbd-virtualization#]",
@@ -279062,10 +277786,6 @@
   {
     "Name": "test_windows_vm_before_upgrade",
     "Suite": "CNV-lp-interop"
-  },
-  {
-    "Name": "test_worker_node_count_for_quorum",
-    "Suite": "Fusion-access-lp-interop"
   },
   {
     "Name": "tests.data_downloaded.test_archive_contains_basic_files",
