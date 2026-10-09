@@ -3252,15 +3252,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (block volmode)] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (block volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (block volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
     "Suite": "openshift-tests"
   },
   {
@@ -3492,14 +3484,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] read-write-once-pod[MinimumKubeletVersion:1.27] should block a second pod from using an in-use ReadWriteOncePod volume on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] read-write-once-pod[MinimumKubeletVersion:1.27] should preempt lower priority pods using ReadWriteOncePod volumes",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] seLinuxMount [Feature:SELinux] [FeatureGate:SELinuxMountReadWriteOncePod] [Beta] [FeatureGate:SELinuxChangePolicy] [Beta] Pod with RWO and recursive policy should mount volumes without SELinux mount option",
     "Suite": "openshift-tests"
   },
@@ -3540,15 +3524,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if non-existent subpath is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath directory is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath directory is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -3556,15 +3532,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath file is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -3605,10 +3573,6 @@
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should support restarting containers using file as subpath [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (default fs)] subPath should support restarting containers using file as subpath [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -3748,15 +3712,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ext4)] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ext4)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ext4)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
     "Suite": "openshift-tests"
   },
   {
@@ -3800,15 +3756,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
     "Suite": "openshift-tests"
   },
   {
@@ -3849,14 +3797,6 @@
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)(allowExpansion)] [Feature:Windows] volume-expand should resize volume when PVC is edited while pod is using it",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)(allowExpansion)][Feature:Windows] volume-expand Verify if offline PVC expansion works",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)(allowExpansion)][Feature:Windows] volume-expand should resize volume when PVC is edited while pod is using it",
     "Suite": "openshift-tests"
   },
   {
@@ -4076,150 +4016,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should access to two volumes with different volume mode and retain data across pod recreation on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should access to two volumes with different volume mode and retain data across pod recreation on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should access to two volumes with the same volume mode and retain data across pod recreation on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should access to two volumes with the same volume mode and retain data across pod recreation on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should concurrently access the single read-only volume from pods on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should concurrently access the single volume from pods on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should concurrently access the single volume from pods on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should mount multiple PV pointing to the same storage on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with mount options",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with pvc data source",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with pvc data source (ROX mode)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with pvc data source in parallel [Slow]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with snapshot data source (ROX mode) [Feature:VolumeSnapshotDataSource]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] provisioning should provision storage with snapshot data source [Feature:VolumeSnapshotDataSource]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should be able to unmount after the subpath directory is deleted [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should fail if non-existent subpath is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should fail if subpath directory is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should fail if subpath file is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should fail if subpath with backstepping is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support creating multiple subpath from same volumes [Slow]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support existing directories when readOnly specified in the volumeSource",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support existing directory",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support existing single file [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support file as subpath [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support non-existent path",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support readOnly directory specified in the volumeMount",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support readOnly file specified in the volumeMount [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support restarting containers using directory as subpath [Slow]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should support restarting containers using file as subpath [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] subPath should verify container cannot write to subpath readonly volumes [Slow]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] volume-expand should not allow expansion of pvcs without AllowVolumeExpansion property",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] volumeIO should write files of various sizes, verify size, validate content [Slow]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (ntfs)][Feature:Windows] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)] [Slow] multiVolume [Slow] should access to two volumes with different volume mode and retain data across pod recreation on different node",
     "Suite": "openshift-tests"
   },
@@ -4276,50 +4072,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should access to two volumes with different volume mode and retain data across pod recreation on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should access to two volumes with different volume mode and retain data across pod recreation on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should access to two volumes with the same volume mode and retain data across pod recreation on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should access to two volumes with the same volume mode and retain data across pod recreation on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should concurrently access the single read-only volume from pods on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should concurrently access the single volume from pods on different node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should concurrently access the single volume from pods on the same node",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic PV (xfs)][Slow] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
     "Suite": "openshift-tests"
   },
@@ -4329,18 +4081,6 @@
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable-stress [Feature:VolumeSnapshotDataSource] should support snapshotting of many volumes repeatedly [Slow] [Serial]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable-stress[Feature:VolumeSnapshotDataSource] should support snapshotting of many volumes repeatedly [Slow] [Serial]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
     "Suite": "openshift-tests"
   },
   {
@@ -4356,18 +4096,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (retain policy)] snapshottable-stress[Feature:VolumeSnapshotDataSource] should support snapshotting of many volumes repeatedly [Slow] [Serial]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Dynamic Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
     "Suite": "openshift-tests"
   },
@@ -4376,27 +4104,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
     "Suite": "openshift-tests"
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Ephemeral Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
     "Suite": "openshift-tests"
   },
   {
@@ -4476,15 +4188,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if non-existent subpath is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath directory is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath directory is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -4492,15 +4196,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath file is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -4544,10 +4240,6 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should support restarting containers using file as subpath [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (default fs)] subPath should verify container cannot write to subpath readonly volumes [Slow]",
     "Suite": "openshift-tests"
   },
@@ -4588,27 +4280,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (ntfs)][Feature:Windows] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (ntfs)][Feature:Windows] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (xfs)] [Slow] volumes should allow exec of files on the volume",
     "Suite": "openshift-tests"
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (xfs)] [Slow] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (xfs)][Slow] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Inline-volume (xfs)][Slow] volumes should store data",
     "Suite": "openshift-tests"
   },
   {
@@ -4644,15 +4320,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (block volmode)] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (block volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (block volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
     "Suite": "openshift-tests"
   },
   {
@@ -4676,15 +4344,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if non-existent subpath is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath directory is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath directory is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -4692,15 +4352,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath file is outside the volume [Slow][LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath with backstepping is outside the volume [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -4741,10 +4393,6 @@
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should support restarting containers using file as subpath [Slow] [LinuxOnly]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (default fs)] subPath should support restarting containers using file as subpath [Slow][LinuxOnly]",
     "Suite": "openshift-tests"
   },
   {
@@ -4812,15 +4460,7 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and its clone from pods on the same node [LinuxOnly][Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly] [Feature:VolumeSnapshotDataSource] [Feature:VolumeSourceXFS]",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (filesystem volmode)] multiVolume [Slow] should concurrently access the volume and restored snapshot from pods on the same node [LinuxOnly][Feature:VolumeSnapshotDataSource][Feature:VolumeSourceXFS]",
     "Suite": "openshift-tests"
   },
   {
@@ -4840,27 +4480,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (ntfs)][Feature:Windows] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (ntfs)][Feature:Windows] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (xfs)] [Slow] volumes should allow exec of files on the volume",
     "Suite": "openshift-tests"
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (xfs)] [Slow] volumes should store data",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (xfs)][Slow] volumes should allow exec of files on the volume",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned PV (xfs)][Slow] volumes should store data",
     "Suite": "openshift-tests"
   },
   {
@@ -4872,27 +4496,11 @@
     "Suite": "openshift-tests"
   },
   {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (delete policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
-    "Suite": "openshift-tests"
-  },
-  {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
     "Suite": "openshift-tests"
   },
   {
     "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable [Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works after modifying source data, check deletion (persistent)",
-    "Suite": "openshift-tests"
-  },
-  {
-    "Name": "External Storage [Driver: csi.kubevirt.io] [Testpattern: Pre-provisioned Snapshot (retain policy)] snapshottable[Feature:VolumeSnapshotDataSource] volume snapshot controller should check snapshot fields, check restore correctly works, check deletion (ephemeral)",
     "Suite": "openshift-tests"
   },
   {
@@ -22626,6 +22234,10 @@
   {
     "Name": "Suspicious entries in log file(s)",
     "Suite": "lp-ocp-compat--ACS--SuspiciousLog-collector"
+  },
+  {
+    "Name": "Suspicious entries in log file(s)",
+    "Suite": "lp-ocp-compat--ACS--SuspiciousLog-central-worker"
   },
   {
     "Name": "Suspicious entries in log file(s)",
@@ -180568,6 +180180,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-auth][Suite:openshift/auth/external-oidc][Serial][Slow][Disruptive] [OCPFeatureGate:ExternalOIDCExternalClaimsSourcing] hot reloading external claims source configuration should pick up ExternalClaimsSources changes without a kube-apiserver revision rollout",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-auth][Suite:openshift/auth/external-oidc][Serial][Slow][Disruptive] [OCPFeatureGate:ExternalOIDCExternalClaimsSourcing] with invalid external claims source should reject authentication when external claims source is unreachable and validation requires sourced claims",
     "Suite": "openshift-tests"
   },
@@ -180692,6 +180308,10 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (external metrics) should scale up and down based on external metric value [Serial]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (non-default behavior) with autoscaling disabled shouldn't scale down",
     "Suite": "openshift-tests"
   },
@@ -180756,11 +180376,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod Resource) Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Utilization for aggregation [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod Resource) Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Value for aggregation",
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod Resource) Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Value for aggregation [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod Resource) Should scale from 5 pods to 3 pods and then from 3 pods to 1 pod using Average Utilization for aggregation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod Resource) Should scale from 5 pods to 3 pods and then from 3 pods to 1 pod using Average Utilization for aggregation [Slow]",
     "Suite": "openshift-tests"
   },
   {
@@ -180776,7 +180408,15 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod-level Resources ContainerResource Metric) [FeatureGate:PodLevelResources] Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Utilization for aggregation [Beta]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod-level Resources ContainerResource Metric) [FeatureGate:PodLevelResources] [Beta] Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Utilization for aggregation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) Deployment (Pod-level Resources Resource Metric) [FeatureGate:PodLevelResources] Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Utilization for aggregation [Beta]",
     "Suite": "openshift-tests"
   },
   {
@@ -180788,7 +180428,23 @@
     "Suite": "openshift-tests"
   },
   {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods and verify decision stability [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 5 pods to 3 pods and then from 3 pods to 1 pod",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 5 pods to 3 pods and then from 3 pods to 1 pod [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 5 pods to 3 pods and then from 3 pods to 1 pod and verify decision stability [Slow]",
     "Suite": "openshift-tests"
   },
   {
@@ -180861,6 +180517,18 @@
   },
   {
     "Name": "[sig-autoscaling] [Feature:HPA] Horizontal pod autoscaling (scale resource: Memory) Deployment (Pod Resource) Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods using Average Value for aggregation",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] [FeatureGate:HPAConfigurableTolerance] Horizontal pod autoscaling (configurable tolerance) with large configurable tolerance should not scale [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] [FeatureGate:HPAConfigurableTolerance] Horizontal pod autoscaling (configurable tolerance) with small scale-up, large scale-down tolerances should scale up but should not scale down [Slow]",
+    "Suite": "openshift-tests"
+  },
+  {
+    "Name": "[sig-autoscaling] [Feature:HPA] [FeatureGate:HPAScaleToZero] Horizontal pod autoscaling (scale to zero) should scale down to zero and back up based on external metric value [Beta] [Serial]",
     "Suite": "openshift-tests"
   },
   {
