@@ -117703,6 +117703,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:581b53a22f72d3bf2878835d6a88c86d",
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-eagrsaoi\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:ea8a597ab3a850d0872c23fd25e38136",
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-ejxyzodf\"",
     "Suite": "Serverless-lp-interop",
@@ -118009,6 +118025,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:9949b6fc3296955d0fb381c1fd990744",
     "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-gxtmwsan\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:e65b5b5d40374ef9046a074715221614",
+    "Name": "TestBrokerConformance/Prerequisite/#00/Setup/install_broker_\"broker-hdljqlbz\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -131479,6 +131511,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:d777837628a577b7fcc055ff280f71f5",
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-gtdimgkn\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:16f96cb7462815e5eec2b736b76ae02b",
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-guksbyuk\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -132569,6 +132617,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:a274d8f9909972e9bf9bba69895b3739",
     "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-oymbnkah\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:f11b3d66aab2bbb7923c4b18e3f5a185",
+    "Name": "TestBrokerSupportsAuthZ/Prerequisite/#00/Setup/install_broker_\"broker-pihbkrha\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -136039,6 +136103,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:533238f8aa95261c05182ce0e8d84cd9",
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-dnkxtjsa\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:973e6bd695efe4b964a99cee033df460",
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-dogxrxve\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -137689,6 +137769,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:b39dd79b1bb841d72bcd7ad8f649f765",
     "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-rglejcqs\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7aa051ab3f7b628e6609f162c2ebf000",
+    "Name": "TestBrokerSupportsOIDC/Prerequisite/#00/Setup/install_broker_\"broker-riqumguh\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -144951,6 +145047,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/eventinge2erekt:69dbea7d22d85a322f4ed8fb8ea3aed8",
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-dqtrujgm\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:4c9f29224e347afc6d28e28453ea4a8d",
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-dtkxahqm\"",
     "Suite": "Serverless-lp-interop",
@@ -147689,6 +147801,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/eventinge2erekt:4964bfa1e40bb42a3856cf88e026f50a",
     "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-wsotznvx\"",
+    "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/eventinge2erekt:fe4a5ca8daf1296babd9dce0197419d8",
+    "Name": "TestChannelBasedBrokerToKsvc/Prerequisite/#00/Setup/install_broker_\"broker-wsraqhsb\"",
     "Suite": "lp-ocp-compat--Serverless--test/eventinge2erekt",
     "Product": "OpenShift",
     "Priority": 0,
@@ -156039,6 +156167,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:93ad4a27fb0022ccf3a714ac7db6c24a",
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-kdjjccej\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:f0db43393693f6f995f94844d2672edb",
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-kffbuned\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
@@ -156441,6 +156585,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:2bd443cfc3fac779570173ac6548237c",
     "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-nifpwlaz\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:98385cc80199c5cbf729571097761b30",
+    "Name": "TestChannelWithBackingKafkaChannelSupportsAuthZ/Prerequisite/Channel_goes_ready./Setup/install_a_Channel_named_\"channel-nkkzeigy\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
     "Product": "OpenShift",
     "Priority": 0,
@@ -190247,6 +190407,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:c0e1ec849020a8bd58b9d8e22002a667",
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-rkaowlhd\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:c6431ea8dc56eeabc89b9a04914a1ecc",
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-rnmnwprl\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
@@ -190330,6 +190506,22 @@
     "ID": "Serverless-lp-interop:50537f854f8bb5cbd2ba72abc44c23fa",
     "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-rrnhgfen\"",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:5781bfa2dbead2f519e45e7155402915",
+    "Name": "TestKafkaChannelOIDC/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafka-channel-rsjfcbfm\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -193815,6 +194007,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:b744056eb3d57ee2ed516058cd05e110",
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-fjuahufq\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:7d823dfeb9c513c58b52abd471f60615",
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-fkecbttl\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
@@ -194761,6 +194969,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:c70f710dfbc4ab2e0e7d14c758ae6f8d",
     "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-miqrbsty\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new_channel:06a22f1b34802d67b69e2b73837da910",
+    "Name": "TestKafkaChannelSupportsAuthZ/Prerequisite/ChannelImpl_goes_ready./Setup/install_a_KafkaChannel_named_\"kafkachannel-mugnfzzm\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new_channel",
     "Product": "OpenShift",
     "Priority": 0,
@@ -199703,6 +199927,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:1dbdbcd5721c50961c0b17f05bb44e87",
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-nbzekswb\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:fffafd40886af50de9838688b185f775",
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-nhmtogxq\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -200361,6 +200601,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:79dd94a9bf9698aa18d46251683b8477",
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-sowjcfjl\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:e1a6baeb990d0ca50573bdec37925a68",
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-tcxadngz\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -201751,6 +202007,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:cc80d229bb38d3de83631f504f691111",
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-djatjbhi\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:197f346aa43a4da5cdd5c82f27adabef",
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-dsbgqcmn\"",
     "Suite": "Serverless-lp-interop",
@@ -201961,6 +202233,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:c34ff3f4a44c3ba1276b66c6c35e7303",
     "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-eyrypeeo\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5963ee649f1a1e21e8c416e0111352b9",
+    "Name": "TestKafkaSinkSupportsAuthZ/Prerequisite/#00/Setup/install_Topic_\"topic-famwhlwd\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -208007,6 +208295,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:765646ab08a800702ba1bef470651d7a",
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-murqqzef\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:2ca9d8442d432baab4ff3883989c692e",
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-myzfiirp\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -209001,6 +209305,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:babd06f5a0aff1182d5b247c3f03aa47",
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-vkdkeqoo\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:1fd9091a8ab91026071db4d9fcd8e73d",
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite#01/#00/Setup/install_KafkaSink_\"kafkasink-vmkbqlpg\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -210217,6 +210537,38 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:21a8f1a1a90df068e580c1b97526c429",
     "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-czhmgwua\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:d7a4819403d8b290b57a2f626d226775",
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-dhmxiclq\"",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:0b5d53703b2e16956859d6df177ff701",
+    "Name": "TestKafkaSinkSupportsOIDC/Prerequisite/#00/Setup/install_Topic_\"topic-dnhzsqop\"",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -235799,6 +236151,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:ef5f724fbc707c3e5335175ae3118455",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-cpzgyujt_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:0ac156ebf8eec125f6f50cb3acde59d1",
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-crbgeesm_to_be_deleted",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -237418,6 +237786,22 @@
     "ID": "Serverless-lp-interop:f8c1106cf919622eaeb53a2cf569ee08",
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-prgckypp_to_be_deleted",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5575837f1c777e7edf6ef58cbcb65471",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Assert/wait_for_namespace_test-namespaced-broker-pxbpivdq_to_be_deleted",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -239223,6 +239607,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:4419f56ec12027fe28c2589c5ce2e366",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-cpzgyujt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:44e0ebb8e3722d2ffceb52a972842e53",
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-crbgeesm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -240842,6 +241242,22 @@
     "ID": "Serverless-lp-interop:a02d79c34a465178412eff8f3ffe418f",
     "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-prgckypp",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:8d61959c1c538b31c2fd7387539f4eee",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/delete_namespace/Setup/delete_namespace_test-namespaced-broker-pxbpivdq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -242743,6 +243159,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:cec39719dcac78c783c7aeedafbbed4c",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-cpzgyujt",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:af8032f4a9ca9b76e87e211260ae2cda",
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-crbgeesm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -244362,6 +244794,22 @@
     "ID": "Serverless-lp-interop:e55496e3786c40e12a0c3a4cb8eba4d7",
     "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-prgckypp",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:686f34c837c5f80dc6821b76ea46ff9c",
+    "Name": "TestNamespacedBrokerNamespaceDeletion/setup_namespace/Setup/install_namespace_test-namespaced-broker-pxbpivdq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -248519,6 +248967,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:b6ee6ec81e6ced19265964c9a29ae8b5",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-eksmksma",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:638bac2fe1f1d5918e055fcb2e25c553",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ekzfbray",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -248745,6 +249209,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:5c74d399c7078229e2d03fa844bae700",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-fawpocpv",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:2f433fe3dbb2aefc49c336c667b1c054",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-fbabduag",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -249959,6 +250439,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:1e75345f13e1e3c2a5c01a098df9537f",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-hmiwfzzc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:554d39aa59ad33784a7022230971bb1f",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-hpcymucn",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -250407,6 +250903,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:225b9b3e922724c999dcf4d3a7b3ff8d",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-iobivtaj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:2ab939c931e0fbcaee4e4e73ca8016a3",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ioczybgn",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -250442,6 +250954,22 @@
     "ID": "Serverless-lp-interop:7c897bd94ff4a61a4623e2fae9261bd6",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ipluqfxp",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:8958481f6c3ff2476258247da88c3b53",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ipxhgxtg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -251769,6 +252297,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:0493180c7656f86068ee2264dd2fccc9",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lekxijgb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7cb47b5310a13ca65d70de7d6cbbd13b",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-lellmatk",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -253511,6 +254055,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:94bddaa5731b6fb3e2ecae8ee6476651",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ojlqoxir",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:3a092ddb11ecb3b02849ca196d9bff7b",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-ojmjaxhd",
     "Suite": "Serverless-lp-interop",
@@ -254585,6 +255145,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:257dc3ee7eea95168bf3565806f7fae6",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-pyyzxuoa",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:e73aabdff0888573fc5c3f56261a5a52",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AllFilterFeature/Requirement/Install_event_sender_sender-pzretwng",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -260311,6 +260887,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:0d1f82198f2a5b3a75f766d45d523521",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-arwygnlb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:fdea8c90b24d023fc6dbdbcd39c98660",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-asmgvmkx",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -264311,6 +264903,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:14a6ee235196f58e70866ce07560f87f",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-fsnejdvd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:0134006979c6f253dbe4e46625d850d1",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-fsvqvtwf",
     "Suite": "Serverless-lp-interop",
@@ -265591,6 +266199,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5daf422c310c8708f54ea5f66de89c81",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-haekcspy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:73a6dea659528b0adf8f791c3064dccd",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-hcakqrin",
     "Suite": "Serverless-lp-interop",
@@ -266009,6 +266633,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:afcc85464aaf520f613e7ddfa650be3f",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-hpanuzuh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:cc797c4c74b2d4cfeadfcc90ffca4b87",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-hpydlnyq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -268103,6 +268743,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:307bc57796dd0e730d14282e7a5c7f22",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-klualtpm",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:35a69e9212be4102802cbb0211be0ff3",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-klwpvzmu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -269065,6 +269721,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:9e5ee95546b215cfbe2ee58730bb1abe",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lxsckatq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5bc4da7712ef3136831b6d8ba48a21f3",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-lyiinzzo",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -270583,6 +271255,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:a8390d4dc527adc233910896a9a85bb1",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-nyshlbqb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:a4f54f6a7c917b275aa31aac5d1198e6",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-nzkodfrc",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -271129,6 +271817,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:6c8ab64e4d6d31a107f6b0e21963b334",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-oqqkjmqw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:86c541e570dbe740db70502a3d9388d2",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-oqwbkdcb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -276295,6 +276999,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:87ea91f6ea8363a083b26be1a02aa8db",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vrzevxnl",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:ddbeb20391b3bc99216e1d4486d63501",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-vscsxndg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -278583,6 +279303,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:a7056ffe0eef1cb7468c9205b6814a25",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-yyypkoam",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:dbda1b6e5733bdb9a2ab8c4d94ffcdd2",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-yzlsotqf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -278919,6 +279655,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5f5f107d9752e18b1e94c80bf7831773",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zmtnnbfg",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:be4ea07196369895830ed4edb6412059",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zmyvoall",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -278937,6 +279689,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:a94822e7d5ddf075c0f804dad4f9f97c",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-znraaxwj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:d11d8d335a3e684bb6ac8258934e15fa",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/AnyFilterFeature/Requirement/Install_event_sender_sender-zobatrrq",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -280313,6 +281081,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:be044b5f2b9aeeee9c11408ec4262c7e",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-cfbudhno",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:b9a63128de83393fbe6738cbbf2b7674",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-ckiuygwg",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -282167,6 +282951,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:8d035fcfdcf518e02f4099b13613fa07",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-jftjxfdj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:56cb766c21a9a9273540eb424a5cd9ef",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-jgpwkpwj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -282201,6 +283001,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:b064f91f39ddb2a119752bc9085a2aba",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-jjzlofdn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:f9119660a7d95cafe14a3fcd1333fe76",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-jlloasll",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -285655,6 +286471,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5954f06aa4f48eaae5c1bae4511d1c3a",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-xwctuawp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:20863afa5d049c620d96072cc50940c5",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/CloudEvents_SQL_filter/Requirement/Install_event_sender_sender-xypusxfe",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -287001,6 +287833,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:af4dd58aeb0128a8ec834c80dc362bbf",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-cjdfvebi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:97d091309b0a05d15af43b02b1d1e4bc",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-cjlqpbet",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -288506,6 +289354,22 @@
     "ID": "Serverless-lp-interop:4e7c6490f4f532038782c2f247073aba",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ixmxvefw",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:ef73286b9c1c6be3fa21c6cfa625583a",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-jbqyufdw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -291335,6 +292199,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:a03bf84561b5c8da85ea33fe284c97de",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ubybzafu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:895127db01b21862f4dc0e9d5f1679e2",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-uioayxrt",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -292647,6 +293527,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:3e67a2f53426558529f9032da87c46e1",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-ywzibkor",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:81a059e0ff982b695bdb706c71a97df0",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Exact_filter/Requirement/Install_event_sender_sender-yxnyyeti",
     "Suite": "Serverless-lp-interop",
@@ -293353,6 +294249,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:be768361cab40c46cb9b497be33029a6",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-alwaspjd",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:dc00e111656300dd9202e9ac118315a5",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-amcteeoy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -294553,6 +295465,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:5e96518b7e72840aac50f327bbb00691",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-gcdjrktb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:fb3fa368c7f5f1fb18493481b025b726",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-gdsocncr",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -296599,6 +297527,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6e79de20a1eba72b36bddccb15948c6a",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-mxjmcyyr",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:080623cd99fe5f3ebf96aad0f8e847e7",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-mzyymhie",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -297385,6 +298329,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:ae458217dce5ccd123f3c6cf9cb7f6cb",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-qipndmjo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:e44ece8f1562f46d64e2372de59396b3",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FilterAttributeWithEmptyFiltersFeature/Requirement/Install_event_sender_sender-qkmbugbj",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -301735,6 +302695,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6ba33cf821f17595be581cfcb9b34b80",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-htisryuw",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:27f7dc6343f80c5f92c0372b5156fb50",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-htwffvzr",
     "Suite": "Serverless-lp-interop",
@@ -302953,6 +303929,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:0d8547c5061589255be311a8435e20f2",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-mlzlvesn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6ff3a45defc3bc7f56528ab98eebf23e",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-mmtivgoy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -304519,6 +305511,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:73b12be7853e291279030291f51c66a3",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-spzgbzaj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:f1c76811f74924e4877a2e0fc0524be7",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-sqqinhzt",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -305978,6 +306986,22 @@
     "ID": "Serverless-lp-interop:9d1b390a6b68d7f49ac46db43cda93f3",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-xrbchflq",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:d8a709463614dcdf8d839945ec1f0c7f",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/FiltersOverrideAttributeFilterFeature/Requirement/Install_event_sender_sender-xtlszhov",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -308359,6 +309383,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7e2d1f56fbc86eff0d2fe7f1ac880b75",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-gpiyjkpb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:09abd4ff78fde1773a7aef7760aa3fcc",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-grlkbnul",
     "Suite": "Serverless-lp-interop",
@@ -308873,6 +309913,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:682663e422352a20f0c66c18b605d6ec",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-iyjidlah",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:13641e948df7c791184ce2fa743447d2",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-jazihjgu",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -309879,6 +310935,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:8b9ce612d7289a57bed65c1b6dfc9e62",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-mmrxmrsi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:f1ef8f2afcf2991aac166b4ba98b86cd",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-mowxqxaf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -310281,6 +311353,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:e072bebd54ee9b0e9443b675df09aa5e",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-ohpmbhen",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:bdcbd6358dd86a88f98eaf65260ca7b0",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MissingAttributesFeature/Requirement/Install_event_sender_sender-oicdbyso",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -315639,6 +316727,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:9accb64d0543c455c8b36a44852c5f03",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dwchqnwi",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:376a66719653571130427dc38f874b4a",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dwfkzbhf",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -315689,6 +316793,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:ee282a5cbd69a99faafdc83b11bd1fef",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dxxrhyjy",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7de1bfab2840a209f616f35d9f9637af",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-dywssfky",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -317271,6 +318391,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:243343f96b80acff6129d035c9a1fabc",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-gqnaqpvj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:4bcd2c86611ace0b9a82d606a75a1747",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-gruebzld",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -318105,6 +319241,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:8930d28e549f96cc03c361b9684cb122",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-irmisvki",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:4bfb80614a09659272ceb6c895c16697",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-isddgvwh",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -319623,6 +320775,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:248c98d0036ae62bb371f830fe95e146",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lmxpyero",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:d0c08061c246b392473f3127b01111a8",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-louzdrdb",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -319737,6 +320905,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:dae9e6df21bd9983194803a59a645937",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-lsxsucdz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:82442313dffca28416d1470c6928b843",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-ltimddqp",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -322727,6 +323911,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:a9bef524fd124c4a1f62d0d8bef25451",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-rixfqwqn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:11d601db52ea1d9378abc5d6c8fee683",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-rkaugled",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -325655,6 +326855,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:c666cdf1011656bc32fb2e60e1ee991c",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-xyxbivvu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:645e956d27bfbd27be26d6645eed8691",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleFiltersFeature/Requirement/Install_event_sender_sender-xyzhnvux",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -327703,6 +328919,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7eea3d764defcd7360afbfa0580004bb",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-aqktbcfj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:fe3fe9f9a52816c62ce362773b2c7954",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-arrktmww",
     "Suite": "Serverless-lp-interop",
@@ -328391,6 +329623,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:139608e08096749d4fa2b19cf5a12519",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bkzpcdqo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:26694735cc4f57491d80e47d05759fe3",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-blzxlxix",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -328538,6 +329786,22 @@
     "ID": "Serverless-lp-interop:65e72eee461ed2d4dde35a0627ba4449",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bopdyxkt",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:f84769e32484f387d1c2817fab0c7ea4",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-bosffqlz",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -331818,6 +333082,22 @@
     "ID": "Serverless-lp-interop:ea052de511b0b77665cbd65ac278d450",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-eorpwnwk",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:0323f10286ab47ff38883af0ef33ef87",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-epbkfcpp",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -336327,6 +337607,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:1c3e8d953460bbf3d6a795df63ec29e7",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-iypagkfu",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:6b2aa8ddfc00155f5aa3a47952f3c3f9",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-iyxulyjw",
     "Suite": "Serverless-lp-interop",
@@ -336665,6 +337961,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:f5deaedf9b3357c659409d01157a6cd3",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jgtgicrc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7f56184dc2bdfe616955e3276ead3a65",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-jgyzqkua",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -337687,6 +338999,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6a001dab8a3fb13b30ac67e2b0164957",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kdiyzwom",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:85cf855dca7e454006dfbdf42beadb95",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kdosrfbx",
     "Suite": "Serverless-lp-interop",
@@ -338202,6 +339530,22 @@
     "ID": "Serverless-lp-interop:75974e24c0c46b9b1b281527344a2f88",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kohbecpz",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:bdf53ac88c6545850667f8c5e19198de",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-kotfoyao",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -339290,6 +340634,22 @@
     "ID": "Serverless-lp-interop:793f215022f9ca60ce8ce3f4096add51",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-lqvyezel",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:bea911be552191ab318b956c8e1f04d4",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-lrhsvxqa",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -341127,6 +342487,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:51a2c7975fe5082d99d93b4e4961838a",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-nkchkhoh",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:4b3a4765212c7b6035ae588c89738010",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-nksxaxsm",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -342761,6 +344137,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:f606f7a9595398e0e96a4beb1116eff7",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-pburamwb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:8fcdfb3d66cb0e8b3a4f575f182bfe73",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-pchpqcqy",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -346679,6 +348071,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:4ddc5cd6cbfb46911355d29f9b189549",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tlfqrevc",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:c4679fffd99afa81adc41ba8035b8622",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-tltireor",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -347530,6 +348938,22 @@
     "ID": "Serverless-lp-interop:5f376452ba5d86b66cc2fa57070a2b04",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-umcxfnvj",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:7b5ee9f1dc2ab4eb47c5c0f2f7170866",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-umkttsuj",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -348458,6 +349882,22 @@
     "ID": "Serverless-lp-interop:843509a615c676a2664f20fcbd66c790",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vmwrhqtm",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:5a8eaaae0b564c74eab3f897e63756b6",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-vmzpnhnn",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -350903,6 +352343,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:dfd6cc6cd5191e852fd13def703ab803",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xsnmillk",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:6bbd17ff61bc2302d31c01e380c5ef03",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-xtcyyatl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -353111,6 +354567,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:ddd17004eb231d5f6b4eb425f334fdc9",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Requirement/Install_event_sender_sender-zzmjfoin",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:cf58965031899e42dc2891c5ba9e4e2c",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/MultipleTriggersAndSinksFeature/Setup",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
@@ -353834,6 +355306,22 @@
     "ID": "Serverless-lp-interop:5e92aa0e3d1d8aa41e6ac6a1a747d220",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-bqczyqxe",
     "Suite": "Serverless-lp-interop",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:58a6572b5916908f09ddd6deaabaa6e6",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-brqtfgtq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
     "StaffApprovedObsolete": false,
@@ -355161,6 +356649,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:734395939318955fe31199276b14aa0c",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-gwkkporf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6d6d1177d9798c75f79e8d8941a2448d",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-gysskojk",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -356649,6 +358153,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:3033a2c9b63507d22b8b98588d54185a",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-motidbkb",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:208b3403bfb3584069953ea0a0fb102a",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-mozvbodk",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -359159,6 +360679,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:6d915b41c8d0e492675bbea60bd4b90c",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-wnywrjat",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:439a0a4b2ac6ecb690b206c4d770c3b2",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Prefix_filter/Requirement/Install_event_sender_sender-wodoslkg",
     "Suite": "Serverless-lp-interop",
@@ -360425,6 +361961,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:147a283b06ebfe8029fb8a556f191cba",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-bfcymxpq",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:0cc9ab6ef47b7338d048a4a97a7eb8b1",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-bgxvmoca",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -364183,6 +365735,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:fc66a9c738a69583a8cede75d22fd4e6",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-pqoretuf",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:13dc81a207cbb3cdf6e8e69e82d51893",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-psisygsf",
     "Suite": "Serverless-lp-interop",
@@ -365463,6 +367031,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:35e40aeb1f5044996789681c3b9e1885",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-uxinlinx",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "Serverless-lp-interop:177ed6948e24f66cb8c4e5b46e9d1d39",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-uztnskxo",
     "Suite": "Serverless-lp-interop",
@@ -365721,6 +367305,22 @@
     "Kind": "TestOwnership",
     "ID": "lp-ocp-compat--Serverless--test/e2e_new:891aa4ebd078b6b67fcc34502a317d17",
     "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-wakpkhpo",
+    "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "LP--Serverless",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "LP--Serverless",
+    "JIRAComponentID": "14812"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "lp-ocp-compat--Serverless--test/e2e_new:b73a55da4df0588f9178f0229a65eca6",
+    "Name": "TestNewTriggerFilters/New_Trigger_Filters/Suffix_filter/Requirement/Install_event_sender_sender-wdhcifhl",
     "Suite": "lp-ocp-compat--Serverless--test/e2e_new",
     "Product": "OpenShift",
     "Priority": 0,
@@ -413097,6 +414697,762 @@
     "Capabilities": [
       "EVPN",
       "RouteAdvertisements"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:565b3b62cf2b634d4fb52f8ad1b3e935",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary Should fail if egressip-mark annotation is being added by a regular user [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:b5c34b8413a1fefcf277b74b5d87b84a",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary Should fail if egressip-mark annotation is present during EgressIP creation [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:7e8a6a865c0acaf1de76f0e8b9dc3b7d",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary Should handle EIP reassignment correctly on namespace and pod label updates, and EIP object updates [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:03072fffa94a8f93d7a9bba7d755f024",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary Should validate egress IP logic when one pod is managed by more than one egressIP object [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:345bc57a7026fdc15796aa894a3ccbdf",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary Should validate the egress IP SNAT functionality for stateful-sets [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:c598f83fed6f3d7734aa101a31de8f7a",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary [OVN network] Using different methods to disable a node's availability for egress Should validate the egress IP functionality against remote hosts disabling egress nodes with egress-assignable label [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:fe93eb3bf0655b566a9d5a9caf44ae97",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary [OVN network] multiple namespaces sharing a role primary network [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:25e9ce1ea7aa3d4d5f44fe207f140c4b",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary [OVN network] multiple namespaces with different primary networks L2 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:26aef13ac75e2a30eadedd91a2df8864",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L2 role primary [OVN network] multiple namespaces with different primary networks L3 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:8129002fd5c15a859bb667a3d68519e7",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary Should fail if egressip-mark annotation is being added by a regular user [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:fd5d26667d2bf882d959cc5c079418e0",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary Should fail if egressip-mark annotation is present during EgressIP creation [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:9dc01f05dbb5d9a8b9b3877c4ea3c3b8",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary Should handle EIP reassignment correctly on namespace and pod label updates, and EIP object updates [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:f703a81f583edcc7ae962f1aa50f43fe",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary Should validate egress IP logic when one pod is managed by more than one egressIP object [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:67b8df69a4c435e9d7bb012924622a1b",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary Should validate the egress IP SNAT functionality for stateful-sets [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:c496285df8e5299a17e7f999d17085dc",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary [OVN network] Using different methods to disable a node's availability for egress Should validate the egress IP functionality against remote hosts disabling egress nodes with egress-assignable label [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:9b7f27cd6fdc30494f1f35d786ea8785",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary [OVN network] multiple namespaces sharing a role primary network [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:d804668e3e8eeaa455f19798b61e5a06",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary [OVN network] multiple namespaces with different primary networks L2 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:0419401bdcd5c67368e5e117e3bbe83e",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv4 L3 role primary [OVN network] multiple namespaces with different primary networks L3 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:8a080d0e97682231bec393a3b621e92c",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary Should fail if egressip-mark annotation is being added by a regular user [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:67914b7bc0240746998b31d72a420d63",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary Should fail if egressip-mark annotation is present during EgressIP creation [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:51c10b93d156285237dd555e19af1b54",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary Should handle EIP reassignment correctly on namespace and pod label updates, and EIP object updates [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:0371fc81a450193b457bbc97dce74463",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary Should validate egress IP logic when one pod is managed by more than one egressIP object [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:e9aeb2b72d53c36b328e99734598d9cb",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary Should validate the egress IP SNAT functionality for stateful-sets [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:4e2a6aed6fea6d04d2a445c78fbb67e6",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary [OVN network] Using different methods to disable a node's availability for egress Should validate the egress IP functionality against remote hosts disabling egress nodes with egress-assignable label [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:cfa73f48f2e372f393f530e1637e34db",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary [OVN network] multiple namespaces sharing a role primary network [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:72f4141d453b2288f7989d9de9f36cf6",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary [OVN network] multiple namespaces with different primary networks L2 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:eab9ec93f9d9f341ea83b296364e3f0f",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L2 role primary [OVN network] multiple namespaces with different primary networks L3 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:f7c526c242b2b06bbc6c45251a99c17f",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary Should fail if egressip-mark annotation is being added by a regular user [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:c8692277b2eb5bd9b188de0441fbd4c6",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary Should fail if egressip-mark annotation is present during EgressIP creation [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:0381d0e56bebe7c091f955d31f1a8e05",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary Should handle EIP reassignment correctly on namespace and pod label updates, and EIP object updates [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:e3b55beb46c2bcb41638b12562c26fcc",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary Should validate egress IP logic when one pod is managed by more than one egressIP object [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:d12b57a59c3a1336ea74330b841874c5",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary Should validate the egress IP SNAT functionality for stateful-sets [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:3d8da9681b1a700fefa2bef7389dfdf8",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary [OVN network] Using different methods to disable a node's availability for egress Should validate the egress IP functionality against remote hosts disabling egress nodes with egress-assignable label [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:c9e6a2103917f0304e8322a53d7bbd8d",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary [OVN network] multiple namespaces sharing a role primary network [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:bae1f906748de82881361b4e50770ef4",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary [OVN network] multiple namespaces with different primary networks L2 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:10fa9e2514ffb98614e8bc90d44bb682",
+    "Name": "[Feature:EgressIP][Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type IPv6 L3 role primary [OVN network] multiple namespaces with different primary networks L3 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP",
+      "NetworkSegmentation"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:6ea73a49f774f3fcf2045056fdcbeb3b",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default Should fail if egressip-mark annotation is being added by a regular user [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:ede57da66e73cc097090be448cc43f95",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default Should fail if egressip-mark annotation is present during EgressIP creation [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:92e1802eef5aa1eb3cd72806b408bd57",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default Should handle EIP reassignment correctly on namespace and pod label updates, and EIP object updates [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:fa1bc2e7aae6c40332384e26ab57d6e2",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default Should validate egress IP logic when one pod is managed by more than one egressIP object [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:80dc8d40ade32cdf16cab7a97122df30",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default Should validate the egress IP SNAT functionality for stateful-sets [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:bb1d092f28817e7811686d2362f9a5bf",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default [OVN network] Using different methods to disable a node's availability for egress Should validate the egress IP functionality against remote hosts disabling egress nodes with egress-assignable label [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:d9472e82c9de4ade7d70b06fc8a5d755",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default [OVN network] multiple namespaces sharing a role primary network [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:12f1a9e81a8b41ad33433929743987bb",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default [OVN network] multiple namespaces with different primary networks L2 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
+    ],
+    "JIRAComponent": "Networking / ovn-kubernetes",
+    "JIRAComponentID": "14951"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:183b4b2bf530b346e87b4139caf718c5",
+    "Name": "[Feature:EgressIP][ovn-kubernetes-ote][sig-network] e2e egress IP validation on network of type Cluster Default [OVN network] multiple namespaces with different primary networks L3 Primary UDN [Serial][Suite:ovn-kubernetes/conformance/serial]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 2,
+    "StaffApprovedObsolete": false,
+    "Component": "Networking / ovn-kubernetes",
+    "Capabilities": [
+      "EgressIP"
     ],
     "JIRAComponent": "Networking / ovn-kubernetes",
     "JIRAComponentID": "14951"
@@ -511031,6 +513387,198 @@
     "Kind": "TestOwnership",
     "ID": "openshift-tests:7d22fa144eac71df3dc4574ad6167c69",
     "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Serial][Disruptive][Suite:openshift/disruptive-longrunning] Kubelet LimitedSwap Drop-in Configuration for CNV TC9: should verify non-CNV workers have no swap configuration",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:4a11aab1ab7e71bce303df9e50eca65f",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC10: should handle LimitedSwap config gracefully when OS swap is disabled",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:348b28cb39e48ac7d086e4ae9d572721",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC11: should work correctly with various swap sizes",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:7a08c214783bce0540a49f1315a53ee2",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC12: should expose swap metrics correctly via Prometheus",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:02e131902715becddd460fa059e43bed",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC1: should verify drop-in directory exists on all nodes with correct ownership",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:cb9670c4e431fbd098e1e5016b3bd661",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC2: should verify kubelet starts normally with empty directory",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:20471b8a98f23a210a799bcd566af469",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC3: should apply LimitedSwap configuration from drop-in file",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:aed042f3088cf9affca119e475854a48",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC4: should revert to NoSwap when drop-in file is removed",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:c9fd7749760b7aaef40721496d698fdb",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC5: should validate security and permissions of drop-in directory",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:19cb555a9880dfc5edfcecb87964c324",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC6: should verify cluster stability with LimitedSwap enabled",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:fce002727a23dcfde62fce34411c0c69",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC7: should verify non-CNV workers have no swap configuration",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:07a83c125a9b5caef6790dbd9a077fc4",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC8: should apply correct precedence with multiple files",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "NodeSwap"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:e169908e2ed1bbaf810c71d66977c91f",
+    "Name": "[Jira:Node/Kubelet][sig-node][Feature:NodeSwap][Suite:openshift/nodes/isolated] Kubelet LimitedSwap Drop-in Configuration for CNV TC9: should maintain consistent configuration with checksum verification across CNV nodes",
     "Suite": "openshift-tests",
     "Product": "OpenShift",
     "Priority": 1,
@@ -660192,6 +662740,23 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "openshift-tests:3c070d8de971a2f13c746abeb18524cb",
+    "Name": "[Skipped:Disconnected][apigroup:config.openshift.io][apigroup:machineconfiguration.openshift.io][Jira:Node/CRI-O][sig-node][Feature:AdditionalStorageSupport][OCPFeatureGate:AdditionalStorageConfig][Suite:openshift/nodes/isolated] Additional Storage E2E Tests should verify configuration of all storage types and functionally test image stores",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "AdditionalStorageSupport",
+      "OCPFeatureGate:AdditionalStorageConfig"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "openshift-tests-upgrade:8d0b8b4c2725805365162124d58dbbbc",
     "Name": "[Storage][invariant] alert/KubePodNotReady should not be at or above info in ns/openshift-cluster-csi-drivers",
     "Suite": "openshift-tests-upgrade",
@@ -661121,6 +663686,70 @@
     ],
     "JIRAComponent": "Machine Config Operator",
     "JIRAComponentID": "14737"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:57932fc40f91baa96398c54cf13366d7",
+    "Name": "[Suite:openshift/nodes/isolated][sig-node] KubeletConfig Features [Slow]should apply KubeletConfig with logging verbosity to custom pool [apigroup:machineconfiguration.openshift.io]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "Other"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:6cef873077fa3e8ec6293a717d2756d1",
+    "Name": "[Suite:openshift/nodes/isolated][sig-node][OCPFeatureGate:OSStreams] runc RHCOS 10 upgrade guard allows RHCOS 9 to 10 osImageStream upgrade when default runtime is crun",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:OSStreams"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:e5b1f4ccdfa647a6c5c2e98b93ff6276",
+    "Name": "[Suite:openshift/nodes/isolated][sig-node][OCPFeatureGate:OSStreams] runc RHCOS 10 upgrade guard blocks RHCOS 9 to 10 osImageStream upgrade when ContainerRuntimeConfig sets runc default runtime",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:OSStreams"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:b1bd327ba7252edc429fb8ab23a64040",
+    "Name": "[Suite:openshift/nodes/isolated][sig-node][OCPFeatureGate:OSStreams] runc RHCOS 10 upgrade guard blocks RHCOS 9 to 10 upgrade when MachineConfig osImageURL targets RHEL 10 and ContainerRuntimeConfig sets runc default runtime",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:OSStreams"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
   },
   {
     "APIVersion": "v1",
@@ -790951,6 +793580,22 @@
   {
     "APIVersion": "v1",
     "Kind": "TestOwnership",
+    "ID": "hypershift-e2e:ef3ea46fd0a1d27a630193cc77b28fce",
+    "Name": "[sig-hypershift][Jira:Hypershift][Feature:ImageMirroring] Hosted Cluster Image Mirroring should pull a workload image by digest through the mirror when the source is unreachable",
+    "Suite": "hypershift-e2e",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "HyperShift",
+    "Capabilities": [
+      "ImageMirroring"
+    ],
+    "JIRAComponent": "HyperShift",
+    "JIRAComponentID": "14684"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
     "ID": "hypershift-e2e:c0378ecf4b32185b2fb794d9b08117f4",
     "Name": "[sig-hypershift][Jira:Hypershift][Feature:ImageRegistry] Hosted Cluster Image Registry when the ImageRegistry capability is disabled should not add ImagePullSecrets to default service accounts",
     "Suite": "hypershift-e2e",
@@ -793865,6 +796510,22 @@
     "Kind": "TestOwnership",
     "ID": "openshift-tests:64275c5b8f897852aaa9c2b38b1d19c9",
     "Name": "[sig-installer][Feature:NoRegistryClusterInstall] InternalReleaseImage prevents deletion when in use when the cluster is using a release from the InternalReleaseImage resource should block deletion attempts with a ValidatingAdmissionPolicy error [apigroup:machineconfiguration.openshift.io] [Suite:openshift/conformance/parallel]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 0,
+    "StaffApprovedObsolete": false,
+    "Component": "Installer / Agent based installation",
+    "Capabilities": [
+      "NoRegistryClusterInstall"
+    ],
+    "JIRAComponent": "Installer / Agent based installation",
+    "JIRAComponentID": "14855"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:a216427b8e6a01f6af92a0f2b3a44c8d",
+    "Name": "[sig-installer][Feature:NoRegistryClusterInstall][Disruptive] InternalReleaseImage deletion disables the registry when the deletion guard is removed should garbage-collect the resource and disable the master registry [apigroup:machineconfiguration.openshift.io] [Serial]",
     "Suite": "openshift-tests",
     "Product": "OpenShift",
     "Priority": 0,
@@ -867513,6 +870174,86 @@
     "Component": "Node / Kubelet",
     "Capabilities": [
       "Other"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:f37295e9d4366bbb70e42f7336d34a14",
+    "Name": "[sig-node][Suite:openshift/nodes/isolated][OCPFeatureGate:KubeletEnsureSecretPulledImages] Kubelet Secret Pulled Images Case 1: Multi-tenancy isolation for private and public images",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:KubeletEnsureSecretPulledImages"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:651a202c3f907022c5142fe515bf35e8",
+    "Name": "[sig-node][Suite:openshift/nodes/isolated][OCPFeatureGate:KubeletEnsureSecretPulledImages] Kubelet Secret Pulled Images Case 2: Credential rotation",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:KubeletEnsureSecretPulledImages"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:fe40c65de8ab2a6d664d595d557423fc",
+    "Name": "[sig-node][Suite:openshift/nodes/isolated][OCPFeatureGate:KubeletEnsureSecretPulledImages] Kubelet Secret Pulled Images Case 3: ImagePullPolicy scenarios",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:KubeletEnsureSecretPulledImages"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:1e21640f2768a7fbed8689e6d0c02351",
+    "Name": "[sig-node][Suite:openshift/nodes/isolated][OCPFeatureGate:KubeletEnsureSecretPulledImages] Kubelet Secret Pulled Images Case 4: Credential verification policy [Slow][Skipped:SingleReplicaTopology][Timeout:60m]",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:KubeletEnsureSecretPulledImages"
+    ],
+    "JIRAComponent": "Node / Kubelet",
+    "JIRAComponentID": "14851"
+  },
+  {
+    "APIVersion": "v1",
+    "Kind": "TestOwnership",
+    "ID": "openshift-tests:4a60b49d4ab76473bb9cbdb7a2adab6c",
+    "Name": "[sig-node][Suite:openshift/nodes/isolated][OCPFeatureGate:KubeletEnsureSecretPulledImages] Kubelet Secret Pulled Images Case 5: Registry availability",
+    "Suite": "openshift-tests",
+    "Product": "OpenShift",
+    "Priority": 1,
+    "StaffApprovedObsolete": false,
+    "Component": "Node / Kubelet",
+    "Capabilities": [
+      "OCPFeatureGate:KubeletEnsureSecretPulledImages"
     ],
     "JIRAComponent": "Node / Kubelet",
     "JIRAComponentID": "14851"
